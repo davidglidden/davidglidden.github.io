@@ -1,6 +1,6 @@
 ---
 title: Colophon
-permalink: /Colophon/
+permalink: /notes/
 layout: page
 excerpt: The finer details.
 comments: false
