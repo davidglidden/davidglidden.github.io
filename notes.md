@@ -1,31 +1,52 @@
 ---
-title: Pub Notes
-permalink: /notes/
+title: Colophon
+permalink: /Colophon/
 layout: page
-excerpt: Catatan Public agar enggak usah pusing-pusing mengingat.
+excerpt: The finer details.
 comments: false
 ---
 
-#### Rails 6 db:system:change --to command
+# Colophon
+***
 
-Untuk menggunakan perintah `db:system:change` pada rails 6 perlu menentukan database adapter dengan `--to` option.
+This site is written and produced by David Glidden.
 
-```bash
-rails db:system:change --to=<adapter>
-# <adapter> : postgresql, mysql, sqlite3, oracle, sqlserver, dll...
-```
+### HARDWARE
+- MacBook Pro (Retina, 15-inch, Late 2013)
+- iPhone 7+
 
-Setelah menjalankan perintah diatas, jangan lupa untuk mengubah versi database adapter di `Gemfile`.
+### MAC APPS
+- Terminal
+- Atom
+- iA Writer
+- Transmit
+- Safari
+- Firefox
 
----
+### iOS APPS
+- Drafts 5
+- iA Writer
+- Safari
+- Firefox
+- Working Copy
 
-#### Mematikan Jekyll Server
+### HOSTING & ENGINE
 
-Mengehentikan server Jekyll dengan tombol <kbd>CTRL</kbd> + <kbd>Z</kbd> tidak menghentikan proses secara penuh, untuk menangani hal ini matikan `PID` dengan cara ini.
+- Hosted by [Github](https://github.io)
+- Theme based on the [Klisé](https://klise.now.sh) theme.
+- Articles and links are published through [Jekyll](https://jekyllrb.com).
+- Articles written in [Markdown](https://daringfireball.net/projects/markdown/) in [iA Writer](https://ia.net/writer).
 
-```bash
-$ lsof -wni tcp:4000
-$ kill -9 <PID of process>
-```
+### TYPOGRAPHY
 
-Dan lain waktu, gunakan <kbd>CTRL</kbd> + <kbd>C</kbd> untuk menghentikan server.
+
+### CURRENT VERSION
+13.0
+
+Went live: Paris FR | 2020-05-12 | 22.41.35 UTC+1
+Latest Edit: Paris FR | 2020-05-13 | 11.44.39 UTC+1
+
+Changelog:
+
+- Re-written from the ground up.
+- Moved from self-hosted Wordpress site on a Digital Ocean droplet to the Jekyll static site generator hosted via Github pages.
