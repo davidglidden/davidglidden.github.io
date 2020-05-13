@@ -5,7 +5,7 @@ lang: en-US
 timezone: Europe/Paris
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
 repo: https://github.com/davidglidden/davidglidden.github.io
-mode: light # default theme "dark" | "light"
+mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
