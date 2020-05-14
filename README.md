@@ -1,47 +1,29 @@
-# Klisé
+# Colophon
 
-Klisé is minimalist Jekyll theme for running a personal site and blog running on Jekyll.<br>
-For demo <a href="https://klise.now.sh" target="_blank">klise.now.sh</a>
+This site is written and produced by David Glidden. It is my personal site and hub to various writing and development in the domains of Western Classical Music, esthetics, philology, and typography.
 
-## Features
+## HARDWARE
+- MacBook Pro (Retina, 15-inch, Late 2013)
+- iPhone 7+
 
-- Light & Dark Mode support :waxing_crescent_moon:
-- Customizable (using `.scss`)
-- Responsive (desktop, tab and mobile)
-- Mobile First Design
-- SEO Optimized
-- RSS Feed
-- Syntax Highlighter ([rouge](https://github.com/rouge-ruby/rouge))
-- Next & Previous Post
-- Comment layout, enable in frontmatter if you wish
-- Google analytics
-- HTML Minify ([compressed HTML](https://github.com/penibelst/jekyll-compress-html))
-- W3C **Validated**
-- Lighthouse and PageSpeed **Passed**
+## MAC APPS
+- [iTerm](https://iterm2.com)
+- [Atom](https://atom.io)
+- [iA Writer](https://ia.net/writer)
+- [Transmit](https://www.panic.com/transmit/)
+- Safari
+- [Firefox](https://mozilla.org)
 
-![Lighthouse](./lighthouse.png)
+## iOS APPS
+- [Drafts 5](https://getdrafts.com)
+- [iA Writer](https://ia.net/writer)
+- Safari
+- [Firefox](https://mozilla.org)
+- [Working Copy](https://workingcopyapp.com)
 
-## Installation
+## HOSTING & ENGINE
 
-Run local server:
-
-```bash
-git clone https://github.com/piharpi/jekyll-klise.git
-cd jekyll-klise
-bundle install
-bundle exec jekyll serve
-```
-
-Navigate to `localhost:4000`. You're Welcome, Fork and be Stargaze.
-
-**Don't Forget** to change site icon, go to `jekyll-klise/assets/favicons` and replace with your own.
-
-## Contributing
-
-If you see any typos or formatting errors in a post, or any other issue that needs to be addressed, please do not hesitate to open a pull request and fix it!
-
-Yeaaa feel free to open a pull request.
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
+- Hosted by [Github](https://github.io)
+- Theme based on the [Klisé](https://klise.now.sh) theme.
+- Articles and links are published through [Jekyll](https://jekyllrb.com).
+- Articles written in [Markdown](https://daringfireball.net/projects/markdown/) in [iA Writer](https://ia.net/writer).
