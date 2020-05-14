@@ -1,13 +1,10 @@
 ---
-title: About
+title: About David
 permalink: /about/
 layout: page
 excerpt: Pilgrim.
 comments: false
 ---
-
-# About David
-***
 
 ## Briefly 
 
