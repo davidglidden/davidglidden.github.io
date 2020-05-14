@@ -6,9 +6,6 @@ excerpt: The finer details.
 comments: false
 ---
 
-# Colophon
-***
-
 This site is written and produced by David Glidden.
 
 ### HARDWARE
