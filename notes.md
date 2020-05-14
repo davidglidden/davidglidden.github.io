@@ -13,19 +13,19 @@ This site is written and produced by David Glidden.
 - iPhone 7+
 
 ### MAC APPS
-- Terminal
-- Atom
-- iA Writer
-- Transmit
+- [iTerm](https://iterm2.com)
+- [Atom](https://atom.io)
+- [iA Writer](https://ia.net/writer)
+- [Transmit](https://www.panic.com/transmit/)
 - Safari
-- Firefox
+- [Firefox](https://mozilla.org)
 
 ### iOS APPS
-- Drafts 5
-- iA Writer
+- [Drafts 5](https://getdrafts.com)
+- [iA Writer](https://ia.net/writer)
 - Safari
-- Firefox
-- Working Copy
+- [Firefox](https://mozilla.org)
+- [Working Copy](https://workingcopyapp.com)
 
 ### HOSTING & ENGINE
 
@@ -38,7 +38,7 @@ This site is written and produced by David Glidden.
 
 
 ### CURRENT VERSION
-13.0
+20.1
 
 Went live: Paris FR | 2020-05-12 | 22.41.35 UTC+1
 Latest Edit: Paris FR | 2020-05-13 | 11.44.39 UTC+1
