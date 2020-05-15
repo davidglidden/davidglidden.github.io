@@ -3,13 +3,13 @@ title: The Graffiti Girl
 date: 2020-04-23 23-50-03
 tags: [evening walks, seeing]
 description: Night was falling when I met her
-image: "IMG_6295.jpg" 
+image: "/assets/img/IMG_6295.jpg" 
 ---
 
 
 <figure>
 
-![Graffiti Girl](/assets/img/IMG_6295.jpg)
+<img src="/assets/img/IMG_6295.jpg">
 
 <figcaption>The Graffiti Girl of Allée Vivaldi, Paris 12ème.</figcaption>
 
