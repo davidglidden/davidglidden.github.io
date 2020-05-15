@@ -8,5 +8,7 @@ image: “/test post/Commonplace book.jpeg”
 
 Testing out a post.
 
-
-![Commonplace book](https://davidglidden.github.io/_posts/test post/Commonplace book.jpg)
+<figure>
+<img src="/test post/Commonplace book.jpg" alt="installing nginx in ubuntu">
+<figcaption>Fig 1. Ancient Greek in Jefferson's Commonplace book.</figcaption>
+</figure>
