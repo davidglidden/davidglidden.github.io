@@ -9,4 +9,4 @@ image: “/test post/Commonplace book.jpeg”
 Testing out a post.
 
 
-![Commonplace book](/test post/Commonplace book.jpg)
+![Commonplace book](https://davidglidden.github.io/_posts/test post/Commonplace book.jpg)
