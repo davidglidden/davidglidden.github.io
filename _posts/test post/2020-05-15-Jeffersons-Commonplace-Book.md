@@ -9,4 +9,4 @@ image: “Commonplace book.jpeg”
 Testing out a post.
 
 
-![Commonplace book](/Commonplace book.jpg)
+![Commonplace book](Commonplace book.jpg)
