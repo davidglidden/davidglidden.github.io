@@ -8,8 +8,11 @@ image: "IMG_6295.jpg"
 
 
 <figure>
-<img src=“/2020-04-23-graffiti-girl/IMG_6295.jpg”>
+
+![Graffiti Girl](/assets/img/IMG_6295.jpg)
+
 <figcaption>The Graffiti Girl of Allée Vivaldi, Paris 12ème.</figcaption>
+
 </figure>
 
 Night was falling fast—it was gloaming in an eerily quiet locked-down Paris. The night air was sweet and fragrant in the precociously warm air. It’s a quarter that I know well, although I’ve discovered many aspects that had been unknown to me as I am usually travelling.
