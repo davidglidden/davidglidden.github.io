@@ -1,7 +1,7 @@
 ---
 title: The Graffiti Girl
 date: 2020-04-23 23-50-03
-tags:[evening walks, seeing]
+tags: [evening walks, seeing]
 description: Night was falling when I met her
 image: "IMG_6295.jpg" 
 ---
