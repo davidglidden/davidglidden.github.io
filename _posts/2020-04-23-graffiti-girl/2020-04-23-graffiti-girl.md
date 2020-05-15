@@ -8,7 +8,7 @@ image: "IMG_6295.jpg"
 
 
 <figure>
-<img src=“IMG_6295.jpg”>
+<img src=“/IMG_6295.jpg”>
 <figcaption>The Graffiti Girl of Allée Vivaldi, Paris 12ème.</figcaption>
 </figure>
 
