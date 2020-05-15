@@ -16,8 +16,7 @@ author:
   avatar: /assets/img/avatar.png
 
 # Url settings
-# url: "https://davidglidden.eu"
-url: "http://davidglidden.eu"
+url: "https://davidglidden.eu"
 baseurl:
 permalink: /:title/
 google_analytics:
