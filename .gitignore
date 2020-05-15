@@ -4,3 +4,5 @@ _site/
 .jekyll-metadata
 _drafts
 Gemfile.lock
+/_posts/test post/*
+/_posts/test post/*
