@@ -5,14 +5,15 @@ layout: page
 excerpt: The finer details.
 comments: false
 ---
-
 This site is written and produced by David Glidden.
 
 ### HARDWARE
+
 - MacBook Pro (Retina, 15-inch, Late 2013)
 - iPhone 7+
 
 ### MAC APPS
+
 - [iTerm](https://iterm2.com)
 - [Atom](https://atom.io)
 - [iA Writer](https://ia.net/writer)
@@ -21,6 +22,7 @@ This site is written and produced by David Glidden.
 - [Firefox](https://mozilla.org)
 
 ### iOS APPS
+
 - [Drafts 5](https://getdrafts.com)
 - [iA Writer](https://ia.net/writer)
 - Safari
@@ -36,12 +38,22 @@ This site is written and produced by David Glidden.
 
 ### TYPOGRAPHY
 
+The `$base-font-size` is currently set at `20px` with the `$base-line-height` of `1.3`, or `26px`. `400` and `700` font weights are used for regular or bold text respectively.
+
+All fonts are available from [Google fonts](https://fonts.google.com)
+
+The `body` text is set in [EB Garamond](https://github.com/octaviopardo/EBGaramond12/tree/master/fonts/):
+> EB Garamond is an free and open source implementation of Claude Garamont’s Antiqua typeface Garamond and the matching Italic, Greek and Cyrillic characters designed by Robert Granjon. Its name is an acronym for Egenolff-Berner-Garamond which refers to the fact that the letter forms are taken from the Egenolff-Berner specimen printed in 1592.
+
+The `code` blocks are set in [`IBM Plex Mono`](https://www.ibm.com/plex/):
+> When we set out to create a typeface that was unmistakably IBM, our own history was our greatest source of inspiration. IBM has always served as a medium between mankind and machine. Between the natural and the engineered. The emotional and rational. The classic and the cutting-edge. Our most important job is to help humanity and technology move forward together. IBM Plex® brings these relationships to life through letterforms.
+
 
 ### CURRENT VERSION
-20.1
 
-Went live: Paris FR | 2020-05-12 | 22.41.35 UTC+1
-Latest Edit: Paris FR | 2020-05-13 | 11.44.39 UTC+1
+`20.1`
+`Went live: Paris FR | 2020-05-12 | 22.41.35 UTC+1`
+`Latest Edit: Paris FR | 2020-05-13 | 11.44.39 UTC+1`
 
 Changelog:
 
