@@ -2,7 +2,7 @@
 title: Résumé
 permalink: /resume/
 layout: page
-excerpt: CV. Last edit: 05 2020
+excerpt: CV. Last edit: 21 05 2020
 comments: false
 ---
 
@@ -22,7 +22,7 @@ I was born into an artistic family in Manhattan, New York, in 1974. I began my m
 | **Mobile telephone** | +33 6 30 50 16 09 |
 | **Email** | d@davidglidden.eu |
 | **Web** | [davidglidden.eu](https://davidglidden.eu) |
-| **Nationalities** | Canadian, American, French |
+| **Nationalities** | Canadian, French, American |
 | **Birthdate/Place** | 1974.10.04, Manhattan, New York City, USA
 
 ***
