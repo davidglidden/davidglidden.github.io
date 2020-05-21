@@ -44,9 +44,9 @@ I was born into an artistic family in Manhattan, New York, in 1974. I began my m
 
 |Institution  |Discipline studied  |Teacher  |Years  |
 |---   |---   |---   |---   |
-|University of Manitoba, Winnipeg, CANADA |*Violin, Viola, Chamber Music* |David Stewart |1993-1995 |
-|Wilfrid Laurier University, Ontario, CANADA |Violin, Viola, Chamber Music |The Penderecki String Quartet |1995-1999 |
-|The Royal Conservatory of Music, Den Haag, NETHERLANDS |Violin, Viola, Historical Performance Practices |Pavlo Beznosiuk |1999-2003 |
+|University of Manitoba, Winnipeg, CANADA |*Violin, Viola, Chamber Music* |David Stewart |1993 → 1995 |
+|Wilfrid Laurier University, Ontario, CANADA |Violin, Viola, Chamber Music |The Penderecki String Quartet |1995 → 1999 |
+|The Royal Conservatory of Music, Den Haag, NETHERLANDS |Violin, Viola, Historical Performance Practices |Pavlo Beznosiuk |1999 → 2003 |
 
 ***
 
