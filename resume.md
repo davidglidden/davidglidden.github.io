@@ -32,15 +32,10 @@ I was born into an artistic family in Manhattan, New York, in 1974. I began my m
 |Ensemble   |Position   |Dates   |
 |---   |---   |---   |
 |Le Concert des Nations, Jordi Savall |*Viola-solo* | 2019 → present |
-
 |Les Musiciens du Louvre, Marc Minkowski |*Viola-solo* | 2011 → present |
-
 |Les Musiciens du Louvre, Marc Minkowski |*Violin and Viola* | 2001 → 2005 |
-
 |Le Cercle de l’Harmonie, Jérémie Rohrer |***Founding member:** Viola-solo* |2005 → 2014 |
-
 |L’Harmonie Universelle, Florian Deuter |***Founding member:** Viola-solo* | 2003 → 2014 |
-
 |Capriccio Stravagante, Les 24 Violons, Skip Sempé |*Viola, Tenore* |2002 → present |
 
 ***
@@ -49,11 +44,9 @@ I was born into an artistic family in Manhattan, New York, in 1974. I began my m
 
 |Institution  |Discipline studied  |Teacher  |Years  |
 |---   |---   |---   |---   |
-|University of Manitoba, Winnipeg, CANADA |*Violin, Viola, Chamber Music* |David Stewart |1993 → 1995 |
-
-|Wilfrid Laurier University, Ontario, CANADA |Violin, Viola, Chamber Music |The Penderecki String Quartet |1995 → 1999 |
-
-|The Royal Conservatory of Music, Den Haag, NETHERLANDS |Violin, Viola, Historical Performance Practices |Pavlo Beznosiuk |1999 → 2003 |
+|University of Manitoba, Winnipeg, CANADA |*Violin, Viola, Chamber Music* |David Stewart |1993-1995 |
+|Wilfrid Laurier University, Ontario, CANADA |Violin, Viola, Chamber Music |The Penderecki String Quartet |1995-1999 |
+|The Royal Conservatory of Music, Den Haag, NETHERLANDS |Violin, Viola, Historical Performance Practices |Pavlo Beznosiuk |1999-2003 |
 
 ***
 
