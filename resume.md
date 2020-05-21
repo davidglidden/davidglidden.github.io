@@ -67,3 +67,7 @@ Basic competence in German, Italian and Spanish.
 
 ##### VII. References:
 Available upon request
+
+***
+You can download my CV [**here**](/assets/CV-David-F-Glidden.pdf) in PDF format.
+This page last edited on **2020.05.21**
