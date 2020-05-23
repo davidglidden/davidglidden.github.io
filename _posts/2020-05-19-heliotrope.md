@@ -1,11 +1,10 @@
 ---
-title: Sun bath
-title:
+title: Heliotrope
 date: 2020-05-19
 location: 48.844009 | 2.3879
 tags: [en, walks, seeing, Paris]
 description:
-image: “/assets/img/IMG_6373.jpg“
+image: “https://github.com/davidglidden/davidglidden.github.io/blob/master/assets/img/IMG_6373.jpg“
 ---
 
 <figure>
