@@ -1,18 +1,14 @@
 ---
 title: Heliotrope
 date: 2020-05-19
-location: 48.844009 | 2.3879
 tags: [en, walks, seeing, Paris]
 description:
-image: “https://github.com/davidglidden/davidglidden.github.io/blob/master/assets/img/IMG_6373.jpg“
+image: “/assets/img/IMG_6373.jpg“
 ---
 
 <figure>
-
-<img src=“https://github.com/davidglidden/davidglidden.github.io/blob/master/assets/img/IMG_6373.jpg”>
-
+<img src=“/assets/img/IMG_6373.jpg” alt="sunbath">
 <figcaption>Absorbing a few rays, Rue de Petit Musc, 4ème</figcaption>
-
 </figure>
 
 He’s in his sixties or early seventies. 
