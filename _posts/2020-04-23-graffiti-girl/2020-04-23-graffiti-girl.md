@@ -1,9 +1,8 @@
 ---
 title: The Graffiti Girl
 date: 2020-04-23 23-50-03
-tags: [en, evening walks, seeing, Paris, FR]
+tags: [en, evening walks, seeing, Paris, France]
 description: Night was falling when I met her
-image: "/assets/img/IMG_6295.jpg" 
 ---
 
 
