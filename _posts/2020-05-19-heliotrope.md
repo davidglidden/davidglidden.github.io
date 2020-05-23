@@ -2,7 +2,6 @@
 title: Heliotrope
 date: 2020-05-19
 tags: [en, walks, seeing, Paris]
-description:
 image: “https://github.com/davidglidden/davidglidden.github.io/blob/master/assets/img/IMG_6373.jpg“
 ---
 
