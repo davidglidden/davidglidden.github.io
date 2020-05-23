@@ -6,7 +6,8 @@ location: 48.844009 | 2.3879
 tags: [en, walks, seeing, Paris]
 description:
 image: “/assets/img/IMG_6373.jpg“
-—
+---
+
 <figure>
 
 <img src=“/assets/img/IMG_6373.jpg”>
