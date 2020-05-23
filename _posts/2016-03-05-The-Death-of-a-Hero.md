@@ -6,7 +6,7 @@ description: A life devoted to the truth
 ---
 
 <figure>
-<img src=“/assets/img/hh.png”>
+<img src="/assets/img/hh.png">
 <figcaption>Nikolaus Harnoncourt.</figcaption>
 </figure>
 
