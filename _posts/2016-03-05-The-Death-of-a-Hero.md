@@ -9,7 +9,7 @@ description: A life devoted to the truth
 
 <img src=“/assets/img/Harnoncourt-Hero.png”>
 
-<figcaption>Fig [x]. [comment].</figcaption>
+<figcaption>Nikolaus Harnoncourt.</figcaption>
 
 </figure>
 
