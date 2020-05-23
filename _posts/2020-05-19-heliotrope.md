@@ -10,7 +10,7 @@ image: “/assets/img/IMG_6373.jpg“
 
 <figure>
 
-<img src=“/assets/img/IMG_6373.jpg”>
+<img src=“https://github.com/davidglidden/davidglidden.github.io/blob/master/assets/img/IMG_6373.jpg”>
 
 <figcaption>Absorbing a few rays, Rue de Petit Musc, 4ème</figcaption>
 
