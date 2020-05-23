@@ -3,11 +3,12 @@ title: Heliotrope
 date: 2020-05-19
 tags: [en, walks, seeing, Paris]
 description:
-image: “/assets/img/IMG_6373.jpg“
+image: “https://github.com/davidglidden/davidglidden.github.io/blob/master/assets/img/IMG_6373.jpg“
 ---
 
+
 <figure>
-<img src=“/assets/img/IMG_6373.jpg” alt="sunbath">
+  <img src="https://github.com/davidglidden/davidglidden.github.io/blob/master/assets/img/IMG_6373.jpg">
 <figcaption>Absorbing a few rays, Rue de Petit Musc, 4ème</figcaption>
 </figure>
 
