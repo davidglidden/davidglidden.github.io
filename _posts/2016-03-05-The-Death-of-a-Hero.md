@@ -6,11 +6,8 @@ description: A life devoted to the truth
 ---
 
 <figure>
-
-<img src=“https://davidglidden.github.io/assets/img/Harnoncourt-Hero.png”>
-
+<img src=“/assets/img/hh.png”>
 <figcaption>Nikolaus Harnoncourt.</figcaption>
-
 </figure>
 
 I had just returned to the hotel in Seoul after a concert of Schubert Symphonies with my colleagues of *Les Musiciens du Louvre* and was entering the elevator to leave my instrument in my room when Mr. Minkowski takes me aside by my arm and says with halting words *"…Harnoncourt is dead"*. Shocked, but not surprised as I had heard that his health was worse than usual and that his days were coming to an end. The thing is that one is never prepared for the death of a close friend, relative, parent, or *hero* (from Greek ἥρως *hērōs*, "hero": literally "protector" or "defender")—for he was very much a hero.
