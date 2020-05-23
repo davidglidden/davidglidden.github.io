@@ -1,7 +1,7 @@
 ---
 title: Heliotrope
 date: 2020-05-19
-tags: [en, walks, seeing, Paris]
+tags: [en, walks, seeing, Paris, France]
 ---
 
 
