@@ -7,7 +7,7 @@ description: A life devoted to the truth
 
 <figure>
 
-<img src=“/assets/img/Harnoncourt-Hero.png”>
+<img src=“https://davidglidden.github.io/assets/img/Harnoncourt-Hero.png”>
 
 <figcaption>Nikolaus Harnoncourt.</figcaption>
 
@@ -33,8 +33,8 @@ Alles Gut.
 
 
 
-[1]: Performance on period instruments is a key aspect of historical performance practices (an approach to the performance of classical music, which aims to be faithful to the approach, manner and style of the musical era in which a work was originally conceived)
+[^1]: Performance on period instruments is a key aspect of historical performance practices (an approach to the performance of classical music, which aims to be faithful to the approach, manner and style of the musical era in which a work was originally conceived)
 
-[2]: Harnoncourt, Nikolaus; Pauly, Reinhard G. (1988). Baroque Music Today: Music As Speech. Portland, OR: Amadeus Press. [ISBN 978-0-931340-91-8](.
+[^2]: Harnoncourt, Nikolaus; Pauly, Reinhard G. (1988). Baroque Music Today: Music As Speech. Portland, OR: Amadeus Press. [ISBN 978-0-931340-91-8](.
 
-[3]: Harnoncourt, Nikolaus (1997). The Musical Dialogue: Thoughts on Monteverdi, Bach, and Mozart. Portland, OR: Amadeus Press. ISBN 1-57467-023-9.
+[^3]: Harnoncourt, Nikolaus (1997). The Musical Dialogue: Thoughts on Monteverdi, Bach, and Mozart. Portland, OR: Amadeus Press. ISBN 1-57467-023-9.
