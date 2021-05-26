@@ -385,7 +385,3 @@ Changelog:
 ***
 
 [3]: Data source: [YourMorals.org](https://yourmorals.org)⁠
-
-### Public Speaking
-
-- alter Oper Frankfurt, radio
