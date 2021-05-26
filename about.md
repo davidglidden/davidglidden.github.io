@@ -6,10 +6,6 @@ excerpt: Pilgrim.
 comments: false
 ---
 
-# About Me
-
-***
-
 *Meta page that covers the **About Me** stuff: Who am I & what have I done? Also included: contact information; sites I use; computers and software tools; things I've worked on; psychological profiles.*
 
 For the meta page on this site's content please see [Site](/about_content).
