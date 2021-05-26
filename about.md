@@ -16,6 +16,7 @@ For the meta page on this site's content please see [Site](/about_content).
 
 ***
 
+* This will become a table of contents (this text will be scrapped).
 {:toc}
 
 ***
