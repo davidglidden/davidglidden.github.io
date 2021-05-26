@@ -6,9 +6,9 @@
   url: /about/
   external: false
 
-- title: colophon
-  url: /notes/
-  external: false # set true if you using external link, see bellow
+#- title: colophon
+#  url: /notes/
+#  external: false # set true if you using external link, see bellow
 
 # - title: now
 #   url: /now/
