@@ -17,7 +17,7 @@ For the meta page on this site's content please see [Site](/about_content).
 
 ***
 
-## I. Personal
+## I. PERSONAL
 
 ### Avant-propos
 
@@ -75,7 +75,7 @@ Also in 2016, I was one of the recipients of the *Förderpreis für Kultur der S
 
 ***
 
-## II. Tools
+## II. TOOLS
 
 > Tools are the instructor of man
 
@@ -100,7 +100,7 @@ I've always got a small notebook and pocket pen with me for general notes or jot
 
 ***
 
-## III. Profile
+## III. PROFILE
 
 Coming soon
 
@@ -118,7 +118,7 @@ Coming soon
 
 ***
 
-## IV. Contact
+## IV. CONTACT
 
 ***
 
@@ -350,7 +350,7 @@ md30
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
-## V. Site
+## V. SITE
 
 ### Hosting & Engine
 
