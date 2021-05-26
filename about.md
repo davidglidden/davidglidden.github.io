@@ -14,7 +14,9 @@ comments: false
 
 For the meta page on this site's content please see [Site](/about_content).
 
-{{TOC}}
+***
+
+{:toc}
 
 ***
 
