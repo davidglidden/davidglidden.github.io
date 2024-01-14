@@ -1,3 +1,8 @@
+---
+title: [observation] December 22nd, 2023
+date: 
+tags: [en, walks, seeing, Paris, France]
+---
 
 Half light the 22nd of December at 10:20. 
 The apartment has a _fond d'air froid_, creeping cold, but not yet penetrating. 
