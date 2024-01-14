@@ -35,14 +35,16 @@ He is currently principal viola with *Les Musiciens du Louvre* (Marc Minkowski) 
 
 ##### III. Experience
 
-|Ensemble   |Position   |Dates   |
-|---   |---   |---   |
-|Le Concert des Nations, Jordi Savall |*Viola-solo* | 2019 → present |
-|Les Musiciens du Louvre, Marc Minkowski |*Viola-solo* | 2011 → present |
-|Les Musiciens du Louvre, Marc Minkowski |*Violin and Viola* | 2001 → 2005 |
-|Le Cercle de l’Harmonie, Jérémie Rohrer |***Founding member:** Viola-solo* |2005 → 2014 |
-|L’Harmonie Universelle, Florian Deuter |***Founding member:** Viola-solo* | 2003 → 2014 |
-|Capriccio Stravagante, Les 24 Violons, Skip Sempé |*Viola, Tenore* |2002 → present |
+|Ensemble  |Position  |Dates  |
+|:--|:--|:--|
+|*Le Concert des Nations*, Jordi Savall  |Viola-solo  |2019 → present  |
+|*Les Musiciens du Louvre*, Marc Minkowski  |Viola-solo  |2011 → present  |
+|*Les Musiciens du Louvre*, Marc Minkowski  |Violin and Viola  |2001 → 2005  |
+|*La Ritirata*, Josetxu Obregón  |Viola  |2016 → present  |
+|*Le Cercle de l’Harmonie*, Jérémie Rohrer  |Founding member & Viola → solo  |2005 → 2014  |
+|*L’Harmonie Universelle*, Florian Deuter  |Founding member & Viola → solo  |2003 → 2014  |
+|*Capriccio Stravagante*, Les 24 Violons, Skip Sempé |Viola, Tenore |2002 → present |
+
 
 ***
 
@@ -66,14 +68,23 @@ Basic competence in German, Italian and Spanish.
 
 ***
 
-##### VI. Additional competences
+##### VI. Honours
 
-- Co-founded the design studio [*project\_1*](http://project1.io) in 2015. It specialises in the development of fast, secure, and responsive websites using the [*Wordpress*](http://wordpress.org), & [*Hugo*](http://gohugo.io) engines and powered by sophisticated backend frameworks such as the [*Roots*](http://roots.io) stack (Sage, Trellis & Bedrock). I am very experienced with *HTML 5, CSS, Javascript, Jquery, Node, Git, Unix, OS X*, and *iOS*.
-***
+- *ORF Ö1-“Pasticcio-Preis*, Austria (2016)
+- *Förderpreis für Kultur*, Stadt Salzburg (2016)
 
-##### VII. References:
+##### VII. Notable Recordings
+- [Michael Haydn—Complete String Quintets](https://www.allmusic.com/album/michael-haydn-the-complete-string-quintets-mw0002821424), CPO
+- [Wolfgang Amadeus Mozart—Piano Quartets](https://www.mozart225.com), London DECCA
+
+##### VIII. Documentaries, Talks
+
+- [Introductory talk Les Musiciens du Louvre Grenoble at the Alter Oper Frankfurt 09/27/2014](https://youtu.be/Ds713zR00sY?feature=shared)
+- [Saudade](http://www.saudade.at/home/en/), *Rendezvous in Brazil*
+
+##### IX. References:
 Available upon request
 
 ***
-You can download my CV [**here**](/assets/CV-David-F-Glidden.pdf) in PDF format.
-This page last edited on **2020.05.21**
+
+This page last edited on **2024.01.14**
