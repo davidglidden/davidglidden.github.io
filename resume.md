@@ -12,7 +12,15 @@ comments: false
 
 ##### I. Avant-propos  
 
-I was born into an artistic family in Manhattan, New York in 1974. I began my musical training at the [*Royal Conservatory of Music*](http://rcm.ca) in Toronto and continued at [*Wilfrid Laurier University*](http://wlu.ca), [*Oberlin College Conservatory of Music*](https://home.oberlin.edu), and the [*Royal Conservatory of Music, The Hague*](http://koncon.nl), Netherlands. Besides studying with *Eugene Kash, Martin Beaver, David Stewart, Jerzy Kapłanek* and *Pavlo Beznosiuk*, I also took part in master classes with *Steven Staryk, Jaap Schroeder, Anner Bylsma, the Orford Quartet* and *George Crumb*. I was a founding member of the ensembles [*Harmonie Universelle*](http://harmonie-universele.com) and [*Le Cercle de l’Harmonie*](http://cercledelharmonie.fr) and currently lead the viola section of [*Les Musiciens du Louvre*](http://mdlg.net) and [*Le Concert des Nations*](https://www.alia-vox.com/en/artists/le-concert-des-nations/) for their seminal project, *ACADÈMIA BEETHOVEN 250*.
+Born into an American-Canadian artistic family in 1974, David Glidden began his musical training at the Royal Conservatory of Music in Toronto. He continued his studies at Wilfrid Laurier University (Canada) with the Penderecki Quartet, and at the Royal Conservatory of Music in The Hague, (Netherlands) with Pavlo Beznosiuk.
+
+Since his arrival in France in 2003, he has been a founding member of the ensembles *Harmonie Universelle* (Germany) and *Le Cercle de l'Harmonie* (France). He has also performed as principal viola with ensembles such as *Musica ad Rhenum* (Jed Wentz), *Capriccio Stravagante* (Skip Sempé), *Capella Augustina* (Andreas Spering), *Café Zimmermann* (Pablo Valetti), *Les Nouveaux Caractères* (Sébastien d'Hérin), *La Chambre Philharmonique* (Emmanuel Krivine), and *Opéra Fuoco* (David Stern).
+
+His chamber music partners have included *The Penderecki String Quartet* (Canada), the *Quatuor Cambini-Paris* (France), The *Salzburger-Haydn Quintett* (Austria), *Xavi Puertas* (Catalonia), *Manfred Kraemer* (Argentina), *Mauro Lopes Ferreira* (Italy), *Balazs Máté* (Hungary), *Hiro Kurosaki* (Austria), *Florian Deuter* (Germany), *Francesco Corti* (Italy), *Dr. Herbert Lindsberger* (Austria), *Josetxu Obregón* (Spain), and *Jos van Immerseel* (Belgium).
+
+In 2016, he received two Austrian awards: the *ORF Ö1-"Pasticcio-Preis"* for his recording of the complete string quintets of Michael Haydn; and the *Förderpreis für Kulture* Stadt Salzburg for his contribution to the documentary on the life of Austrian composer and diplomat Sigismund Neukomm: *Saudade - Rendezvous in Brazil*
+
+He is currently principal viola with *Les Musiciens du Louvre* (Marc Minkowski) and *Le Concert des Nations* (Jordi Savall).
 
 ***
 
