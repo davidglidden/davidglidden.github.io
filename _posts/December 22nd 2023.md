@@ -1,6 +1,6 @@
 ---
 title: [observation] December 22nd, 2023
-date: 
+date: 2023-12-22
 tags: [en, walks, seeing, Paris, France]
 ---
 
