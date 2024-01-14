@@ -64,7 +64,7 @@ He is currently principal viola with *Les Musiciens du Louvre* (Marc Minkowski) 
 English *(mother tongue)*, French *(CEFRL level: C2)*.
 
 ###### - Languages under study:
-Basic competence in German, Italian and Spanish.
+Basic competence in German, Italian, Spanish, and Catalan.
 
 ***
 
