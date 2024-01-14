@@ -18,8 +18,6 @@ I was born into an artistic family in Manhattan, New York in 1974. I began my mu
 
 ##### II. Personal Information:
 
-| **Address** | 5 passage MONTGALLET, 75012, Paris FRANCE |  
-| **Mobile telephone** | +33 6 30 50 16 09 |
 | **Email** | d@davidglidden.eu |
 | **Web** | [davidglidden.eu](https://davidglidden.eu) |
 | **Nationalities** | Canadian, French, American |
