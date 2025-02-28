@@ -1,5 +1,5 @@
 ---
-title: Colophon
+title: Notes
 permalink: /notes/
 layout: page
 excerpt: The finer details.
@@ -17,13 +17,12 @@ This site is written and produced by David Glidden.
 - [iA Writer](https://ia.net/writer)
 - [Transmit](https://www.panic.com/transmit/)
 - Safari
-- [Firefox](https://mozilla.org)
+  
 
 ### iOS APPS
-- [Drafts 5](https://getdrafts.com)
+- [Drafts](https://getdrafts.com)
 - [iA Writer](https://ia.net/writer)
 - Safari
-- [Firefox](https://mozilla.org)
 - [Working Copy](https://workingcopyapp.com)
 
 ### HOSTING & ENGINE
@@ -48,12 +47,11 @@ The `code` blocks are set in [`IBM Plex Mono`](https://www.ibm.com/plex/):
 
 ### CURRENT VERSION
 
-`20.2`
+`21.1`
 
 `Went live: Paris FR | 2020-05-12 | 22.41.35 UTC+1`
-`Latest Edit: Paris FR | 2021-05-23 | 09.45.39 UTC+1`
+`Latest Edit: Barcelona ES | 2025-02-28 | 11.45.39 UTC+1`
 
 Changelog:
 
-- Resolved some grammar and typographic errors.
-- Updated biographic data
+Please see Colophon
