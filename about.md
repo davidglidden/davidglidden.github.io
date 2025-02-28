@@ -7,6 +7,8 @@ tags: [en, fr, es]
 comments: false
 ---
 
+<img src="/assets/img/dfg.jpg">
+
 # David F Glidden
 
 ## Biography
