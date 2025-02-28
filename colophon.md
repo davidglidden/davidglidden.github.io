@@ -5,78 +5,77 @@ layout: page
 excerpt: Pilgrim.
 comments: false
 ---
-    
-      ## I. SITE
-    
-    ### Hosting & Engine
-    
-    - Hosted by [Github](https://github.io)
-    - Theme based on the [Klisé](https://klise.now.sh) theme.
-    - Articles and links are published through [Jekyll](https://jekyllrb.com).
-    - Articles written in [Markdown](https://daringfireball.net/projects/markdown/) in [iA Writer](https://ia.net/writer).
-    
-    ### Typography
-    
-    The `$base-font-size` is currently set at `20px` with the `$base-line-height` of `1.3`, or `26px`. `400` and `700` font weights are used for regular or bold text respectively.
-    
-    All fonts are available from [Google fonts](https://fonts.google.com)
-    
-    The `body` text is set in [EB Garamond](https://github.com/octaviopardo/EBGaramond12/tree/master/fonts/):
-    > EB Garamond is a free and open source implementation of Claude Garamont's Antiqua typeface Garamond and the matching Italic, Greek and Cyrillic characters designed by Robert Granjon. Its name is an acronym for Egenolff-Berner-Garamond which refers to the fact that the letter forms are taken from the Egenolff-Berner specimen printed in 1592.
-    
-    The `code` blocks are set in [`IBM Plex Mono`](https://www.ibm.com/plex/):
-    > When we set out to create a typeface that was unmistakably IBM, our own history was our greatest source of inspiration. IBM has always served as a medium between mankind and machine. Between the natural and the engineered. The emotional and rational. The classic and the cutting-edge. Our most important job is to help humanity and technology move forward together. IBM Plex® brings these relationships to life through letterforms.
-    
-    
-    ### Current Version
-    
-    `21.0`
-    
-    `Went live: Paris FR | 2020-05-12 | 22.41.35 UTC+1`
-    `Latest Edit: Barcelona ES | 2025-02-28 | 11.45.39 UTC+1`
-    
-    Changelog:
-    
-    - Restructuring
-    - Created separate Colophon
-    - Updated biographic data
-    - Updated Tools
-    
-    ***
 
-    ## II. TOOLS
+## I. SITE
+### Hosting & Engine
     
-    > Tools are the instructor of man
+- Hosted by [Github](https://github.io)
+- Theme based on the [Klisé](https://klise.now.sh) theme.
+- Articles and links are published through [Jekyll](https://jekyllrb.com).
+- Articles written in [Markdown](https://daringfireball.net/projects/markdown/) in [iA Writer](https://ia.net/writer).
     
-    ### Hardware
-    - MacBook Air (M1, 2020)
+### Typography
+    
+The `$base-font-size` is currently set at `20px` with the `$base-line-height` of `1.3`, or `26px`. `400` and `700` font weights are used for regular or bold text respectively.
+    
+All fonts are available from [Google fonts](https://fonts.google.com)
+    
+The `body` text is set in [EB Garamond](https://github.com/octaviopardo/EBGaramond12/tree/master/fonts/):
+> EB Garamond is a free and open source implementation of Claude Garamont's Antiqua typeface Garamond and the matching Italic, Greek and Cyrillic characters designed by Robert Granjon. Its name is an acronym for Egenolff-Berner-Garamond which refers to the fact that the letter forms are taken from the Egenolff-Berner specimen printed in 1592.
+    
+The `code` blocks are set in [`IBM Plex Mono`](https://www.ibm.com/plex/):
+> When we set out to create a typeface that was unmistakably IBM, our own history was our greatest source of inspiration. IBM has always served as a medium between mankind and machine. Between the natural and the engineered. The emotional and rational. The classic and the cutting-edge. Our most important job is to help humanity and technology move forward together. IBM Plex® brings these relationships to life through letterforms.
     
     
-    ### Software
+### Current Version
     
-    I run macOS 15 and use the macOS GUI extensively but also have CLI-centric habits. 
-    I spend most of my time in [iA Writer](https://ia.net/writer) or [BBEdit](https://www.barebones.com/products/bbedit/index.html) editing Markdown, Safari, or [iTerm](https://iterm2.com) (shells: *zsh*/*bash*). Miscellaneously: I use Anki for spaced repetition⁠, Reeder for RSS, Drafts/Notes.app for clippings/notes, Transmit for remote file transfer, Audirvana for audio media playing, and pen & 100mmx150mm index cards/notebooks/paper for scheduling/reminders.
+`21.0`
     
-    Sometimes I only have my phone to work with. There are times when this is done on purpose. I have tried to make the environment as similar to my Mac as possible with the notable exception of the CLI tools `:(`. Drafts and iA Writer exist on iOS thankfully. Browsers are the same. For git on mobile, I use [Working Copy](https://workingcopyapp.com).
+`Went live: Paris FR | 2020-05-12 | 22.41.35 UTC+1`
+`Latest Edit: Barcelona ES | 2025-02-28 | 11.45.39 UTC+1`
     
-    ### Analogue
+Changelog:
     
-    I mentioned above that for scheduling and reminders I use pen/pencil and paper. For many years I was a diehard Omnifocus user and had developed a complex system so that nothing would "fall through the cracks". However, productivity implemented with complex digital tools always runs the risk of becoming productivity solely for productivity's sake and I found that as time progressed, I was spending too much time tweaking the system too little time with what was in the system. I was distracted by all of the tempting possibilities that automation brought to Omnifocus. I had been suspicious that going back to basics would be a smart thing to do as I was becoming anxious that perhaps my well-tuned task management system was not as trustworthy as I had believed. I also found it unhealthy that I was waiting for my task manager to tell me what to do rather than doing the stuff in a flexible way.
+- Restructuring
+- Created separate Colophon
+- Updated biographic data
+- Updated Tools
     
-    In 2019 I went back to pen & paper and haven't looked back. I remember things more easily, I look at my phone or my computer much less than previously, and I am less anxious.
+***
+
+## II. TOOLS
     
-    I've always got a small notebook and pocket pen with me for general notes or jottings on the go. Task management happens on 100x150mm index cards. I use a cherry-picked aspects of a number of systems that will seem Frankenstein-ish to purists. The basic underlying system is the [tickler file](https://en.wikipedia.org/wiki/Tickler_file). Scheduling happens in a weekly spread agenda. I spend a few minutes in the mornings and/or evenings reflecting on the day--a strong educational and motivational tool.
+> Tools are the instructor of man
     
-    ***
+### Hardware
+- MacBook Air (M1, 2020)
+    
+    
+### Software
+    
+I run macOS 15 and use the macOS GUI extensively but also have CLI-centric habits. 
+I spend most of my time in [iA Writer](https://ia.net/writer) or [BBEdit](https://www.barebones.com/products/bbedit/index.html) editing Markdown, Safari, or [iTerm](https://iterm2.com) (shells: *zsh*/*bash*). Miscellaneously: I use Anki for spaced repetition⁠, Reeder for RSS, Drafts/Notes.app for clippings/notes, Transmit for remote file transfer, Audirvana for audio media playing, and pen & 100mmx150mm index cards/notebooks/paper for scheduling/reminders.
+    
+Sometimes I only have my phone to work with. There are times when this is done on purpose. I have tried to make the environment as similar to my Mac as possible with the notable exception of the CLI tools `:(`. Drafts and iA Writer exist on iOS thankfully. Browsers are the same. For git on mobile, I use [Working Copy](https://workingcopyapp.com).
+    
+### Analogue
+    
+I mentioned above that for scheduling and reminders I use pen/pencil and paper. For many years I was a diehard Omnifocus user and had developed a complex system so that nothing would "fall through the cracks". However, productivity implemented with complex digital tools always runs the risk of becoming productivity solely for productivity's sake and I found that as time progressed, I was spending too much time tweaking the system too little time with what was in the system. I was distracted by all of the tempting possibilities that automation brought to Omnifocus. I had been suspicious that going back to basics would be a smart thing to do as I was becoming anxious that perhaps my well-tuned task management system was not as trustworthy as I had believed. I also found it unhealthy that I was waiting for my task manager to tell me what to do rather than doing the stuff in a flexible way.
+    
+In 2019 I went back to pen & paper and haven't looked back. I remember things more easily, I look at my phone or my computer much less than previously, and I am less anxious.
+    
+I've always got a small notebook and pocket pen with me for general notes or jottings on the go. Task management happens on 100x150mm index cards. I use a cherry-picked aspects of a number of systems that will seem Frankenstein-ish to purists. The basic underlying system is the [tickler file](https://en.wikipedia.org/wiki/Tickler_file). Scheduling happens in a weekly spread agenda. I spend a few minutes in the mornings and/or evenings reflecting on the day--a strong educational and motivational tool.
+    
+***
     
       
-    ## III. CONTACT
+## III. CONTACT
     
-    ***
+***
     
-    - Email: [d@davidglidden.eu](maito:d@davidglidden.eu). I don't use Zoom.
-    - Bitcoin: `1E1itBAUEdYiKNjw8GXEeNcYLQgoaoF4wu`
-    - GPG Key (fingerprint `6B1BC020D66A948E81D71625D1ABEA25B68717DE`)
+- Email: [d@davidglidden.eu](maito:d@davidglidden.eu). I don't use Zoom.
+- Bitcoin: `1E1itBAUEdYiKNjw8GXEeNcYLQgoaoF4wu`
+- GPG Key (fingerprint `6B1BC020D66A948E81D71625D1ABEA25B68717DE`)
     
     ```
     -----BEGIN PGP PUBLIC KEY BLOCK-----
