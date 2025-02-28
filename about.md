@@ -9,8 +9,6 @@ comments: false
 
 <img src="/assets/img/dfg.jpg">
 
-# David F Glidden
-
 ## Biography
 
 David F Glidden's artistic journey weaves together diverse musical traditions, shaped by a nomadic early life immersed in both flamenco and Western classical music. As principal violist for Le Concert des Nations under Jordi Savall and Les Musiciens du Louvre under Marc Minkowski, he brings transformative energy to ensemble sound through innovative string leadership.
