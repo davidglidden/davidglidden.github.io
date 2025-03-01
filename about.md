@@ -6,7 +6,7 @@ excerpt: Pilgrim.
 tags: [en, fr, es]
 comments: false
 ---
-
+[français](#Biographie), [Castellano](#Biografía)
 <img src="/assets/img/dfg.jpg">
 
 ## Biography
