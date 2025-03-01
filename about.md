@@ -6,7 +6,7 @@ excerpt: Pilgrim.
 tags: [en, fr, es]
 comments: false
 ---
-En <a id="user-content-biographie" class="anchor" aria-label="Permalink: Biographie" href="#biographie">français</a>, En <a id="user-content-biografía" class="anchor" aria-label="Permalink: Biografía" href="#biografía">Castellano</a>
+En <a id="user-content-biographie" class="anchor" aria-label="Permalink: Biographie" href="#biographie">français</a> | En <a id="user-content-biografía" class="anchor" aria-label="Permalink: Biografía" href="#biografía">Castellano</a>
 
 <img src="/assets/img/dfg.jpg">
 
