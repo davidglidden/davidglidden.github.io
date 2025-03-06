@@ -1,4 +1,4 @@
-main:
+header:
 - title: home
   url: /
   external: false
