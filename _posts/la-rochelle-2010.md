@@ -6,6 +6,6 @@ tags: [en, travel, seen]
 ---
 
 <figure>
-<img src="/assets/img/la-rochelle-DSC_5375.jpg">
+<img src="/assets/img/la-rochelle-5375.jpg">
 <figcaption>⁨La Rochelle⁩, ⁨Côte de Lumière⁩, ⁨August 2010. ƒ8, 1/400s.</figcaption>
 </figure>
