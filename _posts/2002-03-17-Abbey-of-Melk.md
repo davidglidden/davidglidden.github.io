@@ -7,5 +7,5 @@ tags: [en, travels, seen]
 
 <figure>
 <img src="/assets/img/melk-2002.jpg">
-<figcaption><a href="https://en.wikipedia.org/wiki/Melk_Abbey">Stift Melk, Austria</a>a></figcaption>
+<figcaption><a href="https://en.wikipedia.org/wiki/Melk_Abbey">Stift Melk, Austria</a></figcaption>
 </figure>
