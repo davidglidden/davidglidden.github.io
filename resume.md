@@ -1,5 +1,3 @@
-
-# David F Glidden
 # Viola
 ***
 ## Professional Summary
