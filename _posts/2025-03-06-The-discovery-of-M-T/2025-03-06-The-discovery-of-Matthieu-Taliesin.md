@@ -6,7 +6,8 @@ description:
 ---
 
 <figure>
-<img src=“matthieu-t.jpg”>
+{% include image.html url="/assets/images/533.jpg" description="Image description" %}
+
 <figcaption>Matthieu Taliesin holding his viola with a viola d'amore in foreground. Date & location unknown.</figcaption>
 </figure>
 
