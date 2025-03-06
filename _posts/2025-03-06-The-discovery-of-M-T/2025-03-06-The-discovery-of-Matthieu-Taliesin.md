@@ -6,7 +6,7 @@ description:
 ---
 
 <figure>
-<img src=“matthieu-t.jpg”>  
+<img src="matthieu-t.jpg" alt="Matthieu Taliesin">
 <figcaption>Matthieu Taliesin holding his viola with a viola d'amore in foreground. Date & location unknown.</figcaption>
 </figure>
 
