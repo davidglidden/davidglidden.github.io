@@ -6,8 +6,8 @@ description:
 ---
 
 <figure>
-<img src=“Matthieu-Taliesin.jpg”>
-<figcaption>Matthieu Talisen holding his viola with a viola d'amore in foreground. Date & location unknown.</figcaption>
+<img src=“matthieu-t.jpg”>
+<figcaption>Matthieu Taliesin holding his viola with a viola d'amore in foreground. Date & location unknown.</figcaption>
 </figure>
 
 # The Discovery of Matthieu Taliesin
