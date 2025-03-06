@@ -1,5 +1,5 @@
-# Viola
-***
+# David F Glidden
+****
 ## Professional Summary
 
 Distinguished orchestral leader and principal violist whose artistic journey bridges flamenco and Western classical traditions. Currently serving with Le Concert des Nations under Jordi Savall and Les Musiciens du Louvre under Marc Minkowski, bringing transformative energy to ensemble sound through innovative string leadership. Award-winning musician (ORF Ö1-Pasticcio-Preis, Förderpreis für Kultur Stadt Salzburg) recognized for distinctive interpretations of 17th to 19th-century repertoire on period instruments, bringing historical performance practices to life while maintaining a profound connection to early music traditions. Founder of innovative ensembles including Harmonie Universelle and Le Cercle de l'Harmonie, with notable recordings for DECCA and CPO. A trusted member of Jordi Savall's artistic leadership circle with significant pedagogical influence in developing young talent. Based in Barcelona, integrating technical mastery with philosophical depth to shape the future of period performance.
