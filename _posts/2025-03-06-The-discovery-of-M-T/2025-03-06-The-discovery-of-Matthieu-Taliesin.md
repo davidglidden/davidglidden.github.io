@@ -10,6 +10,7 @@ description:
 <figcaption>Matthieu Taliesin holding his viola with a viola d’amore in foreground. Date & location unknown.</figcaption>
 </figure>
 
+In <a id="user-content-the-discovery-of-matthieu-taliesin" class="anchor" aria-label="Permalink: The Discovery of Matthieu Taliesin" href="#the-discovery-of-matthieu-taliesin">English</a> | En <a id="user-content-la-découverte-de-matthieu-taliesin" class="anchor" aria-label="Permalink: La découverte de Matthieu Taliesin" href="#la-découverte-de-matthieu-taliesin">français</a> | En <a id="user-content-el-descubrimiento-de-matthieu-taliesin" class="anchor" aria-label="Permalink: El Descubrimiento de Matthieu Taliesin" href="#el-descubrimiento-de-matthieu-taliesin">Castellano</a>
 # The Discovery of Matthieu Taliesin
 
 Among the many joys of research is the occasional discovery that upends one’s understanding of a field, a history, or even an entire way of thinking. Such was my experience upon encountering the scattered writings of Matthieu Taliesin. Tucked away in the depths of the [Uppsala University Library](https://en.wikipedia.org/wiki/Uppsala_University_Library), amongst a collection of scores and pedagogical treatises, these fragile notebooks bore witness to a musician and teacher whose insights, though largely unknown, speak profoundly to our time.
