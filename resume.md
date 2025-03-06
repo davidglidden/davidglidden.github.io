@@ -1,90 +1,70 @@
----
-title: Résumé
-permalink: /resume/
-layout: page
-excerpt: CV. Last edit: 21 05 2020
-comments: false
----
 
-# David Glidden
-## *Historic and Modern Violas*
+# David F Glidden
+# Viola
 ***
+## Professional Summary
 
-##### I. Avant-propos  
+Distinguished orchestral leader and principal violist whose artistic journey bridges flamenco and Western classical traditions. Currently serving with Le Concert des Nations under Jordi Savall and Les Musiciens du Louvre under Marc Minkowski, bringing transformative energy to ensemble sound through innovative string leadership. Award-winning musician (ORF Ö1-Pasticcio-Preis, Förderpreis für Kultur Stadt Salzburg) recognized for distinctive interpretations of 17th to 19th-century repertoire on period instruments, bringing historical performance practices to life while maintaining a profound connection to early music traditions. Founder of innovative ensembles including Harmonie Universelle and Le Cercle de l'Harmonie, with notable recordings for DECCA and CPO. A trusted member of Jordi Savall's artistic leadership circle with significant pedagogical influence in developing young talent. Based in Barcelona, integrating technical mastery with philosophical depth to shape the future of period performance.
 
-Born into an American-Canadian artistic family in 1974, David Glidden began his musical training at the Royal Conservatory of Music in Toronto. He continued his studies at Wilfrid Laurier University (Canada) with the Penderecki Quartet, and at the Royal Conservatory of Music in The Hague, (Netherlands) with Pavlo Beznosiuk.
+## Current Positions
+**Principal Viola Roles**
+- Le Concert des Nations, Jordi Savall (2019-present)
+- Les Musiciens du Louvre, Marc Minkowski (2011-present)
 
-Since his arrival in France in 2003, he has been a founding member of the ensembles *Harmonie Universelle* (Germany) and *Le Cercle de l'Harmonie* (France). He has also performed as principal viola with ensembles such as *Musica ad Rhenum* (Jed Wentz), *Capriccio Stravagante* (Skip Sempé), *Capella Augustina* (Andreas Spering), *Café Zimmermann* (Pablo Valetti), *Les Nouveaux Caractères* (Sébastien d'Hérin), *La Chambre Philharmonique* (Emmanuel Krivine), and *Opéra Fuoco* (David Stern).
+**Previous Orchestral Experience**
+- Les Musiciens du Louvre, Section Violin/Viola (2001-2005)
+- Le Cercle de l'Harmonie (2005-2014), Founding Member and Principal Viola 
+- Opera Fuoco, Principal viola (2005-2009), section viola (2010-present)
+- Capella Augustina, Principal viola (2014-2016)
+- La Ritirata, Principal viola (2017)
+- Capriccio Stravagante, Les 24 Violons (2002-2014)
 
-His chamber music partners have included *The Penderecki String Quartet* (Canada), the *Quatuor Cambini-Paris* (France), The *Salzburger-Haydn Quintett* (Austria), *Xavi Puertas* (Catalonia), *Manfred Kraemer* (Argentina), *Mauro Lopes Ferreira* (Italy), *Balazs Máté* (Hungary), *Hiro Kurosaki* (Austria), *Florian Deuter* (Germany), *Francesco Corti* (Italy), *Dr. Herbert Lindsberger* (Austria), *Josetxu Obregón* (Spain), and *Jos van Immerseel* (Belgium).
+## Chamber Music Leadership
+**Founding Member & Principal Viola**
+- L'Harmonie Universelle (2003-2014)
 
-In 2016, he received two Austrian awards: the *ORF Ö1-"Pasticcio-Preis"* for his recording of the complete string quintets of Michael Haydn; and the *Förderpreis für Kulture* Stadt Salzburg for his contribution to the documentary on the life of Austrian composer and diplomat Sigismund Neukomm: *Saudade - Rendezvous in Brazil*
+**Notable Chamber Music Collaborations**
+- The Penderecki String Quartet (Canada)
+- Quatuor Cambini-Paris (France)
+- Salzburger-Haydn Quintett (Austria)
+- Café Zimmermann (France)
+- International collaborations with artists including Jordi Savall, Jos van Immerseel, Francesco Corti, Xavi Puertas, Manfred Kraemer, Balazs Máté, and Hiro Kurosaki.
 
-He is currently principal viola with *Les Musiciens du Louvre* (Marc Minkowski) and *Le Concert des Nations* (Jordi Savall).
+## Recording and Media
+**Award-Winning Recordings**
+- Complete String Quintets of Michael Haydn (CPO)
+- Mozart Piano Quartets (London DECCA)
+- Featured artist in "Saudade - Rendezvous in Brazil" documentary on the life of Sigismund Neukomm
+- Numerous other audio and video recordings with Jordi Savall and Marc Minkowski
 
-***
+**Awards**
+- ORF Ö1-Pasticcio-Preis, Austria (2016)
+- Förderpreis für Kultur Stadt Salzburg (2016)
 
-##### II. Personal Information:
-
-| **Email** | d@davidglidden.eu |
-| **Web** | [davidglidden.eu](https://davidglidden.eu) |
-| **Nationalities** | Canadian, French, American |
-| **Birthdate/Place** | 1974.10.04, Manhattan, New York City, USA
-
-***
-
-##### III. Experience
-
-|Ensemble  |Position  |Dates  |
-|:--|:--|:--|
-|*Le Concert des Nations*, Jordi Savall  |Viola-solo  |2019 → present  |
-|*Les Musiciens du Louvre*, Marc Minkowski  |Viola-solo  |2011 → present  |
-|*Les Musiciens du Louvre*, Marc Minkowski  |Violin and Viola  |2001 → 2005  |
-|*La Ritirata*, Josetxu Obregón  |Viola  |2016 → present  |
-|*Le Cercle de l’Harmonie*, Jérémie Rohrer  |Founding member & Viola → solo  |2005 → 2014  |
-|*L’Harmonie Universelle*, Florian Deuter  |Founding member & Viola → solo  |2003 → 2014  |
-|*Capriccio Stravagante*, Les 24 Violons, Skip Sempé |Viola, Tenore |2002 → present |
+## Pedagogical Experience
+- YOPCA Program Audition Committee Member
+- Viola Coach, JONC Early Music Program (2022)
+- Professor, III Curs de Música Antiga de Girona (2022)
+- Comprehensive approach integrating historical and modern performance practices
+- Specialist in baroque violin and viola technique
+- Expert in historical treatises and performance practice
+- Focus on developing individual artistic voice while maintaining technical excellence
 
 
-***
+## Education
+**Advanced Studies**
+- Royal Conservatory of Music, The Hague - Historical Performance with Pavlo Beznosiuk (1999-2003)
+- Wilfrid Laurier University - Chamber Music with The Penderecki String Quartet (1995-1999)
+- University of Manitoba - Violin and Viola Studies with David Stewart (1993-1995)
 
-##### IV. Education
+## Languages
+- English (Native)
+- French (CEFRL C2)
+- Spanish (CEFRL B2)
+- Working knowledge of German, Italian
 
-|Institution  |Discipline studied  |Teacher  |Years  |
-|---   |---   |---   |---   |
-|University of Manitoba, Winnipeg, CANADA |*Violin, Viola, Chamber Music* |David Stewart |1993 → 1995 |
-|Wilfrid Laurier University, Ontario, CANADA |Violin, Viola, Chamber Music |The Penderecki String Quartet |1995 → 1999 |
-|The Royal Conservatory of Music, Den Haag, NETHERLANDS |Violin, Viola, Historical Performance Practices |Pavlo Beznosiuk |1999 → 2003 |
-
-***
-
-##### V. Skills
-
-###### - Languages spoken:
-English *(mother tongue)*, French *(CEFRL level: C2)*.
-
-###### - Languages under study:
-Basic competence in German, Italian, Spanish, and Catalan.
-
-***
-
-##### VI. Honours
-
-- *ORF Ö1-“Pasticcio-Preis*, Austria (2016)
-- *Förderpreis für Kultur*, Stadt Salzburg (2016)
-
-##### VII. Notable Recordings
-- [Michael Haydn—Complete String Quintets](https://www.allmusic.com/album/michael-haydn-the-complete-string-quintets-mw0002821424), CPO
-- [Wolfgang Amadeus Mozart—Piano Quartets](https://www.mozart225.com), London DECCA
-
-##### VIII. Documentaries, Talks
-
-- [Introductory talk Les Musiciens du Louvre Grenoble at the Alter Oper Frankfurt 09/27/2014](https://youtu.be/Ds713zR00sY?feature=shared)
-- [Saudade](http://www.saudade.at/home/en/), *Rendezvous in Brazil*
-
-##### IX. References:
-Available upon request
-
-***
-
-This page last edited on **2024.01.14**
+## Personal Information
+- Email: [d@davidglidden.eu](mailto:d@davidglidden.eu)
+- Website: [davidglidden.eu](https://davidglidden.eu)
+- Nationalities: French, Canadian, American
+- Date of Birth: October 4, 1974
