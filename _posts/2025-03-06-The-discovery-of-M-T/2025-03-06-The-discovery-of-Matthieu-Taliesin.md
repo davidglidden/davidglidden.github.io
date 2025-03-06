@@ -7,7 +7,7 @@ description:
 
 <figure>
 <img src="{{ site.baseurl }}/assets/img/matthieu-t.jpg" alt="Matthieu Taliesin, date and location unknown."
-<figcaption>Matthieu Taliesin holding his viola with a viola d'amore in foreground. Date & location unknown.</figcaption>
+<figcaption>Matthieu Taliesin holding his viola with a viola d’amore in foreground. Date & location unknown.</figcaption>
 </figure>
 
 # The Discovery of Matthieu Taliesin
@@ -30,19 +30,19 @@ With this first article, we begin the journey into the world of Matthieu Taliesi
 
 # La découverte de Matthieu Taliesin
 
-Parmi les nombreuses joies de la recherche, on compte la découverte occasionnelle qui bouleverse notre compréhension d'un domaine, d'une histoire, ou même d'une façon entière de penser. Telle fut mon expérience lorsque je suis tombé sur les écrits épars de Matthieu Taliesin. Enfouis dans les profondeurs de la [Bibliothèque de l'Université d'Uppsala](https://fr.wikipedia.org/wiki/Bibliothèque_de_l%27université_d%27Uppsala), parmi une collection de partitions et de traités pédagogiques, ces fragiles carnets témoignaient d'un musicien et enseignant dont les idées, bien que largement méconnues, parlent profondément à notre époque.
+Parmi les nombreuses joies de la recherche, on compte la découverte occasionnelle qui bouleverse notre compréhension d’un domaine, d’une histoire, ou même d’une façon entière de penser. Telle fut mon expérience lorsque je suis tombé sur les écrits épars de Matthieu Taliesin. Enfouis dans les profondeurs de la [Bibliothèque de l’Université d’Uppsala](https://fr.wikipedia.org/wiki/Bibliothèque_de_l%27université_d%27Uppsala), parmi une collection de partitions et de traités pédagogiques, ces fragiles carnets témoignaient d’un musicien et enseignant dont les idées, bien que largement méconnues, parlent profondément à notre époque.
 
-La vie de Taliesin fut marquée par le mouvement et la quête, façonnée autant par la perte que par l'apprentissage. Né dans une famille divisée par les conflits, il trouva très tôt refuge dans l'étude de la musique. Son père, musicien de certain renom, quitta la famille alors que Taliesin était encore jeune. Bien que cette absence l'ait hanté, elle alimenta également sa quête inlassable de sens à travers le son. Son grand-père, figure imposante de sagesse et de chaleur, lui inculqua une révérence pour l'histoire et la tradition. Lorsque Taliesin le perdit, le vide fut immense — un vide qu'il chercha à combler par la rigueur de la discipline musicale et de la recherche intellectuelle.
+La vie de Taliesin fut marquée par le mouvement et la quête, façonnée autant par la perte que par l’apprentissage. Né dans une famille divisée par les conflits, il trouva très tôt refuge dans l’étude de la musique. Son père, musicien de certain renom, quitta la famille alors que Taliesin était encore jeune. Bien que cette absence l’ait hanté, elle alimenta également sa quête inlassable de sens à travers le son. Son grand-père, figure imposante de sagesse et de chaleur, lui inculqua une révérence pour l’histoire et la tradition. Lorsque Taliesin le perdit, le vide fut immense — un vide qu’il chercha à combler par la rigueur de la discipline musicale et de la recherche intellectuelle.
 
-Contrairement à nombre de ses pairs, Taliesin ne suivit pas la voie du virtuose, bien que son talent fût indéniable. Il fut plutôt attiré par le rôle d'auditeur, d'observateur, *celui qui trouve du sens non pas aux extrémités des choses mais en leur centre*. L'alto devint son instrument non par hasard, mais par la conviction profonde que la voix médiane — souvent négligée mais indispensable — était l'endroit où il pouvait agir au mieux.
+Contrairement à nombre de ses pairs, Taliesin ne suivit pas la voie du virtuose, bien que son talent fût indéniable. Il fut plutôt attiré par le rôle d’auditeur, d’observateur, *celui qui trouve du sens non pas aux extrémités des choses mais en leur centre*. L’alto devint son instrument non par hasard, mais par la conviction profonde que la voix médiane — souvent négligée mais indispensable — était l’endroit où il pouvait agir au mieux.
 
-C'est cette philosophie qui définit finalement son enseignement. Taliesin croyait que la musique n'était pas simplement un art mais une façon d'être au monde. Il voyait dans son déclin le reflet de changements culturels plus larges : l'érosion de la tradition, la montée de l'hyper-individualisme, la négligence de l'histoire au profit de l'immédiat. Pourtant, il ne désespéra pas ; il chercha plutôt à raviver une compréhension de la musique comme acte communautaire, comme pont entre le passé et le futur.
+C’est cette philosophie qui définit finalement son enseignement. Taliesin croyait que la musique n’était pas simplement un art mais une façon d’être au monde. Il voyait dans son déclin le reflet de changements culturels plus larges : l’érosion de la tradition, la montée de l’hyper-individualisme, la négligence de l’histoire au profit de l’immédiat. Pourtant, il ne désespéra pas ; il chercha plutôt à raviver une compréhension de la musique comme acte communautaire, comme pont entre le passé et le futur.
 
-Les écrits que j'ai rassemblés — fragments de leçons, paraboles, réflexions — offrent un aperçu de ce monde. Il ne s'agit pas de méthodes au sens conventionnel, ni de traités systématiques. Ils ressemblent plutôt aux enseignements des grands maîtres d'autrefois : elliptiques, stimulants, destinés à provoquer la réflexion plutôt qu'à dicter des règles. En compilant et commentant ces textes, je ne prétends pas ressusciter Taliesin, mais plutôt servir de guide à travers sa sagesse.
+Les écrits que j’ai rassemblés — fragments de leçons, paraboles, réflexions — offrent un aperçu de ce monde. Il ne s’agit pas de méthodes au sens conventionnel, ni de traités systématiques. Ils ressemblent plutôt aux enseignements des grands maîtres d’autrefois : elliptiques, stimulants, destinés à provoquer la réflexion plutôt qu’à dicter des règles. En compilant et commentant ces textes, je ne prétends pas ressusciter Taliesin, mais plutôt servir de guide à travers sa sagesse.
 
-Cette série présentera ses enseignements tels qu'ils ont été trouvés, chacun accompagné de mes propres réflexions et commentaires. Certains prendront la forme de paraboles, d'autres d'aphorismes ou de dialogues. Chacun, je l'espère, éclairera non seulement l'art de la musique mais aussi les questions plus larges d'artisterie, de tradition et de connexion humaine.
+Cette série présentera ses enseignements tels qu’ils ont été trouvés, chacun accompagné de mes propres réflexions et commentaires. Certains prendront la forme de paraboles, d’autres d’aphorismes ou de dialogues. Chacun, je l’espère, éclairera non seulement l’art de la musique mais aussi les questions plus larges d’artisterie, de tradition et de connexion humaine.
 
-Avec ce premier article, nous commençons le voyage dans le monde de Matthieu Taliesin — enseignant, musicien et, jusqu'à présent, voix perdue dans le temps.
+Avec ce premier article, nous commençons le voyage dans le monde de Matthieu Taliesin — enseignant, musicien et, jusqu’à présent, voix perdue dans le temps.
 
 ***
 
