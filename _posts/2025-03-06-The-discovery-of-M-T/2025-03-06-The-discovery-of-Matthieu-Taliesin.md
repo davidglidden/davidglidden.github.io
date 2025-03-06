@@ -5,8 +5,8 @@ tags: [en, fr, es, pedagogy, music]
 description: 
 ---
 
-{% include image.html url="/assets/images/533.jpg" description="Image description" %}
-
+<figure>
+<img src="/assets/img/matthieu-t.jpg" alt="Matthieu Taliesin, date and location unknown."
 <figcaption>Matthieu Taliesin holding his viola with a viola d'amore in foreground. Date & location unknown.</figcaption>
 </figure>
 
