@@ -1,0 +1,11 @@
+<nav class="site-nav">
+  <ul>
+    {% for item in site.data.menus %}
+    <li>
+      <a href="{{ item.url }}" {% if item.external %}target="_blank"{% endif %}>
+        {{ item.title }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>
