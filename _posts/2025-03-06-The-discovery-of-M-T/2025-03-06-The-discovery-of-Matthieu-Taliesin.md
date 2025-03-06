@@ -6,7 +6,7 @@ description:
 ---
 
 <figure>
-<img src="/assets/img/matthieu-t.jpg" alt="Matthieu Taliesin, date and location unknown."
+<img src="{{ site.baseurl }}/assets/img/matthieu-t.jpg" alt="Matthieu Taliesin, date and location unknown."
 <figcaption>Matthieu Taliesin holding his viola with a viola d'amore in foreground. Date & location unknown.</figcaption>
 </figure>
 
