@@ -29,7 +29,7 @@ In compiling and commenting on these texts, I do not claim to resurrect Taliesin
 
 With this first article, we step into the world of Matthieu Taliesin—a teacher, a musician, and, until now, a voice lost to time.
 
-
+*Barcelona, March 2025.*
 ***
 
 # La découverte de Matthieu Taliesin
@@ -50,6 +50,7 @@ En compilant et en commentant ces textes, je ne prétends pas ressusciter Talies
 
 Avec ce premier article, nous entrons dans le monde de Matthieu Taliesin—un professeur, un musicien et, jusqu'à présent, une voix perdue dans le temps.
 
+*Barcelone, mars 2025.*
 ***
 
 # El Descubrimiento de Matthieu Taliesin
@@ -69,3 +70,5 @@ Los escritos que he reunido aquí no constituyen un método, ni una teoría sist
 Al compilar y comentar estos textos, no pretendo resucitar a Taliesin—quizás nadie pueda—sino más bien servir de guía a través de sus ideas. Esta serie presentará sus palabras tal como fueron encontradas, cada una acompañada de mis propias reflexiones.
 
 Con este primer artículo, entramos en el mundo de Matthieu Taliesin—un maestro, un músico y, hasta ahora, una voz perdida en el tiempo.
+
+*Barcelona, Marzo 2025.*
