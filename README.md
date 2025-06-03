@@ -43,12 +43,11 @@ The `code` blocks are set in [`IBM Plex Mono`](https://www.ibm.com/plex/):
 
 ### CURRENT VERSION
 
-`20.2`
+`25.3`  
+Went live: Paris FR | 2020-05-12 | 22:41:35 UTC+1  
+Latest edit: Barcelona ES | 2025-06-03 | 14:21:00 UTC+1  
 
-`Went live: Paris FR | 2020-05-12 | 22.41.35 UTC+1`
-`Latest Edit: Paris FR | 2021-05-23 | 09.45.39 UTC+1`
-
-Changelog:
-
-- Resolved some grammar and typographic errors.
-- Updated biographic data
+**Changelog**  
+- Integrated critique from Alexander, Berger, Bachelard, and Sennett  
+- Added “The Desk” interlude, rhythm and maintenance section  
+- Reordered tools section for organic coherence
