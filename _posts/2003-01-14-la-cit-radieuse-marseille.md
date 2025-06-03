@@ -1,5 +1,4 @@
 ---
-layout: photo
 title: "La Cité Radieuse, Marseille"
 date: 2003-01-14
 location: 43.295022, 5.374486
