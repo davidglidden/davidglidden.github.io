@@ -3,17 +3,17 @@
   url: /
   external: false
 
-- title: about
+- title: about David
   url: /about/
-  external: false
-
-- title: archive
-  url: /archive/
   external: false
 
 - title: colophon
   url: /colophon/
   external: false # set true if you using external link, see bellow
+
+- title: archive
+  url: /archive/
+  external: false
 
 # - title: now
 #   url: /now/
