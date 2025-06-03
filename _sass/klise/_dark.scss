@@ -235,4 +235,11 @@ body[data-theme="dark"] {
       color: $dark-text-link-blue-active;
     }
   }
+  
+  // Avatar styling in dark mode
+  img.avatar {
+    background-color: transparent !important;
+    border-radius: 50%; // ensures clean circle crop
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.05); // subtle contrast on dark
+  }
 }
