@@ -1,5 +1,5 @@
 ---
-title: From Mushi-Ken to Morra: The Ritual Logic of Choosing
+title: From Mushi-Ken to Morra — The Ritual Logic of Choosing
 date: 2025-06-03
 tags: [en, essay, anthropology, ritual, decision-making, pattern-language]
 description: 
