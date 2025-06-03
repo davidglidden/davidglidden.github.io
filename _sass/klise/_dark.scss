@@ -236,8 +236,8 @@ body[data-theme="dark"] {
     }
   }
   
-  // Fix avatar visibility in dark mode
-.author .author-avatar {
+ // Fix avatar visibility in dark mode
+.author-avatar {
   background-color: transparent !important;
   border-radius: 100%;
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.05);
