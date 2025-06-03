@@ -4,7 +4,7 @@ description: "on art, work, and becoming."
 lang: "en-US"
 timezone: "Europe/Paris"
 repo: "https://github.com/davidglidden/davidglidden.github.io"
-mode: "dark" # default theme: "dark" | "light"
+mode: "light" # default theme: "dark" | "light"
 
 # Profile settings
 author:
