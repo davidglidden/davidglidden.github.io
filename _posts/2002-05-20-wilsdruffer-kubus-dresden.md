@@ -1,5 +1,4 @@
 ---
-layout: photo
 title: "Wilsdruffer Kubus, Dresden"
 date: 2002-05-20
 location: 51.050992, 13.733633
