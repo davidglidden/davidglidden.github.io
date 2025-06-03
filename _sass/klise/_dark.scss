@@ -237,9 +237,9 @@ body[data-theme="dark"] {
   }
   
   // Fix avatar visibility in dark mode
-  img.author-avatar {
-    background-color: transparent !important;
-    border-radius: 50%; // ensures clean circle crop
-    box-shadow: 0 0 
-  }
+.author .author-avatar {
+  background-color: transparent !important;
+  border-radius: 100%;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.05);
+}
 }
