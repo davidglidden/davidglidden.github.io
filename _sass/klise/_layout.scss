@@ -193,7 +193,7 @@
     height: 70px;
     border-radius: 100%;
     user-select: none;
-    background-color: $black;
+    background-color: transparent; /* was background-color: $black; */
     -ms-user-select: none;
     -webkit-user-select: none;
     -webkit-animation: 0.5s ease-in forwards fadein;
