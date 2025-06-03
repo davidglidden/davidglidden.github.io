@@ -1,5 +1,5 @@
 ---
-title: From Mushi-Ken to Morra — The Ritual Logic of Choosing
+title: From Mushi-Ken to Morra — The Ritual of Choosing
 date: 2025-06-03
 tags: [en, essay, anthropology, ritual, decision-making, pattern-language]
 description: 
@@ -118,3 +118,32 @@ The real question isn’t only “How do we choose fairly?” but:
 **“How do we train our bodies to be part of fairness?”**
 
 In the end, these ancient mechanisms require not just observation but **vigilance**. Fairness is not a static structure, but a choreography we must keep dancing, together.
+
+***
+
+## Appendix: Global Choosing Rituals
+
+### ✦ Overview of Ritual Forms
+
+| Name            | Culture/Origin     | Description                                    | Modality             | Function                          |
+|:----------------|:-------------------|:-----------------------------------------------|:---------------------|:----------------------------------|
+| Jan-Ken         | Japan              | Rock–Paper–Scissors variant with triadic logic | Hand gesture         | Symbolic balance, playful primacy |
+| Mushi-Ken       | Japan (from China) | Slug–Snake–Frog triadic ecology                | Hand gesture         | Cyclic predation logic            |
+| Morra           | Italy, Greece      | Players guess combined hand total              | Finger count + voice | Bluffing and anticipation         |
+| Muk-Jji-Ppa     | Korea              | Reflex-driven Jan-Ken extension                | Hand gesture         | Rhythmic extension of dominance   |
+| Eeny Meeny      | Global             | Counting-out rhyme                             | Spoken chant         | Deflects choice responsibility    |
+| Plouf Plouf     | France             | Elimination rhyme                              | Spoken chant         | Group rhythm, random selection    |
+| Odd or Even     | India, China       | Guess parity of shown fingers                  | Hand gesture         | Probabilistic reasoning           |
+| Nose Goes       | Global             | Last to touch nose 'loses'                     | Gesture game         | Spontaneous exclusion             |
+| Coin Toss       | Global             | Heads or tails                                 | Object throw         | Binary chance, neutral authority  |
+| Straw Draw      | Global             | Shortest stick loses                           | Object draw          | Random fate simulation            |
+| Staring Contest | Global             | First to blink loses                           | Eye contact          | Composure as arbiter              |
+| Shell Casting   | Africa, Polynesia  | Spiritualized lot drawing                      | Object casting       | Fate + divination                 |
+
+
+## ✧ Use & Context
+
+This index collects gesture-based, rhythm-based, and object-based rituals for **nonviolent primacy**—ways in which individuals or groups decide who acts first without resorting to force or assertion.
+
+→ Related concept: *symbolic fairness through externalized agency*.
+
