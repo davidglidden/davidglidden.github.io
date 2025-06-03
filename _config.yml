@@ -8,9 +8,8 @@ mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: David F Glidden
-  bio: >-
-    Pilgrim. Modern and historical violas.
+  name: Animal Rationis Capax
+  bio: >-on art, work, and becoming.
   username: davidglidden
   email: d@davidglidden.eu
   avatar: /assets/img/avatar.png
