@@ -1,32 +1,34 @@
 # Site settings
-title: Animal Rationis Capax
-description: -on art, work, and becoming.
-lang: en-US
-timezone: Europe/Paris
-repo: https://github.com/davidglidden/davidglidden.github.io
-mode: dark # default theme "dark" | "light"
+title: "Animal Rationis Capax"
+description: "on art, work, and becoming."
+lang: "en-US"
+timezone: "Europe/Paris"
+repo: "https://github.com/davidglidden/davidglidden.github.io"
+mode: "dark" # default theme: "dark" | "light"
 
 # Profile settings
 author:
-  name: David F Glidden
-  bio: >-Pilgim since 1974. Violist.
-  username: davidglidden
-  email: d@davidglidden.eu
-  avatar: /assets/img/avatar.png
+  name: "David F Glidden"
+  bio: "Pilgrim since 1974. Violist."  # fixed typo in 'Pilgim' and corrected YAML string usage
+  username: "davidglidden"
+  email: "d@davidglidden.eu"
+  avatar: "/assets/img/avatar.png"
 
-# Url settings
+# URL settings
 url: "https://davidglidden.eu"
-baseurl:
-permalink: /:title/
-google_analytics:
-fb_appid:
+baseurl: ""  # must be empty string if site is at root of domain
+permalink: "/:title/"  # ensure valid YAML string
 
-# Collection setting
+# Analytics (disable if not in use)
+google_analytics: ""  # empty string is safer than undefined
+fb_appid: ""
+
+# Collection settings
 collections:
   posts:
     output: true
 
-# Markdown settings
+# Markdown and syntax highlighting
 markdown: kramdown
 highlighter: rouge
 kramdown:
@@ -35,21 +37,21 @@ kramdown:
 # Default front matter
 defaults:
   - scope:
-      path: ""
+      path: ""  # applies to all files
     values:
-      layout: post
+      layout: "post"
       comments: false
 
 # Jekyll Compose default front matter
 jekyll_compose:
   post_default_front_matter:
-    modified:
+    modified: ""
     tags: []
-    description:
+    description: ""
   draft_default_front_matter:
-    modified:
+    modified: ""
     tags: []
-    description:
+    description: ""
 
 # Build settings
 sass:
