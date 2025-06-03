@@ -63,9 +63,34 @@ My way of moving through the world has been shaped by four essential voices:
 
 Together, these four minds offer tools for recognizing that no moment is merely technical, no observation purely objective, no practice separate from the larger questions of how we choose to live.
 
-### **Interlude: The Desk**
+### Interlude: The Desk
 
-There is a small table beneath the window. Morning light from the northeast. A pen. A small notebook. A crafted mug full of steaming coffee. My son is not yet born but already visible here in the careful arrangement of silence around this space. This is the room where I begin.
+There is a desk beneath the window. Morning light from the northeast. The shutters open just enough to let the day arrive gently. A red writing mat anchors the surface. Papers rest in loose formations. A mechanical pencil. A thin notebook. A handmade mug, still warm.
+
+The mug is thick-walled, unglazed at the base, ochre and grey like riverbank clay. It holds heat like a body, which feels honest. I don't reach for it so much as return to it. It's not the best mug. It's the one that understands waiting. Steam rises from the surface of the coffee in vapor-spirals.
+
+My son is not yet born, but I feel his presence. He reshapes the silence around me. I write more slowly now--not because there is less time, but because the time I have feels newly textured. He is the breath before the phrase, the stillness before the page turns.
+
+And my daughter--
+
+She is not in this room, but the room bears her shape.  
+The turn of the chair toward the light.  
+The way I hesitate before beginning.  
+The softness I now permit myself.  
+
+There are days her absence presses against the edges of the morning. But even then, she is what steadies my hand. What draws me back to unfinished thoughts. What teaches me that holding on is not the same as not letting go.
+
+This desk is not where I work.
+
+It's where I return, when I want to listen more carefully.
+
+To what matters.
+
+To who I'm becoming.
+
+To what love requires of me next.
+
+This is the room where I begin.
 
 ---
 
