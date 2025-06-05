@@ -83,4 +83,8 @@ plugins:
   - jekyll-sass-converter
   - jekyll-sitemap
   - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-compress-html
+  - jekyll-assets
+  - jekyll-picture-tag
 
