@@ -1,6 +1,6 @@
 ---
 title: "‎⁨Phnom Penh⁩, ⁨Cambodia⁩"
-date: 2013-06-22
+date: 2013-04-22
 location: 11.562333, 104.914333
 tags: [en, travel, seen]
 description: 
