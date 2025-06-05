@@ -1,8 +1,7 @@
 // Post wrapper
-// Post wrapper
 .wrapper.post {
-  max-width: $wide-size; // or whatever your base content width is
-  margin: 0 auto;
+  margin: 0 auto; // center the block horizontally
+  max-width: $wide-size; // constrain width
   padding-left: $spacing-full;
   padding-right: $spacing-full;
 
