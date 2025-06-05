@@ -1,0 +1,43 @@
+// Animation: fade-in
+@keyframes fadein {
+  0% {
+    opacity: 0.1;
+    transform: translateY(1px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+// Responsive video embed with slight aesthetic polish
+.embed-responsive {
+  position: relative;
+  padding-bottom: 56.25%; // 16:9 aspect ratio
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  border-radius: 4px;
+  background-color: #000; // subtle fallback
+
+  iframe,
+  object,
+  embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+}
+
+// Optional enhancement for smoother image loading (Butterick-style)
+img {
+  transition: opacity 0.3s ease-in-out;
+  opacity: 1;
+
+  &.lazy {
+    opacity: 0;
+  }
+}
