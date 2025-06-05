@@ -1,5 +1,12 @@
 // _base.scss — refined for typographic clarity and subtle elegance
-
+// Define clearfix helper
+%clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
 $baseline: 1.5rem;
 $accent-color: #ff0000;
 
