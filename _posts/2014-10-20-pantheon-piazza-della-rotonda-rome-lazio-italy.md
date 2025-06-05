@@ -1,5 +1,5 @@
 ---
-title: "‎⁨Piazza Pantheon, ‎⁨Piazza della Rotonda⁩, ⁨Rome⁩, ⁨Lazio⁩, ⁨Italy⁩"
+title: "‎⁨Pantheon, ‎⁨Piazza della Rotonda⁩, ⁨Rome⁩, ⁨Lazio⁩, ⁨Italy⁩"
 date: 2014-10-20
 location: 41.899167, 12.476811
 tags: [en, travel, seen]
