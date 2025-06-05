@@ -1,0 +1,172 @@
+// Code
+code {
+  font-family: $mono-family;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "calt" 1;
+  font-variant-ligatures: normal;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  font-size: inherit;
+
+  &.highlighter-rouge {
+    padding: 2px 5px;
+    position: relative;
+    top: -1px;
+    background-color: #f6f6f6;
+    border-radius: 3px;
+    color: $accent-color; // Highlights inline code
+  }
+}
+
+// Codeblock Theme
+pre.highlight {
+  margin: 0 -27px;
+  @include media-query($on-mobile) {
+    margin: 0 calc(51% - 51vw);
+    padding-left: 20px;
+  }
+  border-radius: 4px;
+  padding: 12px;
+  display: block;
+  overflow-x: auto;
+  background-color: #1a1b21;
+
+  > code {
+    width: 100%;
+    max-width: 50rem;
+    margin: 0 auto;
+    line-height: 1.6;
+    display: block;
+    border: 0;
+    font-size: 0.95em;
+  }
+}
+
+// Tables in code blocks
+.highlight table td {
+  padding: 5px;
+}
+.highlight table pre {
+  margin: 0;
+}
+
+// General background and foreground
+.highlight,
+.highlight .w {
+  color: #fbf1c7;
+  background-color: #1a1b21;
+}
+
+// Errors
+.highlight .err {
+  color: $accent-color;
+  background-color: #1a1b21;
+  font-weight: bold;
+}
+
+// Comments
+.highlight .c,
+.highlight .cd,
+.highlight .cm,
+.highlight .c1,
+.highlight .cs {
+  color: #928374;
+  font-style: italic;
+}
+
+// Preprocessor directives
+.highlight .cp {
+  color: #8ec07c;
+}
+
+// Tags and operators
+.highlight .nt,
+.highlight .o,
+.highlight .ow {
+  color: $accent-color;
+}
+
+// Punctuation
+.highlight .p,
+.highlight .pi {
+  color: #fbf1c7;
+}
+
+// Insertions and deletions
+.highlight .gi {
+  color: #b8bb26;
+  background-color: #282828;
+}
+.highlight .gd {
+  color: $accent-color;
+  background-color: #282828;
+}
+
+// Headings and keywords
+.highlight .gh {
+  color: #b8bb26;
+  font-weight: bold;
+}
+.highlight .k,
+.highlight .kn,
+.highlight .kp,
+.highlight .kr,
+.highlight .kv {
+  color: $accent-color;
+}
+
+// Constants and types
+.highlight .kc {
+  color: #d3869b;
+}
+.highlight .kt {
+  color: #fabd2f;
+}
+.highlight .kd {
+  color: #fe8019;
+}
+
+// Strings
+.highlight .s,
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .s2,
+.highlight .sh,
+.highlight .sx,
+.highlight .s1,
+.highlight .si,
+.highlight .sr {
+  color: #b8bb26;
+  font-style: italic;
+}
+.highlight .se {
+  color: #fe8019;
+}
+
+// Class names, attributes, numbers
+.highlight .nn,
+.highlight .nc {
+  color: #8ec07c;
+}
+.highlight .na {
+  color: #b8bb26;
+}
+.highlight .no {
+  color: #d3869b;
+}
+.highlight .m,
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .il,
+.highlight .mo,
+.highlight .mb,
+.highlight .mx {
+  color: #d3869b;
+}
+.highlight .ss {
+  color: #83a598;
+}
