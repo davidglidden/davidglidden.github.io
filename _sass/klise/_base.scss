@@ -1,0 +1,176 @@
+// _base.scss — refined for typographic clarity and subtle elegance
+
+$baseline: 1.5rem;
+$accent-color: #ff0000;
+
+html {
+  overflow-x: hidden;
+  width: 100%;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr, dl,
+dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+  color: $text-base-color;
+  background-color: $white;
+  font: $normal-weight #{$base-font-size}/#{$base-line-height} $sans-family;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+}
+
+// Typography rhythm
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, ul, ol, dl, figure {
+  margin-top: $baseline;
+  margin-bottom: $baseline;
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $bold-weight;
+  color: $black;
+  line-height: 1.25;
+}
+
+// Lists
+ul, ol {
+  margin-left: $spacing-full;
+  padding-left: 0;
+}
+
+ul {
+  list-style: none;
+
+  li {
+    position: relative;
+    padding-left: 1.2em;
+
+    &::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: $accent-color;
+      font-size: 1.1em;
+    }
+  }
+}
+
+ol {
+  list-style: decimal;
+  list-style-position: outside;
+  padding-left: 1.4em;
+}
+
+// Links
+a {
+  color: $accent-color;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  text-decoration-thickness: 1px;
+
+  &:hover,
+  &:focus {
+    color: darken($accent-color, 10%);
+  }
+
+  &:focus {
+    outline: 2px dashed $accent-color;
+    outline-offset: 2px;
+  }
+}
+
+// Blockquotes
+blockquote {
+  border-left: 3px solid $accent-color;
+  padding-left: 1.25rem;
+  font-style: italic;
+  color: $gray;
+  margin-left: 0;
+  margin-right: 0;
+  opacity: 0.9;
+}
+
+// Code
+code {
+  font-family: $mono-family;
+  background: $light;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+  font-size: 0.95em;
+  color: $black;
+}
+
+pre {
+  background: $light;
+  padding: 1em;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-family: $mono-family;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+// Images
+img {
+  max-width: 100%;
+  display: block;
+  margin: $baseline auto;
+}
+
+// HR
+hr {
+  border: none;
+  border-top: 1px solid $light;
+  margin: $baseline 0;
+}
+
+// Selection
+::selection {
+  background: #fff0f0;
+  color: $black;
+}
+
+// Tables
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: $small-font-size;
+  margin-top: $baseline;
+
+  th,
+  td {
+    border: 1px solid $light;
+    padding: 0.5rem;
+  }
+
+  thead {
+    font-weight: $bold-weight;
+    background: $light;
+  }
+}
+
+// Superscript
+sup {
+  font-size: 0.8em;
+  vertical-align: super;
+}
+
+// Footnotes, kbd, del, em, etc. can be added here if you want more fine control
