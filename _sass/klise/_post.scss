@@ -1,0 +1,244 @@
+// Post wrapper
+.wrapper.post {
+  @include media-query($on-mobile) {
+    padding-left: $spacing-half;
+    padding-right: $spacing-half;
+  }
+}
+
+// Post title area
+.header {
+  margin-top: 8em;
+  margin-bottom: 3em;
+
+  .tags {
+    margin-left: 3px;
+    letter-spacing: 0.03em;
+
+    .tag {
+      font-weight: $bold-weight;
+      font-size: $small-font-size - 1;
+      color: $accent-color;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .header-title {
+    font-size: 2.2em;
+    line-height: 1.25;
+    margin: 10px 0 20px;
+
+    &.center {
+      text-align: center;
+    }
+
+    @include media-query($on-mobile) {
+      font-size: 2em;
+    }
+  }
+}
+
+// Post meta
+.post-meta {
+  font-family: $mono-family;
+  font-size: $small-font-size;
+  padding-top: 5px;
+  line-height: 1.4;
+  color: $gray;
+
+  time {
+    position: relative;
+    margin-right: 1.5em;
+
+    &::after {
+      background: $light;
+      bottom: 1px;
+      content: " ";
+      height: 2px;
+      position: absolute;
+      right: -20px;
+      width: 12px;
+    }
+  }
+
+  span[itemprop="author"] {
+    border-bottom: 1px dotted $light;
+  }
+}
+
+// Post content
+.page-content {
+  padding-top: 10px;
+
+  iframe {
+    text-align: center;
+  }
+
+  figure {
+    img {
+      border-radius: 3px;
+    }
+
+    figcaption {
+      margin-top: 8px;
+      font-style: italic;
+      font-size: $small-font-size;
+      text-align: center;
+      opacity: 0.85;
+    }
+  }
+
+  a {
+    color: $accent-color;
+    text-decoration: underline;
+
+    &[target="_blank"]::after {
+      content: " \2197";
+      font-size: $small-font-size;
+      position: relative;
+      bottom: 3px;
+    }
+
+    &:hover {
+      color: darken($accent-color, 10%);
+    }
+
+    &:focus {
+      outline: 2px dashed lighten($accent-color, 20%);
+      outline-offset: 3px;
+    }
+  }
+
+  > p {
+    margin: 0;
+    padding: $spacing-full 0;
+    line-height: 1.6;
+  }
+
+  ul.task-list {
+    list-style: none;
+    margin: 0;
+
+    li input[type="checkbox"] {
+      margin-right: 10px;
+    }
+  }
+
+  dl dt {
+    font-weight: $bold-weight;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: $bold-weight;
+    color: $black;
+    margin-top: $spacing-full;
+    margin-bottom: $spacing-half;
+
+    &:hover .anchor-head {
+      opacity: 1;
+      color: $accent-color;
+    }
+
+    .anchor-head {
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      position: relative;
+      margin-left: 4px;
+
+      &::before {
+        content: "#";
+        font-weight: $bold-weight;
+      }
+    }
+  }
+
+  h1 {
+    @include relative-font-size(1.75);
+  }
+
+  h2 {
+    @include relative-font-size(1.5);
+  }
+
+  h3 {
+    @include relative-font-size(1.25);
+    border-bottom: 1px solid $light;
+    padding-bottom: 4px;
+  }
+
+  h4 {
+    @include relative-font-size(1.125);
+  }
+
+  h5 {
+    @include relative-font-size(1);
+  }
+
+  h6 {
+    @include relative-font-size(0.875);
+  }
+}
+
+// Post navigation
+.post-nav {
+  display: flex;
+  margin-top: 6em;
+  border-top: 1px solid $light;
+
+  .post-nav-item {
+    width: 50%;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    font-weight: $bold-weight;
+
+    .post-title {
+      color: $black;
+    }
+
+    &:hover .post-title {
+      color: $accent-color;
+      opacity: 0.9;
+    }
+
+    .nav-arrow {
+      font-weight: $normal-weight;
+      font-size: $small-font-size;
+      color: $gray;
+    }
+
+    &:nth-child(odd) {
+      padding-right: 20px;
+    }
+
+    &:nth-child(even) {
+      padding-left: 20px;
+      text-align: right;
+    }
+  }
+
+  @include media-query($on-mobile) {
+    display: block;
+    font-size: $small-font-size;
+
+    .post-nav-item {
+      width: 100%;
+      padding: 10px 0;
+    }
+
+    .post-nav-item:nth-child(even) {
+      border-top: 1px solid $light;
+    }
+  }
+}
+
+// Optional update timestamp
+.post-updated-at {
+  font-family: $mono-family;
+  font-size: $small-font-size;
+  text-align: right;
+  opacity: 0.65;
+  margin-top: 1em;
+}
