@@ -22,7 +22,9 @@ code {
 
 // Codeblock Theme
 pre.highlight {
-  margin: 0 -27px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
   @include media-query($on-mobile) {
     margin: 0 calc(51% - 51vw);
     padding-left: 20px;
