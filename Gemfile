@@ -25,6 +25,11 @@ group :jekyll_plugins do
   gem 'jekyll-compose'
   gem 'jekyll-postfiles', '~> 3.0'
   gem 'rouge', '3.3.0'
+  gem "jekyll-paginate-v2"
+  gem "jekyll-seo-tag"
+  gem "jekyll-compress-html"
+  gem "jekyll-assets"
+  gem "jekyll-picture-tag"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
