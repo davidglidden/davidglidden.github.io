@@ -1,11 +1,16 @@
 // Post wrapper
+// Post wrapper
 .wrapper.post {
+  max-width: $wide-size; // or whatever your base content width is
+  margin: 0 auto;
+  padding-left: $spacing-full;
+  padding-right: $spacing-full;
+
   @include media-query($on-mobile) {
     padding-left: $spacing-half;
     padding-right: $spacing-half;
   }
 }
-
 // Post title area
 .header {
   margin-top: 8em;
