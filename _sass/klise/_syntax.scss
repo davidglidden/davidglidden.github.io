@@ -22,27 +22,25 @@ code {
 
 // Codeblock Theme
 pre.highlight {
-  margin: 0 auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  margin: 0 auto; // centers the block
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 10px;
+  border-radius: 2px;
+
   @include media-query($on-mobile) {
-    margin: 0 calc(51% - 51vw);
+    margin: 0 auto;
     padding-left: 20px;
   }
-  border-radius: 4px;
-  padding: 12px;
-  display: block;
-  overflow-x: auto;
-  background-color: #1a1b21;
 
   > code {
     width: 100%;
     max-width: 50rem;
-    margin: 0 auto;
-    line-height: 1.6;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
+    line-height: 1.5;
     border: 0;
-    font-size: 0.95em;
   }
 }
 
