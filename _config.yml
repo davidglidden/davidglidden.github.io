@@ -20,8 +20,10 @@ baseurl: ""  # must be empty string if site is at root of domain
 permalink: "/:title/"  # ensure valid YAML string
 
 # Pagination settings
-paginate: 5
-paginate_path: "/page:num/"
+pagination:
+  enabled: true
+  per_page: 7
+  permalink: '/page:num/'
 
 # Analytics (disable if not in use)
 google_analytics: ""  # empty string is safer than undefined
@@ -80,5 +82,5 @@ plugins:
   - jekyll-feed
   - jekyll-sass-converter
   - jekyll-sitemap
-  - jekyll-paginate
+  - jekyll-paginate-v2
 
