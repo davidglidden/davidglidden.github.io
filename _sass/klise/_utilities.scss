@@ -1,0 +1,43 @@
+// _utilities.scss — expressive typographic helpers for Animal Rationis Capax
+
+.small-caps {
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+  text-transform: lowercase;
+}
+
+.oldstyle {
+  font-feature-settings: "onum";
+}
+
+.ligatures {
+  font-variant-ligatures: common-ligatures discretionary-ligatures;
+}
+
+.no-ligatures {
+  font-variant-ligatures: none;
+  font-feature-settings: "liga" 0, "dlig" 0;
+}
+
+.poetic {
+  font-style: italic;
+  color: #444;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.75;
+}
+
+.callout {
+  background-color: #f9f9f9;
+  border-left: 4px solid #ccc;
+  padding: 1rem;
+  margin: 2rem 0;
+  font-style: italic;
+  font-size: 0.95em;
+}
+
+.whisper {
+  font-size: 0.85rem;
+  color: #777;
+  font-style: italic;
+}

@@ -272,4 +272,15 @@
       color: darken($accent-color, 10%);
     }
   }
+
+// Mobile-friendly spacing for post content
+.wrapper.post {
+  padding-left: $spacing-half;
+  padding-right: $spacing-half;
+
+  @include media-query($on-tablet) {
+    padding-left: $spacing-full;
+    padding-right: $spacing-full;
+  }
+}
 }
