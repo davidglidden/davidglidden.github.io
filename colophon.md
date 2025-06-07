@@ -80,21 +80,75 @@ The softness I now permit myself.
 
 There are days her absence presses against the edges of the morning. But even then, she is what steadies my hand. What draws me back to unfinished thoughts. What teaches me that holding on is not the same as not letting go.
 
-This desk is not where I work.
-
-It's where I return, when I want to listen more carefully.
-
-To what matters.
-
-To who I'm becoming.
-
-To what love requires of me next.
-
-This is the room where I begin.
+This desk is not where I work.  
+It's where I return, when I want to listen more carefully.  
+To what matters.  
+To who I'm becoming.  
+To what love requires of me next.  
+This is the room where I begin.  
 
 ---
 
-## II. TOOLS
+
+## II. TYPOGRAPHY
+
+On Shape, Substance, and the Time of the Page
+
+This site’s typography is not decorative—it is epistemological. It expresses a belief: that form shapes thought, and that good design is not a matter of taste but of ethical and cognitive alignment.
+
+The typographic system draws from centuries of typographic tradition and contemporary design craft. It aims for clarity without sterility, personality without pretension. Inspired by the quiet power of early printed books and the balanced restraint of modernist humanism, this system seeks legibility, rhythm, and grace.
+
+### Core Typefaces
+
+Body: EB Garamond
+A digital revival of Claude Garamont’s 16th-century type, as interpreted by Octavio Pardo and Georg Duffner. With its calligraphic detail and generous spacing, it offers warmth, dignity, and a whisper of history—fitting for a site concerned with time, presence, and memory.
+
+Interface and Headings: IBM Plex Sans
+Developed by Bold Monday and IBM to embody humanist engineering. Its rational structure and friendly tone pair well with Garamond’s organic voice, offering contrast without dissonance.
+
+Code and Monospace: IBM Plex Mono
+A companion to Plex Sans, used sparingly for technical contexts and subtle tonal shifts.
+
+Small Caps: EB Garamond SC
+Used selectively for emphasis, hierarchy, and semantic nuance. True small caps, not faux transformations—typography that honors the microstructure of meaning.
+
+### Typographic Values
+
+- Scale: Base size 20px with a modular scale of 1.25, creating proportional, readable hierarchies
+- Line: Generous line height (1.6) for clarity and calm
+- Measure: Max width of 68ch for optimal line length—encouraging reflection, not skimming
+- Ligatures: Enabled for elegance; discretionary ligatures in poetic contexts
+- Oldstyle Figures: Used where appropriate to match textual rhythm
+
+### Expressive Utility Classes
+
+A small typographic utility library extends Markdown’s capabilities. These SCSS classes allow expressive variation within a semantic system:
+
+```
+.small-caps    // true small caps with letter spacing
+.oldstyle      // oldstyle numerals
+.ligatures     // discretionary and common ligatures
+.no-ligatures  // typographic silence
+.poetic        // italicized, softened rhythm
+.callout       // block quote emphasis
+.whisper       // subdued aside
+```
+
+### Usage Philosophy
+
+Typography is not neutral. Every line break, ligature, and space speaks. The system here aspires to:
+- Invite attentive reading
+- Reflect the slow time of craftsmanship
+- Embody the ethics of legibility and care
+
+This colophon section itself is an example. Where appropriate, classes like .small-caps, .poetic, and .oldstyle are used to let the typography not just convey the text—but participate in its meaning.
+
+“The artist constructs a new symbol with his brush. This symbol is not the likeness of a face, but the feeling of an event.”
+— John Berger
+
+***
+
+## III. TOOLS
 
 > *"The tool is the instructor of man."*  
 > —Not merely by enabling action, but by shaping attention, memory, and care.
@@ -154,7 +208,7 @@ These are the companions I consult. I choose tools not to finish faster, but to 
 
 ---
 
-## III. CONTACT
+## IV. CONTACT
 
 - Email: [d@davidglidden.eu](mailto:d@davidglidden.eu). I don’t use Zoom.  
 - Bitcoin: `1E1itBAUEdYiKNjw8GXEeNcYLQgoaoF4wu`  
@@ -162,7 +216,7 @@ These are the companions I consult. I choose tools not to finish faster, but to 
 
 ---
 
-## IV. SITE DETAILS
+## V. SITE DETAILS
 
 ### Hosting & Engine
 
@@ -171,12 +225,6 @@ These are the companions I consult. I choose tools not to finish faster, but to 
 - Built with [Jekyll](https://jekyllrb.com)  
 - Written in [Markdown](https://daringfireball.net/projects/markdown/) using [iA Writer](https://ia.net/writer)
 
-### Typography
-
-- Body: [EB Garamond](https://github.com/octaviopardo/EBGaramond12)  
-- Code: [IBM Plex Mono](https://www.ibm.com/plex/)  
-- Base font size: `20px` at `1.3` line height  
-- Fonts served via [Google Fonts](https://fonts.google.com)
 
 ### Version
 

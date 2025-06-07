@@ -273,7 +273,169 @@
     }
   }
 
-// Mobile-friendly spacing for post content
+
+}
+}
+ger {
+      visibility: hidden;
+    }
+
+    input[type="checkbox"]:checked ~ .trigger {
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: $white;
+      height: 100vh;
+      width: 100%;
+      top: 0;
+      animation: 0.2s ease-in forwards fadein;
+    }
+
+    .menu-link {
+      display: block;
+      font-size: 1.1em;
+      padding: 6px 0;
+      margin: 0;
+    }
+  }
+}
+
+// Author section
+.author {
+  margin: 6.3rem auto 7.2rem;
+  text-align: center;
+
+  @include media-query($on-mobile) {
+    margin-bottom: 3em;
+  }
+
+  .author-avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 100%;
+    background-color: transparent;
+    animation: 0.5s ease-in forwards fadein;
+  }
+
+  .author-name {
+    font-size: 1.6em;
+    font-weight: $bold-weight;
+    margin-bottom: 0.4rem;
+  }
+
+  .author-bio {
+    margin: 0 auto;
+    max-width: 420px;
+    line-height: 1.6;
+    opacity: 0.85;
+  }
+}
+
+// Post list
+.post-item {
+  display: flex;
+  padding: 6px 0;
+  @extend %clearfix;
+
+  &:not(:first-child) {
+    border-top: 1px solid $light;
+  }
+
+  .post-item-date {
+    min-width: 96px;
+    font-weight: $bold-weight;
+    color: $black;
+    padding-right: 10px;
+    font-variant-numeric: tabular-nums;
+
+    @include media-query($on-mobile) {
+      font-size: 16px;
+    }
+  }
+
+  .post-item-title {
+    margin: 0;
+    color: $text-base-color;
+
+    a {
+      text-decoration: none;
+      &:hover {
+        color: $accent-color;
+      }
+    }
+  }
+}
+
+// Footer
+.footer {
+  margin: 8em auto 2em;
+  text-align: center;
+
+  @include media-query($on-mobile) {
+    margin-top: 3em;
+  }
+
+  .footer_item {
+    color: $black;
+    opacity: 0.8;
+    font-weight: $bold-weight;
+    font-size: $small-font-size;
+
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  .footer_theme-copyright {
+    display: block;
+    font-size: $small-font-size - 1;
+    color: $gray;
+    opacity: 0.8;
+    margin-top: 3px;
+  }
+}
+
+// 404 page
+.wrapper.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 75vh;
+  text-align: center;
+
+  .title {
+    font-size: 5em;
+    font-weight: $bold-weight;
+    line-height: 1.1;
+    color: $black;
+    text-shadow: 1px 0 0 $accent-color;
+  }
+
+  .phrase {
+    color: $text-base-color;
+  }
+
+  .solution {
+    color: $accent-color;
+    letter-spacing: 0.5px;
+
+    &:hover {
+      color: darken($accent-color, 10%);
+    }
+  }
+
+
+}
+}
+
+
+// Mobile-friendly spacing for post content (correct placement)
 .wrapper.post {
   padding-left: $spacing-half;
   padding-right: $spacing-half;
@@ -282,5 +444,4 @@
     padding-left: $spacing-full;
     padding-right: $spacing-full;
   }
-}
 }
