@@ -1,0 +1,38 @@
+// Force correct centering with maximum specificity
+body {
+  .navbar {
+    margin: 0 auto !important;
+    max-width: 890px !important;
+    padding: 24px 30px !important;
+  }
+  
+  .author {
+    margin: 6.3rem auto 7.2rem auto !important;
+    max-width: 890px !important;
+    padding: 0 30px !important;
+    
+    .author-bio {
+      margin: 0 auto !important;
+      padding: 0 !important;
+    }
+  }
+  
+  .post-list {
+    max-width: 890px !important;
+    margin: 0 auto !important;
+    padding: 0 30px !important;
+  }
+  
+  .footer {
+    margin: 8em auto 2em auto !important;
+    max-width: 890px !important;
+    padding: 60px 30px !important;
+  }
+}
+
+// Remove all the layout-fix rules that aren't working
+.site-container,
+.text-container {
+  // Remove these - they're causing conflicts
+  display: none !important;
+}
