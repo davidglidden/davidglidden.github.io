@@ -1,0 +1,303 @@
+// ================================================
+// New Layout System for Animal Rationis Capax
+// ================================================
+// Principle: Generous margins that breathe, with smart
+// responsive behavior and edge-to-edge capability
+
+// 1. Reset & Foundation
+// ================================================
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  max-width: 100%; // Override _fonts.scss constraint
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  
+  // Preserve typography settings
+  font: $normal-weight #{$base-font-size}/#{$base-line-height} $sans-family;
+  color: $text-base-color;
+  background-color: $white;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+}
+
+// 2. iA-Style Container System
+// ================================================
+// Define responsive padding that scales beautifully
+:root {
+  --padding-x: #{$spacing-full}; // 30px base
+  --padding-y: #{$spacing-full};
+  
+  @media (min-width: 768px) {
+    --padding-x: calc(50px + 2vw); // Scales with viewport
+  }
+  
+  @media (min-width: 1024px) {
+    --padding-x: calc(80px + 4vw); // Generous desktop margins
+  }
+  
+  @media (min-width: 1440px) {
+    --padding-x: 120px; // Cap at reasonable maximum
+  }
+}
+
+// 3. Main Container Classes
+// ================================================
+.site-container {
+  max-width: 1200px; // Wider container for breathing room
+  margin: 0 auto;
+  padding: 0 var(--padding-x);
+  
+  @include media-query($on-mobile) {
+    padding: 0 20px; // Tighter but clean mobile padding
+  }
+}
+
+.text-container {
+  max-width: $narrow-size; // 720px for optimal reading
+  margin: 0 auto;
+}
+
+// 4. Navigation with iA-style spacing
+// ================================================
+.navbar {
+  padding: 24px 0;
+  margin: 0 auto;
+  max-width: 1200px;
+  
+  // Inner padding that aligns with content
+  .navbar-inner {
+    padding: 0 var(--padding-x);
+    
+    @include media-query($on-mobile) {
+      padding: 0 20px;
+    }
+  }
+  
+  border-bottom: 1px solid $light;
+  
+  @include media-query($on-mobile) {
+    padding: 16px 0;
+  }
+}
+
+// 5. Page Content Areas
+// ================================================
+.wrapper {
+  &.post {
+    padding: calc(var(--padding-y) * 2) var(--padding-x);
+    
+    @include media-query($on-mobile) {
+      padding: 40px 20px;
+    }
+  }
+}
+
+// Post header with generous spacing
+.header {
+  margin-bottom: calc(var(--padding-y) * 2);
+  
+  @include media-query($on-mobile) {
+    margin-bottom: 40px;
+  }
+  
+  .header-title {
+    @extend .text-container;
+    font-size: 2.5em;
+    line-height: 1.2;
+    margin-bottom: 24px;
+    
+    @include media-query($on-mobile) {
+      font-size: 2em;
+      margin-bottom: 16px;
+    }
+  }
+  
+  .post-meta {
+    @extend .text-container;
+    font-size: 0.9em;
+    color: $gray;
+  }
+}
+
+// 6. Content with iA-style image handling
+// ================================================
+.page-content {
+  // Text elements constrained to reading width
+  > p,
+  > ul:not(.task-list),
+  > ol,
+  > dl,
+  > blockquote,
+  > .poetic,
+  > .callout,
+  > h1, > h2, > h3, > h4, > h5, > h6 {
+    @extend .text-container;
+    margin-bottom: 1.5em;
+  }
+  
+  // Blockquotes with elegant spacing
+  > blockquote {
+    padding: 1.5em 0;
+    margin: 2em auto;
+    border-left: 2px solid $accent-color;
+    padding-left: 1.5em;
+  }
+  
+  // Code blocks slightly wider
+  > pre,
+  > .highlight {
+    @extend .text-container;
+    max-width: calc(#{$narrow-size} + 100px);
+    margin: 2em auto;
+    padding: 1.5em;
+    overflow-x: auto;
+    
+    @include media-query($on-mobile) {
+      margin-left: -20px;
+      margin-right: -20px;
+      padding: 1.5em 20px;
+      border-radius: 0;
+    }
+  }
+  
+  // Images can break out to container width
+  > figure,
+  > p > img,
+  > img {
+    display: block;
+    max-width: calc(100% + (var(--padding-x) * 2));
+    width: calc(100% + (var(--padding-x) * 2));
+    margin: 3em calc(var(--padding-x) * -1);
+    
+    @include media-query($on-mobile) {
+      max-width: calc(100% + 40px);
+      width: calc(100% + 40px);
+      margin: 2em -20px;
+    }
+    
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  // Captions stay within text measure
+  figcaption {
+    @extend .text-container;
+    padding: 0.5em var(--padding-x);
+    font-size: 0.9em;
+    color: $gray;
+    
+    @include media-query($on-mobile) {
+      padding: 0.5em 20px;
+    }
+  }
+  
+  // Special class for full-bleed images
+  .full-bleed {
+    max-width: 100vw;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+  }
+  
+  // Tables responsive
+  > table {
+    @extend .text-container;
+    margin: 2em auto;
+    
+    @include media-query($on-mobile) {
+      display: block;
+      overflow-x: auto;
+      max-width: calc(100vw - 40px);
+    }
+  }
+}
+
+// 7. Home/Archive Pages
+// ================================================
+.home,
+.archive {
+  padding: calc(var(--padding-y) * 2) var(--padding-x);
+  
+  @include media-query($on-mobile) {
+    padding: 40px 20px;
+  }
+  
+  .author {
+    @extend .text-container;
+    margin: calc(var(--padding-y) * 3) auto;
+    text-align: center;
+    
+    .author-bio {
+      max-width: 480px;
+      margin: 1em auto;
+      line-height: 1.6;
+    }
+  }
+  
+  .post-list {
+    @extend .text-container;
+    
+    .post-item {
+      padding: 20px 0;
+      
+      &:not(:first-child) {
+        border-top: 1px solid rgba($light, 0.5);
+      }
+    }
+  }
+}
+
+// 8. Footer with generous spacing
+// ================================================
+.footer {
+  margin-top: calc(var(--padding-y) * 4);
+  padding: calc(var(--padding-y) * 2) var(--padding-x);
+  text-align: center;
+  
+  @include media-query($on-mobile) {
+    margin-top: 60px;
+    padding: 40px 20px;
+  }
+}
+
+// 9. Utility Classes
+// ================================================
+.narrow {
+  @extend .text-container;
+}
+
+.wide {
+  max-width: 100%;
+}
+
+// 10. Dark Mode Preservation
+// ================================================
+body[data-theme="dark"] {
+  // All spacing remains consistent
+  // Only colors change
+}
+
+// 11. Override problematic existing styles
+// ================================================
+// This goes at the END to ensure it takes precedence
+body {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+// Remove double-padding from existing styles
+.wrapper.post.post {
+  padding-left: 0;
+  padding-right: 0;
+}
