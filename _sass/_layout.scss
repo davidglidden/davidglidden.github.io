@@ -277,6 +277,9 @@
 
 // Mobile-friendly spacing for post content (correct placement)
 .wrapper.post {
+  max-width: $wide-size;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: $spacing-half;
   padding-right: $spacing-half;
 
