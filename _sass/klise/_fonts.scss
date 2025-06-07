@@ -2,7 +2,7 @@
 // Call them
 @font-face {
   font-family: 'EB Garamond';
-  src: url('/fonts/EBGaramond-Regular.woff2') format('woff2');
+  src: url('/fonts/eb-garamond/EBGaramond-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: 'EB Garamond';
-  src: url('/fonts/EBGaramond-Italic.woff2') format('woff2');
+  src: url('/fonts/eb-garamond/EBGaramond-Italic.woff2') format('woff2');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -18,9 +18,24 @@
 
 @font-face {
   font-family: 'EB Garamond';
-  src: url('/fonts/EBGaramond-Bold.woff2') format('woff2');
+  src: url('/fonts/eb-garamond/EBGaramond-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'EB Garamond SC';
+  src: url('/fonts/eb-garamond/EBGaramondSC-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EB Garamond SC Display';
+  src: url('/fonts/eb-garamond/EBGaramondSC-Display.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
   font-display: swap;
 }
 
