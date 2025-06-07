@@ -148,9 +148,11 @@
 
 // Author section
 .author {
-  margin: 6.3rem auto 7.2rem;
+  margin-top: 6.3rem;
+  margin-bottom: 7.2rem;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-
   @include media-query($on-mobile) {
     margin-bottom: 3em;
   }
@@ -214,12 +216,15 @@
 
 // Footer
 .footer {
-  margin: 8em auto 2em;
+  margin-top: 8em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-
   @include media-query($on-mobile) {
     margin-top: 3em;
   }
+}
 
   .footer_item {
     color: $black;
