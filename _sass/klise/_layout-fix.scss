@@ -301,3 +301,23 @@ body {
   padding-left: 0;
   padding-right: 0;
 }
+// Force correct centering - add this at the VERY END
+.navbar {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 1200px !important;
+}
+
+// Also ensure author and post-list are centered
+.author,
+.post-list,
+.footer {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+// Remove any stray margins on body
+body > * {
+  margin-left: auto;
+  margin-right: auto;
+}
