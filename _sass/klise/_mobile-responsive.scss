@@ -50,9 +50,10 @@ html {
 
 // 4. Mobile-Optimized Content Padding
 // ================================================
-// Home and archive pages
-.home,
-.archive {
+// Main wrapper padding (applies to all pages)
+.wrapper {
+  padding: 30px var(--content-padding);
+  
   @include media-query($on-mobile) {
     padding: 30px var(--content-padding);
     
@@ -61,9 +62,19 @@ html {
       padding: 20px 16px;
     }
   }
+  
+  // Ensure main content area has proper constraints
+  main {
+    max-width: $narrow-size;
+    margin: 0 auto;
+    
+    @include media-query($on-mobile) {
+      max-width: 100%;
+    }
+  }
 }
 
-// Individual posts
+// Individual posts might need extra spacing
 .wrapper {
   &.post {
     @include media-query($on-mobile) {
@@ -100,9 +111,7 @@ html {
   }
   
   // Adjust content to account for sticky nav
-  .wrapper.post,
-  .home,
-  .archive {
+  .wrapper {
     padding-top: 70px; // 50px nav + 20px spacing
   }
 }
