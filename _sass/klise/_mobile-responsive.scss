@@ -1,0 +1,380 @@
+// _mobile-responsive.scss — iA Writer-inspired responsive refinements
+// ================================================
+// Purpose: Enhance mobile reading experience while preserving
+// the site's classical typographic character
+
+// 1. iA-Style Responsive Variables
+// ================================================
+:root {
+  // Base spacing that scales with viewport
+  --base-padding: 20px;
+  --content-padding: clamp(20px, 5vw, 40px);
+  
+  // Font sizing with better mobile scaling
+  --base-font-mobile: 18px;
+  --base-font-tablet: 19px;
+  --base-font-desktop: 20px;
+  
+  // Line height optimized for mobile reading
+  --line-height-mobile: 1.7;
+  --line-height-desktop: 1.6;
+}
+
+// 2. Mobile-First Typography Scaling
+// ================================================
+html {
+  // Smooth font scaling across devices
+  font-size: var(--base-font-mobile);
+  
+  @media (min-width: 600px) {
+    font-size: var(--base-font-tablet);
+  }
+  
+  @media (min-width: 768px) {
+    font-size: var(--base-font-desktop);
+  }
+}
+
+// 3. Enhanced Mobile Body Settings
+// ================================================
+@include media-query($on-mobile) {
+  body {
+    // Better line height for mobile reading
+    line-height: var(--line-height-mobile);
+    
+    // Prevent horizontal scroll on mobile
+    overflow-x: hidden;
+    width: 100%;
+  }
+}
+
+// 4. Mobile-Optimized Content Padding
+// ================================================
+// Home and archive pages
+.home,
+.archive {
+  @include media-query($on-mobile) {
+    padding: 30px var(--content-padding);
+    
+    // iPhone SE and smaller
+    @media (max-width: 375px) {
+      padding: 20px 16px;
+    }
+  }
+}
+
+// Individual posts
+.wrapper {
+  &.post {
+    @include media-query($on-mobile) {
+      padding: 30px var(--content-padding);
+      
+      // iPhone SE and smaller
+      @media (max-width: 375px) {
+        padding: 20px 16px;
+      }
+    }
+  }
+}
+
+// 5. Navigation Mobile Enhancements
+// ================================================
+@include media-query($on-mobile) {
+  .navbar {
+    // Sticky navigation with shadow
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba($white, 0.98);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    
+    .navbar-inner {
+      padding: 0 var(--content-padding);
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+  
+  // Adjust content to account for sticky nav
+  .wrapper.post,
+  .home,
+  .archive {
+    padding-top: 70px; // 50px nav + 20px spacing
+  }
+}
+
+// 6. Typography Refinements for Mobile
+// ================================================
+@include media-query($on-mobile) {
+  // Headings with better mobile scaling
+  h1 {
+    font-size: 1.8em;
+    line-height: 1.3;
+    margin-top: 1.2em;
+    margin-bottom: 0.8em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    line-height: 1.35;
+    margin-top: 1.3em;
+    margin-bottom: 0.7em;
+  }
+  
+  h3 {
+    font-size: 1.3em;
+    line-height: 1.4;
+    margin-top: 1.2em;
+    margin-bottom: 0.6em;
+  }
+  
+  h4, h5, h6 {
+    font-size: 1.1em;
+    line-height: 1.45;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+  
+  // Paragraphs with optimal mobile spacing
+  p {
+    margin-bottom: 1.3em;
+    text-align: left; // Force left-align on mobile
+    hyphens: auto; // Enable hyphenation for narrow screens
+    -webkit-hyphens: auto;
+  }
+  
+  // Lists with better mobile indentation
+  ul, ol {
+    margin-left: 20px;
+    padding-left: 0;
+  }
+  
+  // Blockquotes optimized for mobile
+  blockquote {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 16px;
+    border-left-width: 3px;
+  }
+}
+
+// 7. Image Handling on Mobile
+// ================================================
+@include media-query($on-mobile) {
+  .page-content {
+    // Images with better mobile margins
+    > figure,
+    > p > img,
+    > img {
+      margin: 2em calc(var(--content-padding) * -1);
+      max-width: 100vw;
+      width: 100vw;
+    }
+    
+    // Captions with mobile padding
+    figcaption {
+      padding: 0.5em var(--content-padding);
+      font-size: 0.85em;
+    }
+  }
+}
+
+// 8. Code Blocks on Mobile
+// ================================================
+@include media-query($on-mobile) {
+  // Inline code
+  code {
+    font-size: 0.9em;
+    padding: 0.1em 0.3em;
+  }
+  
+  // Code blocks
+  pre,
+  .highlight {
+    font-size: 0.85em;
+    line-height: 1.5;
+    padding: 1em;
+    margin-left: calc(var(--content-padding) * -1);
+    margin-right: calc(var(--content-padding) * -1);
+    border-radius: 0;
+    
+    // Add subtle scroll hint
+    &::-webkit-scrollbar {
+      height: 6px;
+    }
+    
+    &::-webkit-scrollbar-track {
+      background: rgba(0, 0, 0, 0.05);
+    }
+    
+    &::-webkit-scrollbar-thumb {
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: 3px;
+    }
+  }
+}
+
+// 9. Tables on Mobile
+// ================================================
+@include media-query($on-mobile) {
+  table {
+    font-size: 0.9em;
+    
+    th, td {
+      padding: 0.4rem;
+    }
+  }
+}
+
+// 10. Footer Mobile Spacing
+// ================================================
+@include media-query($on-mobile) {
+  .footer {
+    margin-top: 3em;
+    padding: 2em var(--content-padding);
+    
+    .footer_item {
+      display: inline-block;
+      margin: 0.2em 0.5em;
+    }
+  }
+}
+
+// 11. Author Section Mobile
+// ================================================
+@include media-query($on-mobile) {
+  .author {
+    margin-top: 2em;
+    margin-bottom: 3em;
+    
+    .author-avatar {
+      width: 60px;
+      height: 60px;
+      margin: 0 auto 1em;
+    }
+    
+    .author-name {
+      font-size: 1.4em;
+      margin-bottom: 0.5em;
+    }
+    
+    .author-bio {
+      font-size: 0.95em;
+      padding: 0 1em;
+      max-width: 100%;
+    }
+  }
+}
+
+// 12. Post List Mobile
+// ================================================
+@include media-query($on-mobile) {
+  .post-list {
+    .post-item {
+      padding: 1em 0;
+      
+      .post-item-date {
+        font-size: 0.9em;
+        min-width: 80px;
+      }
+      
+      .post-item-title {
+        font-size: 1em;
+        line-height: 1.4;
+      }
+    }
+  }
+}
+
+// 13. Utility Classes Mobile Support
+// ================================================
+@include media-query($on-mobile) {
+  // Ensure all utility classes work on mobile
+  .small-caps {
+    font-size: 0.95em; // Slightly smaller on mobile
+  }
+  
+  .poetic {
+    margin: 1.2rem 0;
+    padding: 0 0.5em;
+    font-size: 0.95em;
+  }
+  
+  .callout {
+    margin: 1.5rem calc(var(--content-padding) * -0.5);
+    padding: 1rem var(--content-padding);
+    border-left-width: 3px;
+    font-size: 0.9em;
+  }
+  
+  .whisper {
+    font-size: 0.8rem;
+  }
+}
+
+// 14. Drop Caps for Article Openings
+// ================================================
+// Beautiful drop caps that work on all screen sizes
+.drop-cap {
+  &::first-letter {
+    float: left;
+    font-family: $sans-family;
+    font-size: 3.2em;
+    line-height: 0.8;
+    margin: 0.1em 0.08em 0 0;
+    font-weight: $bold-weight;
+    color: $accent-color;
+    
+    @include media-query($on-mobile) {
+      font-size: 2.8em;
+      margin: 0.15em 0.05em 0 0;
+    }
+  }
+}
+
+// Auto-apply drop caps to first paragraph of articles
+.page-content {
+  > p:first-of-type:not(.no-drop-cap) {
+    @extend .drop-cap;
+  }
+}
+
+// 15. Performance Optimizations
+// ================================================
+@include media-query($on-mobile) {
+  // Reduce animation complexity on mobile
+  * {
+    animation-duration: 0.2s !important;
+  }
+  
+  // Optimize touch targets
+  a, button {
+    min-height: 44px;
+    min-width: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+}
+
+// 16. Dark Mode Mobile Adjustments
+// ================================================
+body[data-theme="dark"] {
+  @include media-query($on-mobile) {
+    .navbar {
+      background: rgba($dark-black, 0.98);
+    }
+    
+    .callout {
+      background-color: rgba($dark-light, 0.5);
+      border-left-color: $dark-smoke;
+    }
+    
+    pre, .highlight {
+      background: $dark-light;
+    }
+  }
+}
