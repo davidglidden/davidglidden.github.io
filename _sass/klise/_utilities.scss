@@ -25,12 +25,14 @@
   font-feature-settings: "liga" 0, "dlig" 0;
 }
 
-.poetic {
-  font-style: italic;
-  color: #444;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-  line-height: 1.75;
+// Maintain generous spacing for contemplative content
+.poetic,
+.observation,
+.fragment,
+.essay {
+  @include media-query($on-mobile) {
+    line-height: 1.65;  // More open than body text on mobile
+  }
 }
 
 .callout {
