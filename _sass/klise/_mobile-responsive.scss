@@ -39,8 +39,6 @@
 
 // 5. Navigation Mobile Enhancements
 // ================================================
-@// 5. Navigation Mobile Enhancements
-// ================================================
 @include media-query($on-mobile) {
   .navbar {
     // Fixed navigation (not sticky) to avoid spacing issues
