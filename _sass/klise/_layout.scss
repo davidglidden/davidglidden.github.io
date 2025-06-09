@@ -224,7 +224,6 @@
   @include media-query($on-mobile) {
     margin-top: 3em;
   }
-}
 
   .footer_item {
     color: $black;
@@ -248,6 +247,7 @@
     opacity: 0.8;
     margin-top: 3px;
   }
+}
 
 
 // 404 page
