@@ -12,6 +12,14 @@ layout: compress
   <div class="wrapper">
     <header class="header">
       <h1 class="header-title center" itemprop="headline">{{ page.title | escape }}.</h1>
+      {% if page.tags and page.tags != empty %}
+      <div class="tags center">
+        {% assign tags = page.tags %}
+        <span itemprop="keywords">
+          [{% for tag in tags %}<a class="tag" href="/tags/#{{tag | downcase | slugify}}">{{tag | downcase }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}]
+        </span>
+      </div>
+      {% endif %}
     </header>
     <main class="page-content" aria-label="Content">
       {% include anchor_headings.html html=content anchorClass="anchor-head" beforeHeading=false h_min=4 h_max=4 %}

@@ -8,7 +8,7 @@ mode: "light" # default theme: "dark" | "light"
 
 # Profile settings
 author:
-  name: "Animal Rationis Capax" # David F Glidden
+  name: "<strong><span class=\"small-caps\">Animal Rationis Capax</span></strong>" # David F Glidden
   bio: "on art, work, and becoming." # Pilgrim since 1974. Violist.
   username: "davidglidden"
   email: "d@davidglidden.eu"

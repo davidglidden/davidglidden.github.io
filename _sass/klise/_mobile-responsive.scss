@@ -11,9 +11,9 @@
   --content-padding: 1.5rem; // Match iA.net exactly
   
   // Font sizing with better mobile scaling
-  --base-font-mobile: 1.375rem; // Increased from 1.25rem (22px) for better mobile readability
-  --base-font-tablet: 1.25rem; // 20px
-  --base-font-desktop: 1.3125rem; // 21px - refined desktop size
+  --base-font-mobile: 1.4375rem; // 23px - increased for balance with monospace
+  --base-font-tablet: 1.3125rem; // 21px - increased for balance with monospace
+  --base-font-desktop: 1.375rem; // 22px - increased for balance with monospace
   
   // Line height optimized for mobile reading
   --line-height-mobile: 1.75; // Match iA.net exactly
