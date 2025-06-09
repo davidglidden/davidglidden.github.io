@@ -121,3 +121,65 @@
     content: "◊"; // Diamond for travel/place descriptions
   }
 }
+
+// Observational prose styling
+// ================================================
+.observation {
+  // Prevent drop caps for intimate pieces
+  .page-content > p:first-of-type {
+    &::first-letter {
+      float: none;
+      font-size: inherit;
+      line-height: inherit;
+      margin: 0;
+      font-weight: inherit;
+    }
+  }
+  
+  // Enhanced spacing for contemplative reading
+  p {
+    margin-bottom: 1.8em;
+    
+    @include media-query($on-mobile) {
+      margin-bottom: 1.5em;
+    }
+  }
+  
+  // Subtle ornament treatment
+  .ornament {
+    margin: 3rem 0;
+    opacity: 0.6;
+    font-size: 1em;
+    
+    @include media-query($on-mobile) {
+      margin: 2rem 0;
+    }
+  }
+}
+
+// Fragment layout styling
+// ================================================
+.fragment {
+  max-width: 85%;
+  margin: 0 auto;
+  
+  @include media-query($on-mobile) {
+    max-width: 95%;
+  }
+  
+  // More intimate typography scaling
+  font-size: 0.95em;
+  line-height: 1.8;
+  
+  // Softer paragraph spacing
+  p {
+    margin-bottom: 2em;
+  }
+  
+  // French phrases styling
+  em {
+    color: #555;
+    font-style: italic;
+    letter-spacing: 0.01em;
+  }
+}
