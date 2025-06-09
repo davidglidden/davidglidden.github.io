@@ -39,6 +39,7 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   syntax_highlighter: rouge
+  smart_quotes: ["apos", "apos", "quot", "quot"]
 
 # Default front matter
 defaults:

@@ -140,7 +140,7 @@ young, childless, she might have retreated into private grief. Instead, she
 claimed her sorrow and transformed it into foundation. The story goes that on
 November <span class="oldstyle">21</span>, <span class="oldstyle">1609</span>,
 the Virgin appeared to her robed in white light, saying: <span
-class="small-caps">"Procede et noli timere"</span>—"Go ahead and fear not."
+class="small-caps">"Procede et noli timere"</span> — "Go ahead and fear not."
 Within months, the Collegio della Beata Vergine was born, an institution
 dedicated to educating girls regardless of their station.
 
@@ -151,7 +151,7 @@ Lucia's revolution was quiet but radical. In an age when women's learning was
 often seen as dangerous, she insisted that education was not privilege but
 necessity, not luxury but basic human dignity. Her motto, preserved in the
 archives of her institution: <span class="small-caps">"Magistra debet esse mater
- amans… corrigat cum dulcedine"</span>—"The teacher should be a loving mother…
+ amans… corrigat cum dulcedine"</span> — "The teacher should be a loving mother…
 correct with gentleness."
 
 Her pedagogy echoes something I recognize from our work with Jordi Savall. Once,
