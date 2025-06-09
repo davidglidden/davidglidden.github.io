@@ -280,13 +280,5 @@
   }
 }
 
-// Mobile-friendly spacing for post content (correct placement)
-.wrapper.post {
-  padding-left: $spacing-half;
-  padding-right: $spacing-half;
-
-  @include media-query($on-tablet) {
-    padding-left: $spacing-full;
-    padding-right: $spacing-full;
-  }
-}
+// Mobile-friendly spacing for post content (now handled by mobile-responsive.scss)
+// Removed to prevent conflicts with mobile-responsive.scss

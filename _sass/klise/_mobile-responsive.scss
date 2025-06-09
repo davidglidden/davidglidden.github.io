@@ -50,12 +50,10 @@ html {
 
 // 4. Mobile-Optimized Content Padding
 // ================================================
-// Main wrapper padding (applies to all pages)
+// Main wrapper padding (applies to all pages) - with higher specificity
 .wrapper {
-  padding: 30px var(--content-padding);
-  
   @include media-query($on-mobile) {
-    padding: 30px 1.5rem; // Match iA.net exactly
+    padding: 30px 1.5rem !important; // Force override and match iA.net exactly
   }
   
   // Ensure main content area has proper constraints
@@ -93,7 +91,9 @@ html {
   
   // Adjust content to account for sticky nav
   .wrapper {
-    padding-top: 70px; // 50px nav + 20px spacing
+    padding-top: 70px !important; // 50px nav + 20px spacing
+    padding-left: 1.5rem !important; // Ensure side padding is maintained
+    padding-right: 1.5rem !important; // Ensure side padding is maintained
   }
 }
 
