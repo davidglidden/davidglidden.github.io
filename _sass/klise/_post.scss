@@ -1,14 +1,12 @@
-// Post wrapper
+// Post wrapper - now handled by mobile-responsive.scss
+// Removed mobile padding to prevent conflicts with mobile-responsive.scss
 .wrapper.post {
   margin: 0 auto; // center the block horizontally
   max-width: $wide-size; // constrain width
   padding-left: $spacing-full;
   padding-right: $spacing-full;
 
-  @include media-query($on-mobile) {
-    padding-left: $spacing-half;
-    padding-right: $spacing-half;
-  }
+  // Mobile padding now handled by _mobile-responsive.scss
 }
 // Post title area
 .header {

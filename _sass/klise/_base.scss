@@ -71,11 +71,26 @@ ul {
     padding-left: 1.2em;
 
     &::before {
-      content: "•";
+      content: "◆"; // Primary bullet: Black Diamond
       position: absolute;
       left: 0;
-      color: $accent-color;
+      color: $text-base-color;
       font-size: 1.1em;
+    }
+
+    // Secondary level bullets
+    ul li::before {
+      content: "‣"; // Triangular bullet
+      color: $gray;
+      font-size: 1.0em;
+    }
+
+    // Tertiary level bullets
+    ul ul li::before {
+      content: "◦"; // White circle
+      color: $gray;
+      opacity: 0.6;
+      font-size: 0.9em;
     }
   }
 }
@@ -151,11 +166,35 @@ img {
   margin: $baseline auto;
 }
 
-// HR
+// HR - Replaced with typographic ornament
 hr {
   border: none;
-  border-top: 1px solid $light;
-  margin: $baseline 0;
+  background: none;
+  text-align: center;
+  font-size: 1.2em;
+  color: $text-base-color;
+  margin: 2rem 0;
+  line-height: 1;
+  height: auto;
+  
+  &::before {
+    content: "❦"; // Default aldus leaf ornament
+    opacity: 0.8;
+  }
+  
+  // Optional: override with data attribute
+  &[data-ornament="asterism"]::before {
+    content: "⁂";
+  }
+  
+  &[data-ornament="fleuron"]::before {
+    content: "❧";
+  }
+  
+  &[data-ornament="triple"]::before {
+    content: "• • •";
+    letter-spacing: 0.5em;
+  }
 }
 
 // Selection

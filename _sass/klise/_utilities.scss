@@ -41,3 +41,66 @@
   color: #777;
   font-style: italic;
 }
+
+// Typographic Ornaments
+// ================================================
+// Classical alternatives to horizontal rules
+.ornament {
+  text-align: center;
+  font-size: 1.2em;
+  color: $text-base-color;
+  margin: 2rem 0;
+  line-height: 1;
+  user-select: none;
+  
+  // Prevent text wrapping
+  white-space: nowrap;
+  overflow: hidden;
+  
+  &::before {
+    content: "❦"; // Default: rotated fleuron (aldus leaf)
+    opacity: 0.8;
+  }
+  
+  // Specific ornament variants
+  &.asterism::before {
+    content: "⁂"; // Three asterisks in triangular arrangement
+  }
+  
+  &.fleuron::before {
+    content: "❧"; // Rotated fleuron 
+  }
+  
+  &.aldus::before {
+    content: "❦"; // Aldus leaf (default)
+  }
+  
+  &.lozenge::before {
+    content: "◊"; // Diamond/lozenge
+  }
+  
+  &.triple::before {
+    content: "• • •"; // Three centered dots
+    letter-spacing: 0.5em;
+  }
+  
+  &.section::before {
+    content: "§ § §"; // Section marks
+    letter-spacing: 0.3em;
+  }
+  
+  // Contextual variants
+  &.chapter::before {
+    content: "❦ ❦ ❦"; // Triple aldus for chapter breaks
+    letter-spacing: 0.4em;
+    font-size: 0.9em;
+  }
+  
+  &.article::before {
+    content: "⁂"; // Asterism for articles
+  }
+  
+  &.thought::before {
+    content: "❧"; // Single fleuron for thought breaks
+  }
+}

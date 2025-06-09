@@ -1,0 +1,8 @@
+{% comment %}
+Typographic Ornament Include
+Usage: {% include ornament.html type="asterism" %}
+Types: aldus (default), asterism, fleuron, lozenge, triple, section, chapter, article, thought
+{% endcomment %}
+
+{% assign ornament_type = include.type | default: "aldus" %}
+<div class="ornament {{ ornament_type }}"></div>

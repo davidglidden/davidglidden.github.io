@@ -178,45 +178,13 @@ body {
     }
   }
   
-  // Images can break out to container width
-  > figure,
-  > p > img,
-  > img {
-    display: block;
-    max-width: calc(100% + (var(--padding-x) * 2));
-    width: calc(100% + (var(--padding-x) * 2));
-    margin: 3em calc(var(--padding-x) * -1);
-    
-    @include media-query($on-mobile) {
-      max-width: calc(100% + 40px);
-      width: calc(100% + 40px);
-      margin: 2em -20px;
-    }
-    
-    img {
-      width: 100%;
-      height: auto;
-    }
-  }
-  
-  // Captions stay within text measure
-  figcaption {
-    @extend .text-container;
-    padding: 0.5em var(--padding-x);
-    font-size: 0.9em;
-    color: $gray;
-    
-    @include media-query($on-mobile) {
-      padding: 0.5em 20px;
-    }
-  }
-  
-  // Special class for full-bleed images
+  // Images now handled by mobile-responsive.scss for classical proportions
+  // Keeping only special full-bleed class for when needed
   .full-bleed {
-    max-width: 100vw;
-    width: 100vw;
-    margin-left: calc(-50vw + 50%);
-    margin-right: calc(-50vw + 50%);
+    max-width: 100vw !important;
+    width: 100vw !important;
+    margin-left: calc(-50vw + 50%) !important;
+    margin-right: calc(-50vw + 50%) !important;
   }
   
   // Tables responsive

@@ -56,6 +56,13 @@ html {
     padding: 30px 1.5rem !important; // Force override and match iA.net exactly
   }
   
+  // Specific handling for post pages
+  &.post {
+    @include media-query($on-mobile) {
+      padding: 30px 1.5rem !important; // Ensure posts also get correct padding
+    }
+  }
+  
   // Ensure main content area has proper constraints
   main {
     max-width: $narrow-size;
@@ -94,6 +101,12 @@ html {
     padding-top: 70px !important; // 50px nav + 20px spacing
     padding-left: 1.5rem !important; // Ensure side padding is maintained
     padding-right: 1.5rem !important; // Ensure side padding is maintained
+    
+    // Extra specificity for post pages
+    &.post {
+      padding-left: 1.5rem !important;
+      padding-right: 1.5rem !important;
+    }
   }
 }
 
@@ -157,23 +170,67 @@ html {
   }
 }
 
-// 7. Image Handling on Mobile
+// 7. Image Handling with Classical Proportions
 // ================================================
-@include media-query($on-mobile) {
-  .page-content {
-    // Images with better mobile margins
-    > figure,
-    > p > img,
-    > img {
-      margin: 2em -1.5rem; // Match iA.net padding
-      max-width: 100vw;
-      width: 100vw;
-    }
+// Based on Aldus Manutius and golden ratio principles
+.page-content {
+  // Standard images - harmonious with text measure
+  > figure,
+  > p > img,
+  > img {
+    display: block;
+    max-width: 85%; // Classical proportion: slightly narrower than full text width
+    width: auto;
+    height: auto;
+    margin: 2rem auto; // Generous breathing room
     
-    // Captions with mobile padding
-    figcaption {
-      padding: 0.5em 1.5rem; // Match iA.net padding
-      font-size: 0.85em;
+    // Ensure proper aspect ratio preservation
+    object-fit: contain;
+    
+    @include media-query($on-mobile) {
+      max-width: 90%; // Slightly wider on mobile but still proportional
+      margin: 1.5rem auto;
+    }
+  }
+  
+  // Large images can use golden ratio width
+  .image-large,
+  .full-width {
+    max-width: 100%;
+    margin: 3rem auto; // More dramatic spacing for emphasis
+    
+    @include media-query($on-mobile) {
+      margin: 2rem -1.5rem; // Full bleed on mobile only when specifically requested
+      max-width: calc(100% + 3rem);
+      width: calc(100% + 3rem);
+    }
+  }
+  
+  // Small images use classical book proportions
+  .image-small {
+    max-width: 61.8%; // Golden ratio proportion
+    margin: 1.5rem auto;
+    
+    @include media-query($on-mobile) {
+      max-width: 70%;
+    }
+  }
+  
+  // Aldine-inspired captions
+  figcaption {
+    font-family: $sans-family; // EB Garamond
+    font-size: 0.875rem; // ≈14px - Aldine minore modulo
+    line-height: 1.4;
+    color: #666; // Soft grey
+    font-style: italic;
+    text-align: center;
+    max-width: 80%; // Refined proportion
+    margin: 0.5rem auto 1.5rem;
+    
+    @include media-query($on-mobile) {
+      font-size: 0.8rem; // Slightly smaller on mobile
+      max-width: 85%;
+      margin: 0.5rem auto 1.25rem;
     }
   }
 }
@@ -322,7 +379,7 @@ html {
     line-height: 0.8;
     margin: 0.1em 0.08em 0 0;
     font-weight: $bold-weight;
-    color: $accent-color;
+    color: $text-base-color; // Match text color instead of accent
     
     @include media-query($on-mobile) {
       font-size: 2.8em;

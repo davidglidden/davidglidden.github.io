@@ -116,7 +116,82 @@ On mobile, code blocks extend to viewport edges with horizontal scrolling when n
 
 ---
 
-### 5. **Poetic Styling**
+### 5. **Images and Classical Proportions**
+
+The site uses Aldus Manutius-inspired proportional relationships for images:
+
+#### Standard Images (85% width):
+```markdown
+![Description](image.jpg)
+```
+Creates harmonious proportions with text measure.
+
+#### Small Images (Golden Ratio - 61.8% width):
+```markdown
+![Description](image.jpg){: .image-small}
+```
+Perfect for portraits or decorative elements using φ (phi) proportions.
+
+#### Large/Full-width Images:
+```markdown
+![Description](image.jpg){: .image-large}
+```
+For architectural photography or landscape images requiring emphasis.
+
+#### Image Captions (Aldine Style):
+Captions automatically use:
+- **EB Garamond** at 0.875rem (≈14px) — minore modulo principle
+- **Soft grey** italic styling
+- **80% max-width** with center alignment
+- **Elegant spacing** (0.5rem top, 1.5rem bottom)
+
+```markdown
+![Architecture detail](building.jpg)
+*Figure 1: Classical proportions in Renaissance architecture*
+```
+
+### 6. **Typographic Ornaments**
+
+Classical ornaments replace standard horizontal rules (`<hr>`):
+
+#### Automatic Ornament (replaces `<hr>`):
+```markdown
+---
+```
+Renders as: ❦ (Aldus leaf)
+
+#### Custom Ornaments with Data Attributes:
+```html
+<hr data-ornament="asterism">   <!-- ⁂ -->
+<hr data-ornament="fleuron">    <!-- ❧ -->
+<hr data-ornament="triple">     <!-- • • • -->
+```
+
+#### Ornament Classes:
+```html
+<div class="ornament"></div>              <!-- ❦ (default) -->
+<div class="ornament asterism"></div>     <!-- ⁂ -->
+<div class="ornament fleuron"></div>      <!-- ❧ -->
+<div class="ornament lozenge"></div>      <!-- ◊ -->
+<div class="ornament triple"></div>       <!-- • • • -->
+<div class="ornament section"></div>      <!-- § § § -->
+```
+
+#### Contextual Ornaments:
+```html
+<div class="ornament chapter"></div>      <!-- ❦ ❦ ❦ -->
+<div class="ornament article"></div>      <!-- ⁂ -->
+<div class="ornament thought"></div>      <!-- ❧ -->
+```
+
+#### Jekyll Include:
+```liquid
+{% include ornament.html type="asterism" %}
+{% include ornament.html type="fleuron" %}
+{% include ornament.html %}  <!-- default aldus -->
+```
+
+### 7. **Poetic Styling**
 
 For quotes or personal fragments:
 
