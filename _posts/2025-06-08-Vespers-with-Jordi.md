@@ -1,10 +1,9 @@
- ---
-  title: "Vespers for the Living: Monteverdi with Jordi Savall"
-  date: 2025-06-08
-  tags: [performance_reflection, monteverdi, cremonadiary, sacred_music, presence,
-   reverie]
-  class: essay
-  ---
+---
+title: "Vespers for the Living: Monteverdi with Jordi Savall"
+date: 2025-06-08
+tags: [performance_reflection, monteverdi, cremonadiary, sacred_music, presence, reverie]
+class: essay
+---
 
   <p class="poetic small-caps">Memoriae sacrum<br>
   <em>—Traditional Latin epitaph</em></p>
