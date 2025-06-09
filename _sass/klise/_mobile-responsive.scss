@@ -3,20 +3,22 @@
 // Purpose: Handle mobile-specific layout adjustments
 // Typography scaling now handled in _base.scss
 
+// CSS Custom Properties for consistent mobile layout
+:root {
+  --wrapper-padding: 1.5rem;
+  --navbar-height: 70px;
+}
+
 
 // Mobile-Optimized Content Padding
 // ================================================
-// Main wrapper padding (applies to all pages) - with higher specificity
+// Single consistent padding system
 .wrapper {
   @include media-query($on-mobile) {
-    padding: 30px 1.5rem !important; // Force override and match iA.net exactly
-  }
-  
-  // Specific handling for post pages
-  &.post {
-    @include media-query($on-mobile) {
-      padding: 30px 1.5rem !important; // Ensure posts also get correct padding
-    }
+    padding: var(--navbar-height) var(--wrapper-padding) 30px var(--wrapper-padding);
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
   }
   
   // Ensure main content area has proper constraints
@@ -29,10 +31,10 @@
     }
   }
   
-  // Desktop: optimal measure based on golden ratio
+  // Desktop: optimal measure
   @media (min-width: 768px) {
     main {
-      max-width: calc(var(--base-font-desktop) * 1.618 * 30); // φ-based optimal measure
+      max-width: $narrow-size;
     }
   }
 }
@@ -41,42 +43,18 @@
 // ================================================
 @include media-query($on-mobile) {
   .navbar {
-    // Fixed navigation (not sticky) to avoid spacing issues
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    width: 100vw;
+    max-width: 100%;
     z-index: 100;
     background: rgba($white, 0.98);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-  }
-  
-  // Content wrapper with proper spacing
-  .wrapper {
-    padding: 70px 1.5rem 30px 1.5rem !important; // Single padding declaration
-    
-    &.post {
-      padding: 70px 1.5rem 30px 1.5rem !important; // Same for posts
-    }
-  }
-  
-  // Home and archive pages need padding too
-  body.home,
-  body.archive {
-    padding: 70px 1.5rem 30px 1.5rem;
-  }
-  
-  // Ensure pages with wrapper but not posts also get padding
-  // Generic wrapper padding for ALL pages
-  body:not(.home) .wrapper {
-    padding: 70px 1.5rem 30px 1.5rem !important;
-  }
-  
-  // Or if colophon has a specific body class
-  body.page .wrapper {
-    padding: 70px 1.5rem 30px 1.5rem !important;
+    box-sizing: border-box;
   }
 }
 
@@ -141,9 +119,9 @@
     margin: 3rem auto; // More dramatic spacing for emphasis
     
     @include media-query($on-mobile) {
-      margin: 2rem -1.5rem; // Full bleed on mobile only when specifically requested
-      max-width: calc(100% + 3rem);
-      width: calc(100% + 3rem);
+      margin: 2rem calc(-1 * var(--wrapper-padding));
+      max-width: calc(100vw - 2 * var(--wrapper-padding));
+      width: calc(100vw - 2 * var(--wrapper-padding));
     }
   }
   
@@ -174,9 +152,11 @@
   .highlight {
     font-size: 0.85em;
     line-height: 1.5;
-    padding: 1em;
-    margin-left: -1.5rem; // Match iA.net padding
-    margin-right: -1.5rem; // Match iA.net padding
+    padding: 1em var(--wrapper-padding);
+    margin-left: calc(-1 * var(--wrapper-padding));
+    margin-right: calc(-1 * var(--wrapper-padding));
+    max-width: 100vw;
+    box-sizing: border-box;
     border-radius: 0;
     
     // Add subtle scroll hint
@@ -282,10 +262,12 @@
   }
   
   .callout {
-    margin: 1.5rem -0.75rem; // Half of iA.net padding
-    padding: 1rem 1.5rem; // Match iA.net padding
+    margin: 1.5rem calc(-0.5 * var(--wrapper-padding));
+    padding: 1rem var(--wrapper-padding);
+    max-width: calc(100% + var(--wrapper-padding));
     border-left-width: 3px;
     font-size: 0.9em;
+    box-sizing: border-box;
   }
   
   .whisper {
@@ -346,7 +328,42 @@ button {
 }
 }
 
-// 16. Dark Mode Mobile Adjustments
+// 16. Orientation Change Stability
+// ================================================
+// Prevent layout jumps during orientation changes
+@media (orientation: landscape) and (max-width: 1024px) {
+  body {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+  
+  .wrapper {
+    min-height: 100vh;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .navbar {
+    width: 100vw;
+    max-width: 100%;
+  }
+}
+
+// Force layout recalculation on orientation change
+@media (orientation: portrait) and (max-width: 767px) {
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .wrapper {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+// 17. Dark Mode Mobile Adjustments
 // ================================================
 body[data-theme="dark"] {
   @include media-query($on-mobile) {

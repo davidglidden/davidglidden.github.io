@@ -35,6 +35,9 @@ body {
   
   @include media-query($on-mobile) {
     line-height: 1.55;  // Slightly denser for mobile practicality
+    overflow-x: hidden; // Prevent horizontal scrolling
+    width: 100%;
+    max-width: 100%;
   }
   
   @media (max-width: 375px) {
