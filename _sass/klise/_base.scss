@@ -2,19 +2,19 @@
 
 // Root font-size controls (refined based on testing)
 :root {
-  // Mobile
+  // Mobile - matching iA's visual size
   @media (max-width: 767px) {
-    font-size: 20px;
+    font-size: 22px;  // Was 20px
   }
   
-  // Tablet  
+  // Tablet - maybe bump this slightly too?
   @media (min-width: 768px) and (max-width: 1023px) {
-    font-size: 21px;
+    font-size: 22px;  // Was 21px (or keep at 21px)
   }
   
-  // Desktop
+  // Desktop - keep as is
   @media (min-width: 1024px) {
-    font-size: 22px;
+    font-size: 23px; 
   }
 }
 
