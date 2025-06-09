@@ -110,9 +110,18 @@ blockquote {
   padding-left: 1.25rem;
   font-style: italic;
   color: $gray;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 1.5rem 0; // Controlled vertical margin
   opacity: 0.9;
+  
+  // Remove default paragraph margins inside blockquotes
+  p {
+    margin: 0;
+    padding: 0;
+    
+    &:not(:last-child) {
+      margin-bottom: 0.5rem; // Small gap between multiple paragraphs
+    }
+  }
 }
 
 // Code

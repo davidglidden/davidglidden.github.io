@@ -21,8 +21,8 @@ This guide outlines how to access the full expressive range of the typographic s
 All fonts are self-hosted (WOFF2) in `/fonts/` and declared via `@font-face` in `_fonts.scss`.
 
 ### Responsive Font Sizing
-- **Mobile**: 1.25rem base font size (20px) with 1.75 line height — matches iA.net exactly
-- **Tablet**: 1.1875rem base font size (19px)
+- **Mobile**: 1.375rem base font size (22px) with 1.75 line height — optimized for comfortable mobile reading
+- **Tablet**: 1.25rem base font size (20px)
 - **Desktop**: 1.3125rem base font size (21px) with 1.65 line height — refined for optimal reading
 
 ---

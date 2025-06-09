@@ -11,8 +11,8 @@
   --content-padding: 1.5rem; // Match iA.net exactly
   
   // Font sizing with better mobile scaling
-  --base-font-mobile: 1.25rem; // Match iA.net (20px at default browser size)
-  --base-font-tablet: 1.1875rem; // 19px
+  --base-font-mobile: 1.375rem; // Increased from 1.25rem (22px) for better mobile readability
+  --base-font-tablet: 1.25rem; // 20px
   --base-font-desktop: 1.3125rem; // 21px - refined desktop size
   
   // Line height optimized for mobile reading
@@ -145,10 +145,15 @@ html {
   
   // Blockquotes optimized for mobile
   blockquote {
-    margin-left: 0;
-    margin-right: 0;
+    margin: 1rem 0; // Reduced vertical margin
     padding-left: 16px;
     border-left-width: 3px;
+    
+    // Fix for excessive vertical space
+    p {
+      margin: 0; // Remove paragraph margins inside blockquotes
+      padding: 0;
+    }
   }
 }
 
