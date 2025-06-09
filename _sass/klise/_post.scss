@@ -156,14 +156,14 @@
     margin-bottom: $spacing-half;
 
     &:hover .anchor-head {
-      opacity: 0;
+      opacity: 1;
     }
 
     .anchor-head {
       opacity: 0;
-      transition: none;
+      transition: opacity 0.2s ease;
       position: relative;
-      margin-left: 4px;
+      margin-left: 8px;
 
       &::before {
         content: "#";

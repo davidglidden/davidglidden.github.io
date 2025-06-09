@@ -19,7 +19,7 @@ languages:
 
 {% include language-toggle.html %}
 
-<div id="en" class="lang-content">
+<div id="en" class="lang-content" markdown="1">
 
 # The Discovery of Matthieu Taliesin
 
@@ -43,7 +43,7 @@ With this first article, we step into the world of Matthieu Taliesin—a teacher
 
 </div>
 
-<div id="fr" class="lang-content">
+<div id="fr" class="lang-content" markdown="1">
 
 # La découverte de Matthieu Taliesin
 
@@ -67,7 +67,7 @@ Avec ce premier article, nous entrons dans le monde de Matthieu Taliesin—un pr
 
 </div>
 
-<div id="es" class="lang-content">
+<div id="es" class="lang-content" markdown="1">
 
 # El Descubrimiento de Matthieu Taliesin
 
