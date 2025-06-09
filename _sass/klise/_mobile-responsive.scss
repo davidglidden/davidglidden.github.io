@@ -9,6 +9,15 @@
   --navbar-height: 70px;
 }
 
+// CRITICAL FIX: Prevent horizontal scrolling on all mobile devices
+html, body {
+  @include media-query($on-mobile) {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    position: relative; // Contain absolute positioned elements
+  }
+}
 
 // Mobile-Optimized Content Padding
 // ================================================
@@ -47,7 +56,7 @@
     top: 0;
     left: 0;
     right: 0;
-    width: 100vw;
+    width: 100%;
     max-width: 100%;
     z-index: 100;
     background: rgba($white, 0.98);
@@ -120,8 +129,8 @@
     
     @include media-query($on-mobile) {
       margin: 2rem calc(-1 * var(--wrapper-padding));
-      max-width: calc(100vw - 2 * var(--wrapper-padding));
-      width: calc(100vw - 2 * var(--wrapper-padding));
+      max-width: calc(100% + 2 * var(--wrapper-padding));
+      width: calc(100% + 2 * var(--wrapper-padding));
     }
   }
   
@@ -314,52 +323,62 @@
   }
   
   // Optimize touch targets
-button {
-  min-height: 44px;
-  min-width: 44px;
+  button {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  // Only apply to navigation links, not inline text links
+  .menu-link,
+  .footer_item {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
 }
 
-// Only apply to navigation links, not inline text links
-.menu-link,
-.footer_item {
-  min-height: 44px;
-  display: inline-flex;
-  align-items: center;
-}
-}
-
-// 16. Orientation Change Stability
+// 16. FIXED: Orientation Change Stability
 // ================================================
-// Prevent layout jumps during orientation changes
-@media (orientation: landscape) and (max-width: 1024px) {
-  body {
+// Single viewport meta tag approach - let the browser handle orientation changes naturally
+@viewport {
+  width: device-width;
+  initial-scale: 1;
+}
+
+// Remove all the problematic orientation-specific code and use a unified approach
+@include media-query($on-mobile) {
+  // Ensure consistent behavior across all orientations
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
   }
   
-  .wrapper {
-    min-height: 100vh;
+  // All mobile elements should respect viewport width
+  .wrapper,
+  .navbar,
+  .page-content,
+  main {
     width: 100%;
     max-width: 100%;
+    box-sizing: border-box;
   }
   
-  .navbar {
-    width: 100vw;
+  // Prevent any element from causing horizontal overflow
+  * {
     max-width: 100%;
-  }
-}
-
-// Force layout recalculation on orientation change
-@media (orientation: portrait) and (max-width: 767px) {
-  body {
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
+    box-sizing: border-box;
   }
   
-  .wrapper {
-    width: 100%;
+  // Special handling for elements that might overflow
+  img, 
+  video, 
+  iframe,
+  pre,
+  table {
     max-width: 100%;
+    overflow-x: auto;
   }
 }
 
