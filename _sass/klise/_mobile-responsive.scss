@@ -3,19 +3,8 @@
 // Purpose: Handle mobile-specific layout adjustments
 // Typography scaling now handled in _base.scss
 
-// Mobile-specific body adjustments
-@include media-query($on-mobile) {
-  body {
-    // Better line height for mobile reading
-    line-height: 1.75;
-    
-    // Prevent horizontal scroll on mobile
-    overflow-x: hidden;
-    width: 100%;
-  }
-}
 
-// 4. Mobile-Optimized Content Padding
+// Mobile-Optimized Content Padding
 // ================================================
 // Main wrapper padding (applies to all pages) - with higher specificity
 .wrapper {
@@ -336,12 +325,18 @@
   }
   
   // Optimize touch targets
-  a, button {
-    min-height: 44px;
-    min-width: 44px;
-    display: inline-flex;
-    align-items: center;
-  }
+button {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+// Only apply to navigation links, not inline text links
+.menu-link,
+.footer_item {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
 }
 
 // 16. Dark Mode Mobile Adjustments

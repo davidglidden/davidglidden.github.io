@@ -63,32 +63,34 @@
     display: none;
   }
 
-  .menu-link {
-    color: $heading-color;
-    font-family: $sans-family;
-    font-size: 0.95em;
-    font-weight: 400;
-    text-decoration: none;
-    padding: 4px 10px;
-    letter-spacing: 0.02em;
-    opacity: 0.8;
-    transition: color 0.2s ease, opacity 0.2s ease;
-
-    &:hover {
-      color: $accent-color;
-      opacity: 1;
-    }
-
-    &.active {
-      color: $accent-color;
-      font-weight: 600;
-    }
-
-    &.rss {
-      position: relative;
-      bottom: -3px;
-    }
+ .menu-link {
+  color: $heading-color;
+  font-family: $sans-family;
+  font-size: 0.9rem;  // Slightly smaller, more refined
+  font-weight: 400;
+  text-decoration: none;
+  padding: 4px 10px;
+  letter-spacing: 0.02em;
+  opacity: 0.8;
+  transition: all 0.2s ease;  // Smooth all properties
+  
+  &:hover {
+    color: $accent-color;
+    opacity: 1;
+    transform: translateY(-1px);  // Subtle lift
   }
+  
+  &.active {
+    color: $accent-color;
+    font-weight: 500;  // Use medium weight if available
+    opacity: 1;
+  }
+
+  &.rss {
+    position: relative;
+    bottom: -3px;
+  }
+}
 
   @include media-query($on-mobile) {
     position: fixed;
@@ -183,7 +185,7 @@
 // Post list
 .post-item {
   display: flex;
-  padding: 6px 0;
+  padding: 12px 0;  // Double the padding for more breathing room
   @extend %clearfix;
 
   &:not(:first-child) {

@@ -24,6 +24,13 @@ body {
   padding: 0;
   font-family: $serif-family;
   font-size: $base-font-size * $garamond-scale;
+  color: $text-color;
+  background-color: $white;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  
+  // Line heights grouped together
   line-height: 1.6;  // Classical proportion for desktop
   
   @include media-query($on-mobile) {
@@ -33,11 +40,6 @@ body {
   @media (max-width: 375px) {
     line-height: 1.5;  // iPhone SE and smaller
   }
-  color: $text-color;
-  background-color: $white;
-  -webkit-font-smoothing: antialiased;
-  font-feature-settings: "kern" 1;
-  font-kerning: normal;
 }
 
 // Reset box sizing

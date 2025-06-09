@@ -197,4 +197,23 @@ body[data-theme="dark"] {
     border-radius: 100%;
     box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.05);
   }
+
+// Ornaments in dark mode
+  .ornament {
+    &::before {
+      color: $dark-gray;
+      opacity: 0.5;
+    }
+  }
+
+  // Utility classes in dark mode
+  .callout {
+    background-color: rgba($dark-light, 0.3);
+    border-left-color: $dark-accent;
+    color: $dark-text-color;
+  }
+
+  .whisper {
+    color: $dark-gray;
+  }
 }
