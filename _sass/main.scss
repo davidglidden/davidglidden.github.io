@@ -1,7 +1,7 @@
 // main.scss — Single source of truth for typography system
 // Consolidated variables and imports
 
-// Typography Scale - ONE system
+// Typography Scale
 $base-font-size: 1rem; // Let root control actual size
 $scale-ratio: 1.25;
 
@@ -32,18 +32,22 @@ $plex-sans-scale: 0.94;  // Slightly smaller to match Garamond visually
 $plex-mono-scale: 0.88;  // Smaller still to match
 
 // Color consolidation - ONE system
+// Light mode
 $text-color: #434648;
 $heading-color: #0d122b;
 $accent-color: #ff0000;
 $gray: #6b7886;
 $light: #ececec;
+$smoke: #d2c7c7;
 $white: #ffffff;
 
-// Dark Mode Colors
+// Dark mode
 $dark-text-color: #c7bebe;
 $dark-heading-color: #eaeaea;
+$dark-accent: #ff5277;
 $dark-gray: #767f87;
 $dark-light: #1b1d25;
+$dark-smoke: #4a4d56;
 $dark-black: #131418;
 
 // Spacing rhythm - 8px base unit
@@ -79,6 +83,7 @@ $on-widescreen: 1152px;
         "klise/base",
         "klise/layout",
         "klise/utilities",
+        "klise/typography",
         "klise/post",
         "klise/miscellaneous",
         "klise/syntax",

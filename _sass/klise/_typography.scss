@@ -1,0 +1,180 @@
+// _typography.scss - Consolidated typography rules
+// This is the SINGLE source of truth for typography
+
+// Font stack declarations (fonts already loaded in _fonts.scss)
+$serif-family: "EB Garamond", serif;
+$sans-family: "IBM Plex Sans", sans-serif;
+$mono-family: "IBM Plex Mono", monospace;
+
+// Note: Fallback fonts removed since you're self-hosting
+// The WOFF2 files ensure consistent rendering across all browsers
+
+// Optical size adjustments for code
+code, pre {
+  font-family: $mono-family;
+  font-size: $font-size-sm * $plex-mono-scale;
+}
+
+// Ensure consistent link styles
+a {
+  color: $accent-color;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+  
+  &:hover {
+    color: darken($accent-color, 15%);
+    text-decoration-style: solid;
+  }
+}
+
+// Clean blockquote styling
+blockquote {
+  border-left: 3px solid $accent-color;
+  padding-left: $space-md;
+  font-style: italic;
+  color: $gray;
+  margin: $space-lg 0;
+  
+  p {
+    margin-bottom: 0;
+    
+    &:not(:last-child) {
+      margin-bottom: $space-sm;
+    }
+  }
+}
+
+// Strong and emphasis
+strong, b {
+  font-weight: $bold-weight;
+  color: $heading-color;
+}
+
+em, i {
+  font-style: italic;
+}
+
+// Small text
+small {
+  font-size: $font-size-sm;
+}
+
+// Abbreviations
+abbr[title] {
+  text-decoration: none;
+  border-bottom: 1px dotted $gray;
+  cursor: help;
+}
+
+// Mark/highlight
+mark {
+  background-color: rgba($accent-color, 0.1);
+  color: $heading-color;
+  padding: 0.1em 0.2em;
+}
+
+// Keyboard input
+kbd {
+  font-family: $mono-family;
+  font-size: $font-size-sm * $plex-mono-scale;
+  background-color: $light;
+  border: 1px solid darken($light, 10%);
+  border-radius: 3px;
+  padding: 0.1em 0.3em;
+  box-shadow: 0 1px 0 darken($light, 15%);
+}
+
+// Superscript and subscript
+sup, sub {
+  font-size: 0.75em;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+// Definition lists
+dl {
+  margin: $space-md 0;
+  
+  dt {
+    font-weight: $bold-weight;
+    color: $heading-color;
+    margin-top: $space-md;
+    
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+  
+  dd {
+    margin-left: $space-lg;
+    margin-bottom: $space-sm;
+  }
+}
+
+// Address
+address {
+  font-style: italic;
+  margin: $space-md 0;
+}
+
+// Preformatted text (in addition to code blocks)
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+// Horizontal rule - using ornament instead
+hr {
+  border: none;
+  text-align: center;
+  margin: $space-xl 0;
+  
+  &::before {
+    content: "❦";
+    font-size: 1.2em;
+    color: $gray;
+    opacity: 0.6;
+  }
+}
+
+// Text alignment utilities
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-justify { text-align: justify; }
+
+// Font weight utilities
+.font-normal { font-weight: $normal-weight; }
+.font-medium { font-weight: $medium-weight; }
+.font-bold { font-weight: $bold-weight; }
+
+// Font style utilities
+.italic { font-style: italic; }
+.not-italic { font-style: normal; }
+
+// Line height utilities
+.leading-tight { line-height: 1.25; }
+.leading-normal { line-height: $base-line-height; }
+.leading-loose { line-height: 2; }
+
+// Letter spacing utilities
+.tracking-tight { letter-spacing: -0.025em; }
+.tracking-normal { letter-spacing: 0; }
+.tracking-wide { letter-spacing: 0.025em; }
+
+// Text transform utilities
+.uppercase { text-transform: uppercase; }
+.lowercase { text-transform: lowercase; }
+.capitalize { text-transform: capitalize; }
+.normal-case { text-transform: none; }

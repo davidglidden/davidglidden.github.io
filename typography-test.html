@@ -1,0 +1,88 @@
+---
+layout: default
+title: Typography System Test
+---
+
+<div class="wrapper">
+  <article class="page-content">
+    <header class="header">
+      <h1 class="header-title">Typography System Test</h1>
+      <div class="post-meta">
+        <time>{{ site.time | date: "%B %d, %Y" }}</time>
+      </div>
+    </header>
+
+    <h1>Heading Level 1</h1>
+    <p>This is a paragraph with <strong>bold text</strong>, <em>italic text</em>, and a <a href="#">link to test hover states</a>. The base font size should be 20px on mobile, 21px on tablet, and 22px on desktop.</p>
+
+    <h2>Heading Level 2</h2>
+    <p>Let's test some inline code: <code>const fontSize = '1rem';</code> and see how it scales with our Plex Mono compensation factor.</p>
+
+    <h3>Heading Level 3</h3>
+    <blockquote>
+      <p>This is a blockquote to test the accent color border and italic styling. It should have proper spacing and the accent color on the left border.</p>
+      <p>With multiple paragraphs to test spacing.</p>
+    </blockquote>
+
+    <h4>Heading Level 4</h4>
+    <pre><code>// Code block test
+function testTypography() {
+  const baseSize = getComputedStyle(document.documentElement).fontSize;
+  console.log(`Base font size: ${baseSize}`);
+}</code></pre>
+
+    <h5>Heading Level 5</h5>
+    <ul>
+      <li>Unordered list item one</li>
+      <li>Unordered list item two with <code>inline code</code></li>
+      <li>Unordered list item three</li>
+    </ul>
+
+    <h6>Heading Level 6</h6>
+    <ol>
+      <li>Ordered list item one</li>
+      <li>Ordered list item two</li>
+      <li>Ordered list item three</li>
+    </ol>
+
+    <hr>
+
+    <p class="small-caps">This text uses small caps for testing EB Garamond SC.</p>
+    <p class="oldstyle">Numbers in oldstyle: 1234567890</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Font Family</th>
+          <th>Use Case</th>
+          <th>Scale Factor</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>EB Garamond</td>
+          <td>Body text</td>
+          <td>1.0</td>
+        </tr>
+        <tr>
+          <td>IBM Plex Sans</td>
+          <td>Headings & UI</td>
+          <td>0.94</td>
+        </tr>
+        <tr>
+          <td>IBM Plex Mono</td>
+          <td>Code</td>
+          <td>0.88</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="callout">
+      <p>This is a callout box to test the utility class styling with proper padding.</p>
+    </div>
+
+    <div class="ornament philosophical"></div>
+
+    <p>Final paragraph to test spacing rhythm. All elements should follow the 8px base unit spacing system with consistent margins throughout.</p>
+  </article>
+</div>

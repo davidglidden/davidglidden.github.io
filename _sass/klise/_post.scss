@@ -36,16 +36,16 @@
   }
 
   .header-title {
-    font-size: 2.2em;
+    font-size: $font-size-xxl * 1.1; // Slightly larger than h1
     line-height: 1.25;
-    margin: 10px 0 20px;
+    margin: $space-sm 0 $space-md;
 
     &.center {
       text-align: center;
     }
 
     @include media-query($on-mobile) {
-      font-size: 2em;
+      font-size: $font-size-xxl; // Match h1 on mobile
     }
   }
 }
@@ -129,9 +129,8 @@
   }
 
   > p {
-    margin: 0 auto;  // This will center the paragraphs
-    padding: $space-lg 0;
-    line-height: 1.6;
+    margin: 0 auto $space-md auto;  // 4-value syntax for centering
+    line-height: $base-line-height;
     max-width: $narrow-size;  // Explicitly set to 720px
   }
 

@@ -1,14 +1,4 @@
-// _base.scss — Core typography and layout foundation
-// Single source system with viewport scaling
-
-// Define clearfix helper
-%clearfix {
-  &::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
+// _base.scss - Foundation typography and layout
 
 // Root font-size controls (refined based on testing)
 :root {
@@ -28,35 +18,12 @@
   }
 }
 
-html {
-  overflow-x: hidden;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-body,
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr, dl,
-dd, ol, ul, figure {
-  margin: 0;
-  padding: 0;
-}
-
 // Clean body reset
 body {
-  min-height: 100vh;
-  overflow-x: hidden;
-  position: relative;
   margin: 0;
   padding: 0;
   font-family: $serif-family;
-  font-size: $font-size-base * $garamond-scale;
+  font-size: $base-font-size * $garamond-scale;
   line-height: $base-line-height;
   color: $text-color;
   background-color: $white;
@@ -65,14 +32,12 @@ body {
   font-kerning: normal;
 }
 
-// Typography rhythm
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, ul, ol, dl, figure {
-  margin-top: 0;
-  margin-bottom: $space-md;
+// Reset box sizing
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
-// Consistent heading scale using ONE system
+// Headings with visual compensation
 h1, h2, h3, h4, h5, h6 {
   font-family: $sans-family;
   font-weight: $bold-weight;
@@ -82,98 +47,35 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: $space-md;
 }
 
-h1 { 
-  font-size: $font-size-xxl; 
-  // Compensate for Plex Sans being visually larger
-  font-size: calc(#{$font-size-xxl} * #{$plex-sans-scale});
+// Heading sizes with Plex Sans compensation built in
+h1 { font-size: calc(#{$font-size-xxl} * #{$plex-sans-scale}); }
+h2 { font-size: calc(#{$font-size-xl} * #{$plex-sans-scale}); }
+h3 { font-size: calc(#{$font-size-lg} * #{$plex-sans-scale}); }
+h4 { font-size: calc(#{$base-font-size} * #{$plex-sans-scale}); }
+h5 { font-size: calc(#{$font-size-sm} * #{$plex-sans-scale}); }
+h6 { font-size: calc(#{$font-size-xs} * #{$plex-sans-scale}); }
+
+// Spacing rhythm using consistent units
+p, ul, ol, blockquote, pre, table, figure {
+  margin-top: 0;
+  margin-bottom: $space-md;
 }
 
-h2 { 
-  font-size: $font-size-xl;
-  font-size: calc(#{$font-size-xl} * #{$plex-sans-scale});
+// Paragraph settings
+p {
+  font-feature-settings: "kern" 1, "liga" 1;
+  text-rendering: optimizeLegibility;
 }
 
-h3 { 
-  font-size: $font-size-lg;
-  font-size: calc(#{$font-size-lg} * #{$plex-sans-scale});
-}
-
-h4 { 
-  font-size: $font-size-base;
-  font-size: calc(#{$font-size-base} * #{$plex-sans-scale});
-}
-
-h5 { 
-  font-size: $font-size-sm;
-  font-size: calc(#{$font-size-sm} * #{$plex-sans-scale});
-}
-
-h6 { 
-  font-size: $font-size-xs;
-  font-size: calc(#{$font-size-xs} * #{$plex-sans-scale});
-}
+// Link styles moved to _typography.scss
 
 // Lists
 ul, ol {
-  margin-left: $space-lg;
-  padding-left: 0;
+  padding-left: $space-lg;
 }
 
-ul {
-  list-style: none;
-
-  li {
-    position: relative;
-    padding-left: 1.2em;
-
-    &::before {
-      content: "◆"; // Primary bullet: Black Diamond
-      position: absolute;
-      left: 0;
-      color: $text-color;
-      font-size: 1.1em;
-    }
-
-    // Secondary level bullets
-    ul li::before {
-      content: "‣"; // Triangular bullet
-      color: $gray;
-      font-size: 1.0em;
-    }
-
-    // Tertiary level bullets
-    ul ul li::before {
-      content: "◦"; // White circle
-      color: $gray;
-      opacity: 0.6;
-      font-size: 0.9em;
-    }
-  }
-}
-
-ol {
-  list-style: decimal;
-  list-style-position: outside;
-  padding-left: 1.4em;
-}
-
-// Links
-a {
-  color: $accent-color;
-  text-decoration: none;
-  border-bottom: 1px dotted transparent;
-  transition: color 0.2s ease, border-color 0.2s ease;
-
-  &:hover,
-  &:focus {
-    color: darken($accent-color, 10%);
-    border-bottom-color: darken($accent-color, 10%);
-  }
-
-  &:focus {
-    outline: 2px dashed $accent-color;
-    outline-offset: 2px;
-  }
+li {
+  margin-bottom: $space-xs;
 }
 
 // Blockquotes
@@ -183,104 +85,102 @@ blockquote {
   font-style: italic;
   color: $gray;
   margin: $space-lg 0;
-  opacity: 0.9;
   
-  // Remove default paragraph margins inside blockquotes
-  p {
-    margin: 0;
-    padding: 0;
-    
-    &:not(:last-child) {
-      margin-bottom: $space-sm;
-    }
+  p:last-child {
+    margin-bottom: 0;
   }
 }
 
-// Code with visual compensation
+// Code
 code {
   font-family: $mono-family;
-  background: $light;
-  padding: 0.1em 0.3em;
+  font-size: $font-size-sm * $plex-mono-scale;
+  background-color: rgba($light, 0.5);
+  padding: 0.125em 0.25em;
   border-radius: 3px;
-  font-size: calc(#{$font-size-sm} * #{$plex-mono-scale});
-  color: $heading-color;
 }
 
 pre {
-  background: $light;
-  padding: 1em;
-  border-radius: 4px;
-  overflow-x: auto;
   font-family: $mono-family;
-  font-size: calc(#{$font-size-sm} * #{$plex-mono-scale});
+  font-size: $font-size-sm * $plex-mono-scale;
   line-height: 1.5;
-}
-
-// Images
-img {
-  max-width: 100%;
-  display: block;
-  margin: $space-lg auto;
-}
-
-// HR - Replaced with typographic ornament
-hr {
-  border: none;
-  background: none;
-  text-align: center;
-  font-size: 1.2em;
-  color: $text-color;
-  margin: $space-xl 0;
-  line-height: 1;
-  height: auto;
+  background-color: rgba($light, 0.3);
+  padding: $space-md;
+  overflow-x: auto;
+  border-radius: 4px;
   
-  &::before {
-    content: "❦"; // Default aldus leaf ornament
-    opacity: 0.8;
+  code {
+    background: none;
+    padding: 0;
+    font-size: 1em;
   }
-  
-  // Optional: override with data attribute
-  &[data-ornament="asterism"]::before {
-    content: "⁂";
-  }
-  
-  &[data-ornament="fleuron"]::before {
-    content: "❧";
-  }
-  
-  &[data-ornament="triple"]::before {
-    content: "• • •";
-    letter-spacing: 0.5em;
-  }
-}
-
-// Selection
-::selection {
-  background: #fff0f0;
-  color: $heading-color;
 }
 
 // Tables
 table {
   width: 100%;
   border-collapse: collapse;
-  font-size: $font-size-sm;
-  margin-top: $space-lg;
-
-  th,
-  td {
-    border: 1px solid $light;
+  margin: $space-lg 0;
+  
+  th, td {
     padding: $space-sm;
+    text-align: left;
+    border-bottom: 1px solid $light;
   }
-
-  thead {
+  
+  th {
     font-weight: $bold-weight;
-    background: $light;
+    color: $heading-color;
+    border-bottom: 2px solid $light;
+  }
+  
+  @include media-query($on-mobile) {
+    display: block;
+    overflow-x: auto;
+    max-width: calc(100vw - #{$space-md * 2});
   }
 }
 
-// Superscript
-sup {
-  font-size: 0.8em;
-  vertical-align: super;
+// Images
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+// HR
+hr {
+  border: none;
+  border-top: 1px solid $light;
+  margin: $space-xl 0;
+}
+
+// Selection
+::selection {
+  background: rgba($accent-color, 0.2);
+  color: $heading-color;
+}
+
+// Clearfix helper
+%clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+// Wrapper
+.wrapper {
+  max-width: $wide-size;
+  margin: 0 auto;
+  padding: 0 $space-lg;
+  
+  @include media-query($on-mobile) {
+    padding: 0 $space-md;
+  }
+}
+
+// Page content
+.page-content {
+  max-width: $narrow-size;
+  margin: 0 auto;
 }
