@@ -13,17 +13,17 @@ tags: [philosophical]
 ## I. SITE  
 ### Philosophy and compass
 
-**Animal Rationis Capax**  
+**<span class="small-caps">Animal Rationis Capax</span>**  
 *on art, work, and becoming*
 
 <blockquote class="poetic">
   <strong>"Animal rationis capax"</strong><br>
   The animal capable of rationality.<br>
-  —Attributed to Jonathan Swift, amending Aristotle's "rational animal"
+  —Attributed to <span class="small-caps">Jonathan Swift</span>, amending <span class="small-caps">Aristotle's</span> "rational animal"
 </blockquote>
 
 <!-- Drop cap will be automatically applied to the first paragraph -->
-This phrase offers a profound redefinition of the human condition: not as a rational being, but as a being *capable* of rationality. It rescues us from the rigidity of essentialism and places us in a space of potential, process, and ethical growth.
+<p class="drop-cap">This phrase offers a profound redefinition of the human condition: not as a rational being, but as a being *capable* of rationality. It rescues us from the rigidity of essentialism and places us in a space of potential, process, and ethical growth.</p>
 
 Rather than assuming we are always, or even usually, rational—it gently affirms our *capacity* to become so. This distinction has powerful implications across pedagogy, ethics, grief, identity, and metaphysics.
 
@@ -32,9 +32,9 @@ Rather than assuming we are always, or even usually, rational—it gently affirm
 Swift replaces Aristotle’s static ontology with a dynamic view of selfhood. We are no longer beings who *are*, but selves in the making—becomings.
 
 This echoes:  
-- Heraclitus: "All is flux."  
-- Whitehead: Reality as process  
-- Christopher Alexander: The form of life is grown, not imposed
+- <span class="small-caps">Heraclitus</span>: "All is flux."  
+- <span class="small-caps">Whitehead</span>: Reality as process  
+- <span class="small-caps">Christopher Alexander</span>: The form of life is grown, not imposed
 
 #### **II. Ethical Capacity**
 
@@ -59,15 +59,17 @@ This inquiry takes many forms across these pages: daily observations from life i
 
 My way of moving through the world has been shaped by four essential voices:
 
-**Christopher Alexander** taught me that living structure emerges from careful attention to what wants to grow. His *Pattern Language* informs not only my pedagogical framework but my approach to daily observation—seeking the generative patterns that connect the small scale to the whole.
+<span class="small-caps">**Christopher Alexander**</span> taught me that living structure emerges from careful attention to what wants to grow. His <em class="ligatures">Pattern Language</em> informs not only my pedagogical framework but my approach to daily observation—seeking the generative patterns that connect the small scale to the whole.
 
-**Gaston Bachelard** revealed how spaces, objects, and moments carry emotional and philosophical weight. His poetics of space and phenomenology of elements help me read the deeper significance in seemingly ordinary encounters—the way a rehearsal room’s acoustics shape musical phrasing, or how the gesture of tuning contains the ethics of listening.
+<span class="small-caps">**Gaston Bachelard**</span> revealed how spaces, objects, and moments carry emotional and philosophical weight. His poetics of space and phenomenology of elements help me read the deeper significance in seemingly ordinary encounters—the way a rehearsal room’s acoustics shape musical phrasing, or how the gesture of tuning contains the ethics of listening.
 
-**John Berger** showed me that seeing is always a form of encounter, never neutral. His integration of art criticism, social observation, and personal reflection models the kind of attention I aspire to—one that recognizes the political and emotional dimensions embedded in aesthetic experience.
+<span class="small-caps">**John Berger**</span> showed me that seeing is always a form of encounter, never neutral. His integration of art criticism, social observation, and personal reflection models the kind of attention I aspire to—one that recognizes the political and emotional dimensions embedded in aesthetic experience.
 
-**Richard Sennett** reminds me that perception is not abstract; it is *tactile*, *practiced*, *formed through contact*. To see well is to handle the world with care. Just as a craftsman learns through the resistance of wood or metal, so too does the artist, teacher, or writer learn through the textures of daily work. Sennett offers an ethic of *involved seeing*—one that honors rhythm, repetition, and the deep time of skill.
+<span class="small-caps">**Richard Sennett**</span> reminds me that perception is not abstract; it is *tactile*, *practiced*, *formed through contact*. To see well is to handle the world with care. Just as a craftsman learns through the resistance of wood or metal, so too does the artist, teacher, or writer learn through the textures of daily work. <span class="small-caps">Sennett</span> offers an ethic of *involved seeing*—one that honors rhythm, repetition, and the deep time of skill.
 
 Together, these four minds offer tools for recognizing that no moment is merely technical, no observation purely objective, no practice separate from the larger questions of how we choose to live.
+
+<div class="ornament philosophical"></div>
 
 ### Interlude: The Desk
 
@@ -77,7 +79,7 @@ The mug is thick-walled, unglazed at the base, ochre and grey like riverbank cla
 
 My son is not yet born, but I feel his presence. He reshapes the silence around me. I write more slowly now--not because there is less time, but because the time I have feels newly textured. He is the breath before the phrase, the stillness before the page turns.
 
-And my daughter--
+And my daughter—
 
 She is not in this room, but the room bears her shape.  
 The turn of the chair toward the light.  
@@ -98,46 +100,46 @@ This is the room where I begin.
 
 On Shape, Substance, and the Time of the Page
 
-This site's typography is not decorative--it is epistemological. It expresses a belief: that form shapes thought, and that good design is not a matter of taste but of ethical and cognitive alignment.
+This site's typography is not decorative—it is <span class="small-caps">epistemological</span>. It expresses a belief: that form shapes thought, and that good design is not a matter of taste but of ethical and cognitive alignment.
 
 The typographic system draws from centuries of typographic tradition and contemporary design craft. It aims for clarity without sterility, personality without pretension. Inspired by the quiet power of early printed books and the balanced restraint of modernist humanism, this system seeks legibility, rhythm, and grace.
 
 ### Core Typefaces
 
-**Body: EB Garamond**  
+**Body: <span class="small-caps">EB Garamond</span>**  
 
-A digital revival of Claude Garamont's <span class="oldstyle">16th</span>-century type, as interpreted by Octavio Pardo and Georg Duffner. With its calligraphic detail and generous spacing, it offers warmth, dignity, and a whisper of history--fitting for a site concerned with time, presence, and memory.
+A digital revival of <span class="small-caps">Claude Garamont's</span> <span class="oldstyle">16th</span>-century type, as interpreted by <span class="small-caps">Octavio Pardo</span> and <span class="small-caps">Georg Duffner</span>. With its calligraphic detail and generous spacing, it offers warmth, dignity, and a whisper of history—fitting for a site concerned with time, presence, and memory.
 
-**Interface and Headings: IBM Plex Sans**  
+**Interface and Headings: <span class="small-caps">IBM Plex Sans</span>**  
 
-Developed by Bold Monday and IBM to embody humanist engineering. Its rational structure and friendly tone pair well with Garamond's organic voice, offering contrast without dissonance.
+Developed by <span class="small-caps">Bold Monday</span> and <span class="small-caps">IBM</span> to embody humanist engineering. Its rational structure and friendly tone pair well with <span class="small-caps">Garamond's</span> organic voice, offering contrast without dissonance.
 
-**Code and Monospace: IBM Plex Mono**  
+**Code and Monospace: <span class="small-caps">IBM Plex Mono</span>**  
 
-A companion to Plex Sans, used sparingly for technical contexts and subtle tonal shifts.
+A companion to <span class="small-caps">Plex Sans</span>, used sparingly for technical contexts and subtle tonal shifts.
 
-**Small Caps: EB Garamond SC**  
+**Small Caps: <span class="small-caps">EB Garamond SC</span>**  
 
-Used selectively for emphasis, hierarchy, and semantic nuance. True small caps, not faux transformations--typography that honors the microstructure of meaning.
+Used selectively for emphasis, hierarchy, and semantic nuance. True small caps, not faux transformations—typography that honors the microstructure of meaning.
 
 ### Responsive Typography
 
 The type responds to its container, acknowledging that reading is contextual:
 
-- **Mobile** (handheld distance): 22px base, 1.75 line height -- generous for the intimate screen
-- **Tablet** (lap distance): 20px base -- a middle ground
-- **Desktop** (arm's length): 21px base, 1.65 line height -- refined for sustained reading
+- **Mobile** (handheld distance): <span class="oldstyle">22</span>px base, <span class="oldstyle">1.75</span> line height—generous for the intimate screen
+- **Tablet** (lap distance): <span class="oldstyle">20</span>px base—a middle ground
+- **Desktop** (arm's length): <span class="oldstyle">21</span>px base, <span class="oldstyle">1.65</span> line height—refined for sustained reading
 
-Maximum measure constrained to 68 characters--the length of a comfortable thought.
+Maximum measure constrained to <span class="oldstyle">68</span> characters—the length of a comfortable thought.
 
 ### Classical Proportions
 
-Images follow Aldine principles, creating visual harmony through mathematical relationships:
-- **Standard images**: 85% width -- leaving breathing room
-- **Small images**: 61.8% width -- the golden ratio (φ)
-- **Large images**: Full width -- for moments requiring emphasis
+Images follow <span class="small-caps">Aldine</span> principles, creating visual harmony through mathematical relationships:
+- **Standard images**: <span class="oldstyle">85</span>% width—leaving breathing room
+- **Small images**: <span class="oldstyle">61.8</span>% width—the golden ratio (φ)
+- **Large images**: Full width—for moments requiring emphasis
 
-Captions whisper in 14px italic Garamond, centered and softly grey--annotations rather than interruptions.
+Captions whisper in <span class="oldstyle">14</span>px italic <span class="small-caps">Garamond</span>, centered and softly grey—annotations rather than interruptions.
 
 ### Expressive Typography
 
@@ -150,7 +152,8 @@ A palette of utility classes extends expression without breaking semantic struct
 - `.no-ligatures` — sometimes silence is necessary
 - `.poetic` — italicized breathing space for epigraphs
 - `.callout` — bordered emphasis for crucial passages
-- `.whisper` — subdued asides in smaller, softer voice .drop-cap -- marking significant beginnings
+- `.whisper` — subdued asides in smaller, softer voice 
+- `.drop-cap` — marking significant beginnings
 
 
 ### Ornamental Punctuation
@@ -181,15 +184,15 @@ Typography is not neutral. Every ligature, line break, and space speaks. The sys
 
 <blockquote class="poetic">
   "The page is a unit of space and time."
-  --Robert Bringhurst
+  —<span class="small-caps">Robert Bringhurst</span>
 </blockquote>
 
-This colophon itself demonstrates these principles: small caps marking concepts, oldstyle figures in dates, ornaments as breathing marks, proportions that invite rather than hurry.
+This colophon itself demonstrates these principles: <span class="small-caps">small caps</span> marking concepts, <span class="oldstyle">oldstyle figures</span> in dates, ornaments as breathing marks, proportions that invite rather than hurry.
 
-Typography here is not applied to text but grown from it--each choice emerging from attention to what the words themselves request. Not decoration, but a form of listening rendered visible.
+Typography here is not applied to text but grown from it—each choice emerging from attention to what the words themselves request. Not decoration, but a form of listening rendered visible.
 
 “The artist constructs a new symbol with his brush. This symbol is not the likeness of a face, but the feeling of an event.”
-— John Berger
+— <span class="small-caps">John Berger</span>
 
 ***
 
@@ -200,22 +203,22 @@ Typography here is not applied to text but grown from it--each choice emerging f
   —Not merely by enabling action, but by shaping attention, memory, and care.
 </blockquote>
 
-Richard Sennett writes that craftsmanship is a *slow unfolding of skill over time*, grounded not in raw talent but in the intimate relationship between hand, tool, and material. My tools reflect this ethic. They are chosen not for novelty or automation, but for how they cultivate my capacity to dwell within the work, to listen more attentively, and to think with my hands—even when those hands are typing, bowing, or sketching.
+<span class="small-caps">Richard Sennett</span> writes that craftsmanship is a *slow unfolding of skill over time*, grounded not in raw talent but in the intimate relationship between hand, tool, and material. My tools reflect this ethic. They are chosen not for novelty or automation, but for how they cultivate my capacity to dwell within the work, to listen more attentively, and to think with my hands—even when those hands are typing, bowing, or sketching.
 
 ### Digital Practice
 
 I work within a modular, text-centric digital environment—built around plain formats, transparent versioning, and slow knowledge.
 
-- **Obsidian**: project architecture, memory curation, pattern archive  
-- **iA Writer**: focused drafting in Markdown  
-- **BBEdit**: regex scalpel, structure-refiner  
-- **iTerm2 + `zsh`**: for small automations and habit scripting  
-- **Anki**: memory gardening, spaced repetition  
-- **Reeder + Safari**: daily reading and research capture  
-- **Drafts + Notes.app**: peripheral capture and idea drift  
-- **Transmit**: file movement across servers  
-- **Working Copy**: git, portable and honest  
-- **Audirvana**: careful listening—not consumption, but attention
+- <span class="small-caps">**Obsidian**</span>: project architecture, memory curation, pattern archive  
+- <span class="small-caps">**iA Writer**</span>: focused drafting in <span class="small-caps">Markdown</span>  
+- <span class="small-caps">**BBEdit**</span>: regex scalpel, structure-refiner  
+- <span class="small-caps">**iTerm2**</span> + `zsh`: for small automations and habit scripting  
+- <span class="small-caps">**Anki**</span>: memory gardening, spaced repetition  
+- <span class="small-caps">**Reeder**</span> + <span class="small-caps">**Safari**</span>: daily reading and research capture  
+- <span class="small-caps">**Drafts**</span> + <span class="small-caps">**Notes.app**</span>: peripheral capture and idea drift  
+- <span class="small-caps">**Transmit**</span>: file movement across servers  
+- <span class="small-caps">**Working Copy**</span>: git, portable and honest  
+- <span class="small-caps">**Audirvana**</span>: careful listening—not consumption, but attention
 
 These tools are companions, not conveniences. They are refined by repeated use. They reward patience and fidelity.
 
@@ -227,12 +230,12 @@ My phone is a roaming atelier. Not ideal, but viable—mirroring core functions 
 
 Paper is not nostalgia. It is a tool with its own virtues.
 
-- **100×150mm index cards** — for modular task amd idea rotation.
-- **A6 Pocket notebook** — for fieldnotes, sketches, fragments  
+- **<span class="oldstyle">100</span>×<span class="oldstyle">150</span>mm index cards** — for modular task and idea rotation.
+- **<span class="small-caps">A6</span> Pocket notebook** — for fieldnotes, sketches, fragments  
 - **Hand-crafted paper agenda** — for embodied planning and calendar tempo  
 - **Tickler hotel notepads** — time’s gentle companion
 
-I left digital task managers behind when they became systems I served. Pen and paper offer presence. They slow time. They produce a quieter kind of attention. As Bachelard might note, the graphite’s residue matters. The smudge is also a mark of thought.
+I left digital task managers behind when they became systems I served. Pen and paper offer presence. They slow time. They produce a quieter kind of attention. As <span class="small-caps">Bachelard</span> might note, the graphite’s residue matters. The smudge is also a mark of thought.
 
 ### Rhythms and Maintenance
 
@@ -240,14 +243,14 @@ Every morning: the notebook, a stretch, a breath. Every evening: reflection, oft
 
 ### Philosophy of Use
 
-Alexander asks: *Does it have the quality that cannot be named?*  
-Berger reminds: *Every tool has a perspective.*  
-Bachelard whispers: *The tool is also a room.*  
-Sennett affirms: *The good tool teaches.*
+<span class="small-caps">Alexander</span> asks: *Does it have the quality that cannot be named?*  
+<span class="small-caps">Berger</span> reminds: *Every tool has a perspective.*  
+<span class="small-caps">Bachelard</span> whispers: *The tool is also a room.*  
+<span class="small-caps">Sennett</span> affirms: *The good tool teaches.*
 
 These are the companions I consult. I choose tools not to finish faster, but to **stay longer** with what matters. Not for seamlessness, but for resonance. Not for automation, but for *attunement*.
 
-<blockquote class="poetic">
+<blockquote class="whisper">
   I no longer ask, <em>What can this tool do?</em><br>
   I ask:<br>
   <em>Does it foster presence?</em><br>
@@ -267,19 +270,19 @@ These are the companions I consult. I choose tools not to finish faster, but to 
 
 ### Hosting & Engine
 
-- Hosted <span class="small-caps">via</span> [GitHub Pages](https://github.io)  
-- Theme adapted from [Klisé](https://klise.now.sh)  
-- Built with [Jekyll](https://jekyllrb.com)  
-- Written in [Markdown](https://daringfireball.net/projects/markdown/) using [iA Writer](https://ia.net/writer)
+- Hosted <span class="small-caps">via</span> [<span class="small-caps">GitHub Pages</span>](https://github.io)  
+- Theme adapted from [<span class="small-caps">Klisé</span>](https://klise.now.sh) , significantly modified
+- Built with [<span class="small-caps">Jekyll</span>](https://jekyllrb.com)  
+- Written in [<span class="small-caps">Markdown</span>](https://daringfireball.net/projects/markdown/) using [<span class="small-caps">iA Writer</span>](https://ia.net/writer)
 
 
 ### Version
 
 `25.3`  
-Went live: Paris FR | <span class="oldstyle">2020</span>-05-12 | 22:41:35 UTC+1  
-Latest edit: Barcelona ES | <span class="oldstyle">2025</span>-06-03 | 14:21:00 UTC+1  
+Went live: <span class="small-caps">Paris FR</span> | <span class="oldstyle">2020</span>-<span class="oldstyle">05</span>-<span class="oldstyle">12</span> | <span class="oldstyle">22</span>:<span class="oldstyle">41</span>:<span class="oldstyle">35</span> <span class="small-caps">UTC</span>+<span class="oldstyle">1</span>  
+Latest edit: <span class="small-caps">Barcelona ES</span> | <span class="oldstyle">2025</span>-<span class="oldstyle">06</span>-<span class="oldstyle">03</span> | <span class="oldstyle">14</span>:<span class="oldstyle">21</span>:<span class="oldstyle">00</span> <span class="small-caps">UTC</span>+<span class="oldstyle">1</span>  
 
 **Changelog**  
-- Integrated critique from Alexander, Berger, Bachelard, and Sennett  
+- Integrated critique from <span class="small-caps">Alexander</span>, <span class="small-caps">Berger</span>, <span class="small-caps">Bachelard</span>, and <span class="small-caps">Sennett</span>  
 - Added “The Desk” interlude, rhythm and maintenance section  
 - Reordered tools section for organic coherence
