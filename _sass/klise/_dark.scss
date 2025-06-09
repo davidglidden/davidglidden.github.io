@@ -1,28 +1,28 @@
 // _dark.scss — refined dark theme with accent-color integration
 
 body[data-theme="dark"] {
-  color: $dark-text-base-color;
+  color: $dark-text-color;
   background-color: $dark-black;
 
   // Typography
   h1, h2, h3, h4, h5, h6 {
-    color: $dark-white;
+    color: $dark-heading-color;
     font-weight: $bold-weight;
     line-height: 1.4;
   }
 
   p {
-    color: $dark-text-base-color;
+    color: $dark-text-color;
   }
 
 .post-item-date {
-  color: $dark-white; // or another appropriate light color in your palette
+  color: $dark-heading-color; // or another appropriate light color in your palette
 }
 
   // Tables
   table {
     thead {
-      color: $dark-white;
+      color: $dark-heading-color;
       border-color: $dark-light;
     }
 
@@ -57,7 +57,7 @@ body[data-theme="dark"] {
   // kbd tag
   kbd {
     border-color: $dark-light;
-    color: $dark-white;
+    color: $dark-heading-color;
     text-shadow: 0 1px 0 $dark-black;
   }
 
@@ -84,7 +84,7 @@ body[data-theme="dark"] {
 
   // Bold, strong
   strong, b {
-    color: $dark-white;
+    color: $dark-heading-color;
   }
 
   // Navbar & menu
@@ -98,7 +98,7 @@ body[data-theme="dark"] {
       }
 
       .menu-link {
-        color: $dark-white;
+        color: $dark-heading-color;
       }
 
       @include media-query($on-mobile) {
@@ -106,7 +106,7 @@ body[data-theme="dark"] {
         border-color: $dark-light;
 
         .menu-icon > svg {
-          fill: $dark-white;
+          fill: $dark-heading-color;
         }
 
         input[type="checkbox"]:checked ~ .trigger {
@@ -137,7 +137,7 @@ body[data-theme="dark"] {
       font-weight: $bold-weight;
 
       .post-title {
-        color: $dark-white;
+        color: $dark-heading-color;
         opacity: 0.9;
       }
 
@@ -162,7 +162,7 @@ body[data-theme="dark"] {
   .footer {
     span.footer_item,
     a.footer_item:not(:last-child) {
-      color: $dark-white;
+      color: $dark-heading-color;
     }
 
     .footer_theme-copyright {
@@ -174,12 +174,12 @@ body[data-theme="dark"] {
   // 404 page
   .wrapper.not-found {
     .title {
-      color: $dark-white;
+      color: $dark-heading-color;
       text-shadow: 1px 0 0 $accent-color;
     }
 
     .phrase {
-      color: $dark-text-base-color;
+      color: $dark-text-color;
     }
 
     .solution {

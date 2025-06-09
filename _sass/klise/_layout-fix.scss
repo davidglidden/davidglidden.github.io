@@ -20,7 +20,7 @@ body {
   
   // Preserve typography settings
   font: $normal-weight #{$base-font-size}/#{$base-line-height} $sans-family;
-  color: $text-base-color;
+  color: $text-color;
   background-color: $white;
   -webkit-font-smoothing: antialiased;
   font-feature-settings: "kern" 1;
