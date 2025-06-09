@@ -67,6 +67,17 @@
   body.archive {
     padding: 70px 1.5rem 30px 1.5rem;
   }
+  
+  // Ensure pages with wrapper but not posts also get padding
+  // Generic wrapper padding for ALL pages
+  body:not(.home) .wrapper {
+    padding: 70px 1.5rem 30px 1.5rem !important;
+  }
+  
+  // Or if colophon has a specific body class
+  body.page .wrapper {
+    padding: 70px 1.5rem 30px 1.5rem !important;
+  }
 }
 
 // 6. Typography Refinements for Mobile
