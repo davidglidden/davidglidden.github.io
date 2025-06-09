@@ -39,37 +39,35 @@
 
 // 5. Navigation Mobile Enhancements
 // ================================================
+@// 5. Navigation Mobile Enhancements
+// ================================================
 @include media-query($on-mobile) {
   .navbar {
-    // Sticky navigation with shadow
-    position: sticky;
+    // Fixed navigation (not sticky) to avoid spacing issues
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
     z-index: 100;
     background: rgba($white, 0.98);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  }
+  
+  // Content wrapper with proper spacing
+  .wrapper {
+    padding: 70px 1.5rem 30px 1.5rem !important; // Single padding declaration
     
-    .navbar-inner {
-      padding: 0 1.5rem; // Match iA.net exactly
-      height: 50px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+    &.post {
+      padding: 70px 1.5rem 30px 1.5rem !important; // Same for posts
     }
   }
   
-  // Adjust content to account for sticky nav
-  .wrapper {
-    padding-top: 70px !important; // 50px nav + 20px spacing
-    padding-left: 1.5rem !important; // Ensure side padding is maintained
-    padding-right: 1.5rem !important; // Ensure side padding is maintained
-    
-    // Extra specificity for post pages
-    &.post {
-      padding-left: 1.5rem !important;
-      padding-right: 1.5rem !important;
-    }
+  // Home and archive pages need padding too
+  body.home,
+  body.archive {
+    padding: 70px 1.5rem 30px 1.5rem;
   }
 }
 
