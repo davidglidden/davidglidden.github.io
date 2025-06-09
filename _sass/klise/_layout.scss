@@ -65,12 +65,13 @@
 
   .menu-link {
     color: $black;
-    font-size: 1.05em;
-    font-weight: 500;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 0.95em;
+    font-weight: 400;
     text-decoration: none;
     padding: 4px 10px;
-    letter-spacing: 0.3px;
-    opacity: 0.75;
+    letter-spacing: 0.02em;
+    opacity: 0.8;
     transition: color 0.2s ease, opacity 0.2s ease;
 
     &:hover {
@@ -148,7 +149,7 @@
 
 // Author section
 .author {
-  margin-top: 3.5rem;
+  margin-top: 2rem;
   margin-bottom: 7.2rem;
   margin-left: auto;
   margin-right: auto;

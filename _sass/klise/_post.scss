@@ -10,7 +10,7 @@
 }
 // Post title area
 .header {
-  margin-top: 8em;
+  margin-top: 3em;
   margin-bottom: 3em;
 
   .tags {
@@ -58,6 +58,10 @@
   line-height: 1.4;
   color: $gray;
 
+  &.center {
+    text-align: center;
+  }
+
   time {
     position: relative;
     margin-right: 1.5em;
@@ -103,7 +107,7 @@
   a {
     color: $accent-color;
     text-decoration: none;
-    border-bottom: 1px dotted $accent-color;
+    border-bottom: 1px dotted transparent;
     transition: color 0.2s ease, border-color 0.2s ease;
 
     &[target="_blank"]::after {
