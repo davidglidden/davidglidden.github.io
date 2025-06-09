@@ -17,12 +17,7 @@ soul</em></p>
 
 ## I. Threshold
 
-The threshold between worlds is never a line but a breathing space—that moment
-when the foot hesitates before crossing, when the familiar dissolves and
-something unnamed begins to coalesce. In Cremona, this threshold breathes with
-particular intensity. Here, where Amati, Guarneri, and Stradivari once bent over
- their workbenches, the very air seems to hold the memory of wood surrendering
-to its perfect form.
+<p class="drop-cap">The threshold between worlds is never a line but a breathing space—that moment when the foot hesitates before crossing, when the familiar dissolves and something unnamed begins to coalesce.</p> In Cremona, this threshold breathes with particular intensity. Here, where Amati, Guarneri, and Stradivari once bent over their workbenches, the very air seems to hold the memory of wood surrendering to its perfect form.
 
 To arrive here as a string player is to enter a conversation that began
 centuries before your birth. The stones remember the sound of planes shaving
