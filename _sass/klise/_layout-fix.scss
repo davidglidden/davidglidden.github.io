@@ -31,8 +31,8 @@ body {
 // ================================================
 // Define responsive padding that scales beautifully
 :root {
-  --padding-x: #{$spacing-full}; // 30px base
-  --padding-y: #{$spacing-full};
+  --padding-x: #{$space-lg}; // 2rem base
+  --padding-y: #{$space-lg};
   
   @media (min-width: 768px) {
     --padding-x: calc(50px + 2vw); // Scales with viewport

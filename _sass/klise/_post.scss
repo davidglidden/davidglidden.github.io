@@ -112,7 +112,7 @@
 
     &[target="_blank"]::after {
       content: " \2197";
-      font-size: $small-font-size;
+      font-size: $font-size-sm;
       position: relative;
       bottom: 3px;
     }
@@ -203,7 +203,7 @@
     font-weight: $bold-weight;
 
     .post-title {
-      color: $black;
+      color: $heading-color;
     }
 
     &:hover .post-title {
