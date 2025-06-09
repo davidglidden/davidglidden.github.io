@@ -3,14 +3,24 @@ title: The Discovery of Matthieu Taliesin
 date: 2025-03-06
 tags: [en, fr, es, pedagogy, music]
 description: 
+languages:
+  - code: en
+    name: English
+  - code: fr
+    name: Français  
+  - code: es
+    name: Castellano
 ---
 
 <figure>
 <img src="/assets/img/matthieu-t.jpg" alt="Matthieu Taliesin, date and location unknown.">
-<figcaption>Matthieu Taliesin holding his viola with a viola d’amore in foreground. Date & location unknown.</figcaption>
+<figcaption>Matthieu Taliesin holding his viola with a viola d'amore in foreground. Date & location unknown.</figcaption>
 </figure>
 
-In <a id="user-content-the-discovery-of-matthieu-taliesin" class="anchor" aria-label="Permalink: The Discovery of Matthieu Taliesin" href="#the-discovery-of-matthieu-taliesin">English</a> | En <a id="user-content-la-découverte-de-matthieu-taliesin" class="anchor" aria-label="Permalink: La découverte de Matthieu Taliesin" href="#la-découverte-de-matthieu-taliesin">français</a> | En <a id="user-content-el-descubrimiento-de-matthieu-taliesin" class="anchor" aria-label="Permalink: El Descubrimiento de Matthieu Taliesin" href="#el-descubrimiento-de-matthieu-taliesin">Castellano</a>
+{% include language-toggle.html %}
+
+<div id="en" class="lang-content">
+
 # The Discovery of Matthieu Taliesin
 
 Among the many joys of research, there is none greater than the unexpected discovery—the moment when chance, or fate, places something long forgotten into one's hands. Such was my experience upon encountering the scattered writings of Matthieu Taliesin.
@@ -31,19 +41,21 @@ With this first article, we step into the world of Matthieu Taliesin—a teacher
 
 *Barcelona, March 2025.*
 
-***
+</div>
+
+<div id="fr" class="lang-content">
 
 # La découverte de Matthieu Taliesin
 
 Parmi les nombreuses joies de la recherche, il n'en est aucune plus grande que la découverte inattendue—ce moment où le hasard, ou le destin, place entre nos mains quelque chose longtemps oublié. Telle fut mon expérience lorsque je tombai sur les écrits épars de Matthieu Taliesin.
 
-Je ne les aurais peut-être jamais trouvés si un orage d'été n'avait retardé mon départ d'Uppsala, me laissant le temps d'examiner ce que j'avais initialement considéré comme des ajouts sans importance à mes documents de recherche. J'étais venu à la Bibliothèque universitaire d'Uppsala dans un tout autre but, poursuivant une citation dans un traité obscur sur les pratiques historiques d'archet. Le bibliothécaire, un homme taciturne avec un penchant pour la litote, avait apporté une pile de volumes sans rapport, marmonnant quelque chose à propos *« d'autres documents qui pourraient être intéressants »*. Au fond de la pile—coincés entre une méthode d'alto épuisée et un manuscrit non signé d'authenticité douteuse—je les ai trouvés: une poignée de carnets usés, leurs couvertures adoucies par le temps, leurs pages remplies d'une écriture fine et inquiète.
+Je ne les aurais peut-être jamais trouvés si un orage d'été n'avait retardé mon départ d'Uppsala, me laissant le temps d'examiner ce que j'avais initialement considéré comme des ajouts sans importance à mes documents de recherche. J'étais venu à la Bibliothèque universitaire d'Uppsala dans un tout autre but, poursuivant une citation dans un traité obscur sur les pratiques historiques d'archet. Le bibliothécaire, un homme taciturne avec un penchant pour la litote, avait apporté une pile de volumes sans rapport, marmonnant quelque chose à propos *« d'autres documents qui pourraient être intéressants »*. Au fond de la pile—coincés entre une méthode d'alto épuisée et un manuscrit non signé d'authenticité douteuse—je les ai trouvés: une poignée de carnets usés, leurs couvertures adoucies par le temps, leurs pages remplies d'une écriture fine et inquiète.
 
 Il n'y avait ni titre, ni attribution claire. Certaines pages contenaient des esquisses musicales, d'autres des aphorismes cryptiques. Ici et là, des passages étaient rayés avec une telle fureur que l'encre avait traversé le papier. Certaines pages étaient datées, d'autres non, créant une chronologie qui semblait se replier sur elle-même. Parfois, je me demandais si je lisais l'œuvre d'un seul homme ou de plusieurs, car l'écriture, bien que distinctive, changeait subtilement de caractère d'une entrée à l'autre. Et pourtant, même dans ces premiers moments de lecture, j'avais l'indéniable sentiment d'être tombé sur quelque chose de rare: non seulement l'œuvre d'un musicien, mais celle d'un esprit aux prises avec l'essence même de l'art.
 
-Qui était ce Taliesin ? Ce nom m'était inconnu, et une recherche dans les ouvrages de référence habituels ne donna rien. Les notes elles-mêmes n'offraient que des aperçus. Il était certainement musicien, mais pas comme on l'entend habituellement. Il ne cherchait pas à éblouir ou à dominer. Il était plutôt attiré par les espaces intermédiaires: autant par le rôle de l'auditeur que par celui de l'interprète, par l'architecture invisible qui maintient la musique ensemble. *« C'est dans la voix médiane que réside la vérité »*, écrivait-il dans un passage—une phrase qui, je m'en rendrais compte plus tard, résumait toute sa philosophie.
+Qui était ce Taliesin ? Ce nom m'était inconnu, et une recherche dans les ouvrages de référence habituels ne donna rien. Les notes elles-mêmes n'offraient que des aperçus. Il était certainement musicien, mais pas comme on l'entend habituellement. Il ne cherchait pas à éblouir ou à dominer. Il était plutôt attiré par les espaces intermédiaires: autant par le rôle de l'auditeur que par celui de l'interprète, par l'architecture invisible qui maintient la musique ensemble. *« C'est dans la voix médiane que réside la vérité »*, écrivait-il dans un passage—une phrase qui, je m'en rendrais compte plus tard, résumait toute sa philosophie.
 
-Sa vie, d'après ce que j'ai pu reconstituer, en était une de quête. Il y avait des allusions à l'exil, à la perte. Il parlait souvent d'un grand-père qui avait façonné sa pensée, d'un père dont l'absence laissait une ombre. Il semblait exister hors du temps—trouvant des idées révolutionnaires dans des textes anciens et une sagesse intemporelle dans des expériences contemporaines. *« Le nouveau »*, écrivait-il, *« est souvent l'ancien oublié vu avec un regard neuf »*. Il était à la fois profondément enraciné dans la tradition et discrètement rebelle contre elle—l'une de ces rares figures qui ne rejettent pas le passé mais cherchent à l'habiter pleinement, à le comprendre de l'intérieur.
+Sa vie, d'après ce que j'ai pu reconstituer, en était une de quête. Il y avait des allusions à l'exil, à la perte. Il parlait souvent d'un grand-père qui avait façonné sa pensée, d'un père dont l'absence laissait une ombre. Il semblait exister hors du temps—trouvant des idées révolutionnaires dans des textes anciens et une sagesse intemporelle dans des expériences contemporaines. *« Le nouveau »*, écrivait-il, *« est souvent l'ancien oublié vu avec un regard neuf »*. Il était à la fois profondément enraciné dans la tradition et discrètement rebelle contre elle—l'une de ces rares figures qui ne rejettent pas le passé mais cherchent à l'habiter pleinement, à le comprendre de l'intérieur.
 
 Les écrits que j'ai rassemblés ici ne constituent ni une méthode, ni une théorie systématique de la musique. Ils ressemblent plutôt aux enseignements des grands maîtres d'autrefois: elliptiques, stimulants, conçus pour provoquer la réflexion plutôt que pour dicter des règles. Certains prennent la forme de paraboles, d'autres de dialogues ou d'aphorismes. Ils reflètent une vision de la musique non pas comme simple artisanat, mais comme une manière d'être au monde.
 
@@ -53,7 +65,9 @@ Avec ce premier article, nous entrons dans le monde de Matthieu Taliesin—un pr
 
 *Barcelone, mars 2025.*
 
-***
+</div>
+
+<div id="es" class="lang-content">
 
 # El Descubrimiento de Matthieu Taliesin
 
@@ -74,3 +88,5 @@ Al compilar y comentar estos textos, no pretendo resucitar a Taliesin—quizás 
 Con este primer artículo, entramos en el mundo de Matthieu Taliesin—un maestro, un músico y, hasta ahora, una voz perdida en el tiempo.
 
 *Barcelona, Marzo 2025.*
+
+</div>

@@ -5,10 +5,20 @@ layout: page
 excerpt: Pilgrim.
 tags: [en, fr, es]
 comments: false
+languages:
+  - code: en
+    name: English
+  - code: fr
+    name: Français  
+  - code: es
+    name: Castellano
 ---
-In <a id="user-content-biography" class="anchor" aria-label="Permalink: Biography" href="#biography">English</a> | En <a id="user-content-biographie" class="anchor" aria-label="Permalink: Biographie" href="#biographie">français</a> | En <a id="user-content-biografía" class="anchor" aria-label="Permalink: Biografía" href="#biografía">Castellano</a>
+
+{% include language-toggle.html %}
 
 <img src="/assets/img/dfg.jpg">
+
+<div id="en" class="lang-content">
 
 ## Biography
 
@@ -75,7 +85,10 @@ Currently studying Catalan
 
 His reflections on music, attention, and pedagogy appear in his writing under the title [Animal Rationis Capax](https://davdiglidden.eu), where he explores the ethical dimensions of a life devoted to sound and transmission.
 
-***
+</div>
+
+<div id="fr" class="lang-content">
+
 ## Biographie
 
 **Altiste · Professeur · Écrivain**
@@ -132,8 +145,10 @@ Connaissance pratique de l'allemand et de l'italien
 
 Ses réflexions sur la musique, l'attention et la pédagogie paraissent dans ses écrits sous le titre [Animal Rationis Capax](https://davdiglidden.eu), où il explore les dimensions éthiques d'une vie consacrée au son et à la transmission.
 
+</div>
 
-***
+<div id="es" class="lang-content">
+
 ## Biografía
 
 **Violista · Profesor · Escritor**
@@ -190,3 +205,4 @@ Actualmente estudiando catalán
 
 Sus reflexiones sobre música, atención y pedagogía aparecen en sus escritos bajo el título [Animal Rationis Capax](https://davdiglidden.eu), donde explora las dimensiones éticas de una vida dedicada al sonido y la transmisión.
 
+</div>

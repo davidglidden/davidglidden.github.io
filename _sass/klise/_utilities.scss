@@ -183,3 +183,71 @@
     letter-spacing: 0.01em;
   }
 }
+
+// Language switching (hash-based)
+// ================================================
+.language-selection {
+  text-align: center;
+  margin: 2em 0;
+  padding: 1em;
+  border-top: 1px solid $light;
+  border-bottom: 1px solid $light;
+  
+  a {
+    display: inline-block;
+    margin: 0 0.5em;
+    padding: 0.3em 0.8em;
+    text-decoration: none;
+    border: 1px solid $light;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+    font-size: $small-font-size;
+    
+    &:hover {
+      background-color: $light;
+      text-decoration: none;
+    }
+  }
+}
+
+// Language content sections using :target
+.lang-section {
+  display: none;
+  
+  // Show first section by default (no hash)
+  &:first-of-type {
+    display: block;
+  }
+  
+  // Show targeted section
+  &:target {
+    display: block;
+  }
+  
+  // Hide first section when any other is targeted
+  &:first-of-type:target ~ .lang-section:first-of-type {
+    display: none;
+  }
+}
+
+// Special case: when any language is targeted, hide the default
+:target ~ .lang-section:first-of-type {
+  display: none;
+}
+
+// Alternative approach: CSS-only with better browser support
+.lang-content {
+  display: none;
+  
+  &:first-child {
+    display: block;
+  }
+  
+  &:target {
+    display: block;
+  }
+  
+  &:target ~ .lang-content {
+    display: none;
+  }
+}

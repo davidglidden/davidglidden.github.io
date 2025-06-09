@@ -5,9 +5,6 @@ layout: page
 comments: false
 colophon_version: "25.3"
 last_updated: 2025-06-03
-class: essay
-date: 2025-06-09
-tags: [philosophical]
 ---
 
 ## I. SITE  
@@ -16,12 +13,10 @@ tags: [philosophical]
 **Animal Rationis Capax**  
 *on art, work, and becoming*
 
-<blockquote class="poetic">
-  **"Animal rationis capax"**
-  The animal capable of rationality.
+> **"Animal rationis capax"**  
+> The animal capable of rationality.  
 > —Attributed to Jonathan Swift, amending Aristotle's "rational animal"
 
-<!-- Drop cap will be automatically applied to the first paragraph -->
 This phrase offers a profound redefinition of the human condition: not as a rational being, but as a being *capable* of rationality. It rescues us from the rigidity of essentialism and places us in a space of potential, process, and ethical growth.
 
 Rather than assuming we are always, or even usually, rational—it gently affirms our *capacity* to become so. This distinction has powerful implications across pedagogy, ethics, grief, identity, and metaphysics.
@@ -92,52 +87,54 @@ To who I'm becoming.
 To what love requires of me next.  
 This is the room where I begin.  
 
-<div class="ornament philosophical"></div>
+---
+
+
 ## II. TYPOGRAPHY
-
+    
 On Shape, Substance, and the Time of the Page
-
+    
 This site's typography is not decorative--it is epistemological. It expresses a belief: that form shapes thought, and that good design is not a matter of taste but of ethical and cognitive alignment.
-
+    
 The typographic system draws from centuries of typographic tradition and contemporary design craft. It aims for clarity without sterility, personality without pretension. Inspired by the quiet power of early printed books and the balanced restraint of modernist humanism, this system seeks legibility, rhythm, and grace.
-
+    
 ### Core Typefaces
-
+    
 **Body: EB Garamond**  
 
-A digital revival of Claude Garamont's <span class="oldstyle">16th</span>-century type, as interpreted by Octavio Pardo and Georg Duffner. With its calligraphic detail and generous spacing, it offers warmth, dignity, and a whisper of history--fitting for a site concerned with time, presence, and memory.
-
+A digital revival of Claude Garamont's 16th-century type, as interpreted by Octavio Pardo and Georg Duffner. With its calligraphic detail and generous spacing, it offers warmth, dignity, and a whisper of history--fitting for a site concerned with time, presence, and memory.
+    
 **Interface and Headings: IBM Plex Sans**  
 
 Developed by Bold Monday and IBM to embody humanist engineering. Its rational structure and friendly tone pair well with Garamond's organic voice, offering contrast without dissonance.
-
+    
 **Code and Monospace: IBM Plex Mono**  
 
 A companion to Plex Sans, used sparingly for technical contexts and subtle tonal shifts.
-
+    
 **Small Caps: EB Garamond SC**  
 
 Used selectively for emphasis, hierarchy, and semantic nuance. True small caps, not faux transformations--typography that honors the microstructure of meaning.
-
+    
 ### Responsive Typography
-
+    
 The type responds to its container, acknowledging that reading is contextual:
-
-- **Mobile** (handheld distance): 22px base, 1.75 line height -- generous for the intimate screen
-- **Tablet** (lap distance): 20px base -- a middle ground
-- **Desktop** (arm's length): 21px base, 1.65 line height -- refined for sustained reading
-
+    
+    - **Mobile** (handheld distance): 22px base, 1.75 line height -- generous for the intimate screen
+    - **Tablet** (lap distance): 20px base -- a middle ground
+    - **Desktop** (arm's length): 21px base, 1.65 line height -- refined for sustained reading
+    
 Maximum measure constrained to 68 characters--the length of a comfortable thought.
-
+    
 ### Classical Proportions
 
 Images follow Aldine principles, creating visual harmony through mathematical relationships:
-- **Standard images**: 85% width -- leaving breathing room
-- **Small images**: 61.8% width -- the golden ratio (φ)
-- **Large images**: Full width -- for moments requiring emphasis
-
+    - **Standard images**: 85% width -- leaving breathing room
+    - **Small images**: 61.8% width -- the golden ratio (φ)
+    - **Large images**: Full width -- for moments requiring emphasis
+    
 Captions whisper in 14px italic Garamond, centered and softly grey--annotations rather than interruptions.
-
+    
 ### Expressive Typography
 
 A palette of utility classes extends expression without breaking semantic structure:
@@ -150,39 +147,37 @@ A palette of utility classes extends expression without breaking semantic struct
 - `.poetic` — italicized breathing space for epigraphs
 - `.callout` — bordered emphasis for crucial passages
 - `.whisper` — subdued asides in smaller, softer voice .drop-cap -- marking significant beginnings
-
-
+    
+    
 ### Ornamental Punctuation
-
+    
 Horizontal rules transform into typographic ornaments--not mere dividers but breathing marks:
-
-- **❦** (Aldus leaf) -- the default pause
-- **⁂** (asterism) -- for triple emphasis or musical passages
-- **❧** (rotated leaf) -- philosophical turns
-- **◊** (lozenge) -- marking place and journey
-- **• • •** (triple dots) -- softer transitions
-- **§ § §** (section marks) -- structural divisions
-
+    
+    - **❦** (Aldus leaf) -- the default pause
+    - **⁂** (asterism) -- for triple emphasis or musical passages
+    - **❧** (rotated leaf) -- philosophical turns
+    - **◊** (lozenge) -- marking place and journey
+    - **• • •** (triple dots) -- softer transitions
+    - **§ § §** (section marks) -- structural divisions
+    
 These can be applied contextually: personal reflections marked with ❦, musical discussions punctuated by ⁂, philosophical asides turned with ❧.
-
+    
 ### Drop Caps and Beginnings
-
+    
 Drop caps are no longer automatic but intentional—reserved for essays and significant openings. In manuscript tradition, the illuminated initial marked importance. Here too, drop caps signal that what follows deserves particular attention. Apply the `.essay` class to substantial pieces, or mark individual paragraphs with `.drop-cap`.
-
+    
 ### Usage Philosophy
-
+    
 Typography is not neutral. Every ligature, line break, and space speaks. The system aspires to:
-
-- **Invite attentive reading** through generous measure and breathing
-- **Reflect craft time** through careful detailing and classical proportions
-- **Embody ethical legibility** through clarity without sterility
-- **Honor the text's rhythm** through responsive scaling and careful spacing
-
-<blockquote class="poetic">
-  "The page is a unit of space and time."
-  --Robert Bringhurst
-</blockquote>
-
+    
+    - **Invite attentive reading** through generous measure and breathing
+    - **Reflect craft time** through careful detailing and classical proportions
+    - **Embody ethical legibility** through clarity without sterility
+    - **Honor the text's rhythm** through responsive scaling and careful spacing
+    
+> "The page is a unit of space and time."  
+> --Robert Bringhurst
+    
 This colophon itself demonstrates these principles: small caps marking concepts, oldstyle figures in dates, ornaments as breathing marks, proportions that invite rather than hurry.
 
 Typography here is not applied to text but grown from it--each choice emerging from attention to what the words themselves request. Not decoration, but a form of listening rendered visible.
@@ -194,10 +189,8 @@ Typography here is not applied to text but grown from it--each choice emerging f
 
 ## III. TOOLS
 
-<blockquote class="poetic">
-  *"The tool is the instructor of man."*
-  —Not merely by enabling action, but by shaping attention, memory, and care.
-</blockquote>
+> *"The tool is the instructor of man."*  
+> —Not merely by enabling action, but by shaping attention, memory, and care.
 
 Richard Sennett writes that craftsmanship is a *slow unfolding of skill over time*, grounded not in raw talent but in the intimate relationship between hand, tool, and material. My tools reflect this ethic. They are chosen not for novelty or automation, but for how they cultivate my capacity to dwell within the work, to listen more attentively, and to think with my hands—even when those hands are typing, bowing, or sketching.
 
@@ -246,26 +239,27 @@ Sennett affirms: *The good tool teaches.*
 
 These are the companions I consult. I choose tools not to finish faster, but to **stay longer** with what matters. Not for seamlessness, but for resonance. Not for automation, but for *attunement*.
 
-<blockquote class="poetic">
-  I no longer ask, *What can this tool do?*
-  I ask:
+> I no longer ask, *What can this tool do?*  
+> I ask:  
 > *Does it foster presence?*  
 > *Does it invite care?*  
 > *Can it be part of a life worth making—again and again?*
 
-<div class="ornament philosophical"></div>
+---
+
 ## IV. CONTACT
 
 - Email: [d@davidglidden.eu](mailto:d@davidglidden.eu). I don’t use Zoom.  
 - Bitcoin: `1E1itBAUEdYiKNjw8GXEeNcYLQgoaoF4wu`  
 - GPG Key (fingerprint `6B1BC020D66A948E81D71625D1ABEA25B68717DE`)
 
-<div class="ornament philosophical"></div>
+---
+
 ## V. SITE DETAILS
 
 ### Hosting & Engine
 
-- Hosted <span class="small-caps">via</span> [GitHub Pages](https://github.io)  
+- Hosted via [GitHub Pages](https://github.io)  
 - Theme adapted from [Klisé](https://klise.now.sh)  
 - Built with [Jekyll](https://jekyllrb.com)  
 - Written in [Markdown](https://daringfireball.net/projects/markdown/) using [iA Writer](https://ia.net/writer)
@@ -274,16 +268,10 @@ These are the companions I consult. I choose tools not to finish faster, but to 
 ### Version
 
 `25.3`  
-Went live: Paris FR | <span class="oldstyle">2020</span>-05-12 | 22:41:35 UTC+1  
-Latest edit: Barcelona ES | <span class="oldstyle">2025</span>-06-03 | 14:21:00 UTC+1  
+Went live: Paris FR | 2020-05-12 | 22:41:35 UTC+1  
+Latest edit: Barcelona ES | 2025-06-03 | 14:21:00 UTC+1  
 
 **Changelog**  
 - Integrated critique from Alexander, Berger, Bachelard, and Sennett  
 - Added “The Desk” interlude, rhythm and maintenance section  
 - Reordered tools section for organic coherence
-<!-- 
-Document formatted with Typographic Formatter for Animal Rationis Capax
-Content type detected: philosophical
-Essay classification: Yes
-Generated: 2025-06-09 14:47:42
--->

@@ -156,13 +156,12 @@
     margin-bottom: $spacing-half;
 
     &:hover .anchor-head {
-      opacity: 1;
-      color: $accent-color;
+      opacity: 0;
     }
 
     .anchor-head {
       opacity: 0;
-      transition: opacity 0.3s ease;
+      transition: none;
       position: relative;
       margin-left: 4px;
 

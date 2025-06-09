@@ -1,0 +1,7 @@
+{% if page.languages and page.languages.size > 1 %}
+<div class="language-selection">
+  {% for lang in page.languages %}
+    <a href="#{{ lang.code }}">{{ lang.name }}</a>{% unless forloop.last %} {% endunless %}
+  {% endfor %}
+</div>
+{% endif %}

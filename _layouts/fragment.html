@@ -13,7 +13,7 @@ layout: default
         {% if page.tags.size > 0 %}
           <span class="post-tags">
             {% for tag in page.tags %}
-              <span class="tag">{{ tag }}</span>
+              <a class="tag" href="/tags/#{{tag | downcase | slugify}}">{{ tag }}</a>{% unless forloop.last %},{% endunless %}
             {% endfor %}
           </span>
         {% endif %}
