@@ -8,16 +8,16 @@
 :root {
   // Base spacing that scales with viewport
   --base-padding: 20px;
-  --content-padding: clamp(20px, 5vw, 40px);
+  --content-padding: 1.5rem; // Match iA.net exactly
   
   // Font sizing with better mobile scaling
-  --base-font-mobile: 18px;
-  --base-font-tablet: 19px;
-  --base-font-desktop: 20px;
+  --base-font-mobile: 1.25rem; // Match iA.net (20px at default browser size)
+  --base-font-tablet: 1.1875rem; // 19px
+  --base-font-desktop: 1.3125rem; // 21px - refined desktop size
   
   // Line height optimized for mobile reading
-  --line-height-mobile: 1.7;
-  --line-height-desktop: 1.6;
+  --line-height-mobile: 1.75; // Match iA.net exactly
+  --line-height-desktop: 1.65; // Refined desktop line height
 }
 
 // 2. Mobile-First Typography Scaling
@@ -55,12 +55,7 @@ html {
   padding: 30px var(--content-padding);
   
   @include media-query($on-mobile) {
-    padding: 30px var(--content-padding);
-    
-    // iPhone SE and smaller
-    @media (max-width: 375px) {
-      padding: 20px 16px;
-    }
+    padding: 30px 1.5rem; // Match iA.net exactly
   }
   
   // Ensure main content area has proper constraints
@@ -70,20 +65,6 @@ html {
     
     @include media-query($on-mobile) {
       max-width: 100%;
-    }
-  }
-}
-
-// Individual posts might need extra spacing
-.wrapper {
-  &.post {
-    @include media-query($on-mobile) {
-      padding: 30px var(--content-padding);
-      
-      // iPhone SE and smaller
-      @media (max-width: 375px) {
-        padding: 20px 16px;
-      }
     }
   }
 }
@@ -102,7 +83,7 @@ html {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
     
     .navbar-inner {
-      padding: 0 var(--content-padding);
+      padding: 0 1.5rem; // Match iA.net exactly
       height: 50px;
       display: flex;
       align-items: center;
@@ -179,14 +160,14 @@ html {
     > figure,
     > p > img,
     > img {
-      margin: 2em calc(var(--content-padding) * -1);
+      margin: 2em -1.5rem; // Match iA.net padding
       max-width: 100vw;
       width: 100vw;
     }
     
     // Captions with mobile padding
     figcaption {
-      padding: 0.5em var(--content-padding);
+      padding: 0.5em 1.5rem; // Match iA.net padding
       font-size: 0.85em;
     }
   }
@@ -207,8 +188,8 @@ html {
     font-size: 0.85em;
     line-height: 1.5;
     padding: 1em;
-    margin-left: calc(var(--content-padding) * -1);
-    margin-right: calc(var(--content-padding) * -1);
+    margin-left: -1.5rem; // Match iA.net padding
+    margin-right: -1.5rem; // Match iA.net padding
     border-radius: 0;
     
     // Add subtle scroll hint
@@ -244,7 +225,7 @@ html {
 @include media-query($on-mobile) {
   .footer {
     margin-top: 3em;
-    padding: 2em var(--content-padding);
+    padding: 2em 1.5rem; // Match iA.net padding
     
     .footer_item {
       display: inline-block;
@@ -314,8 +295,8 @@ html {
   }
   
   .callout {
-    margin: 1.5rem calc(var(--content-padding) * -0.5);
-    padding: 1rem var(--content-padding);
+    margin: 1.5rem -0.75rem; // Half of iA.net padding
+    padding: 1rem 1.5rem; // Match iA.net padding
     border-left-width: 3px;
     font-size: 0.9em;
   }

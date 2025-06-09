@@ -93,7 +93,7 @@ body {
   padding: calc(var(--padding-y) * 2) var(--padding-x);
   
   @include media-query($on-mobile) {
-    padding: 40px 20px;
+    padding: 30px 1.5rem; // Match iA.net exactly
   }
   
   &.post {
