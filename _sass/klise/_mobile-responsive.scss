@@ -72,6 +72,13 @@ html {
       max-width: 100%;
     }
   }
+  
+  // Desktop: optimal measure based on golden ratio
+  @media (min-width: 768px) {
+    main {
+      max-width: calc(var(--base-font-desktop) * 1.618 * 30); // φ-based optimal measure
+    }
+  }
 }
 
 // 5. Navigation Mobile Enhancements
@@ -388,12 +395,15 @@ html {
   }
 }
 
-// Auto-apply drop caps to first paragraph of articles
-.page-content {
-  > p:first-of-type:not(.no-drop-cap) {
+// Essay class for intentional drop caps on substantial pieces
+.essay {
+  .page-content > p:first-of-type:not(.no-drop-cap) {
     @extend .drop-cap;
   }
 }
+
+// Manual drop cap application - remove automatic behavior  
+// Note: Drop caps now require intentional application via .essay class or .drop-cap class
 
 // 15. Performance Optimizations
 // ================================================

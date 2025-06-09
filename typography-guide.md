@@ -64,17 +64,29 @@ Avoid mixing with fenced code blocks or indented Markdown blocks.
 
 ### 2. **Drop Caps**
 
-Drop caps are automatically applied to the first paragraph of article content. To disable for a specific paragraph:
+Drop caps are now **intentionally applied** rather than automatic, following classical typography principles where drop caps mark significant beginnings.
 
-```markdown
-<p class="no-drop-cap">This paragraph will not have a drop cap.</p>
+#### For Essays and Substantial Pieces:
+Add the `.essay` class to your layout or post front matter:
+```yaml
+---
+layout: post
+class: essay
+---
 ```
+This will automatically apply a drop cap to the first paragraph.
 
-To manually add a drop cap to any paragraph:
-
+#### Manual Drop Cap Application:
 ```html
 <p class="drop-cap">This paragraph will have a beautiful drop cap.</p>
 ```
+
+#### To Disable Drop Caps:
+```html
+<p class="no-drop-cap">This paragraph will not have a drop cap.</p>
+```
+
+**Note**: Drop caps now require intentional application to preserve their semantic weight and classical meaning.
 
 ---
 
@@ -184,10 +196,20 @@ Renders as: ❦ (Aldus leaf)
 <div class="ornament thought"></div>      <!-- ❧ -->
 ```
 
+#### Content-Aware Ornaments:
+Based on the nature of your content, use these semantically meaningful ornaments:
+```html
+<div class="ornament personal"></div>     <!-- ❦ for personal reflections -->
+<div class="ornament musical"></div>      <!-- ⁂ for musical discussions -->
+<div class="ornament philosophical"></div><!-- ❧ for philosophical asides -->
+<div class="ornament travel"></div>       <!-- ◊ for travel/place descriptions -->
+```
+
 #### Jekyll Include:
 ```liquid
 {% include ornament.html type="asterism" %}
 {% include ornament.html type="fleuron" %}
+{% include ornament.html type="personal" %}
 {% include ornament.html %}  <!-- default aldus -->
 ```
 

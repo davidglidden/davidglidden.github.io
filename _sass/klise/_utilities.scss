@@ -103,4 +103,21 @@
   &.thought::before {
     content: "❧"; // Single fleuron for thought breaks
   }
+  
+  // Content-aware ornament suggestions based on critique
+  &.personal::before {
+    content: "❦"; // Aldus leaf for personal reflections
+  }
+  
+  &.musical::before {
+    content: "⁂"; // Asterism for musical discussions  
+  }
+  
+  &.philosophical::before {
+    content: "❧"; // Fleuron for philosophical asides
+  }
+  
+  &.travel::before {
+    content: "◊"; // Diamond for travel/place descriptions
+  }
 }
