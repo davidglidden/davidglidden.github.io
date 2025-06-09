@@ -1,7 +1,13 @@
 // _utilities.scss — expressive typographic helpers for Animal Rationis Capax
 
 .small-caps {
-  font-variant: small-caps;
+  font-family: 'EB Garamond SC', $serif-family;
+  letter-spacing: 0.03em;
+  text-transform: lowercase;
+}
+
+.small-caps-display {
+  font-family: 'EB Garamond SC Display', $serif-family;
   letter-spacing: 0.03em;
   text-transform: lowercase;
 }
