@@ -18,7 +18,7 @@ languages:
 
 <img src="/assets/img/dfg.jpg">
 
-<div id="en" class="lang-content">
+<div id="en" class="lang-content" markdown="1">
 
 ## Biography
 
@@ -87,7 +87,7 @@ His reflections on music, attention, and pedagogy appear in his writing under th
 
 </div>
 
-<div id="fr" class="lang-content">
+<div id="fr" class="lang-content" markdown="1">
 
 ## Biographie
 
@@ -147,7 +147,7 @@ Ses réflexions sur la musique, l'attention et la pédagogie paraissent dans ses
 
 </div>
 
-<div id="es" class="lang-content">
+<div id="es" class="lang-content" markdown="1">
 
 ## Biografía
 
