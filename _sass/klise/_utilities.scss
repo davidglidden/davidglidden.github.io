@@ -48,7 +48,7 @@
 .ornament {
   text-align: center;
   font-size: 1.2em;
-  color: $text-base-color;
+  color: $text-color;
   margin: 2rem 0;
   line-height: 1;
   user-select: none;
@@ -201,7 +201,7 @@
     border: 1px solid $light;
     border-radius: 3px;
     transition: all 0.2s ease;
-    font-size: $small-font-size;
+    font-size: $font-size-sm;
     
     &:hover {
       background-color: $light;

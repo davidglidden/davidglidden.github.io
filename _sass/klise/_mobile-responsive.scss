@@ -324,7 +324,7 @@
     line-height: 0.8;
     margin: 0.1em 0.08em 0 0;
     font-weight: $bold-weight;
-    color: $text-base-color; // Match text color instead of accent
+    color: $text-color; // Match text color instead of accent
     
     @include media-query($on-mobile) {
       font-size: 2.8em;

@@ -38,7 +38,7 @@
       display: block;
       line,
       circle {
-        stroke: $black;
+        stroke: $heading-color;
         fill: none;
       }
     }
@@ -64,7 +64,7 @@
   }
 
   .menu-link {
-    color: $black;
+    color: $heading-color;
     font-family: $sans-family;
     font-size: 0.95em;
     font-weight: 400;
@@ -111,7 +111,7 @@
       cursor: pointer;
 
       > svg {
-        fill: $black;
+        fill: $heading-color;
         opacity: 0.7;
         transition: opacity 0.2s ease;
       }
@@ -193,7 +193,7 @@
   .post-item-date {
     min-width: 96px;
     font-weight: $bold-weight;
-    color: $black;
+    color: $heading-color;
     padding-right: 10px;
     font-variant-numeric: tabular-nums;
 
@@ -204,7 +204,7 @@
 
   .post-item-title {
     margin: 0;
-    color: $text-base-color;
+    color: $text-color;
 
     a {
       text-decoration: none;
@@ -239,20 +239,20 @@
 
 // Footer
 .footer {
-  margin-top: 8em;
-  margin-bottom: 2em;
+  margin-top: $space-xl * 2;
+  margin-bottom: $space-lg;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   @include media-query($on-mobile) {
-    margin-top: 3em;
+    margin-top: $space-xl;
   }
 
   .footer_item {
-    color: $black;
+    color: $heading-color;
     opacity: 0.8;
     font-weight: $bold-weight;
-    font-size: $small-font-size;
+    font-size: $font-size-sm;
 
     &:not(:last-child) {
       margin-right: 10px;
@@ -265,7 +265,7 @@
 
   .footer_theme-copyright {
     display: block;
-    font-size: $small-font-size - 1;
+    font-size: $font-size-xs;
     color: $gray;
     opacity: 0.8;
     margin-top: 3px;
@@ -285,12 +285,12 @@
     font-size: 5em;
     font-weight: $bold-weight;
     line-height: 1.1;
-    color: $black;
+    color: $heading-color;
     text-shadow: 1px 0 0 $accent-color;
   }
 
   .phrase {
-    color: $text-base-color;
+    color: $text-color;
   }
 
   .solution {
