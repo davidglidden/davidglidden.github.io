@@ -95,13 +95,7 @@
       border-radius: 3px;
     }
 
-    figcaption {
-      margin-top: 8px;
-      font-style: italic;
-      font-size: $font-size-sm;
-      text-align: center;
-      opacity: 0.85;
-    }
+    // Caption styles moved to _base.scss
   }
 
   a {

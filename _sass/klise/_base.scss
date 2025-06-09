@@ -148,6 +148,24 @@ img {
   display: block;
 }
 
+// Aldine-inspired captions following minore modulo principle
+figcaption {
+  font-family: $serif-family; // EB Garamond
+  font-size: $font-size-sm; // 0.875rem ≈ 14px - Aldine minore modulo
+  line-height: 1.4;
+  color: $gray; // Soft grey using our variable
+  font-style: italic;
+  text-align: center;
+  max-width: 80%; // Refined proportion
+  margin: $space-xs auto $space-md; // 0.5rem top, 1.5rem bottom
+  
+  @include media-query($on-mobile) {
+    font-size: 0.8rem; // Slightly smaller on mobile
+    max-width: 85%;
+    margin: $space-xs auto $space-sm; // Adjusted mobile spacing
+  }
+}
+
 // HR
 hr {
   border: none;

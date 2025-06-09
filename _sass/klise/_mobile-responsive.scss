@@ -161,23 +161,7 @@
     }
   }
   
-  // Aldine-inspired captions
-  figcaption {
-    font-family: $serif-family; // EB Garamond
-    font-size: 0.875rem; // ≈14px - Aldine minore modulo
-    line-height: 1.4;
-    color: #666; // Soft grey
-    font-style: italic;
-    text-align: center;
-    max-width: 80%; // Refined proportion
-    margin: 0.5rem auto 1.5rem;
-    
-    @include media-query($on-mobile) {
-      font-size: 0.8rem; // Slightly smaller on mobile
-      max-width: 85%;
-      margin: 0.5rem auto 1.25rem;
-    }
-  }
+  // Caption styles moved to _base.scss
 }
 
 // 8. Code Blocks on Mobile
