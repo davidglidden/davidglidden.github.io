@@ -17,9 +17,10 @@ tags: [philosophical]
 *on art, work, and becoming*
 
 <blockquote class="poetic">
-  **"Animal rationis capax"**
-  The animal capable of rationality.
-> —Attributed to Jonathan Swift, amending Aristotle's "rational animal"
+  <strong>"Animal rationis capax"</strong><br>
+  The animal capable of rationality.<br>
+  —Attributed to Jonathan Swift, amending Aristotle's "rational animal"
+</blockquote>
 
 <!-- Drop cap will be automatically applied to the first paragraph -->
 This phrase offers a profound redefinition of the human condition: not as a rational being, but as a being *capable* of rationality. It rescues us from the rigidity of essentialism and places us in a space of potential, process, and ethical growth.
@@ -247,11 +248,12 @@ Sennett affirms: *The good tool teaches.*
 These are the companions I consult. I choose tools not to finish faster, but to **stay longer** with what matters. Not for seamlessness, but for resonance. Not for automation, but for *attunement*.
 
 <blockquote class="poetic">
-  I no longer ask, *What can this tool do?*
-  I ask:
-> *Does it foster presence?*  
-> *Does it invite care?*  
-> *Can it be part of a life worth making—again and again?*
+  I no longer ask, <em>What can this tool do?</em><br>
+  I ask:<br>
+  <em>Does it foster presence?</em><br>
+  <em>Does it invite care?</em><br>
+  <em>Can it be part of a life worth making—again and again?</em>
+</blockquote>
 
 <div class="ornament philosophical"></div>
 ## IV. CONTACT
@@ -281,9 +283,3 @@ Latest edit: Barcelona ES | <span class="oldstyle">2025</span>-06-03 | 14:21:00 
 - Integrated critique from Alexander, Berger, Bachelard, and Sennett  
 - Added “The Desk” interlude, rhythm and maintenance section  
 - Reordered tools section for organic coherence
-<!-- 
-Document formatted with Typographic Formatter for Animal Rationis Capax
-Content type detected: philosophical
-Essay classification: Yes
-Generated: 2025-06-09 14:47:42
--->
