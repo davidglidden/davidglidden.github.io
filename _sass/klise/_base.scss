@@ -37,7 +37,7 @@ body {
   position: relative;
   color: $text-base-color;
   background-color: $white;
-  font: $normal-weight #{$base-font-size}/#{$base-line-height} $sans-family;
+  font: $normal-weight #{$base-font-size}/#{$base-line-height} $serif-family;
   -webkit-font-smoothing: antialiased;
   font-feature-settings: "kern" 1;
   font-kerning: normal;
