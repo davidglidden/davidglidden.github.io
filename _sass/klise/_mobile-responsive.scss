@@ -1,46 +1,13 @@
-// _mobile-responsive.scss — iA Writer-inspired responsive refinements
+// _mobile-responsive.scss — Mobile-specific layout and spacing
 // ================================================
-// Purpose: Enhance mobile reading experience while preserving
-// the site's classical typographic character
+// Purpose: Handle mobile-specific layout adjustments
+// Typography scaling now handled in _base.scss
 
-// 1. iA-Style Responsive Variables
-// ================================================
-:root {
-  // Base spacing that scales with viewport
-  --base-padding: 20px;
-  --content-padding: 1.5rem; // Match iA.net exactly
-  
-  // Font sizing with better mobile scaling
-  --base-font-mobile: 1.5rem; // 24px - increased to match monospace comfort
-  --base-font-tablet: 1.375rem; // 22px - increased to match monospace comfort
-  --base-font-desktop: 1.4375rem; // 23px - increased to match monospace comfort
-  
-  // Line height optimized for mobile reading
-  --line-height-mobile: 1.75; // Match iA.net exactly
-  --line-height-desktop: 1.65; // Refined desktop line height
-}
-
-// 2. Mobile-First Typography Scaling
-// ================================================
-html {
-  // Smooth font scaling across devices
-  font-size: var(--base-font-mobile);
-  
-  @media (min-width: 600px) {
-    font-size: var(--base-font-tablet);
-  }
-  
-  @media (min-width: 768px) {
-    font-size: var(--base-font-desktop);
-  }
-}
-
-// 3. Enhanced Mobile Body Settings
-// ================================================
+// Mobile-specific body adjustments
 @include media-query($on-mobile) {
   body {
     // Better line height for mobile reading
-    line-height: var(--line-height-mobile);
+    line-height: 1.75;
     
     // Prevent horizontal scroll on mobile
     overflow-x: hidden;
@@ -120,38 +87,9 @@ html {
 // 6. Typography Refinements for Mobile
 // ================================================
 @include media-query($on-mobile) {
-  // Headings with better mobile scaling
-  h1 {
-    font-size: 1.8em;
-    line-height: 1.3;
-    margin-top: 1.2em;
-    margin-bottom: 0.8em;
-  }
-  
-  h2 {
-    font-size: 1.5em;
-    line-height: 1.35;
-    margin-top: 1.3em;
-    margin-bottom: 0.7em;
-  }
-  
-  h3 {
-    font-size: 1.3em;
-    line-height: 1.4;
-    margin-top: 1.2em;
-    margin-bottom: 0.6em;
-  }
-  
-  h4, h5, h6 {
-    font-size: 1.1em;
-    line-height: 1.45;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-  }
-  
   // Paragraphs with optimal mobile spacing
   p {
-    margin-bottom: 1.3em;
+    margin-bottom: $space-md;
     text-align: left; // Force left-align on mobile
     hyphens: auto; // Enable hyphenation for narrow screens
     -webkit-hyphens: auto;
@@ -159,19 +97,19 @@ html {
   
   // Lists with better mobile indentation
   ul, ol {
-    margin-left: 20px;
+    margin-left: $space-lg;
     padding-left: 0;
   }
   
   // Blockquotes optimized for mobile
   blockquote {
-    margin: 1rem 0; // Reduced vertical margin
-    padding-left: 16px;
+    margin: $space-md 0;
+    padding-left: $space-md;
     border-left-width: 3px;
     
     // Fix for excessive vertical space
     p {
-      margin: 0; // Remove paragraph margins inside blockquotes
+      margin: 0;
       padding: 0;
     }
   }
@@ -225,7 +163,7 @@ html {
   
   // Aldine-inspired captions
   figcaption {
-    font-family: $sans-family; // EB Garamond
+    font-family: $serif-family; // EB Garamond
     font-size: 0.875rem; // ≈14px - Aldine minore modulo
     line-height: 1.4;
     color: #666; // Soft grey
@@ -381,7 +319,7 @@ html {
 .drop-cap {
   &::first-letter {
     float: left;
-    font-family: $sans-family;
+    font-family: $serif-family;
     font-size: 3.2em;
     line-height: 0.8;
     margin: 0.1em 0.08em 0 0;

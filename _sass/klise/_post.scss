@@ -3,15 +3,15 @@
 .wrapper.post {
   margin: 0 auto; // center the block horizontally
   max-width: $wide-size; // constrain width
-  padding-left: $spacing-full;
-  padding-right: $spacing-full;
+  padding-left: $space-lg;
+  padding-right: $space-lg;
 
   // Mobile padding now handled by _mobile-responsive.scss
 }
 // Post title area
 .header {
-  margin-top: 3em;
-  margin-bottom: 3em;
+  margin-top: $space-xl;
+  margin-bottom: $space-xl;
 
   .tags {
     margin-top: 0.5rem;
@@ -53,7 +53,7 @@
 // Post meta
 .post-meta {
   font-family: $mono-family;
-  font-size: $small-font-size;
+  font-size: $font-size-sm;
   padding-top: 5px;
   line-height: 1.4;
   color: $gray;
@@ -130,7 +130,7 @@
 
   > p {
     margin: 0 auto;  // This will center the paragraphs
-    padding: $spacing-full 0;
+    padding: $space-lg 0;
     line-height: 1.6;
     max-width: $narrow-size;  // Explicitly set to 720px
   }
@@ -164,11 +164,8 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-weight: $bold-weight;
-    color: $black;
-    margin-top: $spacing-full;
-    margin-bottom: $spacing-half;
-
+    // Heading styles now handled in _base.scss
+    // Keep only post-specific behavior
     &:hover .anchor-head {
       opacity: 1;
     }
@@ -186,30 +183,10 @@
     }
   }
 
-  h1 {
-    @include relative-font-size(1.75);
-  }
-
-  h2 {
-    @include relative-font-size(1.5);
-  }
-
   h3 {
-    @include relative-font-size(1.25);
+    // Post-specific styling for h3
     border-bottom: 1px solid $light;
     padding-bottom: 4px;
-  }
-
-  h4 {
-    @include relative-font-size(1.125);
-  }
-
-  h5 {
-    @include relative-font-size(1);
-  }
-
-  h6 {
-    @include relative-font-size(0.875);
   }
 }
 

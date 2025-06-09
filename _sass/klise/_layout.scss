@@ -4,11 +4,11 @@
 // Navbar
 .navbar {
   height: auto;
-  max-width: calc(#{$wide-size} - (#{$spacing-full} * 2));
+  max-width: calc(#{$wide-size} - (#{$space-lg} * 2));
   position: relative;
   margin: 0 auto;
   border-bottom: 1px solid $light;
-  padding: $spacing-full - 15px $spacing-full;
+  padding: $space-md $space-lg;
   @extend %clearfix;
 }
 
@@ -149,13 +149,13 @@
 
 // Author section
 .author {
-  margin-top: 2rem;
-  margin-bottom: 7.2rem;
+  margin-top: $space-lg;
+  margin-bottom: $space-xl;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   @include media-query($on-mobile) {
-    margin-bottom: 3em;
+    margin-bottom: $space-xl;
   }
 
   .author-avatar {

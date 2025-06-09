@@ -1,4 +1,6 @@
-// _base.scss — refined for typographic clarity and subtle elegance
+// _base.scss — Core typography and layout foundation
+// Single source system with viewport scaling
+
 // Define clearfix helper
 %clearfix {
   &::after {
@@ -7,13 +9,28 @@
     clear: both;
   }
 }
-$baseline: 1.5rem;
-$accent-color: #ff0000;
+
+// Root font-size controls (refined based on testing)
+:root {
+  // Mobile
+  @media (max-width: 767px) {
+    font-size: 20px;
+  }
+  
+  // Tablet  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    font-size: 21px;
+  }
+  
+  // Desktop
+  @media (min-width: 1024px) {
+    font-size: 22px;
+  }
+}
 
 html {
   overflow-x: hidden;
   width: 100%;
-  font-size: 100%;
   box-sizing: border-box;
 }
 
@@ -31,13 +48,18 @@ dd, ol, ul, figure {
   padding: 0;
 }
 
+// Clean body reset
 body {
   min-height: 100vh;
   overflow-x: hidden;
   position: relative;
-  color: $text-base-color;
+  margin: 0;
+  padding: 0;
+  font-family: $serif-family;
+  font-size: $font-size-base * $garamond-scale;
+  line-height: $base-line-height;
+  color: $text-color;
   background-color: $white;
-  font: $normal-weight #{$base-font-size}/#{$base-line-height} $serif-family;
   -webkit-font-smoothing: antialiased;
   font-feature-settings: "kern" 1;
   font-kerning: normal;
@@ -46,20 +68,54 @@ body {
 // Typography rhythm
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, ul, ol, dl, figure {
-  margin-top: $baseline;
-  margin-bottom: $baseline;
+  margin-top: 0;
+  margin-bottom: $space-md;
 }
 
-// Headings
+// Consistent heading scale using ONE system
 h1, h2, h3, h4, h5, h6 {
+  font-family: $sans-family;
   font-weight: $bold-weight;
-  color: $black;
+  color: $heading-color;
   line-height: 1.25;
+  margin-top: $space-lg;
+  margin-bottom: $space-md;
+}
+
+h1 { 
+  font-size: $font-size-xxl; 
+  // Compensate for Plex Sans being visually larger
+  font-size: calc(#{$font-size-xxl} * #{$plex-sans-scale});
+}
+
+h2 { 
+  font-size: $font-size-xl;
+  font-size: calc(#{$font-size-xl} * #{$plex-sans-scale});
+}
+
+h3 { 
+  font-size: $font-size-lg;
+  font-size: calc(#{$font-size-lg} * #{$plex-sans-scale});
+}
+
+h4 { 
+  font-size: $font-size-base;
+  font-size: calc(#{$font-size-base} * #{$plex-sans-scale});
+}
+
+h5 { 
+  font-size: $font-size-sm;
+  font-size: calc(#{$font-size-sm} * #{$plex-sans-scale});
+}
+
+h6 { 
+  font-size: $font-size-xs;
+  font-size: calc(#{$font-size-xs} * #{$plex-sans-scale});
 }
 
 // Lists
 ul, ol {
-  margin-left: $spacing-full;
+  margin-left: $space-lg;
   padding-left: 0;
 }
 
@@ -74,7 +130,7 @@ ul {
       content: "◆"; // Primary bullet: Black Diamond
       position: absolute;
       left: 0;
-      color: $text-base-color;
+      color: $text-color;
       font-size: 1.1em;
     }
 
@@ -123,10 +179,10 @@ a {
 // Blockquotes
 blockquote {
   border-left: 3px solid $accent-color;
-  padding-left: 1.25rem;
+  padding-left: $space-md;
   font-style: italic;
   color: $gray;
-  margin: 1.5rem 0; // Controlled vertical margin
+  margin: $space-lg 0;
   opacity: 0.9;
   
   // Remove default paragraph margins inside blockquotes
@@ -135,19 +191,19 @@ blockquote {
     padding: 0;
     
     &:not(:last-child) {
-      margin-bottom: 0.5rem; // Small gap between multiple paragraphs
+      margin-bottom: $space-sm;
     }
   }
 }
 
-// Code
+// Code with visual compensation
 code {
   font-family: $mono-family;
   background: $light;
   padding: 0.1em 0.3em;
   border-radius: 3px;
-  font-size: 0.95em;
-  color: $black;
+  font-size: calc(#{$font-size-sm} * #{$plex-mono-scale});
+  color: $heading-color;
 }
 
 pre {
@@ -156,7 +212,7 @@ pre {
   border-radius: 4px;
   overflow-x: auto;
   font-family: $mono-family;
-  font-size: 0.95em;
+  font-size: calc(#{$font-size-sm} * #{$plex-mono-scale});
   line-height: 1.5;
 }
 
@@ -164,7 +220,7 @@ pre {
 img {
   max-width: 100%;
   display: block;
-  margin: $baseline auto;
+  margin: $space-lg auto;
 }
 
 // HR - Replaced with typographic ornament
@@ -173,8 +229,8 @@ hr {
   background: none;
   text-align: center;
   font-size: 1.2em;
-  color: $text-base-color;
-  margin: 2rem 0;
+  color: $text-color;
+  margin: $space-xl 0;
   line-height: 1;
   height: auto;
   
@@ -201,20 +257,20 @@ hr {
 // Selection
 ::selection {
   background: #fff0f0;
-  color: $black;
+  color: $heading-color;
 }
 
 // Tables
 table {
   width: 100%;
   border-collapse: collapse;
-  font-size: $small-font-size;
-  margin-top: $baseline;
+  font-size: $font-size-sm;
+  margin-top: $space-lg;
 
   th,
   td {
     border: 1px solid $light;
-    padding: 0.5rem;
+    padding: $space-sm;
   }
 
   thead {
@@ -228,5 +284,3 @@ sup {
   font-size: 0.8em;
   vertical-align: super;
 }
-
-// Footnotes, kbd, del, em, etc. can be added here if you want more fine control

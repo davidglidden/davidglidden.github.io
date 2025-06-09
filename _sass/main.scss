@@ -1,48 +1,55 @@
-// Font preferences
+// main.scss — Single source of truth for typography system
+// Consolidated variables and imports
+
+// Typography Scale - ONE system
+$base-font-size: 1rem; // Let root control actual size
+$scale-ratio: 1.25;
+
+// Simplified, consistent sizing
+$font-size-xs: $base-font-size * 0.75;    // 0.75rem
+$font-size-sm: $base-font-size * 0.875;   // 0.875rem  
+$font-size-base: $base-font-size;         // 1rem
+$font-size-lg: $base-font-size * 1.25;    // 1.25rem
+$font-size-xl: $base-font-size * 1.5;     // 1.5rem
+$font-size-xxl: $base-font-size * 2;      // 2rem
+
+// Font families (fonts loaded in _fonts.scss)
 $serif-family: "EB Garamond", serif;
 $sans-family: "IBM Plex Sans", sans-serif;
 $mono-family: "IBM Plex Mono", monospace;
-$base-font-size: 22px; // Increased for better balance with monospace
-$medium-font-size: $base-font-size * 0.938;
-$small-font-size: $base-font-size * 0.875;
-$base-line-height: 1.65; // Refined for optimal reading rhythm
 
-// Font weight
+// Font weights
 $normal-weight: 400;
+$medium-weight: 500;
 $bold-weight: 700;
 
-// Light Mode Colors
-$text-base-color: #434648;
-$text-link-blue: #003fff;
-$text-link-blue-active: #0036c7;
+// Line heights
+$base-line-height: 1.65;
 
-$black: #0d122b;
-$light: #ececec;
-$smoke: #d2c7c7;
+// Visual compensation for font differences
+$garamond-scale: 1;
+$plex-sans-scale: 0.94;  // Slightly smaller to match Garamond visually
+$plex-mono-scale: 0.88;  // Smaller still to match
+
+// Color consolidation - ONE system
+$text-color: #434648;
+$heading-color: #0d122b;
+$accent-color: #ff0000;
 $gray: #6b7886;
+$light: #ececec;
 $white: #ffffff;
 
-// Accent
-$accent-color: #ff0000; // classic book red
-
-// Dark Mode Colors
-$dark-text-base-color: #c7bebe;
-$dark-text-link-blue: #ff5277;
-$dark-text-link-blue-active: #ff2957;
-
-$dark-black: #131418;
-$dark-white: #eaeaea;
-$dark-light: #1b1d25;
-$dark-smoke: #4a4d56;
-$dark-gray: #767f87;
+// Spacing rhythm - 8px base unit
+$space-unit: 0.5rem;
+$space-xs: $space-unit;        // 0.5rem
+$space-sm: $space-unit * 2;    // 1rem
+$space-md: $space-unit * 3;    // 1.5rem
+$space-lg: $space-unit * 4;    // 2rem
+$space-xl: $space-unit * 6;    // 3rem
 
 // Layout
 $wide-size: 890px;
 $narrow-size: 720px;
-
-// Spacing
-$spacing-full: 30px;
-$spacing-half: $spacing-full / 2;
 
 // Media Queries
 $on-mobile: 768px;
@@ -60,11 +67,10 @@ $on-widescreen: 1152px;
   font-size: $base-font-size * $ratio;
 }
 
-// Import Sass modules
+// Import Sass modules in logical order
 @import "klise/fonts",
         "klise/base",
         "klise/layout",
-        "klise/layout-fix",
         "klise/utilities",
         "klise/post",
         "klise/miscellaneous",
