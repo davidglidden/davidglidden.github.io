@@ -20,7 +20,7 @@ I am a violist, teacher, and writer living in Barcelona. My days are shaped by m
 
 This site is where those patterns find words.
 
-→ *For the full professional biography: [Biography](/bio/)*
+→ *Full professional biography: [Biography](/bio/)*
 
 <div class="ornament personal"></div>
 

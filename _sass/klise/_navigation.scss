@@ -22,18 +22,23 @@
 }
 
 .header-avatar {
-  width: 40px;
-  height: 40px;
+  width: 40px !important;
+  height: 40px !important;
+  max-width: 40px !important;
+  max-height: 40px !important;
   border-radius: 50%;
   display: block;
   cursor: pointer;
   transition: transform 0.3s ease;
   // Red tint effect
   filter: sepia(1) saturate(2) hue-rotate(310deg) brightness(0.9);
+  object-fit: cover;
   
   @include media-query($on-mobile) {
-    width: 36px;
-    height: 36px;
+    width: 36px !important;
+    height: 36px !important;
+    max-width: 36px !important;
+    max-height: 36px !important;
   }
   
   &:hover {

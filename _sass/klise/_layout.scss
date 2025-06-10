@@ -85,6 +85,24 @@
   }
 }
 
+// Post type display on homepage
+.post-item {
+  .post-type {
+    font-family: $mono-family;
+    font-size: 0.75rem;
+    color: $gray;
+    margin-left: 0.5rem;
+    opacity: 0.7;
+    font-style: italic;
+    
+    @include media-query($on-mobile) {
+      display: block;
+      margin-left: 0;
+      margin-top: 0.25rem;
+    }
+  }
+}
+
 // Footer
 .footer {
   margin-top: $space-xl * 2;
