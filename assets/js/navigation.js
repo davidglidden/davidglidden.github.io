@@ -6,7 +6,7 @@ function toggleTheme() {
   localStorage.setItem('theme', newTheme);
 }
 
-// Load saved theme
+// Load saved theme (default to light)
 document.addEventListener('DOMContentLoaded', function() {
   const savedTheme = localStorage.getItem('theme') || 'light';
   document.body.setAttribute('data-theme', savedTheme);
@@ -30,20 +30,24 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // Toggle navigation bloom
-function toggleNav() {
+function toggleNav(e) {
+  e.stopPropagation();
   const navBloom = document.getElementById('navBloom');
   navBloom.classList.toggle('open');
 }
 
-// Close nav when clicking outside
-document.addEventListener('click', (e) => {
+// Close nav when clicking/touching outside
+function closeNavOnOutsideClick(e) {
   if (!e.target.closest('.quiet-return')) {
     const navBloom = document.getElementById('navBloom');
     if (navBloom) {
       navBloom.classList.remove('open');
     }
   }
-});
+}
+
+document.addEventListener('click', closeNavOnOutsideClick);
+document.addEventListener('touchstart', closeNavOnOutsideClick);
 
 // Smooth scroll to top
 function scrollToTop(e) {

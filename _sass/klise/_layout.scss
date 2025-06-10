@@ -3,27 +3,21 @@
 
 // Author section
 .author {
-  margin-top: $space-lg;
+  margin-top: $space-md;
   margin-bottom: $space-xl;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   @include media-query($on-mobile) {
-    margin-bottom: $space-xl;
-  }
-
-  .author-avatar {
-    width: 72px;
-    height: 72px;
-    border-radius: 100%;
-    background-color: transparent;
-    animation: 0.5s ease-in forwards fadein;
+    margin-top: $space-sm;
+    margin-bottom: $space-lg;
   }
 
   .author-name {
     font-size: 1.6em;
     font-weight: $bold-weight;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
   }
 
   .author-bio {

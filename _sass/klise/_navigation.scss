@@ -1,11 +1,109 @@
-// Quiet Header (minimal)
+// Quiet Header with avatar and theme toggle
 .quiet-header {
-  padding: 1rem;
+  padding: 1.5rem 2rem;
   max-width: $wide-size;
   margin: 0 auto;
   
   @include media-query($on-mobile) {
-    padding: 0.5rem;
+    padding: 1rem;
+  }
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.header-avatar-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.header-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: block;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  // Red tint effect
+  filter: sepia(1) saturate(2) hue-rotate(310deg) brightness(0.9);
+  
+  @include media-query($on-mobile) {
+    width: 36px;
+    height: 36px;
+  }
+  
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+// Theme Toggle in header
+.theme-toggle {
+  position: absolute;
+  right: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background 0.3s ease;
+  
+  @include media-query($on-mobile) {
+    width: 36px;
+    height: 36px;
+  }
+  
+  &:hover {
+    background: rgba($light, 0.5);
+  }
+  
+  svg {
+    width: 20px;
+    height: 20px;
+    stroke: $heading-color;
+    fill: none;
+    stroke-width: 1.5;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .sun {
+    opacity: 1;
+  }
+  
+  .moon {
+    opacity: 0;
+    position: absolute;
+  }
+}
+
+// Dark mode theme toggle
+body[data-theme="dark"] {
+  .theme-toggle {
+    &:hover {
+      background: rgba($dark-light, 0.5);
+    }
+    
+    svg {
+      stroke: $dark-heading-color;
+    }
+    
+    .sun {
+      opacity: 0;
+      transform: rotate(180deg);
+    }
+    
+    .moon {
+      opacity: 1;
+      transform: rotate(0deg);
+    }
   }
 }
 
@@ -19,13 +117,14 @@
   color: $gray;
   opacity: 0.85;
   text-align: center;
-  margin-top: -0.5rem;
+  margin-top: 0;
   margin-bottom: 2rem;
   user-select: none;
   
   @include media-query($on-mobile) {
     font-size: 0.75rem;
     opacity: 0.8;
+    margin-bottom: 1.5rem;
   }
   
   .separator {
@@ -135,8 +234,13 @@
     cursor: pointer;
     width: 100%;
     text-align: left;
+    -webkit-tap-highlight-color: transparent;  // Remove iOS tap highlight
     
-    &:hover {
+    @include media-query($on-mobile) {
+      padding: 0.625rem 0.875rem;  // Slightly larger touch targets on mobile
+    }
+    
+    &:hover, &:active {
       background: rgba($light, 0.5);
       color: $accent-color;
     }
