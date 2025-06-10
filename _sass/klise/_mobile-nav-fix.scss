@@ -1,0 +1,49 @@
+// Mobile Phone Navigation Critical Fixes ONLY
+// ================================================
+// This file contains ONLY fixes for mobile phones (≤480px) 
+// WITHOUT breaking the working desktop/tablet navigation
+
+// Fix for mobile phones specifically (not tablets)
+@media (max-width: 480px) {
+  // Only fix the z-index issue that was causing problems
+  .quiet-return {
+    z-index: 9999 !important; // Higher than original 100
+  }
+  
+  // Ensure avatar is properly sized for mobile touch
+  .return-avatar {
+    // Ensure minimum touch target without breaking existing styles
+    min-width: 44px !important;
+    min-height: 44px !important;
+    
+    // Ensure it's clickable (this was the main issue)
+    pointer-events: auto !important;
+    -webkit-tap-highlight-color: transparent !important;
+    touch-action: manipulation !important;
+  }
+  
+  // Ensure menu has high enough z-index
+  .nav-bloom {
+    z-index: 10000 !important;
+  }
+  
+  // Only modify overflow-x for phones to prevent touch blocking
+  html {
+    overflow-x: visible !important;
+  }
+  
+  body {
+    overflow-x: visible !important;
+  }
+}
+
+// iOS-specific hardware acceleration (helps with touch responsiveness)
+@supports (-webkit-touch-callout: none) {
+  @media (max-width: 480px) {
+    .return-avatar {
+      // Force hardware acceleration for better touch response
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+    }
+  }
+}

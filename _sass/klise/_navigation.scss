@@ -217,6 +217,7 @@ body[data-theme="dark"] {
     pointer-events: auto;
   }
   
+  
   @include media-query($on-mobile) {
     right: auto;
     left: 50%;
@@ -225,6 +226,7 @@ body[data-theme="dark"] {
     &.open {
       transform: translateX(-50%) scale(1) translateY(0);
     }
+    
   }
 }
 
@@ -355,10 +357,16 @@ body[data-theme="dark"] {
     min-width: 48px;
     min-height: 48px;
     
+    // Critical iOS Safari fix
+    position: relative;
+    z-index: 999;
+    
     @include media-query($on-mobile) {
       // Add padding to increase touch area without changing visual size
       padding: 4px;
       margin: -4px;
+      // Ensure it's clickable on iOS
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
     }
   }
 }

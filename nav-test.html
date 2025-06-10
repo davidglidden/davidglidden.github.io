@@ -1,0 +1,48 @@
+---
+title: "Navigation Test"
+layout: page
+permalink: /nav-test/
+---
+
+<h2>Mobile Navigation Debug Test</h2>
+
+<p>This page tests the mobile navigation functionality. Scroll down to see the navigation avatar appear.</p>
+
+<div style="height: 2000px; background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);">
+  <p>Scroll down...</p>
+  <p style="margin-top: 500px;">Keep scrolling...</p>
+  <p style="margin-top: 500px;">Navigation should appear now...</p>
+  <p style="margin-top: 500px;">Click/tap the avatar when it appears!</p>
+</div>
+
+<script>
+// Debug logging
+document.addEventListener('DOMContentLoaded', function() {
+  console.log('Page loaded');
+  
+  const quietReturn = document.getElementById('quietReturn');
+  const navBloom = document.getElementById('navBloom');
+  const returnAvatar = document.querySelector('.return-avatar');
+  
+  console.log('Elements found:', {
+    quietReturn: !!quietReturn,
+    navBloom: !!navBloom,
+    returnAvatar: !!returnAvatar
+  });
+  
+  // Log all clicks on the page
+  document.addEventListener('click', function(e) {
+    console.log('Click detected on:', e.target.className);
+  }, true);
+  
+  // Log scroll position
+  let scrollTimeout;
+  window.addEventListener('scroll', function() {
+    clearTimeout(scrollTimeout);
+    scrollTimeout = setTimeout(function() {
+      console.log('Scroll position:', window.pageYOffset);
+      console.log('Navigation visible:', quietReturn?.classList.contains('visible'));
+    }, 100);
+  });
+});
+</script>

@@ -73,38 +73,50 @@
     
     window.addEventListener('scroll', handleScroll, { passive: true });
     
-    // Setup avatar click/touch handling
-    if (isTouchDevice()) {
-      // For touch devices, handle both touch and click to cover all cases
-      let touchHandled = false;
-      
-      returnAvatar.addEventListener('touchend', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        touchHandled = true;
-        toggleNavigation();
-        
-        // Reset flag after a short delay
-        setTimeout(function() {
-          touchHandled = false;
-        }, 300);
-      }, { passive: false });
-      
-      // Fallback click handler for touch devices that don't fire touchend
+    // MOBILE PHONE SPECIFIC FIX - only for phones, not tablets
+    const isMobilePhone = window.innerWidth <= 480;
+    
+    if (isMobilePhone) {
+      // For mobile phones only, use simple click handling
       returnAvatar.addEventListener('click', function(e) {
         e.preventDefault();
         e.stopPropagation();
-        if (!touchHandled) {
-          toggleNavigation();
-        }
+        toggleNavigation();
       });
     } else {
-      // For non-touch devices, just use click
-      returnAvatar.addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        toggleNavigation();
-      });
+      // Original code for desktop/tablet
+      if (isTouchDevice()) {
+        // For touch devices (tablets), handle both touch and click to cover all cases
+        let touchHandled = false;
+        
+        returnAvatar.addEventListener('touchend', function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          touchHandled = true;
+          toggleNavigation();
+          
+          // Reset flag after a short delay
+          setTimeout(function() {
+            touchHandled = false;
+          }, 300);
+        }, { passive: false });
+        
+        // Fallback click handler for touch devices that don't fire touchend
+        returnAvatar.addEventListener('click', function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          if (!touchHandled) {
+            toggleNavigation();
+          }
+        });
+      } else {
+        // For non-touch devices, just use click
+        returnAvatar.addEventListener('click', function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          toggleNavigation();
+        });
+      }
     }
     
     // Close nav when clicking/touching outside
