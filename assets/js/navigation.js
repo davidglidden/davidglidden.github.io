@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Toggle navigation bloom
 function toggleNav(e) {
-  e.stopPropagation();
+  if (e) e.stopPropagation();
   const navBloom = document.getElementById('navBloom');
   navBloom.classList.toggle('open');
 }
