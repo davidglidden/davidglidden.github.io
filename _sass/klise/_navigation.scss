@@ -164,10 +164,10 @@ body[data-theme="dark"] {
   position: fixed;
   bottom: 2rem;
   right: 2rem;
-  opacity: 0;
-  transform: translateY(20px);
+  opacity: 1;
+  transform: translateY(0);
   transition: opacity 0.3s ease, transform 0.3s ease;
-  z-index: 100;
+  z-index: 999;
   
   @include media-query($on-mobile) {
     bottom: 1.5rem;
