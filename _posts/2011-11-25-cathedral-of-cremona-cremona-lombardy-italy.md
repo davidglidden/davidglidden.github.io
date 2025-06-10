@@ -3,6 +3,8 @@ title: "‎⁨Cathedral of Cremona⁩, ⁨Cremona⁩, ⁨Lombardy⁩, ⁨Italy�
 date: 2011-11-25
 location: 45.133500, 10.025000
 tags: [en, travel, seen]
+class: observation
+ornament: travel
 description: 
 ---
 

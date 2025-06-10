@@ -2,6 +2,8 @@
 title: "Château de Versailles, France"
 date: 2014-03-28
 location: 48.808286, 2.123539
+class: observation
+ornament: travel
 tags: [en, travel, seen]
 description: 
 ---

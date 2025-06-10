@@ -3,6 +3,8 @@ title: "白云观, Shanghai, China"
 date: 2013-03-03
 location: 31.227167, 121.480000
 tags: [en, travel, seen]
+class: observation
+ornament: travel
 description: 
 ---
 

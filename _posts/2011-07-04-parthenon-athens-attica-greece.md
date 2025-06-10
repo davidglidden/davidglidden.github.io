@@ -3,6 +3,8 @@ title: "Parthenon, ‎⁨Athens⁩, ⁨Attica⁩, ⁨Greece⁩"
 date: 2011-07-04
 location: 37.983333, 23.733333
 tags: [en, travel, seen]
+class: observation
+ornament: travel
 description: 
 ---
 

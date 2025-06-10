@@ -1,0 +1,249 @@
+// Quiet Header
+.quiet-header {
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+  max-width: $wide-size;
+  margin: 0 auto;
+  
+  @include media-query($on-mobile) {
+    padding: 1.5rem 1rem;
+  }
+}
+
+.header-avatar-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.header-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  // Red tint effect
+  filter: sepia(1) saturate(2) hue-rotate(310deg) brightness(0.9);
+  
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+// Theme Toggle
+.theme-toggle {
+  position: absolute;
+  right: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background 0.3s ease;
+  
+  @include media-query($on-mobile) {
+    right: 1rem;
+  }
+  
+  &:hover {
+    background: rgba($light, 0.5);
+  }
+  
+  svg {
+    width: 24px;
+    height: 24px;
+    stroke: $heading-color;
+    fill: none;
+    stroke-width: 1.5;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .sun {
+    opacity: 1;
+  }
+  
+  .moon {
+    opacity: 0;
+    position: absolute;
+  }
+}
+
+// Dark mode theme toggle
+body[data-theme="dark"] {
+  .theme-toggle {
+    &:hover {
+      background: rgba($dark-light, 0.5);
+    }
+    
+    svg {
+      stroke: $dark-heading-color;
+    }
+    
+    .sun {
+      opacity: 0;
+      transform: rotate(180deg);
+    }
+    
+    .moon {
+      opacity: 1;
+      transform: rotate(0deg);
+    }
+  }
+}
+
+// Breadcrumb Navigation
+.breadcrumb {
+  font-family: $sans-family;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  letter-spacing: 0.015em;
+  line-height: 1.4;
+  color: $gray;
+  opacity: 0.85;
+  text-align: center;
+  margin-top: -0.5rem;
+  margin-bottom: 2rem;
+  user-select: none;
+  
+  @include media-query($on-mobile) {
+    font-size: 0.75rem;
+    opacity: 0.8;
+  }
+  
+  .separator {
+    opacity: 0.5;
+    margin: 0 0.6em;
+  }
+  
+  .section {
+    &:hover {
+      opacity: 1;
+      transition: opacity 0.2s ease;
+    }
+  }
+}
+
+// Quiet Return Navigation
+.quiet-return {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 100;
+  
+  @include media-query($on-mobile) {
+    bottom: 1.5rem;
+    right: 1.5rem;
+  }
+  
+  &.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.return-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  cursor: pointer;
+  filter: grayscale(100%) opacity(0.6);
+  transition: all 0.3s ease;
+  display: block;
+  
+  &:hover {
+    filter: grayscale(50%) opacity(0.8);
+    transform: scale(1.1);
+  }
+}
+
+// Navigation Bloom
+.nav-bloom {
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  margin-bottom: 1rem;
+  opacity: 0;
+  transform: scale(0.9) translateY(10px);
+  transition: all 0.3s ease;
+  pointer-events: none;
+  
+  &.open {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+    pointer-events: auto;
+  }
+  
+  @include media-query($on-mobile) {
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%) scale(0.9) translateY(10px);
+    
+    &.open {
+      transform: translateX(-50%) scale(1) translateY(0);
+    }
+  }
+}
+
+.nav-items {
+  background: $white;
+  border: 1px solid $light;
+  border-radius: 8px;
+  padding: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  min-width: 150px;
+  
+  .nav-item {
+    display: block;
+    padding: 0.75rem 1rem;
+    color: $heading-color;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.2s ease;
+    font-family: $sans-family;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    line-height: 1.5;
+    
+    &:hover {
+      background: rgba($light, 0.5);
+      color: $accent-color;
+    }
+    
+    &:not(:last-child) {
+      margin-bottom: 0.25rem;
+    }
+  }
+}
+
+// Dark mode quiet return
+body[data-theme="dark"] {
+  .nav-items {
+    background: $dark-black;
+    border-color: $dark-light;
+    
+    .nav-item {
+      color: $dark-heading-color;
+      
+      &:hover {
+        background: rgba($dark-light, 0.5);
+        color: $dark-accent;
+      }
+    }
+  }
+  
+  .breadcrumb {
+    color: $dark-gray;
+    opacity: 0.7;
+  }
+}

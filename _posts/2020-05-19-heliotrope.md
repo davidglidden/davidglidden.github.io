@@ -2,6 +2,9 @@
 title: Heliotrope
 date: 2020-05-19
 tags: [en, walks, seeing, Paris, France]
+class: observation
+encounter: true
+ornament: personal
 ---
 
 

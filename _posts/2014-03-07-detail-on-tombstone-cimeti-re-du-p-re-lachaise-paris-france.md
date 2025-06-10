@@ -2,6 +2,8 @@
 title: "Detail on tombstone, Cimetière du Père-Lachaise, Paris, France"
 date: 2014-03-07
 location: 48.86, 2.395
+class: observation
+ornament: travel
 tags: [en, travel, seen]
 description: 
 ---

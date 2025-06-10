@@ -3,6 +3,8 @@ title: "Berlin, Germany"
 date: 2012-01-13
 location: 52.511000, 13.371500
 tags: [en, travel, seen]
+class: observation
+ornament: travel
 description: 
 ---
 

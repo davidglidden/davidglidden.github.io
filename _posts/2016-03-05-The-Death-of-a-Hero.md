@@ -2,6 +2,9 @@
 title: The Death of a Hero
 date: 2016-03-05
 tags: [en, music, obituary]
+class: essay
+encounter: true
+ornament: musical
 description: A life devoted to the truth
 ---
 

@@ -4,6 +4,8 @@ date: 2003-04-10
 location: 40.964486, -5.663539
 tags: [en, travel, seen]
 description: 
+class: observation
+ornament: travel
 ---
 
 <figure>

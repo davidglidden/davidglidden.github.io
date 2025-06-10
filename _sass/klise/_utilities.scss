@@ -191,6 +191,44 @@
   }
 }
 
+// Encounter modifier for transformative posts
+.encounter {
+  p {
+    line-height: 1.8;
+  }
+  
+  // Remove drop caps even if essay class
+  &.essay .page-content > p:first-of-type::first-letter {
+    float: none;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    font-weight: inherit;
+  }
+}
+
+// Post type display in metadata
+.post-type {
+  font-family: $mono-family;
+  font-size: 0.75rem;
+  color: $gray;
+  text-transform: lowercase;
+  letter-spacing: 0;
+  opacity: 0.9;
+}
+
+.encounter-marker {
+  text-align: center;
+  margin: 1rem 0;
+  
+  .whisper {
+    font-size: 0.8rem;
+    color: $gray;
+    font-style: italic;
+    opacity: 0.8;
+  }
+}
+
 // Language switching (hash-based)
 // ================================================
 .language-selection {

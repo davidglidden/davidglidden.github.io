@@ -48,24 +48,6 @@ html, body {
   }
 }
 
-// 5. Navigation Mobile Enhancements
-// ================================================
-@include media-query($on-mobile) {
-  .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    max-width: 100%;
-    z-index: 100;
-    background: rgba($white, 0.98);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-    box-sizing: border-box;
-  }
-}
 
 // 6. Typography Refinements for Mobile
 // ================================================
@@ -328,8 +310,7 @@ html, body {
     min-width: 44px;
   }
 
-  // Only apply to navigation links, not inline text links
-  .menu-link,
+  // Only apply to footer links, not inline text links
   .footer_item {
     min-height: 44px;
     display: inline-flex;

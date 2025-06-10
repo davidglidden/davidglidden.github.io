@@ -4,6 +4,8 @@ date: 2014-11-20
 location: 46.988361, 1.771703
 tags: [en, travel, seen]
 description: 
+class: observation
+ornament: travel
 ---
 
 <figure>

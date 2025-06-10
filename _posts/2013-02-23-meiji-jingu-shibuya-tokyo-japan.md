@@ -3,6 +3,8 @@ title: "‎⁨Meiji Jingu⁩, ⁨Shibuya⁩, ⁨Tokyo⁩, ⁨Japan⁩"
 date: 2013-02-23
 location: 35.678500, 139.697833
 tags: [en, travel, seen]
+class: observation
+ornament: travel
 description: 
 ---
 

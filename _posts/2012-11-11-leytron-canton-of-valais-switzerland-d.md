@@ -3,6 +3,8 @@ title: "‎⁨Leytron⁩, ⁨Canton of Valais⁩, ⁨Switzerland⁩d"
 date: 2012-11-11
 location: 46.187500, 7.205167
 tags: [en, travel, seen]
+class: observation
+ornament: travel
 description: 
 ---
 

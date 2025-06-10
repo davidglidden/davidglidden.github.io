@@ -21,9 +21,9 @@ This guide outlines how to access the full expressive range of the typographic s
 All fonts are self-hosted (WOFF2) in `/fonts/` and declared via `@font-face` in `_fonts.scss`.
 
 ### Responsive Font Sizing
-- **Mobile**: 1.375rem base font size (22px) with 1.75 line height — optimized for comfortable mobile reading
+- **Mobile**: 1.375rem base font size (22px) with 1.55 line height
 - **Tablet**: 1.25rem base font size (20px)
-- **Desktop**: 1.3125rem base font size (21px) with 1.65 line height — refined for optimal reading
+- **Desktop**: 1.3125rem base font size (21px) with 1.6 line height
 
 ---
 
@@ -41,6 +41,58 @@ These custom classes enable extended typographic expression in Markdown-rendered
 | `.callout`    | Visual block quote with shaded background and border       | Extends to viewport edges, smaller font (0.9em) |
 | `.whisper`    | Small italic, muted tone, used for asides or commentary    | Further reduced size (0.8rem) |
 | `.drop-cap`   | Beautiful drop cap for first letter                        | Scales from 3.2em to 2.8em on mobile |
+
+---
+
+## 🏛️ Semantic Post Types & Typography
+
+The site uses semantic post types that influence typographic treatment:
+
+### Post Type Classes
+
+Add to your post front matter:
+```yaml
+---
+layout: post
+class: observation  # or: pattern, essay, meditation, fragment, etc.
+encounter: true     # optional flag for transformative moments
+ornament: personal  # optional ornament override
+---
+```
+
+#### Typography by Type:
+
+| Type | Typography Treatment | Drop Caps | Special Features |
+|------|---------------------|-----------|------------------|
+| `observation` | Generous line spacing (1.65) | No | Present-tense immediacy |
+| `fragment` | 85% width, italic emphasis | No | Honors incompleteness |
+| `essay` | Full measure, classical proportions | Yes | Sustained reading |
+| `meditation` | Can combine with essay | Optional | Contemplative pacing |
+| `pattern` | Pattern names in `.small-caps` | No | Structured sections |
+| `gloss` | `.whisper` for commentary | No | Marginalia styling |
+| `correspondence` | Standard format | No | Direct address |
+| `offering` | Lists with `.oldstyle` numerals | No | Curatorial tone |
+| `performance` | May include musical notation | No | Technical + spiritual |
+| `teaching` | Standard format | No | Narrative emergence |
+| `interlude` | Often uses `.poetic` | No | Seasonal/transitional |
+
+### Compound Classes
+
+Combine types for nuanced treatment:
+```yaml
+class: essay meditation  # Gets drop cap + contemplative spacing
+class: observation fragment  # External attention, incomplete
+```
+
+### The Encounter Modifier
+
+When any post becomes transformative:
+```yaml
+class: observation
+encounter: true
+```
+
+Displays a subtle ✦ marker and increases line height to 1.8 for breathing room.
 
 ---
 
@@ -226,15 +278,27 @@ For quotes or personal fragments:
 
 ---
 
+## 🧭 Navigation Typography
+
+Post types appear in breadcrumbs using IBM Plex Sans at 13px:
+```
+Observations → Morning Light Through Catalan Shutters
+```
+
+Navigation uses IBM Plex Sans Regular (400 weight) to distinguish from bold headings while maintaining readability at small sizes.
+
+---
+
 ## 📱 Mobile-Specific Features
 
 ### Responsive Padding System
-- Content padding: **1.5rem** (24px) on all mobile devices — matches iA.net exactly
+- Content padding: **1.5rem** (24px) on all mobile devices
 - Images can break out to full viewport width on mobile
 - Consistent padding applied to navigation, content, and footer areas
 
 ### Navigation
-- Sticky navigation header on mobile with blur effect
+- Quiet header with avatar and theme toggle
+- Quiet return navigation appears on 30% scroll
 - Touch targets meet 44px minimum for accessibility
 
 ### Typography Enhancements
@@ -254,13 +318,32 @@ For quotes or personal fragments:
 
 ---
 
-## 🪶 Future Enhancements Implemented
+## 🪶 Implementation Notes
 
-- ✅ **Drop caps** for article openings (auto-applied to first paragraph)
-- ✅ **Mobile-first responsive system** with iA Writer-inspired padding
-- ✅ **Enhanced mobile typography** with proper scaling and spacing
+### SCSS Structure
+- `main.scss` - Variable definitions and imports
+- `_fonts.scss` - @font-face declarations only
+- `_base.scss` - Foundation typography and layout
+- `_typography.scss` - Core typography rules
+- `_utilities.scss` - Expressive typography classes
+- `_navigation.scss` - Navigation-specific typography
+- `_post.scss` - Article-specific styles
+- `_mobile-responsive.scss` - Mobile adjustments
 
-### Suggestions for Future Work
+### Visual Compensation
+Different fonts appear different sizes even at the same point size. We compensate:
+```scss
+$garamond-scale: 1;      // Baseline
+$plex-sans-scale: 0.94;  // Appears larger
+$plex-mono-scale: 0.88;  // Appears larger still
+```
+
+### Future Enhancements
 - Expand color utility classes (`.tint`, `.highlight`)
-- Implement automatic callout conversion for blockquote types (note, warn, tip, etc.)
+- Implement automatic callout conversion for blockquote types
 - Add `.verse` style for poetry with preserved line breaks
+- Consider margin notes for gloss post type
+
+---
+
+For the philosophy behind these choices, see "[Typography: The Shape of Thought](/typography/)"

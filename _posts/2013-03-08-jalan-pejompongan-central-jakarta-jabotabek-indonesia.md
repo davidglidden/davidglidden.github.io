@@ -3,6 +3,8 @@ title: "Jalan Pejompongan, ‎⁨Central Jakarta⁩, ⁨Jabotabek⁩, ⁨Indones
 date: 2013-03-08
 location: -6.203333, 106.804333
 tags: [en, travel, seen]
+class: observation
+ornament: travel
 description: 
 ---
 

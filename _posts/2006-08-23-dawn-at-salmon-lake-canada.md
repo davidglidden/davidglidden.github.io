@@ -4,6 +4,8 @@ date: 2006-08-23
 location: 44.822272, -78.449250
 tags: [en, travel, seen]
 description: 
+class: observation
+ornament: travel
 ---
 
 <figure>

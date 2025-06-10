@@ -2,6 +2,8 @@
 title: December 22nd, 2023
 date: 2023-12-22
 tags: [en, walks, seeing, Paris, France, observation]
+class: fragment
+ornament: personal
 ---
 
 Half light the 22nd of December at 10:20. 

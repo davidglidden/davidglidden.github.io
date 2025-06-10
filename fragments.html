@@ -1,0 +1,18 @@
+---
+layout: page
+title: Fragments
+permalink: /fragments/
+---
+
+<div class="archive">
+  {% assign fragments = site.posts | where_exp: "post", "post.class contains 'fragment'" %}
+  {% for post in fragments %}
+    <div class="archive-item">
+      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {% if post.encounter %}
+        <span class="whisper">✦</span>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>

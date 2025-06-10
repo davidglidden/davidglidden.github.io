@@ -4,6 +4,8 @@ date: 2002-05-20
 location: 51.050992, 13.733633
 tags: [en, travel, seen]
 description: 
+class: observation
+ornament: travel
 ---
 
 <figure>

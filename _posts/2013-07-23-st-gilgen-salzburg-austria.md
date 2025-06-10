@@ -2,6 +2,8 @@
 title: "St. Gilgen⁩, ⁨Salzburg⁩, ⁨Austria⁩"
 date: 2013-07-23
 location: 47.796500, 13.517167
+class: observation
+ornament: travel
 tags: [en, travel, seen]
 description: 
 ---

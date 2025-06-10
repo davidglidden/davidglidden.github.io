@@ -6,7 +6,7 @@ layout: compress
 {% include header.html %}
 
 <body data-theme="{{ site.mode }}">
-  {% include navbar.html %}
+  {% include quiet-header.html %}
   <div class="wrapper">
     {% include author.html %}
     <main aria-label="Content">
@@ -14,5 +14,23 @@ layout: compress
     </main>
     {% include footer.html %}
   </div>
+  
+  <!-- Quiet Return Navigation -->
+  <div class="quiet-return" id="quietReturn">
+    <nav class="nav-bloom" id="navBloom">
+      <div class="nav-items">
+        <a href="#top" class="nav-item" onclick="scrollToTop(event)">Return to top</a>
+        <a href="{{ '/' | relative_url }}" class="nav-item">Home</a>
+        <a href="{{ '/archive' | relative_url }}" class="nav-item">Archive</a>
+        <a href="{{ '/about' | relative_url }}" class="nav-item">About</a>
+      </div>
+    </nav>
+    <img src="{{ '/assets/img/avatar.png' | relative_url }}" 
+         alt="Navigation" 
+         class="return-avatar"
+         onclick="toggleNav()">
+  </div>
+  
+  <script src="{{ '/assets/js/navigation.js' | relative_url }}"></script>
 </body>
 </html>

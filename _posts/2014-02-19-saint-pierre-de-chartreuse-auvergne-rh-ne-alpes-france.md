@@ -2,6 +2,8 @@
 title: "Saint-Pierre-de-Chartreuse⁩, ⁨Auvergne-Rhône-Alpes⁩, ⁨France⁩"
 date: 2014-02-19
 location: 45.345361, 5.827103
+class: observation
+ornament: travel
 tags: [en, travel, seen]
 description: 
 ---

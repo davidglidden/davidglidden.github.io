@@ -2,6 +2,8 @@
 title: "‎⁨Newtown⁩, ⁨Wales⁩, ⁨United Kingdom⁩"
 date: 2013-06-22
 location: 52.568000, -3.352167
+class: observation
+ornament: travel
 tags: [en, travel, seen]
 description: 
 ---

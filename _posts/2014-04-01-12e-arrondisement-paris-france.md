@@ -2,6 +2,8 @@
 title: "12e arrondisement, Paris, France"
 date: 2014-04-01
 location: 48.840833, 2.388056
+class: observation
+ornament: travel
 tags: [en, travel, seen]
 description: 
 ---

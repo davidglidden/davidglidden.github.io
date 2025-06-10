@@ -2,6 +2,9 @@
 title: The Discovery of Matthieu Taliesin
 date: 2025-03-06
 tags: [en, fr, es, pedagogy, music]
+class: essay
+encounter: true
+ornament: musical
 description: 
 languages:
   - code: en

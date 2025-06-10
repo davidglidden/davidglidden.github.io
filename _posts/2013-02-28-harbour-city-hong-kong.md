@@ -3,6 +3,8 @@ title: "Harbour City, Hong Kong"
 date: 2013-02-28
 location: 22.292167, 114.165000
 tags: [en, travel, seen]
+class: observation
+ornament: travel
 description: 
 ---
 

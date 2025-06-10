@@ -3,6 +3,8 @@ title: Abbey of Melk, Lower Austria.
 date: 2002-03-17
 location: 48.228056, 15.333889
 tags: [en, travels, seen]
+class: observation
+ornament: travel
 ---
 
 <figure>

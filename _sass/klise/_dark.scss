@@ -87,35 +87,6 @@ body[data-theme="dark"] {
     color: $dark-heading-color;
   }
 
-  // Navbar & menu
-  .navbar {
-    border-color: $dark-light;
-
-    .menu {
-      a#mood {
-        .mood-sunny { display: block; }
-        .mood-moon { display: none; }
-      }
-
-      .menu-link {
-        color: $dark-heading-color;
-      }
-
-      @include media-query($on-mobile) {
-        background-color: $dark-black;
-        border-color: $dark-light;
-
-        .menu-icon > svg {
-          fill: $dark-heading-color;
-        }
-
-        input[type="checkbox"]:checked ~ .trigger {
-          background: $dark-black;
-        }
-      }
-    }
-  }
-
   // Post metadata
   .post-meta {
     color: $dark-gray;

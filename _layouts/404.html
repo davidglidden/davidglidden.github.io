@@ -6,9 +6,9 @@ layout: compress
 <html lang="{{ page.lang | default: site.lang | default: " en " }}">
   
 {% include header.html %}
-<body>
+<body data-theme="{{ site.mode }}">
+  {% include quiet-header.html %}
   <main aria-label="Content">
-    {% include navbar.html %}
     <div class="wrapper not-found">
       <div class="container">
         <div class="title">404</div>

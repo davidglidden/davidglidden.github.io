@@ -7,8 +7,18 @@ layout: compress
 
 {% include header.html %}
 
-<body>
-  {% include navbar.html %}
+<body data-theme="{{ site.mode }}">
+  {% include quiet-header.html %}
+  
+  {% if page.class %}
+    {% assign primary_class = page.class | split: ' ' | first %}
+    <div class="breadcrumb">
+      <span class="section">{{ primary_class | capitalize }}s</span>
+      <span class="separator">→</span>
+      <span class="current">{{ page.title }}</span>
+    </div>
+  {% endif %}
+  
   <div class="wrapper post">
     <main class="page-content" aria-label="Content">
       <article itemscope itemtype="https://schema.org/BlogPosting">
@@ -39,6 +49,11 @@ layout: compress
             <span hidden itemprop="mainEntityOfPage">{{ page.excerpt }}</span>
           </div>
           {% endif %}
+          {% if page.encounter %}
+          <div class="post-meta encounter-marker">
+            <span class="whisper">✦ encounter</span>
+          </div>
+          {% endif %}
         </header>
 
         <div class="page-content" itemprop="articleBody">
@@ -64,6 +79,24 @@ layout: compress
   </div>
 
   {% include footer.html %}
+  
+  <!-- Quiet Return Navigation -->
+  <div class="quiet-return" id="quietReturn">
+    <nav class="nav-bloom" id="navBloom">
+      <div class="nav-items">
+        <a href="#top" class="nav-item" onclick="scrollToTop(event)">Return to top</a>
+        <a href="{{ '/' | relative_url }}" class="nav-item">Home</a>
+        <a href="{{ '/archive' | relative_url }}" class="nav-item">Archive</a>
+        <a href="{{ '/about' | relative_url }}" class="nav-item">About</a>
+      </div>
+    </nav>
+    <img src="{{ '/assets/img/avatar.png' | relative_url }}" 
+         alt="Navigation" 
+         class="return-avatar"
+         onclick="toggleNav()">
+  </div>
+  
+  <script src="{{ '/assets/js/navigation.js' | relative_url }}"></script>
 
 </body>
 

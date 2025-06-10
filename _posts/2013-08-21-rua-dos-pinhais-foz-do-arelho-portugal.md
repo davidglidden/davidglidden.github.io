@@ -2,6 +2,8 @@
 title: "Rua dos Pinhais, Foz do Arelho, Portugal"
 date: 2013-08-21
 location: 39.436314, -9.210058
+class: observation
+ornament: travel
 tags: [en, travel, seen]
 description: 
 ---
