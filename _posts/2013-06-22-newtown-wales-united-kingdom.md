@@ -5,7 +5,7 @@ location: 52.568000, -3.352167
 class: observation
 ornament: travel
 tags: [en, travel, seen]
-description: 
+description: "Another glimpse of Newtown's character, revealing the subtle beauty of Welsh market town life in Montgomeryshire's rolling countryside."
 ---
 
 <figure>

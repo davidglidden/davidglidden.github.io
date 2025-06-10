@@ -3,7 +3,7 @@ title: "‎⁨National Theatre of Bahrain⁩, ⁨Manama⁩, ⁨Capital Governora
 date: 2014-11-30
 location: 26.242247, 50.598694
 tags: [en, travel, seen]
-description: 
+description: "Contemporary cultural architecture in Manama—Bahrain's National Theatre embodies the Gulf state's commitment to artistic excellence." 
 class: observation
 ornament: travel
 ---

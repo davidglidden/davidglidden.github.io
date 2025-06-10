@@ -5,7 +5,7 @@ location: 50.946297, 6.960278
 class: observation
 ornament: travel
 tags: [en, travel, seen]
-description: 
+description: "Sacred geometry revealed at Ursulinenkirche St. Corpus Christi in Cologne, where Gothic spirituality meets contemporary observation." 
 ---
 
 <figure>

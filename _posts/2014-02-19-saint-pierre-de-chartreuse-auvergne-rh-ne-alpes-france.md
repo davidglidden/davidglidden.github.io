@@ -5,7 +5,7 @@ location: 45.345361, 5.827103
 class: observation
 ornament: travel
 tags: [en, travel, seen]
-description: 
+description: "Alpine tranquility captured in Saint-Pierre-de-Chartreuse, where mountain light meets the quiet spaces of France's Auvergne-Rhône-Alpes region." 
 ---
 
 <figure>

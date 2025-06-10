@@ -3,7 +3,7 @@ title: "Place Barentin, La Rochelle, France"
 date: 2011-05-12
 location: 46.158044, -1.153400
 tags: [en, travel, seen]
-description: 
+description: "Experience the maritime charm of Place Barentin in La Rochelle, where Atlantic port heritage meets French architectural elegance in this historic coastal square of Nouvelle-Aquitaine." 
 class: observation
 ornament: travel
 ---

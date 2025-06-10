@@ -3,6 +3,7 @@ title: "Vespers for the Living: Monteverdi with Jordi Savall"
 date: 2025-06-08
 tags: [performance_reflection, monteverdi, cremonadiary, sacred_music, presence, reverie]
 class: essay
+description: "A profound meditation on performing Monteverdi's sacred Vespers in Cremona, where music becomes prayer and the past speaks through present voices."
 ---
 
 <p class="poetic small-caps">Memoriae sacrum<br>

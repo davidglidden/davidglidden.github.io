@@ -4,7 +4,7 @@ date: 2025-06-03
 tags: [en, essay, anthropology, ritual, decision-making, pattern-language]
 class: essay
 ornament: philosophical
-description: 
+description: "Explore the ancient wisdom embedded in childhood games—from rock-paper-scissors to counting rhymes—that reveal how humans create fairness through ritual."
 ---
 
 > *“In a world of infinite contingency, how do we agree to begin?”*

@@ -5,7 +5,7 @@ location: 31.227167, 121.480000
 tags: [en, travel, seen]
 class: observation
 ornament: travel
-description: 
+description: "Ancient Taoist wisdom endures at Shanghai's 白云观 (White Cloud Temple), where spiritual traditions persist amid China's rapid urban transformation."
 ---
 
 <figure>

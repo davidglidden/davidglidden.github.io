@@ -5,7 +5,7 @@ location: 35.678500, 139.697833
 tags: [en, travel, seen]
 class: observation
 ornament: travel
-description: 
+description: "A contemplative moment at Tokyo's Meiji Jingu shrine, where ancient Shinto traditions meet modern Shibuya's urban energy in Japan's spiritual heart."
 ---
 
 <figure>

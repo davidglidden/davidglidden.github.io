@@ -3,7 +3,7 @@ title: "The Bauhaus, ‎⁨Hochschule Anhalt⁩, ⁨Dessau-Roßlau⁩, ⁨Saxony
 date: 2014-09-03
 location: 51.839458, 12.227144
 tags: [en, travel, seen]
-description: 
+description: "Modernist pilgrimage to the Bauhaus in Dessau, where revolutionary design principles shaped the 20th century's visual language." 
 class: observation
 ornament: travel
 ---

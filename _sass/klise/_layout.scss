@@ -169,5 +169,65 @@
   }
 }
 
-// Mobile-friendly spacing for post content (now handled by mobile-responsive.scss)
-// Removed to prevent conflicts with mobile-responsive.scss
+// 404 page refined styling
+.wrapper.not-found {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  .page-content {
+    max-width: $narrow-size;
+    margin: 0 auto;
+    text-align: center;
+    
+    h1 {
+      font-size: 5rem;
+      font-weight: $bold-weight;
+      line-height: 1;
+      color: $heading-color;
+      opacity: 0.9;
+      margin-bottom: 2rem;
+      
+      @include media-query($on-mobile) {
+        font-size: 4rem;
+      }
+    }
+    
+    p {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 85%;
+    }
+    
+    // Links in 404 page
+    a {
+      color: $accent-color;
+      
+      &:hover {
+        color: darken($accent-color, 10%);
+      }
+    }
+    
+    // Lists centered
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 2rem 0;
+      
+      li {
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+}
+
+// Dark mode 404
+body[data-theme="dark"] {
+  .wrapper.not-found {
+    h1 {
+      color: $dark-heading-color;
+      opacity: 0.8;
+    }
+  }
+}

@@ -1,5 +1,6 @@
 ---
 title: "About"
+description: "Animal Rationis Capax explores art, work, and becoming through the lens of a violist and teacher in Barcelona."
 permalink: /about/
 layout: page
 class: essay

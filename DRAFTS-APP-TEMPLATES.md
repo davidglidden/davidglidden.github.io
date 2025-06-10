@@ -23,11 +23,11 @@ let dateStr = today.getFullYear() + "-" +
 let template = `---
 title: ""
 date: ${dateStr}
-location: 
+description: ""
 tags: [en, observation]
 class: observation
 ornament: personal
-description: 
+location: 
 ---
 
 `;
@@ -54,6 +54,7 @@ let dateStr = today.getFullYear() + "-" +
 let template = `---
 title: ""
 date: ${dateStr}
+description: ""
 tags: [en, fragment]
 class: fragment
 layout: fragment
@@ -84,10 +85,10 @@ let dateStr = today.getFullYear() + "-" +
 let template = `---
 title: ""
 date: ${dateStr}
+description: ""
 tags: [en, essay]
 class: essay
 ornament: philosophical
-description: 
 ---
 
 `;
@@ -114,10 +115,10 @@ let dateStr = today.getFullYear() + "-" +
 let template = `---
 title: ""
 date: ${dateStr}
+description: ""
 tags: [en, meditation]
 class: meditation
 ornament: philosophical
-description: 
 ---
 
 `;
@@ -144,10 +145,10 @@ let dateStr = today.getFullYear() + "-" +
 let template = `---
 title: ""
 date: ${dateStr}
+description: ""
 tags: [en, pattern, teaching]
 class: pattern
 ornament: musical
-description: 
 ---
 
 `;
@@ -174,10 +175,10 @@ let dateStr = today.getFullYear() + "-" +
 let template = `---
 title: ""
 date: ${dateStr}
+description: ""
 tags: [en, performance, music]
 class: performance
 ornament: musical
-description: 
 ---
 
 `;
@@ -204,10 +205,10 @@ let dateStr = today.getFullYear() + "-" +
 let template = `---
 title: ""
 date: ${dateStr}
+description: ""
 tags: [en, teaching, pedagogy]
 class: teaching
 ornament: musical
-description: 
 ---
 
 `;
@@ -234,10 +235,10 @@ let dateStr = today.getFullYear() + "-" +
 let template = `---
 title: ""
 date: ${dateStr}
+description: ""
 tags: [en, gloss, commentary]
 class: gloss
 ornament: philosophical
-description: 
 ---
 
 `;
@@ -264,10 +265,10 @@ let dateStr = today.getFullYear() + "-" +
 let template = `---
 title: ""
 date: ${dateStr}
+description: ""
 tags: [en, correspondence, dialogue]
 class: correspondence
 ornament: personal
-description: 
 ---
 
 `;
@@ -294,10 +295,10 @@ let dateStr = today.getFullYear() + "-" +
 let template = `---
 title: ""
 date: ${dateStr}
+description: ""
 tags: [en, offering]
 class: offering
 ornament: personal
-description: 
 ---
 
 `;
@@ -324,10 +325,10 @@ let dateStr = today.getFullYear() + "-" +
 let template = `---
 title: ""
 date: ${dateStr}
+description: ""
 tags: [en, interlude]
 class: interlude
 ornament: personal
-description: 
 ---
 
 `;
@@ -354,11 +355,11 @@ let dateStr = today.getFullYear() + "-" +
 let template = `---
 title: ""
 date: ${dateStr}
+description: ""
 location: 
 tags: [en, observation, travel, seen]
 class: observation
 ornament: travel
-description: 
 ---
 
 <figure>
@@ -390,11 +391,11 @@ let dateStr = today.getFullYear() + "-" +
 let template = `---
 title: ""
 date: ${dateStr}
+description: ""
 tags: [en, observation]
 class: observation
 encounter: true
 ornament: personal
-description: 
 ---
 
 `;
@@ -421,10 +422,10 @@ let dateStr = today.getFullYear() + "-" +
 let template = `---
 title: ""
 date: ${dateStr}
+description: ""
 tags: [en, fr, es, essay]
 class: essay
 ornament: philosophical
-description: 
 languages:
   - code: en
     name: English

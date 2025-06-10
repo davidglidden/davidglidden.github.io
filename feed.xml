@@ -1,0 +1,45 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.title | xml_escape }}</title>
+  <subtitle>{{ site.description | xml_escape }}</subtitle>
+  <link href="{{ site.url }}{{ site.baseurl }}/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="{{ site.url }}{{ site.baseurl }}/" rel="alternate" type="text/html"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.url }}{{ site.baseurl }}/</id>
+  <author>
+    <name>{{ site.author.name | xml_escape }}</name>
+    <email>{{ site.author.email | xml_escape }}</email>
+  </author>
+  <generator>Jekyll v{{ jekyll.version }}</generator>
+
+  {% for post in site.posts limit:20 %}
+  <entry>
+    <title type="html">{{ post.title | xml_escape }}</title>
+    <link href="{{ site.url }}{{ post.url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}"/>
+    <published>{{ post.date | date_to_xmlschema }}</published>
+    <updated>{{ post.modified | default: post.date | date_to_xmlschema }}</updated>
+    <id>{{ site.url }}{{ site.baseurl }}{{ post.id }}</id>
+    
+    {% if post.description %}
+    <summary type="html">{{ post.description | xml_escape }}</summary>
+    {% endif %}
+    
+    <content type="html" xml:base="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
+      {{ post.content | xml_escape }}
+    </content>
+    
+    {% if post.tags %}
+      {% for tag in post.tags %}
+    <category term="{{ tag | xml_escape }}"/>
+      {% endfor %}
+    {% endif %}
+    
+    {% if post.class %}
+    <category term="{{ post.class | xml_escape }}" label="Post Type"/>
+    {% endif %}
+  </entry>
+  {% endfor %}
+</feed>

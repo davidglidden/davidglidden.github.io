@@ -5,7 +5,7 @@ location: 39.436314, -9.210058
 class: observation
 ornament: travel
 tags: [en, travel, seen]
-description: 
+description: "Intimate Portuguese coastal life unfolds on Rua dos Pinhais, where Foz do Arelho's residential streets reflect the quiet rhythm of seaside living."
 ---
 
 <figure>

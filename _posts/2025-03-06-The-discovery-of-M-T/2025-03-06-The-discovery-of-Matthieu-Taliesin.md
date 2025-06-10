@@ -5,7 +5,7 @@ tags: [en, fr, es, pedagogy, music]
 class: essay
 encounter: true
 ornament: musical
-description: 
+description: "Discover the mysterious writings of Matthieu Taliesin, a forgotten musician whose philosophy bridges tradition and innovation in this trilingual exploration."
 languages:
   - code: en
     name: English

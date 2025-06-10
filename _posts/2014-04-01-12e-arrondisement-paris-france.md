@@ -5,7 +5,7 @@ location: 48.840833, 2.388056
 class: observation
 ornament: travel
 tags: [en, travel, seen]
-description: 
+description: "Everyday Parisian life glimpsed in the 12th arrondissement, where urban rhythms reveal themselves in unexpected architectural moments." 
 ---
 
 <figure>

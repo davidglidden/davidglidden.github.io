@@ -2,90 +2,97 @@
 title: "Animal Rationis Capax"
 description: "on art, work, and becoming."
 lang: "en-US"
-timezone: "Europe/Paris"
-repo: "https://github.com/davidglidden/davidglidden.github.io"
-mode: "light" # default theme: "dark" | "light"
+timezone: "Europe/Barcelona"  # Updated to your actual location
+url: "https://davidglidden.eu"
+baseurl: ""
+permalink: "/:title/"
 
-# Profile settings
+# SEO and Social settings
 author:
-  name: "<strong><span class=\"small-caps\">Animal Rationis Capax</span></strong>" # David F Glidden
-  bio: "on art, work, and becoming." # Pilgrim since 1974. Violist.
-  username: "davidglidden"
+  name: "David Glidden"
+  bio: "Violist, teacher, writer. Playing with Jordi Savall. Barcelona."
   email: "d@davidglidden.eu"
   avatar: "/assets/img/avatar.png"
 
-# URL settings
-url: "https://davidglidden.eu"
-baseurl: ""  # must be empty string if site is at root of domain
-permalink: "/:title/"  # ensure valid YAML string
+# Social links for SEO
+social:
+  name: David Glidden
+  links:
+    - https://instagram.com/quaerendoinvenietis
+    - https://davidglidden.eu
 
-# Pagination settings
-pagination:
-  enabled: true
-  per_page: 7
-  permalink: '/page:num/'
+# Twitter card settings (even if you don't use Twitter, good for other platforms)
+twitter:
+  username: davidglidden
+  card: summary
 
-# Analytics (disable if not in use)
-google_analytics: ""  # empty string is safer than undefined
-fb_appid: ""
+# Default SEO image
+logo: /assets/img/avatar.png
+image: /assets/img/social-default.jpg  # Create this file
 
-# Collection settings
-collections:
-  posts:
-    output: true
-
-# Markdown and syntax highlighting
+# Build settings
 markdown: kramdown
 highlighter: rouge
 kramdown:
   syntax_highlighter: rouge
   smart_quotes: ["apos", "apos", "quot", "quot"]
 
+# Pagination (using supported jekyll-paginate)
+paginate: 7
+paginate_path: "/archive/page:num/"
+
+# Collections
+collections:
+  posts:
+    output: true
+
 # Default front matter
 defaults:
   - scope:
-      path: ""  # applies to all files
+      path: ""
+      type: "posts"
     values:
       layout: "post"
       comments: false
+      image: /assets/img/social-default.jpg  # Default social image
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      image: /assets/img/social-default.jpg
 
-# Jekyll Compose default front matter
-jekyll_compose:
-  post_default_front_matter:
-    modified: ""
-    tags: []
-    description: ""
-  draft_default_front_matter:
-    modified: ""
-    tags: []
-    description: ""
+# Plugins - ONLY GitHub Pages supported gems
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
 
-# Build settings
-sass:
-  style: compressed
+# Jekyll Feed settings
+feed:
+  title: "Animal Rationis Capax"
+  description: "on art, work, and becoming."
+  author: "David Glidden"
+  path: atom.xml  # or feed.xml if you prefer
 
+# Exclude files from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CHANGELOG.md
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+
+# Include files in build
 include:
   - _redirects
   - .htaccess
 
-exclude:
-  - CNAME
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - CHANGELOG.md
-  - README.md
-  - node_modules
-  - CODE_OF_CONDUCT.md
-
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-sass-converter
-  - jekyll-sitemap
-  - jekyll-paginate-v2
-  - jekyll-seo-tag
-  - jekyll-compress-html
-  - jekyll-assets
-  - jekyll-picture-tag
-
+# Compress settings
+sass:
+  style: compressed

@@ -5,7 +5,7 @@ location: 46.187500, 7.205167
 tags: [en, travel, seen]
 class: observation
 ornament: travel
-description: 
+description: "Discover the alpine tranquility of Leytron in Switzerland's Canton of Valais, where vineyard terraces and mountain vistas create an idyllic landscape in the heart of the Swiss Alps." 
 ---
 
 <figure>

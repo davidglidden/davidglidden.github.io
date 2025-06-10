@@ -3,7 +3,7 @@ title: "La Bastille, ‎⁨Grenoble⁩, ⁨Auvergne-Rhône-Alpes⁩, ⁨France�
 date: 2014-10-03
 location: 45.198917, 5.725219
 tags: [en, travel, seen]
-description: 
+description: "Alpine fortress overlooking Grenoble—La Bastille stands sentinel above the valley, where mountain peaks frame urban civilization." 
 class: observation
 ornament: travel
 ---

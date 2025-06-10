@@ -5,7 +5,7 @@ location: 22.292167, 114.165000
 tags: [en, travel, seen]
 class: observation
 ornament: travel
-description: 
+description: "Capturing the commercial pulse of Hong Kong at Harbour City, where international commerce and local culture converge in this iconic shopping district."
 ---
 
 <figure>

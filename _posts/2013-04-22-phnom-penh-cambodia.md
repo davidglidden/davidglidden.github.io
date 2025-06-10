@@ -5,7 +5,7 @@ location: 11.562333, 104.914333
 tags: [en, travel, seen]
 class: observation
 ornament: travel
-description: 
+description: "Observing life in Phnom Penh, where Cambodia's complex history and resilient culture intersect in the nation's bustling riverside capital."
 ---
 
 <figure>

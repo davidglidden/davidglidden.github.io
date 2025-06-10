@@ -3,7 +3,7 @@ title: "Wilsdruffer Kubus, Dresden"
 date: 2002-05-20
 location: 51.050992, 13.733633
 tags: [en, travel, seen]
-description: 
+description: "Modern architecture in Dresden's historic center. The Wilsdruffer Kubus represents contemporary design dialogue with the city's baroque reconstruction." 
 class: observation
 ornament: travel
 ---

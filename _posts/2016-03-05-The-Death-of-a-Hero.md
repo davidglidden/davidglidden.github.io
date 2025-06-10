@@ -5,7 +5,7 @@ tags: [en, music, obituary]
 class: essay
 encounter: true
 ornament: musical
-description: A life devoted to the truth
+description: Remembering Nikolaus Harnoncourt, the pioneering conductor who revolutionized historical performance practice and changed how we hear centuries of music.
 ---
 
 <figure>

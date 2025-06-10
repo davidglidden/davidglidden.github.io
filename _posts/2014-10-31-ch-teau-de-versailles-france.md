@@ -3,7 +3,7 @@ title: "Château de Versailles, France"
 date: 2014-10-31
 location: 48.805272, 2.120028
 tags: [en, travel, seen]
-description: 
+description: "Royal French architecture at its apex—Château de Versailles embodies the absolute grandeur of monarchical power made manifest in stone." 
 class: observation
 ornament: travel
 ---

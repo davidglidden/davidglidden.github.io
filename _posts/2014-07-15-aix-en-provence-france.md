@@ -3,7 +3,7 @@ title: "Aix-en-Provence, France"
 date: 2014-07-15
 location: 43.535481, 5.455450
 tags: [en, travel, seen]
-description: 
+description: "Summer heat and ancient stones converge in Aix-en-Provence, where Provençal architecture creates perfect compositions of light and form." 
 class: observation
 ornament: travel
 ---

@@ -5,7 +5,7 @@ location: 37.983333, 23.733333
 tags: [en, travel, seen]
 class: observation
 ornament: travel
-description: 
+description: "Witness the eternal grandeur of the Parthenon atop Athens' Acropolis, where ancient Greek architectural mastery continues to inspire visitors from across the world in modern Attica." 
 ---
 
 <figure>

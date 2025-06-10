@@ -5,7 +5,7 @@ location: 45.133500, 10.025000
 tags: [en, travel, seen]
 class: observation
 ornament: travel
-description: 
+description: "Admire the magnificent Cathedral of Cremona in Lombardy, where Romanesque architecture and Italian craftsmanship create a stunning testament to medieval religious artistry in northern Italy." 
 ---
 
 <figure>

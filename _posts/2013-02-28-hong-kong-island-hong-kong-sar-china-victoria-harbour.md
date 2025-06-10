@@ -5,7 +5,7 @@ location: 22.289333, 114.161333
 tags: [en, travel, seen]
 class: observation
 ornament: travel
-description: 
+description: "Victoria Harbour frames Hong Kong Island's skyline, revealing the tension between colonial heritage and China's modern economic powerhouse."
 ---
 
 <figure>

@@ -5,7 +5,7 @@ location: 47.796500, 13.517167
 class: observation
 ornament: travel
 tags: [en, travel, seen]
-description: 
+description: "Alpine serenity meets Austrian tradition in St. Gilgen, where Salzburg's lakeside beauty creates a perfect harmony of nature and culture."
 ---
 
 <figure>

@@ -5,7 +5,7 @@ location: 48.86, 2.395
 class: observation
 ornament: travel
 tags: [en, travel, seen]
-description: 
+description: "Stone remembrance etched in time at Père-Lachaise Cemetery, Paris—where weathered details reveal stories carved in marble and memory." 
 ---
 
 <figure>

@@ -3,7 +3,7 @@ title: "‎⁨Île Calseraigne⁩, ⁨Marseille⁩, ⁨France⁩"
 date: 2014-07-03
 location: 43.285267, 5.295358
 tags: [en, travel, seen]
-description: 
+description: "Mediterranean isolation captured at Île Calseraigne near Marseille, where rocky shores meet the infinite blue of southern France." 
 class: observation
 ornament: travel
 ---

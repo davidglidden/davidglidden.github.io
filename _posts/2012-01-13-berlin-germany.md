@@ -5,7 +5,7 @@ location: 52.511000, 13.371500
 tags: [en, travel, seen]
 class: observation
 ornament: travel
-description: 
+description: "Capture the dynamic spirit of Berlin, Germany's capital, where layers of history from imperial grandeur to modern innovation create a uniquely compelling urban landscape in contemporary Europe." 
 ---
 
 <figure>

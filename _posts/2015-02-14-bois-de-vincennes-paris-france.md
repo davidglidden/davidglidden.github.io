@@ -3,7 +3,7 @@ title: "Bois de Vincennes, Paris, France"
 date: 2015-02-14
 location: 48.842200, 2.386536
 tags: [en, travel, seen]
-description: 
+description: Wandering through Bois de Vincennes on a winter afternoon, discovering moments of natural stillness within Paris's eastern forest parkland. 
 class: observation
 ornament: travel
 ---

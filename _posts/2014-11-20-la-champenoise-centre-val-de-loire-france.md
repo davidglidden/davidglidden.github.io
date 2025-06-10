@@ -3,7 +3,7 @@ title: "‎⁨La Champenoise⁩, ⁨Centre-Val de Loire⁩, ⁨France⁩"
 date: 2014-11-20
 location: 46.988361, 1.771703
 tags: [en, travel, seen]
-description: 
+description: "Provincial French countryside in La Champenoise, Centre-Val de Loire, where rural tranquility meets the authentic heart of France." 
 class: observation
 ornament: travel
 ---

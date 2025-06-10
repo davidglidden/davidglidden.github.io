@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://davidglidden.eu/sitemap.xml

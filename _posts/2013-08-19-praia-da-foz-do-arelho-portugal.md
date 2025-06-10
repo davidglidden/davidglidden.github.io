@@ -5,7 +5,7 @@ location: 39.434167, -9.229614
 class: observation
 ornament: travel
 tags: [en, travel, seen]
-description: 
+description: "Portugal's Atlantic coast reveals its raw beauty at Praia da Foz do Arelho, where ocean meets lagoon in a dramatic coastal convergence."
 ---
 
 <figure>

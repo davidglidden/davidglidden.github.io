@@ -5,7 +5,7 @@ tags: [en, evening_walks, seeing, Paris, France]
 class: observation
 encounter: true
 ornament: personal
-description: Night was falling when I met her
+description: "Night falls on locked-down Paris as a mysterious graffiti girl emerges from shadows, creating a moment of reverie in the deepening twilight."
 ---
 
 

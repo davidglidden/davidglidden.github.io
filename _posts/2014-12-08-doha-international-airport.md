@@ -3,7 +3,7 @@ title: "Doha International Airport"
 date: 2014-12-08
 location: 25.267617, 51.559336
 tags: [en, travel, seen]
-description: 
+description: "Transit architecture in the Gulf—Doha International Airport captures the intersection of global movement and regional identity." 
 class: observation
 ornament: travel
 ---

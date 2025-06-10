@@ -3,7 +3,7 @@ title: "Aix-en-Provence, France"
 date: 2014-06-24
 location: 43.535464, 5.455450
 tags: [en, travel, seen]
-description: 
+description: "Provençal light and shadow dance through Aix-en-Provence, revealing the timeless beauty of southern French urban architecture." 
 class: observation
 ornament: travel
 ---

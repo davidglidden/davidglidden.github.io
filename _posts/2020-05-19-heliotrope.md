@@ -5,6 +5,7 @@ tags: [en, walks, seeing, Paris, France]
 class: observation
 encounter: true
 ornament: personal
+description: "During Paris lockdown, a man's simple act of sunbathing becomes a meditation on our fundamental nature as creatures who turn toward the light."
 ---
 
 
