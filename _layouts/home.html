@@ -13,6 +13,9 @@ home: true
     {% if post.class %}
       <span class="post-type">{{ post.class }}</span>
     {% endif %}
+    {% if post.encounter %}
+      <span class="whisper">✦</span>
+    {% endif %}
   </h4>
 </article>
 {% endfor %}

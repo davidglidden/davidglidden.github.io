@@ -1,3 +1,11 @@
+// Theme toggle base size
+$theme-toggle-size: 32px;
+$theme-toggle-size-mobile: 28px;
+
+// Avatar size using golden ratio
+$header-avatar-size: round($theme-toggle-size * 1.618); // ~52px
+$header-avatar-size-mobile: round($theme-toggle-size-mobile * 1.618); // ~45px
+
 // Quiet Header with avatar and theme toggle
 .quiet-header {
   padding: 1.5rem 2rem;
@@ -22,10 +30,10 @@
 }
 
 .header-avatar {
-  width: 40px !important;
-  height: 40px !important;
-  max-width: 40px !important;
-  max-height: 40px !important;
+  width: $header-avatar-size !important;
+  height: $header-avatar-size !important;
+  max-width: $header-avatar-size !important;
+  max-height: $header-avatar-size !important;
   border-radius: 50%;
   display: block;
   cursor: pointer;
@@ -35,10 +43,10 @@
   object-fit: cover;
   
   @include media-query($on-mobile) {
-    width: 36px !important;
-    height: 36px !important;
-    max-width: 36px !important;
-    max-height: 36px !important;
+    width: $header-avatar-size-mobile !important;
+    height: $header-avatar-size-mobile !important;
+    max-width: $header-avatar-size-mobile !important;
+    max-height: $header-avatar-size-mobile !important;
   }
   
   &:hover {
@@ -53,17 +61,18 @@
   background: none;
   border: none;
   cursor: pointer;
-  width: 40px;
-  height: 40px;
+  width: $theme-toggle-size;
+  height: $theme-toggle-size;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
   transition: background 0.3s ease;
+  padding: 0;
   
   @include media-query($on-mobile) {
-    width: 36px;
-    height: 36px;
+    width: $theme-toggle-size-mobile;
+    height: $theme-toggle-size-mobile;
   }
   
   &:hover {
@@ -71,12 +80,17 @@
   }
   
   svg {
-    width: 20px;
-    height: 20px;
+    width: round($theme-toggle-size * 0.625); // 20px for 32px button
+    height: round($theme-toggle-size * 0.625); // 20px for 32px button
     stroke: $heading-color;
     fill: none;
     stroke-width: 1.5;
     transition: opacity 0.3s ease, transform 0.3s ease;
+    
+    @include media-query($on-mobile) {
+      width: round($theme-toggle-size-mobile * 0.625); // ~18px
+      height: round($theme-toggle-size-mobile * 0.625); // ~18px
+    }
   }
   
   .sun {
@@ -167,8 +181,8 @@ body[data-theme="dark"] {
 }
 
 .return-avatar {
-  width: 44px;
-  height: 44px;
+  width: round($header-avatar-size * 0.846); // 44px (inverse golden ratio from 52px)
+  height: round($header-avatar-size * 0.846); // 44px
   border-radius: 50%;
   cursor: pointer;
   filter: grayscale(100%) opacity(0.6);
@@ -176,8 +190,8 @@ body[data-theme="dark"] {
   display: block;
   
   @include media-query($on-mobile) {
-    width: 40px;
-    height: 40px;
+    width: round($header-avatar-size-mobile * 0.846); // ~38px
+    height: round($header-avatar-size-mobile * 0.846); // ~38px
   }
   
   &:hover {
@@ -321,5 +335,75 @@ body[data-theme="dark"] {
   .breadcrumb {
     color: $dark-gray;
     opacity: 0.7;
+  }
+}
+
+// Universal mobile navigation fixes
+.quiet-return {
+  // Ensure touch target is large enough for all mobile devices
+  .return-avatar {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    
+    // Ensure minimum touch target size
+    min-width: 48px;
+    min-height: 48px;
+    
+    @include media-query($on-mobile) {
+      // Add padding to increase touch area without changing visual size
+      padding: 4px;
+      margin: -4px;
+    }
+  }
+}
+
+.nav-bloom {
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+  
+  .nav-items {
+    -webkit-tap-highlight-color: transparent;
+    
+    .nav-item {
+      touch-action: manipulation;
+      -webkit-tap-highlight-color: transparent;
+      cursor: pointer;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      
+      // Ensure minimum touch target size
+      min-height: 48px;
+      display: flex;
+      align-items: center;
+      
+      // Add invisible padding to increase touch area
+      position: relative;
+      
+      &::before {
+        content: '';
+        position: absolute;
+        top: -4px;
+        right: -8px;
+        bottom: -4px;
+        left: -8px;
+      }
+    }
+  }
+}
+
+// Prevent scroll when navigation is open on mobile
+@include media-query($on-mobile) {
+  body.nav-open {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
   }
 }

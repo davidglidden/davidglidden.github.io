@@ -297,6 +297,15 @@
   }
 }
 
+// Ensure fragments also center their headers
+.fragment {
+  .post-title,
+  .tags,
+  .post-meta {
+    text-align: center;
+  }
+}
+
 // Full-width image option
 .full-bleed {
   max-width: 100vw !important;
