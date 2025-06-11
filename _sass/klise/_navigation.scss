@@ -159,24 +159,26 @@ body[data-theme="dark"] {
   }
 }
 
-// Quiet Return Navigation
+// Quiet Return Navigation - iOS Safari compatible (no transforms)
 .quiet-return {
   position: fixed;
-  bottom: 2rem;
+  bottom: 1rem; // Start lower (hidden position)
   right: 2rem;
   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition: opacity 0.3s ease, bottom 0.3s ease; // Use bottom instead of transform
   z-index: 999;
   
   @include media-query($on-mobile) {
-    bottom: 1.5rem;
     right: 1.5rem;
   }
   
   &.visible {
     opacity: 1;
-    transform: translateY(0);
+    bottom: 2rem; // Move to visible position
+    
+    @include media-query($on-mobile) {
+      bottom: 1.5rem;
+    }
   }
 }
 
@@ -196,7 +198,11 @@ body[data-theme="dark"] {
   
   &:hover {
     filter: grayscale(50%) opacity(0.8);
-    transform: scale(1.05);
+    
+    // Disable transform on mobile (iOS Safari compatibility)
+    @media (hover: hover) {
+      transform: scale(1.05);
+    }
   }
 }
 

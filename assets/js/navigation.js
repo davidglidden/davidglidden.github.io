@@ -127,53 +127,56 @@
   }
 })();
 
-// Enhanced mobile-specific fix
+// iOS Safari compatible mobile fix - NO TRANSFORMS ISSUE RESOLVED
 (function() {
-  // Only run on actual mobile devices
+  // Only run on actual mobile devices  
   if (/iPhone|Android/i.test(navigator.userAgent) && 'ontouchstart' in window) {
-    document.addEventListener('DOMContentLoaded', function() {
+    console.log('Mobile device detected, setting up touch handlers');
+    
+    function setupMobileNav() {
       const avatar = document.querySelector('.return-avatar');
-      if (!avatar) return;
+      if (!avatar) {
+        console.log('Avatar not found, retrying...');
+        setTimeout(setupMobileNav, 100);
+        return;
+      }
       
-      // Remove any existing event listeners
-      const newAvatar = avatar.cloneNode(true);
-      avatar.parentNode.replaceChild(newAvatar, avatar);
+      console.log('Avatar found, setting up touch handling');
       
-      // Direct touch handling
-      newAvatar.addEventListener('touchstart', function(e) {
+      // Force remove any CSS that might interfere
+      avatar.style.transform = 'none';
+      avatar.style.webkitTransform = 'none';
+      
+      // Ultra-simple touch handler
+      avatar.addEventListener('touchstart', function(e) {
+        console.log('Touch detected!');
         e.preventDefault();
-        e.stopPropagation();
         
         // Visual feedback
-        this.style.opacity = '0.5';
+        this.style.opacity = '0.7';
         
-        // Call toggle directly
+        // Direct navigation toggle
         const navBloom = document.getElementById('navBloom');
         if (navBloom) {
+          const wasOpen = navBloom.classList.contains('open');
           navBloom.classList.toggle('open');
-          console.log('Nav toggled via touch:', navBloom.classList.contains('open'));
+          console.log('Navigation toggled:', wasOpen ? 'closed' : 'opened');
         }
         
-        // Reset visual feedback
-        setTimeout(() => {
-          this.style.opacity = '';
-        }, 300);
+        // Reset opacity
+        setTimeout(() => this.style.opacity = '', 200);
         
-      }, { passive: false });
+      }, { passive: false, capture: false });
       
-      // Also handle click as backup
-      newAvatar.addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        
-        const navBloom = document.getElementById('navBloom');
-        if (navBloom) {
-          navBloom.classList.toggle('open');
-        }
-      });
-      
-      console.log('Mobile touch handlers attached');
-    });
+      console.log('Touch handler attached successfully');
+    }
+    
+    // Try immediately, then retry if needed
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', setupMobileNav);
+    } else {
+      setupMobileNav();
+    }
   }
 })();
 
