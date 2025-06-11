@@ -1,9 +1,14 @@
 {% comment %} _includes/quiet-header.html {% endcomment %}
 <header class="quiet-header">
   <div class="header-content">
-    <a href="{{ '/' | relative_url }}" class="header-avatar-link">
+    <!-- Desktop: Link to home, Mobile: Navigation trigger -->
+    <a href="{{ '/' | relative_url }}" class="header-avatar-link desktop-only">
       <img src="{{ '/assets/img/avatar.png' | relative_url }}" alt="Home" class="header-avatar">
     </a>
+    <div class="header-avatar-nav mobile-only" onclick="toggleHeaderNav(event)">
+      <img src="{{ '/assets/img/avatar.png' | relative_url }}" alt="Navigation" class="header-avatar">
+    </div>
+    
     <button class="theme-toggle-menu" type="button" aria-label="Toggle theme">
       <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="12" cy="12" r="5"></circle>
@@ -22,3 +27,16 @@
     </button>
   </div>
 </header>
+
+<!-- Mobile Navigation Bloom -->
+<div class="header-nav-bloom" id="headerNavBloom">
+  <div class="nav-items">
+    <a href="#top" class="nav-item" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); toggleHeaderNav(); return false;">↑ Return to top</a>
+    <a href="/" class="nav-item">Home</a>
+    <a href="/archive" class="nav-item">Archive</a>
+    <a href="/about" class="nav-item">About</a>
+    <button class="theme-toggle-menu" onclick="toggleTheme()">
+      <span class="theme-label">Toggle theme</span>
+    </button>
+  </div>
+</div>

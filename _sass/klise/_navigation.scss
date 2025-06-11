@@ -12,8 +12,38 @@ $header-avatar-size-mobile: round($theme-toggle-size-mobile * 1.618); // ~45px
   max-width: $wide-size;
   margin: 0 auto;
   
+  // Mobile: Sticky translucent header (Aldus-inspired)
   @include media-query($on-mobile) {
-    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 0.75rem 1rem;
+    margin: 0;
+    max-width: none;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+}
+
+// Add top padding to body on mobile to account for fixed header
+@include media-query($on-mobile) {
+  body {
+    padding-top: 4rem; // Adjust as needed
+  }
+}
+
+// Dark mode header
+body[data-theme="dark"] {
+  @include media-query($on-mobile) {
+    .quiet-header {
+      background: rgba(0, 0, 0, 0.8);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
   }
 }
 
@@ -159,7 +189,7 @@ body[data-theme="dark"] {
   }
 }
 
-// Quiet Return Navigation
+// Quiet Return Navigation - Hidden on mobile (using header instead)
 .quiet-return {
   position: fixed;
   bottom: 2rem;
@@ -169,9 +199,9 @@ body[data-theme="dark"] {
   transition: opacity 0.3s ease, transform 0.3s ease;
   z-index: 999;
   
+  // Hide on mobile - we use header navigation instead
   @include media-query($on-mobile) {
-    bottom: 1.5rem;
-    right: 1.5rem;
+    display: none;
   }
   
   &.visible {
@@ -200,7 +230,7 @@ body[data-theme="dark"] {
   }
 }
 
-// Navigation Bloom
+// Navigation Bloom - Desktop version (from quiet-return)
 .nav-bloom {
   position: absolute;
   bottom: 100%;
@@ -227,6 +257,77 @@ body[data-theme="dark"] {
       opacity: 1;
       pointer-events: auto;
     }
+  }
+}
+
+// Mobile Header Navigation Bloom
+.header-nav-bloom {
+  position: fixed;
+  top: 100%;
+  left: 1rem;
+  right: 1rem;
+  margin-top: 0.5rem;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  pointer-events: none;
+  z-index: 999;
+  display: none; // Hidden by default
+  
+  @include media-query($on-mobile) {
+    display: block; // Show on mobile
+  }
+  
+  &.open {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+  
+  .nav-items {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  }
+}
+
+// Dark mode mobile nav
+body[data-theme="dark"] {
+  .header-nav-bloom .nav-items {
+    background: rgba(0, 0, 0, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+// Responsive visibility helpers
+.desktop-only {
+  @include media-query($on-mobile) {
+    display: none !important;
+  }
+}
+
+.mobile-only {
+  display: none;
+  
+  @include media-query($on-mobile) {
+    display: block !important;
+  }
+}
+
+// Header avatar navigation (mobile)
+.header-avatar-nav {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  
+  .header-avatar {
+    transition: opacity 0.2s ease;
+  }
+  
+  &:active .header-avatar {
+    opacity: 0.7;
   }
 }
 

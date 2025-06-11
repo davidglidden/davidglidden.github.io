@@ -36,6 +36,19 @@
     }
   };
 
+  // Mobile header navigation toggle
+  window.toggleHeaderNav = function(e) {
+    if (e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+    
+    const headerNavBloom = document.getElementById('headerNavBloom');
+    if (!headerNavBloom) return;
+    
+    headerNavBloom.classList.toggle('open');
+  };
+
   // Initialize on DOM ready
   document.addEventListener('DOMContentLoaded', function() {
     // Set initial theme
@@ -74,10 +87,20 @@
     document.addEventListener('click', function(e) {
       const navBloom = document.getElementById('navBloom');
       const quietReturn = document.getElementById('quietReturn');
+      const headerNavBloom = document.getElementById('headerNavBloom');
+      const quietHeader = document.querySelector('.quiet-header');
       
+      // Close desktop navigation
       if (navBloom && navBloom.classList.contains('open')) {
         if (!quietReturn.contains(e.target)) {
           navBloom.classList.remove('open');
+        }
+      }
+      
+      // Close mobile navigation
+      if (headerNavBloom && headerNavBloom.classList.contains('open')) {
+        if (!quietHeader.contains(e.target) && !headerNavBloom.contains(e.target)) {
+          headerNavBloom.classList.remove('open');
         }
       }
     });
