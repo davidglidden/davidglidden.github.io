@@ -184,42 +184,11 @@ body[data-theme="dark"] {
   }
 }
 
-// CSS-only checkbox hack for iOS compatibility
-.nav-toggle-checkbox {
-  position: absolute;
-  opacity: 0;
-  pointer-events: none;
-  width: 0;
-  height: 0;
-}
-
-.nav-toggle-label {
-  display: block;
-  cursor: pointer;
-  -webkit-tap-highlight-color: transparent;
-  -webkit-user-select: none;
-  user-select: none;
-}
-
-// When checkbox is checked, show the nav bloom
-.quiet-return .nav-toggle-checkbox:checked ~ .nav-bloom {
+// Simple open class for nav-bloom
+.nav-bloom.open {
   opacity: 1 !important;
   visibility: visible !important;
   pointer-events: auto !important;
-}
-
-// Override the default nav-bloom hidden state
-.quiet-return.visible .nav-bloom {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  
-  // Unless checkbox is checked
-  .nav-toggle-checkbox:checked ~ & {
-    opacity: 1 !important;
-    visibility: visible !important;
-    pointer-events: auto !important;
-  }
 }
 
 .return-avatar {
@@ -280,12 +249,6 @@ body[data-theme="dark"] {
   }
 }
 
-// Show nav-bloom when checkbox is checked
-.nav-toggle-checkbox:checked ~ .nav-bloom {
-  opacity: 1 !important;
-  visibility: visible !important;
-  pointer-events: auto !important;
-}
 
 .nav-items {
   background: $white;
