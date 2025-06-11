@@ -48,6 +48,43 @@ Always specify the post type in front matter:
 - Ornaments: Use `<div class="ornament philosophical"></div>` for section breaks
 - Whispers: `<p class="whisper">Quiet concluding thoughts</p>`
 
+## Page Titles
+
+**Never include an H1 (`#`) title in the markdown content.** Titles should only exist in the YAML front matter:
+
+```yaml
+---
+title: "Navigation Philosophy"
+---
+```
+
+The site automatically renders the title from YAML. Starting your content with an H1 creates duplicate titles and breaks semantic HTML.
+
+**Correct approach:**
+```markdown
+---
+title: "Typography: The Shape of Thought"
+---
+
+<blockquote class="poetic">
+"The page is a unit of space and time."<br>
+—<span class="small-caps">Robert Bringhurst</span>
+</blockquote>
+
+<p class="drop-cap">Typography is not decoration...</p>
+```
+
+**Incorrect approach:**
+```markdown
+---
+title: "Typography"
+---
+
+# Typography: The Shape of Thought
+
+Typography is not decoration...
+```
+
 ## Image Accessibility
 
 Always include alt text:
