@@ -126,3 +126,165 @@
     init();
   }
 })();
+
+// Mobile-specific fix - added to existing code
+(function() {
+  // Only run on actual mobile devices
+  if (/iPhone|Android/i.test(navigator.userAgent) && 'ontouchstart' in window) {
+    document.addEventListener('DOMContentLoaded', function() {
+      const avatar = document.querySelector('.return-avatar');
+      if (!avatar) return;
+      
+      // Override with direct touch handling for mobile only
+      avatar.addEventListener('touchstart', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        // Call the existing toggleNav function
+        if (typeof window.toggleNav === 'function') {
+          window.toggleNav(e);
+        }
+      }, { passive: false, capture: true });
+    });
+  }
+})();
+
+// Fix theme toggle button in menu
+document.addEventListener('DOMContentLoaded', function() {
+  // Find all theme toggle buttons
+  document.querySelectorAll('.theme-toggle-menu').forEach(button => {
+    button.removeAttribute('onclick'); // Remove inline handler
+    button.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      if (typeof window.toggleTheme === 'function') {
+        window.toggleTheme();
+      }
+    });
+  });
+});
+
+// Debug mode - add #debug to URL to activate
+(function() {
+  if (window.location.hash === '#debug') {
+    // Create debug panel
+    const debugPanel = document.createElement('div');
+    debugPanel.id = 'debug-panel';
+    debugPanel.style.cssText = `
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.9);
+      color: #0f0;
+      padding: 10px;
+      font-family: monospace;
+      font-size: 11px;
+      max-height: 150px;
+      overflow-y: auto;
+      z-index: 99999;
+      border-top: 2px solid #0f0;
+    `;
+    debugPanel.innerHTML = '<div style="color: #ff0; margin-bottom: 5px;">DEBUG MODE - Tap avatar to test</div>';
+    
+    // Add close button
+    const closeBtn = document.createElement('button');
+    closeBtn.textContent = '✕';
+    closeBtn.style.cssText = `
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      background: #f00;
+      color: #fff;
+      border: none;
+      padding: 2px 6px;
+      cursor: pointer;
+      font-size: 12px;
+    `;
+    closeBtn.onclick = function() {
+      debugPanel.remove();
+      window.location.hash = '';
+    };
+    debugPanel.appendChild(closeBtn);
+    
+    document.body.appendChild(debugPanel);
+    
+    // Debug log function
+    function log(msg, color = '#0f0') {
+      const time = new Date().toTimeString().split(' ')[0];
+      const line = document.createElement('div');
+      line.style.color = color;
+      line.textContent = `[${time}] ${msg}`;
+      debugPanel.appendChild(line);
+      debugPanel.scrollTop = debugPanel.scrollHeight;
+    }
+    
+    // Log basic info
+    log('Debug mode active', '#ff0');
+    log('User Agent: ' + navigator.userAgent.substring(0, 50) + '...');
+    log('Touch support: ' + ('ontouchstart' in window));
+    log('Screen: ' + window.innerWidth + 'x' + window.innerHeight);
+    
+    // Wait for DOM
+    document.addEventListener('DOMContentLoaded', function() {
+      const avatar = document.querySelector('.return-avatar');
+      const navBloom = document.getElementById('navBloom');
+      
+      log('DOM loaded');
+      log('Avatar found: ' + !!avatar, avatar ? '#0f0' : '#f00');
+      log('NavBloom found: ' + !!navBloom, navBloom ? '#0f0' : '#f00');
+      
+      if (avatar) {
+        // Check computed styles
+        const styles = window.getComputedStyle(avatar);
+        log('Avatar z-index: ' + styles.zIndex);
+        log('Avatar pointer-events: ' + styles.pointerEvents);
+        
+        // Monitor ALL events on avatar
+        const events = ['click', 'touchstart', 'touchend', 'pointerdown', 'pointerup', 'mousedown', 'mouseup'];
+        events.forEach(eventType => {
+          avatar.addEventListener(eventType, function(e) {
+            log(`Avatar ${eventType.toUpperCase()} fired!`, '#ff0');
+            
+            // Check if nav opened
+            setTimeout(() => {
+              if (navBloom && navBloom.classList.contains('open')) {
+                log('✓ Nav opened successfully!', '#0f0');
+              } else {
+                log('✗ Nav did NOT open', '#f00');
+              }
+            }, 100);
+          }, true);
+        });
+        
+        // Check what element is at avatar position
+        setTimeout(() => {
+          const rect = avatar.getBoundingClientRect();
+          const centerX = rect.left + rect.width / 2;
+          const centerY = rect.top + rect.height / 2;
+          const elementAtPoint = document.elementFromPoint(centerX, centerY);
+          
+          if (elementAtPoint === avatar) {
+            log('✓ Avatar is clickable (no overlap)', '#0f0');
+          } else {
+            log('✗ Element blocking avatar: ' + (elementAtPoint ? elementAtPoint.className : 'unknown'), '#f00');
+          }
+        }, 500);
+      }
+      
+      // Monitor toggleNav calls
+      const originalToggleNav = window.toggleNav;
+      if (originalToggleNav) {
+        window.toggleNav = function(e) {
+          log('toggleNav() called!', '#ff0');
+          return originalToggleNav.call(this, e);
+        };
+      }
+    });
+    
+    // Log any JavaScript errors
+    window.addEventListener('error', function(e) {
+      log('ERROR: ' + e.message, '#f00');
+    });
+  }
+})();

@@ -522,3 +522,28 @@ body[data-theme="dark"] {
 .nav-bloom:not(.open) {
   pointer-events: none;
 }
+
+// Only fix header layout - won't touch navigation
+.quiet-header {
+  .header-content,
+  &:not(.has-content) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+  }
+}
+
+// Only fix theme icons in header - won't affect nav menu
+.quiet-header .theme-toggle {
+  .theme-icon-sun,
+  .theme-icon-moon {
+    display: none;
+  }
+}
+
+[data-theme="light"] .quiet-header .theme-icon-sun,
+[data-theme="dark"] .quiet-header .theme-icon-moon {
+  display: inline;
+}
