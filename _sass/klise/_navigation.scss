@@ -268,6 +268,7 @@ body[data-theme="dark"] {
   left: 1rem;
   right: 1rem;
   opacity: 0;
+  visibility: hidden;
   transform: translateY(-10px);
   transition: all 0.3s ease;
   pointer-events: none;
@@ -280,6 +281,7 @@ body[data-theme="dark"] {
   
   &.open {
     opacity: 1;
+    visibility: visible;
     transform: translateY(0);
     pointer-events: auto;
   }
@@ -417,6 +419,29 @@ body[data-theme="dark"] {
         color: $dark-accent;
       }
     }
+    
+    .theme-toggle-menu {
+      color: $dark-heading-color;
+      
+      &:hover {
+        background: rgba($dark-light, 0.5);
+        color: $dark-accent;
+      }
+      
+      svg {
+        stroke: $dark-heading-color;
+      }
+      
+      .sun {
+        opacity: 0;
+        transform: rotate(180deg);
+      }
+      
+      .moon {
+        opacity: 1;
+        transform: rotate(0deg);
+      }
+    }
   }
   
   .theme-toggle-item {
@@ -509,8 +534,10 @@ body[data-theme="dark"] {
 }
 
 // Theme toggle button in navigation menu
-.theme-toggle-menu {
-  display: block;
+.nav-items .theme-toggle-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   padding: 0.5rem 0.75rem;
   color: $heading-color;
@@ -527,6 +554,7 @@ body[data-theme="dark"] {
   cursor: pointer;
   text-align: left;
   -webkit-tap-highlight-color: transparent;
+  position: relative;
   
   @include media-query($on-mobile) {
     padding: 0.625rem 0.875rem;
@@ -535,6 +563,24 @@ body[data-theme="dark"] {
   &:hover, &:active {
     background: rgba($light, 0.5);
     color: $accent-color;
+  }
+  
+  svg {
+    width: 16px;
+    height: 16px;
+    stroke: $heading-color;
+    fill: none;
+    stroke-width: 1.5;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    position: absolute;
+  }
+  
+  .sun {
+    opacity: 1;
+  }
+  
+  .moon {
+    opacity: 0;
   }
   
   .theme-label {
@@ -550,6 +596,20 @@ body[data-theme="dark"] {
     &:hover {
       background: rgba($dark-light, 0.5);
       color: $dark-accent;
+    }
+    
+    svg {
+      stroke: $dark-heading-color;
+    }
+    
+    .sun {
+      opacity: 0;
+      transform: rotate(180deg);
+    }
+    
+    .moon {
+      opacity: 1;
+      transform: rotate(0deg);
     }
   }
 }
