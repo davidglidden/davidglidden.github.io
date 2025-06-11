@@ -41,6 +41,16 @@ The revelation came through elimination: iOS Safari's touch events break when CS
 
 <div class="ornament thought"></div>
 
+The Dodecahedron's Teaching
+Why a dodecahedron? The question arrived only after solving the technical problem—as if the form had been waiting to reveal its purpose.
+In Plato's Timaeus, the dodecahedron represents the cosmos itself—the shape that encompasses all others. Twelve pentagonal faces, each a golden portal. And within each pentagon lives a five-pointed star—the pentagram that ancients saw as human form (head, two arms, two legs) and golden proportion made manifest. For a site exploring our capacity for rationality rather than our possession of it, this geometrical form becomes philosophy made visible: the human inscribed within the cosmic, capability nested within structure.
+The twelve faces echo the chromatic scale—that musical democracy where every tone has equal weight. But look closer: each pentagonal face contains its own five-pointed star, the golden ratio spiraling inward. As a violist, I recognize this: the overtone series made geometry, the human proportion (that Vitruvian reach) repeated twelve times around a perfect solid. The avatar doesn't just mark a location; it suggests a tuning between human measure and cosmic order.
+Alexander would approve. In The Timeless Way of Building, he writes of forms that feel inevitable rather than imposed. The dodecahedron carries this quality—appearing in Islamic tile work, Renaissance drawings, molecular diagrams. A pattern that transcends its instances.
+That this perfect Platonic solid refused iOS touch events becomes its own teaching. Even the most elegant abstractions must negotiate with stubborn material reality. The gap between intention and reception. Between capability and achievement. The dodecahedron, patient and crystalline, waiting for touch that cannot register—a koan in code.
+Now it rotates gently in the corner, accessible at last through the humblest of solutions: a checkbox. Sacred geometry meeting HTML form elements. This is what "rationis capax" means—not choosing between the ideal and the real, but finding where they dance.
+
+<div class="ornament thought"></div>
+
 ## Three Distances, Three Presences
 
 Just as [typography](typography-guide-public.md) adapts to reading distance, navigation must honor the fundamental differences in how we hold devices:
