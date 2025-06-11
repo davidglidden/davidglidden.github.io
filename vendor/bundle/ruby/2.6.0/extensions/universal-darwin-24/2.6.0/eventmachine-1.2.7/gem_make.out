@@ -1,5 +1,5 @@
 current directory: /Users/davidglidden/Documents/GitHub/davidglidden.github.io/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/ext
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20250610-30987-1opvuar.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20250611-35086-1for4w5.rb extconf.rb
 checking for -lcrypto... yes
 checking for -lssl... yes
 checking for openssl/ssl.h... yes

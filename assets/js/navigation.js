@@ -1,23 +1,30 @@
 (function() {
   'use strict';
 
-  // Make functions globally accessible
+  // Make toggleNav globally accessible
   window.toggleNav = function(e) {
     if (e) {
       e.preventDefault();
       e.stopPropagation();
     }
     
+    console.log('toggleNav called'); // Debug log
+    
     const navBloom = document.getElementById('navBloom');
-    if (!navBloom) return;
+    if (!navBloom) {
+      console.log('navBloom not found');
+      return;
+    }
     
     navBloom.classList.toggle('open');
+    console.log('Nav is now:', navBloom.classList.contains('open') ? 'open' : 'closed');
     
-    // Never block scrolling on any device
+    // Never block scrolling
     document.body.style.overflow = '';
     document.body.classList.remove('nav-open');
   };
 
+  // Theme toggle function
   window.toggleTheme = function() {
     const currentTheme = document.body.getAttribute('data-theme') || 'light';
     const newTheme = currentTheme === 'light' ? 'dark' : 'light';
@@ -28,7 +35,7 @@
       label.textContent = newTheme === 'light' ? 'Dark mode' : 'Light mode';
     });
     
-    // Store preference (wrapped in try-catch for iOS)
+    // Store preference
     try {
       localStorage.setItem('theme', newTheme);
     } catch(e) {
@@ -36,18 +43,30 @@
     }
   };
 
-  // Initialize on DOM ready
+  // Initialize when DOM is ready
   document.addEventListener('DOMContentLoaded', function() {
-    // Set initial theme
-    const savedTheme = localStorage.getItem('theme') || 'light';
-    document.body.setAttribute('data-theme', savedTheme);
+    console.log('Navigation script loaded');
     
-    // Update theme labels
-    document.querySelectorAll('.theme-label').forEach(label => {
-      label.textContent = savedTheme === 'light' ? 'Dark mode' : 'Light mode';
-    });
+    // Get the avatar element
+    const avatar = document.querySelector('.return-avatar');
+    if (!avatar) {
+      console.log('Avatar not found');
+      return;
+    }
     
-    // Quiet return navigation visibility on scroll
+    // Remove any existing onclick attribute
+    avatar.removeAttribute('onclick');
+    
+    // Add both click and touch listeners
+    avatar.addEventListener('click', toggleNav, { passive: false });
+    avatar.addEventListener('touchend', function(e) {
+      e.preventDefault(); // Prevent ghost clicks
+      toggleNav(e);
+    }, { passive: false });
+    
+    console.log('Event listeners attached to avatar');
+    
+    // Handle scroll visibility
     const quietReturn = document.getElementById('quietReturn');
     if (quietReturn) {
       let lastScroll = 0;
@@ -70,7 +89,7 @@
       });
     }
     
-    // Close menu when clicking outside
+    // Close menu when clicking/tapping outside
     document.addEventListener('click', function(e) {
       const navBloom = document.getElementById('navBloom');
       const quietReturn = document.getElementById('quietReturn');
@@ -82,15 +101,25 @@
       }
     });
     
-    // Handle touch events for mobile
-    if ('ontouchstart' in window) {
-      const avatar = document.querySelector('.return-avatar');
-      if (avatar) {
-        avatar.addEventListener('touchend', function(e) {
-          e.preventDefault();
-          toggleNav(e);
-        });
+    // Also handle touch events for closing
+    document.addEventListener('touchstart', function(e) {
+      const navBloom = document.getElementById('navBloom');
+      const quietReturn = document.getElementById('quietReturn');
+      
+      if (navBloom && navBloom.classList.contains('open')) {
+        if (!quietReturn.contains(e.target)) {
+          navBloom.classList.remove('open');
+        }
       }
-    }
+    });
+    
+    // Set initial theme
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    document.body.setAttribute('data-theme', savedTheme);
+    
+    // Update theme labels
+    document.querySelectorAll('.theme-label').forEach(label => {
+      label.textContent = savedTheme === 'light' ? 'Dark mode' : 'Light mode';
+    });
   });
 })();
