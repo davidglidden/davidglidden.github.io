@@ -186,20 +186,40 @@ body[data-theme="dark"] {
 
 // CSS-only checkbox hack for iOS compatibility
 .nav-toggle-checkbox {
-  display: none; // Hide the checkbox
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  width: 0;
+  height: 0;
 }
 
 .nav-toggle-label {
   display: block;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 // When checkbox is checked, show the nav bloom
-.nav-toggle-checkbox:checked ~ .nav-bloom {
+.quiet-return .nav-toggle-checkbox:checked ~ .nav-bloom {
   opacity: 1 !important;
   visibility: visible !important;
   pointer-events: auto !important;
+}
+
+// Override the default nav-bloom hidden state
+.quiet-return.visible .nav-bloom {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  
+  // Unless checkbox is checked
+  .nav-toggle-checkbox:checked ~ & {
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+  }
 }
 
 .return-avatar {
@@ -249,36 +269,22 @@ body[data-theme="dark"] {
   right: 0;
   margin-bottom: 10px;
   
-  &.open {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-    transform: none !important;
-  }
-  
   // Mobile positioning - LEFT and ABOVE
   @include media-query($on-mobile) {
     // Always position left and above
     bottom: 100%;
-    right: 0;
-    margin-bottom: 10px;
-    margin-right: 0;
+    right: 100%;
+    margin-bottom: 20px;
+    margin-right: 10px;
     transform: none !important;
-    
-    &.open {
-      // Move to the left of avatar
-      right: 100% !important;
-      margin-right: 10px !important;
-      
-      // Also move higher up
-      margin-bottom: 20px !important;
-      
-      opacity: 1;
-      visibility: visible;
-      pointer-events: auto;
-      transform: none !important;
-    }
   }
+}
+
+// Show nav-bloom when checkbox is checked
+.nav-toggle-checkbox:checked ~ .nav-bloom {
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
 }
 
 .nav-items {
