@@ -35,6 +35,9 @@ The philosophical heart. Why this site exists, who guides the work—<span class
 ### [Typography](/typography/)
 How letterforms shape thought. The conversation between <span class="small-caps">EB Garamond</span> and <span class="small-caps">IBM Plex</span>, between manuscript tradition and screen precision. Technical details for those who care about such things.
 
+### [Navigation Philosophy](/navigation-philosophy/)
+How interface responds to attention. A translucent header on mobile, a floating avatar on desktop—each viewport receives its own inevitable solution. Not mere responsive design but responsive presence, honoring how we hold devices and how they hold us.
+
 ### [What Kind of Attention Does This Require?](/attention/)
 *Coming soon: The semantic post types that organize this site. Not categories but qualities of looking—observation, fragment, pattern, essay, meditation, and more. Each type is a room with its own quality of light.*
 
