@@ -159,36 +159,25 @@ body[data-theme="dark"] {
   }
 }
 
-// Quiet Return Navigation - CSS-only for iOS Safari
+// Quiet Return Navigation
 .quiet-return {
   position: fixed;
+  bottom: 2rem;
   right: 2rem;
-  bottom: 1rem;  // Starting position (hidden lower)
   opacity: 0;
-  transition: opacity 0.3s ease, bottom 0.3s ease; // NO transform!
+  transform: translateY(20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
   z-index: 999;
-  transform: none !important; // Force no transform
+  
+  @include media-query($on-mobile) {
+    bottom: 1.5rem;
+    right: 1.5rem;
+  }
   
   &.visible {
     opacity: 1;
-    bottom: 2rem;  // End position (animate up using bottom, not transform)
+    transform: translateY(0);
   }
-  
-  @include media-query($on-mobile) {
-    right: 1rem;
-    bottom: 0.5rem;
-    
-    &.visible {
-      bottom: 1.5rem;
-    }
-  }
-}
-
-// Simple open class for nav-bloom
-.nav-bloom.open {
-  opacity: 1 !important;
-  visibility: visible !important;
-  pointer-events: auto !important;
 }
 
 .return-avatar {
@@ -197,58 +186,49 @@ body[data-theme="dark"] {
   border-radius: 50%;
   cursor: pointer;
   filter: grayscale(100%) opacity(0.6);
-  transition: filter 0.3s ease, opacity 0.3s ease; // NO transform transition
+  transition: all 0.3s ease;
   display: block;
-  transform: none !important;  // Force no transform
   
   @include media-query($on-mobile) {
     width: round($header-avatar-size-mobile * 0.846); // ~38px
     height: round($header-avatar-size-mobile * 0.846); // ~38px
   }
   
-  // Only scale on desktop with real hover
-  @media (hover: hover) {
-    &:hover {
-      filter: grayscale(50%) opacity(0.8);
-      transform: scale(1.05);
-    }
-  }
-  
-  // On mobile, use opacity for feedback instead
-  @media (hover: none) {
-    &:hover,
-    &:active {
-      filter: grayscale(50%) opacity(0.8);
-      transform: none !important;
-    }
+  &:hover {
+    filter: grayscale(50%) opacity(0.8);
+    transform: scale(1.05);
   }
 }
 
-// Navigation Bloom - NO TRANSFORMS for iOS Safari compatibility
+// Navigation Bloom
 .nav-bloom {
   position: absolute;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
-  pointer-events: none;
-  transform: none !important;
-  
-  // Desktop positioning
   bottom: 100%;
   right: 0;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
+  opacity: 0;
+  transform: scale(0.9) translateY(10px);
+  transition: all 0.3s ease;
+  pointer-events: none;
   
-  // Mobile positioning - LEFT and ABOVE
+  &.open {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+    pointer-events: auto;
+  }
+  
   @include media-query($on-mobile) {
-    // Always position left and above
-    bottom: 100%;
-    right: 100%;
-    margin-bottom: 20px;
-    margin-right: 10px;
-    transform: none !important;
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%) scale(0.9) translateY(10px);
+    
+    &.open {
+      transform: translateX(-50%) scale(1) translateY(0);
+      opacity: 1;
+      pointer-events: auto;
+    }
   }
 }
-
 
 .nav-items {
   background: $white;
@@ -479,126 +459,5 @@ body[data-theme="dark"] {
     overflow: hidden;
     position: fixed;
     width: 100%;
-  }
-}
-
-// Ensure avatar is tappable on mobile
-.return-avatar {
-  cursor: pointer;
-  pointer-events: auto;
-  position: relative;
-  z-index: 1001;
-  -webkit-tap-highlight-color: rgba(0,0,0,0.1); // Subtle tap feedback
-  
-  @include media-query($on-mobile) {
-    // Larger tap target on mobile
-    padding: 8px;
-    margin: -8px;
-  }
-}
-
-// Ensure nav-bloom is above everything
-.nav-bloom {
-  z-index: 1002;
-  
-  &.open {
-    z-index: 1003; // Even higher when open
-  }
-}
-
-// Fix any pointer-events issues on mobile
-@include media-query($on-mobile) {
-  .quiet-return {
-    pointer-events: none;
-    
-    .return-avatar,
-    .nav-bloom.open {
-      pointer-events: auto;
-    }
-  }
-}
-
-// iOS-specific avatar fixes
-.return-avatar {
-  // Make it obviously tappable
-  cursor: pointer;
-  user-select: none;
-  -webkit-user-select: none;
-  -webkit-touch-callout: none;
-  -webkit-tap-highlight-color: transparent;
-  
-  // Ensure it's not being blocked
-  position: relative;
-  z-index: 1001;
-  
-  // Active state for visual feedback
-  &:active {
-    opacity: 0.7;
-    transform: scale(0.95);
-  }
-}
-
-// Ensure the nav-bloom doesn't block touches when closed
-.nav-bloom:not(.open) {
-  pointer-events: none;
-}
-
-// Only fix header layout - won't touch navigation
-.quiet-header {
-  .header-content,
-  &:not(.has-content) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    width: 100%;
-  }
-}
-
-// Only fix theme icons in header - won't affect nav menu
-.quiet-header .theme-toggle {
-  .theme-icon-sun,
-  .theme-icon-moon {
-    display: none;
-  }
-}
-
-[data-theme="light"] .quiet-header .theme-icon-sun,
-[data-theme="dark"] .quiet-header .theme-icon-moon {
-  display: inline;
-}
-
-// Fix for mobile blocking issue
-@include media-query($on-mobile) {
-  // Ensure quiet-return is on top
-  .quiet-return {
-    z-index: 9999 !important;
-    // Allow overflow so menu can extend left
-    overflow: visible !important;
-    
-    // Ensure enough space from screen edge
-    right: 60px !important; // Move avatar away from right edge
-    
-    &.visible {
-      bottom: 60px !important; // Move up from bottom
-    }
-    
-    .return-avatar {
-      position: relative;
-      z-index: 10000 !important;
-      pointer-events: auto !important;
-    }
-  }
-  
-  // Make sure wrapper doesn't block
-  .wrapper {
-    position: relative;
-    z-index: 1;
-  }
-  
-  // Ensure main content doesn't overlap
-  main {
-    position: relative;
-    z-index: 1;
   }
 }
