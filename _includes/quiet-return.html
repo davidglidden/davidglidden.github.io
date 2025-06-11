@@ -1,8 +1,11 @@
 <nav class="quiet-return" id="quietReturn">
-  <img src="{{ '/assets/img/avatar.png' | relative_url }}" alt="Navigation" class="return-avatar">
+  <input type="checkbox" id="nav-toggle-checkbox" class="nav-toggle-checkbox" />
+  <label for="nav-toggle-checkbox" class="nav-toggle-label">
+    <img src="{{ '/assets/img/avatar.png' | relative_url }}" alt="Navigation" class="return-avatar">
+  </label>
   <div class="nav-bloom" id="navBloom">
     <div class="nav-items">
-      <a href="#top" class="nav-item">↑ Return to top</a>
+      <a href="#top" class="nav-item" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); document.getElementById('nav-toggle-checkbox').checked = false; return false;">↑ Return to top</a>
       <a href="/" class="nav-item">Home</a>
       <a href="/archive" class="nav-item">Archive</a>
       <a href="/about" class="nav-item">About</a>

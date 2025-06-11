@@ -159,7 +159,7 @@ body[data-theme="dark"] {
   }
 }
 
-// Quiet Return Navigation - iOS Safari compatible (NO TRANSFORMS)
+// Quiet Return Navigation - CSS-only for iOS Safari
 .quiet-return {
   position: fixed;
   right: 2rem;
@@ -182,6 +182,24 @@ body[data-theme="dark"] {
       bottom: 1.5rem;
     }
   }
+}
+
+// CSS-only checkbox hack for iOS compatibility
+.nav-toggle-checkbox {
+  display: none; // Hide the checkbox
+}
+
+.nav-toggle-label {
+  display: block;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+// When checkbox is checked, show the nav bloom
+.nav-toggle-checkbox:checked ~ .nav-bloom {
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
 }
 
 .return-avatar {
