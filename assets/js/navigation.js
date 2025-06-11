@@ -127,7 +127,7 @@
   }
 })();
 
-// Mobile-specific fix - added to existing code
+// Enhanced mobile-specific fix
 (function() {
   // Only run on actual mobile devices
   if (/iPhone|Android/i.test(navigator.userAgent) && 'ontouchstart' in window) {
@@ -135,16 +135,44 @@
       const avatar = document.querySelector('.return-avatar');
       if (!avatar) return;
       
-      // Override with direct touch handling for mobile only
-      avatar.addEventListener('touchstart', function(e) {
+      // Remove any existing event listeners
+      const newAvatar = avatar.cloneNode(true);
+      avatar.parentNode.replaceChild(newAvatar, avatar);
+      
+      // Direct touch handling
+      newAvatar.addEventListener('touchstart', function(e) {
         e.preventDefault();
         e.stopPropagation();
         
-        // Call the existing toggleNav function
-        if (typeof window.toggleNav === 'function') {
-          window.toggleNav(e);
+        // Visual feedback
+        this.style.opacity = '0.5';
+        
+        // Call toggle directly
+        const navBloom = document.getElementById('navBloom');
+        if (navBloom) {
+          navBloom.classList.toggle('open');
+          console.log('Nav toggled via touch:', navBloom.classList.contains('open'));
         }
-      }, { passive: false, capture: true });
+        
+        // Reset visual feedback
+        setTimeout(() => {
+          this.style.opacity = '';
+        }, 300);
+        
+      }, { passive: false });
+      
+      // Also handle click as backup
+      newAvatar.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        const navBloom = document.getElementById('navBloom');
+        if (navBloom) {
+          navBloom.classList.toggle('open');
+        }
+      });
+      
+      console.log('Mobile touch handlers attached');
     });
   }
 })();
