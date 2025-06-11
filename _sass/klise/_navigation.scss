@@ -52,6 +52,12 @@ body[data-theme="dark"] {
   align-items: center;
   justify-content: center;
   position: relative;
+  width: 100%;
+  
+  // Ensure centering on mobile too
+  @include media-query($on-mobile) {
+    justify-content: center;
+  }
 }
 
 .header-avatar-link {
@@ -84,8 +90,8 @@ body[data-theme="dark"] {
   }
 }
 
-// Theme Toggle in header
-.theme-toggle {
+// Theme Toggle in header (desktop only)
+.theme-toggle-menu {
   position: absolute;
   right: 0;
   background: none;
@@ -100,9 +106,9 @@ body[data-theme="dark"] {
   transition: background 0.3s ease;
   padding: 0;
   
+  // Hide on mobile - theme toggle goes in menu instead
   @include media-query($on-mobile) {
-    width: $theme-toggle-size-mobile;
-    height: $theme-toggle-size-mobile;
+    display: none;
   }
   
   &:hover {
@@ -116,11 +122,7 @@ body[data-theme="dark"] {
     fill: none;
     stroke-width: 1.5;
     transition: opacity 0.3s ease, transform 0.3s ease;
-    
-    @include media-query($on-mobile) {
-      width: round($theme-toggle-size-mobile * 0.625); // ~18px
-      height: round($theme-toggle-size-mobile * 0.625); // ~18px
-    }
+    position: absolute; // Stack icons on top of each other
   }
   
   .sun {
@@ -129,13 +131,12 @@ body[data-theme="dark"] {
   
   .moon {
     opacity: 0;
-    position: absolute;
   }
 }
 
 // Dark mode theme toggle
 body[data-theme="dark"] {
-  .theme-toggle {
+  .theme-toggle-menu {
     &:hover {
       background: rgba($dark-light, 0.5);
     }
@@ -263,10 +264,9 @@ body[data-theme="dark"] {
 // Mobile Header Navigation Bloom
 .header-nav-bloom {
   position: fixed;
-  top: 100%;
+  top: 4rem; // Position below fixed header
   left: 1rem;
   right: 1rem;
-  margin-top: 0.5rem;
   opacity: 0;
   transform: translateY(-10px);
   transition: all 0.3s ease;

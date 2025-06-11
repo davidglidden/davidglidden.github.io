@@ -43,10 +43,15 @@
       e.stopPropagation();
     }
     
+    console.log('toggleHeaderNav called'); // Debug
     const headerNavBloom = document.getElementById('headerNavBloom');
-    if (!headerNavBloom) return;
+    if (!headerNavBloom) {
+      console.log('headerNavBloom not found');
+      return;
+    }
     
     headerNavBloom.classList.toggle('open');
+    console.log('headerNavBloom is now:', headerNavBloom.classList.contains('open') ? 'open' : 'closed');
   };
 
   // Initialize on DOM ready
