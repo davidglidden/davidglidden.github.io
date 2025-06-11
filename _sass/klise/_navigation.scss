@@ -220,29 +220,41 @@ body[data-theme="dark"] {
 // Navigation Bloom - NO TRANSFORMS for iOS Safari compatibility
 .nav-bloom {
   position: absolute;
-  bottom: 100%;
-  right: 0;
-  margin-bottom: 1rem;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.3s ease, visibility 0.3s ease; // NO transform!
+  transition: opacity 0.3s ease, visibility 0.3s ease;
   pointer-events: none;
-  transform: none !important; // Force no transform
+  transform: none !important;
+  
+  // Desktop positioning
+  bottom: 100%;
+  right: 0;
+  margin-bottom: 10px;
   
   &.open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-    transform: none !important; // Force no transform
+    transform: none !important;
   }
   
+  // Mobile positioning - LEFT and ABOVE
   @include media-query($on-mobile) {
-    right: auto;
-    left: 50%;
-    margin-left: -65px; // Center it (half of min-width: 130px)
-    transform: none !important; // NO translateX either
+    // Always position left and above
+    bottom: 100%;
+    right: 0;
+    margin-bottom: 10px;
+    margin-right: 0;
+    transform: none !important;
     
     &.open {
+      // Move to the left of avatar
+      right: 100% !important;
+      margin-right: 10px !important;
+      
+      // Also move higher up
+      margin-bottom: 20px !important;
+      
       opacity: 1;
       visibility: visible;
       pointer-events: auto;
@@ -574,6 +586,15 @@ body[data-theme="dark"] {
   // Ensure quiet-return is on top
   .quiet-return {
     z-index: 9999 !important;
+    // Allow overflow so menu can extend left
+    overflow: visible !important;
+    
+    // Ensure enough space from screen edge
+    right: 60px !important; // Move avatar away from right edge
+    
+    &.visible {
+      bottom: 60px !important; // Move up from bottom
+    }
     
     .return-avatar {
       position: relative;
