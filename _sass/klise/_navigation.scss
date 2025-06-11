@@ -159,24 +159,26 @@ body[data-theme="dark"] {
   }
 }
 
-// Quiet Return Navigation - iOS Safari compatible (no transforms)
+// Quiet Return Navigation - iOS Safari compatible (NO TRANSFORMS)
 .quiet-return {
   position: fixed;
-  bottom: 1rem; // Start lower (hidden position)
   right: 2rem;
+  bottom: 1rem;  // Starting position (hidden lower)
   opacity: 0;
-  transition: opacity 0.3s ease, bottom 0.3s ease; // Use bottom instead of transform
+  transition: opacity 0.3s ease, bottom 0.3s ease; // NO transform!
   z-index: 999;
-  
-  @include media-query($on-mobile) {
-    right: 1.5rem;
-  }
+  transform: none !important; // Force no transform
   
   &.visible {
     opacity: 1;
-    bottom: 2rem; // Move to visible position
+    bottom: 2rem;  // End position (animate up using bottom, not transform)
+  }
+  
+  @include media-query($on-mobile) {
+    right: 1rem;
+    bottom: 0.5rem;
     
-    @include media-query($on-mobile) {
+    &.visible {
       bottom: 1.5rem;
     }
   }
@@ -188,50 +190,63 @@ body[data-theme="dark"] {
   border-radius: 50%;
   cursor: pointer;
   filter: grayscale(100%) opacity(0.6);
-  transition: all 0.3s ease;
+  transition: filter 0.3s ease, opacity 0.3s ease; // NO transform transition
   display: block;
+  transform: none !important;  // Force no transform
   
   @include media-query($on-mobile) {
     width: round($header-avatar-size-mobile * 0.846); // ~38px
     height: round($header-avatar-size-mobile * 0.846); // ~38px
   }
   
-  &:hover {
-    filter: grayscale(50%) opacity(0.8);
-    
-    // Disable transform on mobile (iOS Safari compatibility)
-    @media (hover: hover) {
+  // Only scale on desktop with real hover
+  @media (hover: hover) {
+    &:hover {
+      filter: grayscale(50%) opacity(0.8);
       transform: scale(1.05);
+    }
+  }
+  
+  // On mobile, use opacity for feedback instead
+  @media (hover: none) {
+    &:hover,
+    &:active {
+      filter: grayscale(50%) opacity(0.8);
+      transform: none !important;
     }
   }
 }
 
-// Navigation Bloom
+// Navigation Bloom - NO TRANSFORMS for iOS Safari compatibility
 .nav-bloom {
   position: absolute;
   bottom: 100%;
   right: 0;
   margin-bottom: 1rem;
   opacity: 0;
-  transform: scale(0.9) translateY(10px);
-  transition: all 0.3s ease;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease; // NO transform!
   pointer-events: none;
+  transform: none !important; // Force no transform
   
   &.open {
     opacity: 1;
-    transform: scale(1) translateY(0);
+    visibility: visible;
     pointer-events: auto;
+    transform: none !important; // Force no transform
   }
   
   @include media-query($on-mobile) {
     right: auto;
     left: 50%;
-    transform: translateX(-50%) scale(0.9) translateY(10px);
+    margin-left: -65px; // Center it (half of min-width: 130px)
+    transform: none !important; // NO translateX either
     
     &.open {
-      transform: translateX(-50%) scale(1) translateY(0);
       opacity: 1;
+      visibility: visible;
       pointer-events: auto;
+      transform: none !important;
     }
   }
 }

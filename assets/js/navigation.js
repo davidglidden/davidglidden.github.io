@@ -127,6 +127,34 @@
   }
 })();
 
+// iOS Safari transform bug fix - force cleanup
+document.addEventListener('DOMContentLoaded', function() {
+  const avatar = document.querySelector('.return-avatar');
+  const quietReturn = document.querySelector('.quiet-return');
+  const navBloom = document.querySelector('.nav-bloom');
+  
+  if (/iPhone|iPad|Safari/.test(navigator.userAgent)) {
+    console.log('Safari detected - removing all transforms');
+    
+    if (avatar) {
+      avatar.style.transform = 'none';
+      avatar.style.webkitTransform = 'none';
+    }
+    
+    if (quietReturn) {
+      quietReturn.style.transform = 'none';
+      quietReturn.style.webkitTransform = 'none';
+    }
+    
+    if (navBloom) {
+      navBloom.style.transform = 'none';
+      navBloom.style.webkitTransform = 'none';
+    }
+    
+    console.log('All transforms removed');
+  }
+});
+
 // iOS Safari compatible mobile fix - NO TRANSFORMS ISSUE RESOLVED
 (function() {
   // Only run on actual mobile devices  
