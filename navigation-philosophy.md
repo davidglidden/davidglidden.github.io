@@ -6,8 +6,6 @@ description: "On responsive attention and the timeless way of building digital s
 class: essay meditation
 ---
 
-# Navigation Philosophy
-
 <blockquote class="poetic">
 "The building or town will only be alive to the extent that it is governed by the timeless way."<br>
 —<span class="small-caps">Christopher Alexander</span>
@@ -41,7 +39,8 @@ The revelation came through elimination: iOS Safari's touch events break when CS
 
 <div class="ornament thought"></div>
 
-The Dodecahedron's Teaching
+## The Dodecahedron's Teaching
+
 Why a dodecahedron? The question arrived only after solving the technical problem—as if the form had been waiting to reveal its purpose.
 In Plato's Timaeus, the dodecahedron represents the cosmos itself—the shape that encompasses all others. Twelve pentagonal faces, each a golden portal. And within each pentagon lives a five-pointed star—the pentagram that ancients saw as human form (head, two arms, two legs) and golden proportion made manifest. For a site exploring our capacity for rationality rather than our possession of it, this geometrical form becomes philosophy made visible: the human inscribed within the cosmic, capability nested within structure.
 The twelve faces echo the chromatic scale—that musical democracy where every tone has equal weight. But look closer: each pentagonal face contains its own five-pointed star, the golden ratio spiraling inward. As a violist, I recognize this: the overtone series made geometry, the human proportion (that Vitruvian reach) repeated twelve times around a perfect solid. The avatar doesn't just mark a location; it suggests a tuning between human measure and cosmic order.
