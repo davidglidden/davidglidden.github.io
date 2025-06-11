@@ -288,3 +288,49 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 })();
+
+// Enhanced debug for blocking element
+if (window.location.hash === '#debug2') {
+  document.addEventListener('DOMContentLoaded', function() {
+    setTimeout(() => {
+      const avatar = document.querySelector('.return-avatar');
+      if (!avatar) return;
+      
+      // Get avatar position
+      const rect = avatar.getBoundingClientRect();
+      const centerX = rect.left + rect.width / 2;
+      const centerY = rect.top + rect.height / 2;
+      
+      // Find what's at that position
+      const blocker = document.elementFromPoint(centerX, centerY);
+      
+      // Create visual indicator
+      const marker = document.createElement('div');
+      marker.style.cssText = `
+        position: fixed;
+        left: ${centerX - 5}px;
+        top: ${centerY - 5}px;
+        width: 10px;
+        height: 10px;
+        background: red;
+        border: 2px solid yellow;
+        border-radius: 50%;
+        z-index: 99999;
+        pointer-events: none;
+      `;
+      document.body.appendChild(marker);
+      
+      // Show detailed info
+      alert(`Avatar position: ${Math.round(rect.left)}, ${Math.round(rect.top)}
+Avatar size: ${Math.round(rect.width)}x${Math.round(rect.height)}
+Element at center: ${blocker ? blocker.tagName + '.' + blocker.className : 'none'}
+Parent: ${blocker && blocker.parentElement ? blocker.parentElement.className : 'none'}`);
+      
+      // Highlight the blocking element
+      if (blocker && blocker !== avatar) {
+        blocker.style.border = '3px solid red';
+        blocker.style.opacity = '0.5';
+      }
+    }, 1000);
+  });
+}

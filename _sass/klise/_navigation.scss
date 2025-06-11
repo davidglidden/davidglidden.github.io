@@ -547,3 +547,29 @@ body[data-theme="dark"] {
 [data-theme="dark"] .quiet-header .theme-icon-moon {
   display: inline;
 }
+
+// Fix for mobile blocking issue
+@include media-query($on-mobile) {
+  // Ensure quiet-return is on top
+  .quiet-return {
+    z-index: 9999 !important;
+    
+    .return-avatar {
+      position: relative;
+      z-index: 10000 !important;
+      pointer-events: auto !important;
+    }
+  }
+  
+  // Make sure wrapper doesn't block
+  .wrapper {
+    position: relative;
+    z-index: 1;
+  }
+  
+  // Ensure main content doesn't overlap
+  main {
+    position: relative;
+    z-index: 1;
+  }
+}
