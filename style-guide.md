@@ -78,9 +78,9 @@ Beauty can hide violence. Craft can serve oppression. Our style must:
 <span lang="it">sprezzatura</span>
 ```
 
-**For frequent phrases**, use the include:
-```liquid
-{% include lang.html lang="la" text="animal rationis capax" %}
+**For all foreign language phrases**, consistently use:
+```html
+<span lang="la">animal rationis capax</span>
 ```
 
 **Common language codes:**
