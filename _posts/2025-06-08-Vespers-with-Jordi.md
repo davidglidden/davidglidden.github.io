@@ -9,8 +9,6 @@ description: "A profound meditation on performing Monteverdi's sacred Vespers in
 <p class="poetic small-caps">Memoriae sacrum<br>
 <em>—Traditional Latin epitaph</em></p>
 
-# Vespers for the Living: A Reverie in Cremona
-
 <p class="poetic"><em>Where the shape of a city stirs the shape of a
 soul</em></p>
 

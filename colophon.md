@@ -6,7 +6,7 @@ comments: false
 class: essay
 ---
 
-# Colophon
+## Philosophy and Compass
 
 <blockquote class="poetic">
   <strong>"Animal rationis capax"</strong><br>

@@ -5,7 +5,7 @@ layout: page
 class: essay meditation
 ---
 
-# Influences: A Living Constellation
+## A Living Constellation
 
 <blockquote class="poetic">
 "We are like dwarfs sitting on the shoulders of giants."<br>

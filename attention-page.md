@@ -5,8 +5,6 @@ layout: page
 class: essay meditation
 ---
 
-# What Kind of Attention Does This Require?
-
 <blockquote class="poetic">
 "The real voyage of discovery consists not in seeking new landscapes, but in having new eyes."<br>
 —<span class="small-caps">Marcel Proust</span>

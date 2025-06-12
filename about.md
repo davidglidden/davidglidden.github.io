@@ -6,8 +6,6 @@ layout: page
 class: essay
 ---
 
-# About Animal Rationis Capax
-
 <blockquote class="poetic">
 "Every book is a quotation; and every house is a quotation out of all forests, and mines, and stone quarries; and every man is a quotation from all his ancestors."
 —<span class="small-caps">Ralph Waldo Emerson</span>

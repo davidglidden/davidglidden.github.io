@@ -5,7 +5,7 @@ layout: page
 class: essay meditation
 ---
 
-# Tools & Process: The Practice of Digital Craft
+## The Practice of Digital Craft
 
 <blockquote class="poetic">
 "The tool directs the mind, as the mind directs the tool."<br>

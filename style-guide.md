@@ -5,7 +5,7 @@ layout: page
 class: essay
 ---
 
-# Editorial Style Guide
+## Editorial Guidelines
 
 <blockquote class="poetic">
 "Style is not a display but a discipline."<br>
@@ -201,7 +201,7 @@ Not just: `![Gothic arches](path/to/image.jpg)`
 ### Footer Philosophy
 
 The footer provides gentle closure through:
-- **Philosophical grounding** - Opens with "animal rationis capax" linking to About
+- **Philosophical grounding** - Opens with <span lang="la">Animal Rationis Capax</span>
 - **Contextual navigation** - Shows "Beginning" only when not on homepage
 - **Temporal awareness** - Post dates when relevant, seasonal geometry always
 - **Geographic presence** - Barcelona as place of making

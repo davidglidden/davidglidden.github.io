@@ -1,15 +1,26 @@
 <footer class="footer">
-  <p class="footer-text">
-    <a href="/colophon">Colophon</a>
-    <span class="separator">·</span>
-    <a href="/now">Now</a>
-    <span class="separator">·</span>
-    <a href="/uses">Uses</a>
-    <span class="separator">·</span>
-    <a href="/blogroll">Blogroll</a>
-    <span class="separator">·</span>
-    <a href="/feed.xml">RSS</a>
-    <span class="seasonal-geometry">❄</span>
+  <p class="whisper">
+    <span lang="la">Animal Rationis Capax</span>
+  </p>
+  
+  {% if page.date %}
+  <p class="whisper">
+    <time datetime="{{ page.date | date: '%Y-%m-%d' }}">
+      {{ page.date | date: "%B" }} <span class="oldstyle">{{ page.date | date: "%Y" }}</span>
+    </time>
+    {% if page.chamber %} <span class="chamber-mark">⟐</span>{% endif %}
+  </p>
+  {% endif %}
+  
+  <p class="whisper">
+    <span class="small-caps">Barcelona</span>
+    <span class="seasonal-geometry">
+    {% assign season_month = site.time | date: "%m" | plus: 0 %}
+    {% if season_month >= 3 and season_month <= 5 %}△     <!-- Spring: rising -->
+    {% elsif season_month >= 6 and season_month <= 8 %}□  <!-- Summer: stable -->
+    {% elsif season_month >= 9 and season_month <= 11 %}▽  <!-- Autumn: falling -->
+    {% else %}○{% endif %}                                 <!-- Winter: complete -->
+    </span>
   </p>
 </footer>
 <script src="/assets/js/main.js" defer="defer"></script>

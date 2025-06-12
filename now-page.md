@@ -5,7 +5,7 @@ layout: page
 class: fragment
 ---
 
-# Now
+## Current State
 
 <p class="whisper">Updated June 2025, from Barcelona</p>
 

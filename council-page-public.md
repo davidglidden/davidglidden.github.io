@@ -1,11 +1,9 @@
 ---
-title: "Council"
+title: "The Chamber"
 permalink: /council/
 layout: page
 class: essay meditation
 ---
-
-# The Chamber
 
 <blockquote class="poetic">
 "We work in the dark—we do what we can—we give what we have. Our doubt is our passion, and our passion is our task."<br>

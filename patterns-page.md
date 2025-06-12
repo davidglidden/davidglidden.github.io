@@ -5,7 +5,7 @@ layout: page
 class: essay meditation
 ---
 
-# Patterns
+## Learning, Teaching, and Living
 
 <blockquote class="poetic">
 "You know how to walk? You know how to think?<br>

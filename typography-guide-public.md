@@ -5,7 +5,7 @@ layout: page
 class: essay
 ---
 
-# Typography: The Shape of Thought
+## The Shape of Thought
 
 <blockquote class="poetic">
 "The page is a unit of space and time."<br>
