@@ -131,6 +131,10 @@ body[data-theme="dark"] {
 
   // Footer
   .footer {
+    .footer-text {
+      color: $dark-heading-color;
+    }
+    
     span.footer_item,
     a.footer_item:not(:last-child) {
       color: $dark-heading-color;

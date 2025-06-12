@@ -115,4 +115,6 @@ Writing here
 
 ---
 
-*Born Paris <span class="oldstyle">2020</span> · Living Barcelona <span class="oldstyle">2025</span> · Version 25.3*
+<p class="version-stamp">
+Begun Paris <span class="oldstyle">2002</span> · Revised Barcelona <span class="oldstyle">2025</span> · Third Edition
+</p>

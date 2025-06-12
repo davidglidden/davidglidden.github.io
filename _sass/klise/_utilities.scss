@@ -360,3 +360,24 @@
     }
   }
 }
+
+// Version stamp for Colophon - an editorial element
+.version-stamp {
+  text-align: center;
+  margin-top: 3rem;
+  font-family: $serif-family;  // EB Garamond - this is content
+  font-size: 1rem;             // Slightly larger than body
+  font-style: normal;          // Clear and readable
+  color: $gray;
+  padding-top: 2rem;
+  border-top: 1px solid $light;
+  letter-spacing: 0.02em;
+}
+
+// Dark mode
+body[data-theme="dark"] {
+  .version-stamp {
+    color: $dark-gray;
+    border-top-color: $dark-light;
+  }
+}

@@ -109,6 +109,16 @@
   padding: 2rem 0;
   text-align: center;
   
+  .footer-text {
+    margin: 0.5rem 0;
+    font-family: $sans-family;     // IBM Plex Sans
+    font-size: 0.875rem;           // 14px
+    font-style: normal;            // Not italic
+    font-weight: 400;
+    color: $gray;
+    line-height: 1.6;
+  }
+  
   p {
     margin: 0.5rem 0;
   }
@@ -116,6 +126,7 @@
   a {
     color: inherit;
     text-decoration: none;
+    transition: color 0.2s ease;
     
     &:hover {
       color: $text-color;
@@ -125,10 +136,7 @@
   .separator {
     margin: 0 0.5rem;
     color: $gray;
-  }
-  
-  .chamber-mark {
-    margin-left: 0.5rem;
+    opacity: 0.5;
   }
   
   .seasonal-geometry {
