@@ -78,11 +78,6 @@ Beauty can hide violence. Craft can serve oppression. Our style must:
 <span lang="it">sprezzatura</span>
 ```
 
-**For frequent phrases**, use the include:
-```liquid
-{% include lang.html lang="la" text="animal rationis capax" %}
-```
-
 **Common language codes:**
 - `la` - Latin
 - `fr` - French  
@@ -284,7 +279,7 @@ ornament: philosophical # override default
 - Ornament: `<div class="ornament"></div>`
 
 ### Chamber Marks
-- ✦ = encounter (transformative moment)
+- ◊ = encounter (transformative moment)
 - ⟐ = chamber reviewed (divided lozenge)
 
 <div class="ornament philosophical"></div>
