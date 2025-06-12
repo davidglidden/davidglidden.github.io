@@ -52,4 +52,4 @@ Barcelona spring—the city between seasons. My son grows more present though no
 
 <div class="ornament personal"></div>
 
-<p class="whisper">This page tells you what I'm doing now. Inspired by Derek Sivers and the /now movement. For the deeper why, see the [colophon](/colophon/).</p>
+<p class="whisper">This page tells you what I'm doing now. Inspired by Derek Sivers and the /now movement. For the deeper why, see the <a href="/colophon/">colophon</a>.</p>

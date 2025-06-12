@@ -13,7 +13,7 @@ class: essay
 —<span class="small-caps">Ralph Waldo Emerson</span>
 </blockquote>
 
-<p class="drop-cap">This site is a living manuscript—a space where observation, pattern recognition, and contemplative inquiry converge. It takes its name from Swift's amendment to Aristotle: we are not rational animals but animals *capable* of rationality. This distinction shapes everything here.</p>
+<p class="drop-cap">This site is a living manuscript—a space where observation, pattern recognition, and contemplative inquiry converge. It takes its name from Swift's amendment to Aristotle: we are not rational animals but animals <em>capable</em> of rationality. This distinction shapes everything here.</p>
 
 ## About David
 
@@ -38,8 +38,11 @@ How letterforms shape thought. The conversation between <span class="small-caps"
 ### [Navigation Philosophy](/navigation-philosophy/)
 How interface responds to attention. A translucent header on mobile, a floating avatar on desktop—each viewport receives its own inevitable solution. Not mere responsive design but responsive presence, honoring how we hold devices and how they hold us.
 
+### [Council](/council/)
+The inter-temporal review process for certain texts. Work that demands collective wisdom beyond solitary revision. Pieces that emerge from this process bear the mark ⟐—the journey ornament opened through examination.
+
 ### [What Kind of Attention Does This Require?](/attention/)
-*Coming soon: The semantic post types that organize this site. Not categories but qualities of looking—observation, fragment, pattern, essay, meditation, and more. Each type is a room with its own quality of light.*
+The semantic post types that organize this site. Not categories but qualities of looking—observation, fragment, pattern, essay, meditation, and more. Each type is a room with its own quality of light.
 
 ### [Tools & Process](/tools/)
 The practice of digital craft. How a touring musician maintains a writing practice. Morning rituals, plain text philosophy, the democracy of pencils. What survives when everything else breaks.
@@ -51,7 +54,7 @@ A living constellation of teachers. From Fritz Lang's architectural poetry to An
 The present tense. Current tours, reading, teaching, thinking. What occupies attention this particular season. Updated when something essential shifts.
 
 ### [Patterns](/patterns/)
-*Coming soon: The pedagogical framework that shapes my teaching. How pattern recognition becomes a practice of presence.*
+The pedagogical framework that shapes my teaching. How pattern recognition becomes a practice of presence.
 
 <div class="ornament section"></div>
 

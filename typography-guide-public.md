@@ -74,8 +74,9 @@ Where others place horizontal rules, we set ornaments—breathing marks borrowed
 - **⁂** — The asterism, for triple emphasis
 - **❧** — The rotated fleuron, marking turns in thought
 - **◊** — The lozenge, for journeys and positions
+- **⟐** — The divided lozenge, marking texts transformed through council review
 
-These aren't mere decoration. They're semantic punctuation, each carrying its own quality of pause.
+These aren't mere decoration. They're semantic punctuation, each carrying its own quality of pause. The divided lozenge specifically marks work that has undergone collective examination and emerged transformed.
 
 ### Small Capitals & Other Graces
 

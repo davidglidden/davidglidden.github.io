@@ -1,97 +1,278 @@
 ---
-title: Writing Style Guide
+title: "Editorial Style Guide"
 permalink: /style-guide/
 layout: page
-class: pattern
-published: false  # Internal use only
+class: essay
 ---
 
-# Writing Style Guide
+# Editorial Style Guide
 
-## Foreign Language Phrases
+<blockquote class="poetic">
+"Style is not a display but a discipline."<br>
+—<span class="small-caps">Jan Tschichold</span>
+</blockquote>
 
-When using non-English phrases, always include language attributes for accessibility:
+<p class="drop-cap">This guide documents the editorial voice and stylistic choices that shape *Animal Rationis Capax*. It serves as both reference and philosophy—not rules to constrain but patterns to enable consistent, thoughtful expression. Like typography itself, these guidelines exist to serve meaning, not decorate it.</p>
 
-### Common Languages:
-- Latin: `<span lang="la">animal rationis capax</span>`
-- French: `<span lang="fr">joie de vivre</span>`
-- Spanish: `<span lang="es">duende</span>`
-- Italian: `<span lang="it">sprezzatura</span>`
-- German: `<span lang="de">Zeitgeist</span>`
+<div class="ornament philosophical"></div>
 
-### Using the Include:
-For frequently used phrases:
+## Voice & Tone
+
+### Core Qualities
+
+**Contemplative without being precious**  
+We think deeply but speak clearly. Philosophy serves insight, not obfuscation.
+
+**Precise but not pedantic**  
+Every word chosen carefully, but not to show off vocabulary. Precision serves the reader.
+
+**Personal without narcissism**  
+The self appears as lens, not subject. Personal experience illuminates universal patterns.
+
+**Questioning over declaring**  
+End with invitations to think. Trust readers to complete thoughts we begin.
+
+### The Shadow Principle
+
+Beauty can hide violence. Craft can serve oppression. Our style must:
+- Include uncomfortable truths
+- Question its own premises
+- Make space for refusal
+- Acknowledge what it might exclude or harm
+
+<div class="ornament section"></div>
+
+## Language Patterns
+
+### Names & References
+
+**Small capitals** for significant figures when first mentioned or when carrying particular weight:
+- <span class="small-caps">Christopher Alexander</span> (philosophical guides)
+- <span class="small-caps">Jordi Savall</span> (mentors, collaborators)
+- Not for every name, only those that anchor thought
+
+**Attributions** in quotes:
+- Em dash before name
+- Small caps for author
+- Example: —<span class="small-caps">Simone Weil</span>
+
+### Numbers & Dates
+
+**Oldstyle figures** in running text: <span class="oldstyle">2025</span>, not 2025  
+**Lining figures** in technical contexts: Version 25.3  
+**Spelled out** when beginning sentences or for small numbers under ten
+
+### Emphasis & Weight
+
+**Italics** for emphasis in body text: *this* matters  
+**Bold** reserved for technical documentation and guides  
+**"Scare quotes"** only when genuinely questioning a term  
+**NEVER** use all caps for emphasis
+
+### Foreign Language
+
+**Always mark language** for accessibility:
+```html
+<span lang="la">festina lente</span>
+<span lang="fr">joie de vivre</span>
+<span lang="it">sprezzatura</span>
+```
+
+**For frequent phrases**, use the include:
 ```liquid
-{% include lang.html lang="la" text="festina lente" %}
+{% include lang.html lang="la" text="animal rationis capax" %}
 ```
 
-### In Front Matter:
-When titles contain foreign phrases:
-```yaml
-title: "On <span lang='it'>Sprezzatura</span> in Performance"
-```
+**Common language codes:**
+- `la` - Latin
+- `fr` - French  
+- `es` - Spanish
+- `it` - Italian
+- `de` - German
+
+### Lists & Structure
+
+**Bullet points** only in guides and technical documents  
+**In essays**, lists flow as natural language: "First this, then that, finally the other"  
+**Numbered lists** only when sequence truly matters
+
+<div class="ornament personal"></div>
 
 ## Semantic Post Types
 
-Always specify the post type in front matter:
-- `observation` - momentary attention
-- `fragment` - incomplete thoughts
-- `pattern` - recognized connections
-- `essay` - sustained inquiry
-- `meditation` - contemplative depth
-- Others as defined in `/attention/`
+Each piece declares its nature, determining both style and reader approach:
 
-## Typography Conventions
+### Primary Types
 
-- Small caps: Names of thinkers `<span class="small-caps">Christopher Alexander</span>`
-- Drop caps: Add `class: essay` to front matter for automatic drop caps
-- Ornaments: Use `<div class="ornament philosophical"></div>` for section breaks
-- Whispers: `<p class="whisper">Quiet concluding thoughts</p>`
+**observation** - External attention, present tense, no interpretation  
+**fragment** - Incomplete by design, often italic, honors the partial  
+**essay** - Sustained thought, receives drop cap, builds argument  
+**meditation** - Inward spiral, contemplative pacing  
+**pattern** - Recognition pieces, pattern names in small caps  
+**gloss** - Commentary, marginalia, uses whisper text  
+**offering** - Curatorial, lists with oldstyle numerals  
 
-## Page Titles
+### Modifiers
 
-**Never include an H1 (`#`) title in the markdown content.** Titles should only exist in the YAML front matter:
+`encounter: true` - When world stops, marked with ◊  
+`chamber: true` - Underwent Chamber review, marked with ⟐
 
-```yaml
+<div class="ornament philosophical"></div>
+
+## Structural Elements
+
+### Critical Page Rule
+
+**NEVER include an H1 (`#`) in markdown content.** The title belongs only in YAML frontmatter:
+
+✓ **Correct:**
+```markdown
 ---
 title: "Navigation Philosophy"
 ---
-```
-
-The site automatically renders the title from YAML. Starting your content with an H1 creates duplicate titles and breaks semantic HTML.
-
-**Correct approach:**
-```markdown
----
-title: "Typography: The Shape of Thought"
----
 
 <blockquote class="poetic">
-"The page is a unit of space and time."<br>
-—<span class="small-caps">Robert Bringhurst</span>
+Opening quote without H1...
 </blockquote>
-
-<p class="drop-cap">Typography is not decoration...</p>
 ```
 
-**Incorrect approach:**
+✗ **Incorrect:**
 ```markdown
 ---
-title: "Typography"
+title: "Navigation Philosophy"
 ---
 
-# Typography: The Shape of Thought
+# Navigation Philosophy
 
-Typography is not decoration...
+This creates duplicate titles...
 ```
 
-## Image Accessibility
+### Opening Patterns
 
-Always include alt text:
+**Drop caps** only for essays and substantial meditations  
+**Poetic blockquotes** to establish tone, not as decoration  
+**Context-setting** through concrete detail before abstraction
+
+### Transitions
+
+**Ornamental breaks** using semantic classes:
+- `<div class="ornament"></div>` - default (❦)
+- `<div class="ornament philosophical"></div>` - for ideas (❧)
+- `<div class="ornament personal"></div>` - for experience (❦)
+- `<div class="ornament musical"></div>` - for sound/music (⁂)
+- Never bare `<hr>` tags
+
+### Closing Gestures
+
+**Whisper text** for gentle conclusions:
+```html
+<p class="whisper">
+<em>Text that trails off, suggests, wonders...</em>
+</p>
+```
+
+**Questions** that open rather than answers that close  
+**Invitations** to continue thinking  
+**Never** heavy-handed summaries
+
+<div class="ornament thought"></div>
+
+## Technical Constraints as Style
+
+### Privacy as Principle
+- No tracking or analytics
+- No comments (broadcast, don't discuss)
+- Self-hosted fonts
+- Local-first philosophy
+
+### Presence Requirements
+- No Zoom ("presence requires presence")
+- Email for correspondence
+- Slowness over immediacy
+
+### Citation Practice
+- Internal links where they illuminate
+- External links sparingly (future: with popovers)
+- Always credit sources
+- Prefer primary to secondary
+
+### Image Guidelines
+**Always include descriptive alt text:**
 ```markdown
 ![Morning light through Gothic arches at Santa Maria del Mar](path/to/image.jpg)
 ```
+Not just: `![Gothic arches](path/to/image.jpg)`
 
+<div class="ornament section"></div>
+
+## The Chamber Review
+
+Certain pieces undergo Chamber review—a process too complex to detail here. These pieces:
+- Bear the mark ⟐ (divided lozenge)
+- Show `chamber: reviewed` in metadata
+- Often exhibit particular depth or difficulty
+- May have faced the shadow voices
+
+The Chamber serves transformation, not validation.
+
+<div class="ornament musical"></div>
+
+## Forbidden Patterns
+
+What we consciously avoid:
+
+**Performative humility** - False modesty serves no one  
+**Academic jargon** - Unless precision truly requires it  
+**Conclusion paragraphs** - Trust readers to synthesize  
+**Meta-commentary** - Don't explain what you're doing while doing it  
+**Hedge words** - "Perhaps," "maybe," "it seems" (unless genuine uncertainty)  
+**Promotional language** - The work speaks for itself
+
+<div class="ornament philosophical"></div>
+
+## Living Guidelines
+
+This guide evolves. Language lives. What serves today may constrain tomorrow. The principles matter more than rules:
+
+1. **Clarity serves complexity** - Deep thought needs clear expression
+2. **Beauty carries responsibility** - Ask what it might hide
+3. **Form follows function** - Every choice should serve meaning
+4. **Slowness enables depth** - Resist internet urgency
+5. **Questions honor readers** - Trust their intelligence
+
+<blockquote class="whisper">
+Style is ethics made visible. How we write reveals how we think, what we value, whom we serve. May these patterns enable expression while maintaining the struggle that creates meaning.
+</blockquote>
+
+<div class="ornament section"></div>
+
+## Quick Reference
+
+### YAML Frontmatter
+```yaml
 ---
+title: "Title Here"
+date: 2025-01-20
+class: essay meditation  # semantic type(s)
+encounter: true         # optional modifier
+chamber: pending        # or: reviewed
+ornament: philosophical # override default
+---
+```
 
-*This guide is for internal reference. Update as conventions evolve.*
+### Common Patterns
+- Drop cap: `<p class="drop-cap">`
+- Small caps: `<span class="small-caps">Name</span>`
+- Oldstyle: `<span class="oldstyle">2025</span>`
+- Whisper: `<p class="whisper"><em>Text</em></p>`
+- Ornament: `<div class="ornament"></div>`
+
+### Chamber Marks
+- ◊ = encounter (transformative moment)
+- ⟐ = chamber reviewed (divided lozenge)
+
+<div class="ornament philosophical"></div>
+
+<p class="whisper">
+<em>For technical typography details, see the internal Typography Guide. For philosophy, read the Colophon. For examples, read the site itself.</em>
+</p>

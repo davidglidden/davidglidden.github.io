@@ -56,6 +56,7 @@ Add to your post front matter:
 layout: post
 class: observation  # or: pattern, essay, meditation, fragment, etc.
 encounter: true     # optional flag for transformative moments
+council: true       # optional flag for council-reviewed texts
 ornament: personal  # optional ornament override
 ---
 ```
@@ -84,15 +85,23 @@ class: essay meditation  # Gets drop cap + contemplative spacing
 class: observation fragment  # External attention, incomplete
 ```
 
-### The Encounter Modifier
+### Special Modifiers
 
+#### The Encounter Modifier
 When any post becomes transformative:
 ```yaml
 class: observation
 encounter: true
 ```
+Displays a subtle ◊ marker and increases line height to 1.8 for breathing room.
 
-Displays a subtle ✦ marker and increases line height to 1.8 for breathing room.
+#### The Council Modifier
+For texts that have undergone council review:
+```yaml
+class: essay
+council: true
+```
+Displays the ⟐ mark (divided lozenge) and may include additional spacing for contemplative reading.
 
 ---
 
@@ -107,7 +116,7 @@ GitHub Pages supports inline HTML. You can use this to apply styles:
 
 <p class="poetic">Where there is no vision, the people perish.</p>
 
-<p class="whisper">*A quiet aside, noted softly.*</p>
+<p class="whisper"><em>A quiet aside, noted softly.</em></p>
 ```
 
 Avoid mixing with fenced code blocks or indented Markdown blocks.
@@ -229,6 +238,7 @@ Renders as: ❦ (Aldus leaf)
 <hr data-ornament="asterism">   <!-- ⁂ -->
 <hr data-ornament="fleuron">    <!-- ❧ -->
 <hr data-ornament="triple">     <!-- • • • -->
+<hr data-ornament="council">    <!-- ⟐ -->
 ```
 
 #### Ornament Classes:
@@ -237,6 +247,7 @@ Renders as: ❦ (Aldus leaf)
 <div class="ornament asterism"></div>     <!-- ⁂ -->
 <div class="ornament fleuron"></div>      <!-- ❧ -->
 <div class="ornament lozenge"></div>      <!-- ◊ -->
+<div class="ornament council"></div>      <!-- ⟐ -->
 <div class="ornament triple"></div>       <!-- • • • -->
 <div class="ornament section"></div>      <!-- § § § -->
 ```
@@ -255,6 +266,7 @@ Based on the nature of your content, use these semantically meaningful ornaments
 <div class="ornament musical"></div>      <!-- ⁂ for musical discussions -->
 <div class="ornament philosophical"></div><!-- ❧ for philosophical asides -->
 <div class="ornament travel"></div>       <!-- ◊ for travel/place descriptions -->
+<div class="ornament council"></div>      <!-- ⟐ for council-reviewed texts -->
 ```
 
 #### Jekyll Include:
@@ -262,6 +274,7 @@ Based on the nature of your content, use these semantically meaningful ornaments
 {% include ornament.html type="asterism" %}
 {% include ornament.html type="fleuron" %}
 {% include ornament.html type="personal" %}
+{% include ornament.html type="council" %}
 {% include ornament.html %}  <!-- default aldus -->
 ```
 
@@ -283,6 +296,11 @@ For quotes or personal fragments:
 Post types appear in breadcrumbs using IBM Plex Sans at 13px:
 ```
 Observations → Morning Light Through Catalan Shutters
+```
+
+Council-reviewed pieces may show an additional indicator:
+```
+Essays → The Pattern Language of Attention ⟐
 ```
 
 Navigation uses IBM Plex Sans Regular (400 weight) to distinguish from bold headings while maintaining readability at small sizes.
@@ -315,6 +333,7 @@ Navigation uses IBM Plex Sans Regular (400 weight) to distinguish from bold head
 - Small caps require separate `EB Garamond SC` face—ensure that's installed and called properly
 - GitHub Pages will honor styles in your Jekyll theme as long as they compile cleanly from SCSS
 - Test mobile layouts using browser dev tools at various breakpoints (375px, 768px, 1024px)
+- Council marks (⟐) may require Unicode support—test across browsers
 
 ---
 
@@ -338,11 +357,29 @@ $plex-sans-scale: 0.94;  // Appears larger
 $plex-mono-scale: 0.88;  // Appears larger still
 ```
 
+### Council Review Implementation
+For council-reviewed texts:
+```scss
+.council-mark {
+  font-family: $font-body;
+  font-size: 1.1em;
+  color: $color-text-muted;
+  margin-left: 0.25em;
+}
+
+article[data-council="true"] {
+  .post-content {
+    line-height: 1.75; // Slightly more breathing room
+  }
+}
+```
+
 ### Future Enhancements
 - Expand color utility classes (`.tint`, `.highlight`)
 - Implement automatic callout conversion for blockquote types
 - Add `.verse` style for poetry with preserved line breaks
 - Consider margin notes for gloss post type
+- Develop specific styles for council annotations and commentary
 
 ---
 

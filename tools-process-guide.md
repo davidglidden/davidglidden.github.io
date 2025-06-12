@@ -47,9 +47,9 @@ Lynch drinks <span class="oldstyle">20</span> cups a day and claims it's where i
 
 Water follows—<span class="oldstyle">2</span> liters daily, preferably cool. Not cold (contracts the throat), not warm (too soothing), but cool like morning air. Hydration as maintenance, not performance. The body is the first instrument.
 
-**<span class="small-caps">Obsidian</span>** opens to yesterday's daily note. This is the workshop—where morning writing gets transcribed (selectively), where observations wait to become posts, where patterns slowly reveal themselves. No plugins except the essentials. No complex hierarchies. Just markdown files in folders, linked when connection emerges naturally.
+<strong><span class="small-caps">Obsidian</span></strong> opens to yesterday's daily note. This is the workshop—where morning writing gets transcribed (selectively), where observations wait to become posts, where patterns slowly reveal themselves. No plugins except the essentials. No complex hierarchies. Just markdown files in folders, linked when connection emerges naturally.
 
-**<span class="small-caps">iA Writer</span>** for drafting. When Obsidian is the workshop, Writer is the quiet room. No panels, no preview, no distractions. Just text and cursor. It enforces what monks knew: constraint liberates.
+<strong><span class="small-caps">iA Writer</span></strong> for drafting. When Obsidian is the workshop, Writer is the quiet room. No panels, no preview, no distractions. Just text and cursor. It enforces what monks knew: constraint liberates.
 
 ### When the Music Calls
 
@@ -57,9 +57,9 @@ Tour life breaks everything. <span class="oldstyle">4:30</span> <span class="sma
 
 This is when minimal tools matter:
 
-**<span class="small-caps">Drafts</span>** on the phone captures what can't wait. A phrase overheard in soundcheck. The way light falls in a <span class="oldstyle">12th</span>-century chapel where we're performing. These fragments sync to the desktop whenever we land somewhere with wifi.
+<strong><span class="small-caps">Drafts</span></strong> on the phone captures what can't wait. A phrase overheard in soundcheck. The way light falls in a <span class="oldstyle">12th</span>-century chapel where we're performing. These fragments sync to the desktop whenever we land somewhere with wifi.
 
-**<span class="small-caps">Working Copy</span>** for publishing fragments from anywhere. Nothing elaborate—full posts need the laptop—but sometimes an observation demands immediate release.
+<strong><span class="small-caps">Working Copy</span></strong> for publishing fragments from anywhere. Nothing elaborate—full posts need the laptop—but sometimes an observation demands immediate release.
 
 The practice adapts or dies. Some weeks, the only writing happens in departure lounges. That's enough.
 

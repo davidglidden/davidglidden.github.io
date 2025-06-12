@@ -157,5 +157,5 @@ True navigation, like true teaching, knows when to appear and when to vanish. Th
 
 ---
 
-*Written after too many hours debugging iOS Safari, Barcelona, <span class="oldstyle">2025</span>*</document_content>
+<em>Written after too many hours debugging iOS Safari, Barcelona, <span class="oldstyle">2025</span></em></document_content>
 </invoke>
