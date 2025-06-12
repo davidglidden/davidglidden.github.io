@@ -81,6 +81,7 @@ The only speed is yours.
 ## Contact
 
 Email: [d@davidglidden.eu](mailto:d@davidglidden.eu)  
+Curriculum Vitae: [Professional background](/resume/)
 Instagram: [@quaerendoinvenietis](https://instagram.com/quaerendoinvenietis)  
 *I don't use Zoom.*
 

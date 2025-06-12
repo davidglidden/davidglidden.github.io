@@ -78,9 +78,9 @@ Beauty can hide violence. Craft can serve oppression. Our style must:
 <span lang="it">sprezzatura</span>
 ```
 
-**For all foreign language phrases**, consistently use:
-```html
-<span lang="la">animal rationis capax</span>
+**For frequent phrases**, use the include:
+```liquid
+{% include lang.html lang="la" text="animal rationis capax" %}
 ```
 
 **Common language codes:**
@@ -203,6 +203,22 @@ This creates duplicate titles...
 ```
 Not just: `![Gothic arches](path/to/image.jpg)`
 
+### Footer Philosophy
+
+The footer provides gentle closure through:
+- **Philosophical grounding** - Opens with "animal rationis capax" linking to About
+- **Contextual navigation** - Shows "Beginning" only when not on homepage
+- **Temporal awareness** - Post dates when relevant, seasonal geometry always
+- **Geographic presence** - Barcelona as place of making
+
+**Seasonal Geometry** based on ancient associations:
+- △ Spring (rising/air/growth)
+- □ Summer (stable/earth/fullness)  
+- ▽ Autumn (falling/water/harvest)
+- ○ Winter (complete/enclosed/rest)
+
+The footer speaks in whispers, using established typographic utilities. No copyright symbols, no defensive language—just quiet acknowledgment of time and place.
+
 <div class="ornament section"></div>
 
 ## The Chamber Review
@@ -268,7 +284,7 @@ ornament: philosophical # override default
 - Ornament: `<div class="ornament"></div>`
 
 ### Chamber Marks
-- ◊ = encounter (transformative moment)
+- ✦ = encounter (transformative moment)
 - ⟐ = chamber reviewed (divided lozenge)
 
 <div class="ornament philosophical"></div>
