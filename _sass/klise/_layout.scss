@@ -109,6 +109,13 @@
   padding: 2rem 0;
   text-align: center;
   
+  // Ensure centering on all devices
+  @include media-query($on-mobile) {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
   .footer-text {
     margin: 0.5rem 0;
     font-family: $sans-family;     // IBM Plex Sans
@@ -121,6 +128,12 @@
   
   p {
     margin: 0.5rem 0;
+    
+    // Ensure paragraphs are centered on mobile
+    @include media-query($on-mobile) {
+      text-align: center;
+      width: 100%;
+    }
   }
   
   a {
