@@ -81,6 +81,28 @@ Works that have passed through council review bear this mark: ⟐
 
 The council continues its work, mostly in silence, always in service of the living word.
 
+<nav class="about-enfilade">
+  <a href="/colophon/">Colophon</a>
+  <span class="separator">·</span>
+  <a href="/typography-guide/">Typography</a>
+  <span class="separator">·</span>
+  <a href="/navigation-philosophy/">Navigation</a>
+  <span class="separator">·</span>
+  <span class="current">Council <span class="arrow">←</span></span>
+  <span class="separator">·</span>
+  <a href="/attention/">Attention</a>
+  <span class="separator">·</span>
+  <a href="/patterns/">Patterns</a>
+  <span class="separator">·</span>
+  <a href="/tools/">Tools</a>
+  <span class="separator">·</span>
+  <a href="/influences/">Influences</a>
+  <span class="separator">·</span>
+  <a href="/now/">Now</a>
+  <span class="separator">·</span>
+  <a href="/bio/">Bio</a>
+</nav>
+
 <div class="ornament personal"></div>
 
 <p class="whisper">

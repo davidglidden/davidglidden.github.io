@@ -186,6 +186,28 @@ The site will migrate from Jekyll eventually—when there's time, when it matter
 - [Now](/now/) — Current projects and preoccupations
 - [Uses](/uses/) — Specific versions and configurations *(future page)*
 
+<nav class="about-enfilade">
+  <a href="/colophon/">Colophon</a>
+  <span class="separator">·</span>
+  <a href="/typography-guide/">Typography</a>
+  <span class="separator">·</span>
+  <a href="/navigation-philosophy/">Navigation</a>
+  <span class="separator">·</span>
+  <a href="/council/">Council</a>
+  <span class="separator">·</span>
+  <a href="/attention/">Attention</a>
+  <span class="separator">·</span>
+  <a href="/patterns/">Patterns</a>
+  <span class="separator">·</span>
+  <span class="current">Tools <span class="arrow">←</span></span>
+  <span class="separator">·</span>
+  <a href="/influences/">Influences</a>
+  <span class="separator">·</span>
+  <a href="/now/">Now</a>
+  <span class="separator">·</span>
+  <a href="/bio/">Bio</a>
+</nav>
+
 <div class="ornament philosophical"></div>
 
 <p class="whisper">Last updated when something essential changed.</p>

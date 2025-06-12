@@ -81,6 +81,28 @@ What matters: remaining porous without becoming shapeless. Taking what serves th
 
 This document lives and breathes. New influences will be added as they reveal themselves. Some entries will expand, others may disappear. Like practice itself, influence is iterative, seasonal, surprising.
 
+<nav class="about-enfilade">
+  <a href="/colophon/">Colophon</a>
+  <span class="separator">·</span>
+  <a href="/typography-guide/">Typography</a>
+  <span class="separator">·</span>
+  <a href="/navigation-philosophy/">Navigation</a>
+  <span class="separator">·</span>
+  <a href="/council/">Council</a>
+  <span class="separator">·</span>
+  <a href="/attention/">Attention</a>
+  <span class="separator">·</span>
+  <a href="/patterns/">Patterns</a>
+  <span class="separator">·</span>
+  <a href="/tools/">Tools</a>
+  <span class="separator">·</span>
+  <span class="current">Influences <span class="arrow">←</span></span>
+  <span class="separator">·</span>
+  <a href="/now/">Now</a>
+  <span class="separator">·</span>
+  <a href="/bio/">Bio</a>
+</nav>
+
 <div class="ornament personal"></div>
 
 <p class="whisper">Last updated: Whenever someone new entered the conversation</p>

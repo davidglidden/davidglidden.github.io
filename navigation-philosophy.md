@@ -155,6 +155,28 @@ The code lives in the [repository](https://github.com/yourusername/yourrepo). Ta
 True navigation, like true teaching, knows when to appear and when to vanish. The best interface is the one you never notice—until you need it, and it's exactly where your hand expects it to be.
 </p>
 
+<nav class="about-enfilade">
+  <a href="/colophon/">Colophon</a>
+  <span class="separator">·</span>
+  <a href="/typography-guide/">Typography</a>
+  <span class="separator">·</span>
+  <span class="current">Navigation <span class="arrow">←</span></span>
+  <span class="separator">·</span>
+  <a href="/council/">Council</a>
+  <span class="separator">·</span>
+  <a href="/attention/">Attention</a>
+  <span class="separator">·</span>
+  <a href="/patterns/">Patterns</a>
+  <span class="separator">·</span>
+  <a href="/tools/">Tools</a>
+  <span class="separator">·</span>
+  <a href="/influences/">Influences</a>
+  <span class="separator">·</span>
+  <a href="/now/">Now</a>
+  <span class="separator">·</span>
+  <a href="/bio/">Bio</a>
+</nav>
+
 ---
 
 <em>Written after too many hours debugging iOS Safari, Barcelona, <span class="oldstyle">2025</span></em></document_content>

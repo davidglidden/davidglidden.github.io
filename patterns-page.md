@@ -113,6 +113,28 @@ The patterns traced here will deepen and ramify in future writings. For now, the
 
 Those interested in how these patterns manifest in specific domains must wait. Some things ripen best in shadow before they're brought to light.
 
+<nav class="about-enfilade">
+  <a href="/colophon/">Colophon</a>
+  <span class="separator">·</span>
+  <a href="/typography-guide/">Typography</a>
+  <span class="separator">·</span>
+  <a href="/navigation-philosophy/">Navigation</a>
+  <span class="separator">·</span>
+  <a href="/council/">Council</a>
+  <span class="separator">·</span>
+  <a href="/attention/">Attention</a>
+  <span class="separator">·</span>
+  <span class="current">Patterns <span class="arrow">←</span></span>
+  <span class="separator">·</span>
+  <a href="/tools/">Tools</a>
+  <span class="separator">·</span>
+  <a href="/influences/">Influences</a>
+  <span class="separator">·</span>
+  <a href="/now/">Now</a>
+  <span class="separator">·</span>
+  <a href="/bio/">Bio</a>
+</nav>
+
 <p class="whisper">
 <em>A comprehensive exploration of these patterns in pedagogical practice is forthcoming from Momento Mori Press.</em>
 </p>

@@ -50,6 +50,28 @@ Private mentoring in Barcelona—viola technique through the lens of presence. C
 
 Barcelona spring—the city between seasons. My son grows more present though not yet born. The desk by the northeast window remains the morning anchor when home. Walking the Gràcia streets, collecting patterns.
 
+<nav class="about-enfilade">
+  <a href="/colophon/">Colophon</a>
+  <span class="separator">·</span>
+  <a href="/typography-guide/">Typography</a>
+  <span class="separator">·</span>
+  <a href="/navigation-philosophy/">Navigation</a>
+  <span class="separator">·</span>
+  <a href="/council/">Council</a>
+  <span class="separator">·</span>
+  <a href="/attention/">Attention</a>
+  <span class="separator">·</span>
+  <a href="/patterns/">Patterns</a>
+  <span class="separator">·</span>
+  <a href="/tools/">Tools</a>
+  <span class="separator">·</span>
+  <a href="/influences/">Influences</a>
+  <span class="separator">·</span>
+  <span class="current">Now <span class="arrow">←</span></span>
+  <span class="separator">·</span>
+  <a href="/bio/">Bio</a>
+</nav>
+
 <div class="ornament personal"></div>
 
 <p class="whisper">This page tells you what I'm doing now. Inspired by Derek Sivers and the /now movement. For the deeper why, see the <a href="/colophon/">colophon</a>.</p>

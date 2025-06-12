@@ -143,6 +143,28 @@ The semantic types teach both writer and reader: attention is multiple, generous
 In the end, there's only this: We write what comes to us. We read with the attention the work requires. In between, sometimes, the extraordinary reveals itself as having been here all along.
 </blockquote>
 
+<nav class="about-enfilade">
+  <a href="/colophon/">Colophon</a>
+  <span class="separator">·</span>
+  <a href="/typography-guide/">Typography</a>
+  <span class="separator">·</span>
+  <a href="/navigation-philosophy/">Navigation</a>
+  <span class="separator">·</span>
+  <a href="/council/">Council</a>
+  <span class="separator">·</span>
+  <span class="current">Attention <span class="arrow">←</span></span>
+  <span class="separator">·</span>
+  <a href="/patterns/">Patterns</a>
+  <span class="separator">·</span>
+  <a href="/tools/">Tools</a>
+  <span class="separator">·</span>
+  <a href="/influences/">Influences</a>
+  <span class="separator">·</span>
+  <a href="/now/">Now</a>
+  <span class="separator">·</span>
+  <a href="/bio/">Bio</a>
+</nav>
+
 <div class="ornament personal"></div>
 
 *Continue exploring: [Observations](/observations/) · [Essays](/essays/) · [Patterns](/patterns/) · [Fragments](/fragments/)*
