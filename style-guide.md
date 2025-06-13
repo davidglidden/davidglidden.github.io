@@ -152,18 +152,23 @@ Beauty can hide violence. Craft can serve oppression. Our style must:
 - **Typography**: `.glimpse` class (full-bleed images, no title display, whisper metadata)
 - **Ornament**: `.glimpse` (◉) — aperture/eye opening to light
 - **Presentation**: No title shown—image speaks first, metadata whispers after
+- **Philosophy**: *"A glimpse is an event that happens to you"* — pure interruption requiring no introduction
+- **Layout**: Full-bleed breaks reading frame because interruption IS its nature
 - **Metadata**: `location:` and `camera:` displayed below image in italicized gray
-- **Distinction**: Glimpses are purely visual; observations are text-first
+- **Distinction**: Glimpses are received; photo-essays are read
 - **Technical note**: Title exists in frontmatter for URLs/archives but isn't displayed
 - **Examples**: Pure image + "La Rochelle, France", "Carrer del Pi, Barcelona · Leica M6"
 
 #### **photo-essay**
 - **Rationale**: Mohr/Berger collaboration—images and text interrogating each other
 - **Tone**: Sequential narrative, meaning through accumulation
-- **Typography**: Images within text column, full essay treatment with drop caps
+- **Typography**: Images within text column, full essay treatment with drop caps, title displayed
 - **Ornament**: `.photo-essay` (⊙ ⊙ ⊙) — triple viewfinder
+- **Philosophy**: *"A photo essay is a journey you choose to begin"* — title as doorway into temporal sequence
+- **Layout**: Contained within text column to maintain narrator-reader contract
 - **Metadata**: `series:` and `images:` count fields
-- **Distinction**: Photo-essays build argument; glimpses capture instant
+- **Distinction**: Photo-essays build meaning through sequence; glimpses capture singular moments
+- **Key insight**: Multiple images need "a thread to string them upon" — language starting with title
 - **Examples**: "Market Light" (morning markets series), "Barcelona Gothic: Stone Memory"
 
 #### **gloss**

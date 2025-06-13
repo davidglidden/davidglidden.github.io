@@ -72,7 +72,15 @@ Observations resist the classical signals of essays. No drop caps, but enhanced 
 
 ### Glimpses — Pure Image
 
-Glimpses display no title—only full-bleed imagery that breaks all container bounds, followed by whisper-level metadata. The image speaks first and entirely, with location and camera details appearing below in subtle italics.
+*"A glimpse is an event that happens to you"* — Berger
+
+Glimpses display no title—only full-bleed imagery that breaks all container bounds, followed by whisper-level metadata. The image speaks first and entirely, with location and camera details appearing below in subtle italics. The full-bleed layout breaks the reading frame because interruption IS the glimpse's nature.
+
+### Photo Essays — Guided Journeys  
+
+*"A photo essay is a journey you choose to begin"* — Our advisors' consensus
+
+Photo essays maintain their titles as doorways into temporal sequence. Images remain within the text column to preserve the narrator-reader contract, with text flowing between images to build meaning through accumulation. Multiple images need "a thread to string them upon"—language starting with the title.
 
 <div class="ornament musical"></div>
 
