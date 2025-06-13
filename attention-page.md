@@ -108,14 +108,14 @@ Between major movements, music offers interludes—not lesser but different. The
 
 Sometimes a simple observation cracks open into something larger. The ordinary moment becomes threshold. What <span class="small-caps">Castaneda</span> called "stopping the world"—when habitual perception breaks and energy shows itself directly.
 
-Posts marked with `encounter: true` carry the ◊ symbol and extra breathing room. They document those moments when attention itself was transformed by what it attended to.
+Posts marked with `encounter: true` carry the ✦ symbol and extra breathing room. They document those moments when attention itself was transformed by what it attended to.
 
-### council: true
+### chamber: true
 *Collective wisdom applied*
 
-Certain texts require more than solitary revision. They undergo review by an inter-temporal council—voices across centuries examining surface and depth equally.
+Certain texts require more than solitary revision. They undergo review by an inter-temporal chamber—voices across centuries examining surface and depth equally.
 
-Posts marked with `council: true` bear the ⟐ seal—the journey ornament opened through examination. They've been unmade and remade in witnessed space.
+Posts marked with `chamber: true` bear the ⟐ seal—the journey ornament opened through examination. They've been unmade and remade in witnessed space.
 
 <div class="ornament musical"></div>
 

@@ -207,6 +207,16 @@
   }
 }
 
+// Chamber mark for reviewed texts
+.chamber-mark {
+  font-family: $serif-family;
+  font-size: 1.1em;
+  color: $gray;
+  margin-left: 0.25em;
+  opacity: 0.8;
+  user-select: none;
+}
+
 // Post type display in metadata
 .post-type {
   font-family: $mono-family;
@@ -379,5 +389,9 @@ body[data-theme="dark"] {
   .version-stamp {
     color: $dark-gray;
     border-top-color: $dark-light;
+  }
+  
+  .chamber-mark {
+    color: $dark-gray;
   }
 }

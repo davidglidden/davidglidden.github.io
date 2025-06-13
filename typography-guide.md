@@ -56,7 +56,7 @@ Add to your post front matter:
 layout: post
 class: observation  # or: pattern, essay, meditation, fragment, etc.
 encounter: true     # optional flag for transformative moments
-council: true       # optional flag for council-reviewed texts
+chamber: true       # optional flag for chamber-reviewed texts
 ornament: personal  # optional ornament override
 ---
 ```
@@ -93,13 +93,13 @@ When any post becomes transformative:
 class: observation
 encounter: true
 ```
-Displays a subtle ◊ marker and increases line height to 1.8 for breathing room.
+Displays a subtle ✦ marker and increases line height to 1.8 for breathing room.
 
-#### The Council Modifier
-For texts that have undergone council review:
+#### The Chamber Modifier
+For texts that have undergone chamber review:
 ```yaml
 class: essay
-council: true
+chamber: true
 ```
 Displays the ⟐ mark (divided lozenge) and may include additional spacing for contemplative reading.
 
@@ -266,7 +266,7 @@ Based on the nature of your content, use these semantically meaningful ornaments
 <div class="ornament musical"></div>      <!-- ⁂ for musical discussions -->
 <div class="ornament philosophical"></div><!-- ❧ for philosophical asides -->
 <div class="ornament travel"></div>       <!-- ◊ for travel/place descriptions -->
-<div class="ornament council"></div>      <!-- ⟐ for council-reviewed texts -->
+<div class="ornament chamber"></div>      <!-- ⟐ for chamber-reviewed texts -->
 ```
 
 #### <span class="small-caps">Jekyll</span> Include:
@@ -298,7 +298,7 @@ Post types appear in breadcrumbs using IBM Plex Sans at 13px:
 Observations → Morning Light Through Catalan Shutters
 ```
 
-Council-reviewed pieces may show an additional indicator:
+Chamber-reviewed pieces may show an additional indicator:
 ```
 Essays → The Pattern Language of Attention ⟐
 ```
@@ -357,10 +357,10 @@ $plex-sans-scale: 0.94;  // Appears larger
 $plex-mono-scale: 0.88;  // Appears larger still
 ```
 
-### Council Review Implementation
-For council-reviewed texts:
+### Chamber Review Implementation
+For chamber-reviewed texts:
 ```scss
-.council-mark {
+.chamber-mark {
   font-family: $font-body;
   font-size: 1.1em;
   color: $color-text-muted;

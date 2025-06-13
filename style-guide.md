@@ -109,7 +109,7 @@ Each piece declares its nature, determining both style and reader approach:
 
 ### Modifiers
 
-`encounter: true` - When world stops, marked with ◊  
+`encounter: true` - When world stops, marked with ✦  
 `chamber: true` - Underwent Chamber review, marked with ⟐
 
 <div class="ornament philosophical"></div>
@@ -279,7 +279,7 @@ ornament: philosophical # override default
 - Ornament: `<div class="ornament"></div>`
 
 ### Chamber Marks
-- ◊ = encounter (transformative moment)
+- ✦ = encounter (transformative moment)
 - ⟐ = chamber reviewed (divided lozenge)
 
 <div class="ornament philosophical"></div>

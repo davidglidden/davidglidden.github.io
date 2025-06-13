@@ -74,9 +74,8 @@ Where others place horizontal rules, we set ornaments—breathing marks borrowed
 - **⁂** — The asterism, for triple emphasis
 - **❧** — The rotated fleuron, marking turns in thought
 - **◊** — The lozenge, for journeys and positions
-- **⟐** — The divided lozenge, marking texts transformed through council review
 
-These aren't mere decoration. They're semantic punctuation, each carrying its own quality of pause. The divided lozenge specifically marks work that has undergone collective examination and emerged transformed.
+These aren't mere decoration. They're semantic punctuation, each carrying its own quality of pause.
 
 ### Small Capitals & Other Graces
 
@@ -85,6 +84,15 @@ These aren't mere decoration. They're semantic punctuation, each carrying its ow
 <span class="oldstyle">Oldstyle figures</span> (notice these numerals: <span class="oldstyle">1234567890</span>) sit within text rather than upon it. They have ascenders and descenders like letters, because numbers are part of language, not above it.
 
 Ligatures—the _fi_ and _fl_ connections—happen automatically. They're the typographic equivalent of smooth bowing, preventing the collision of letters that want to touch.
+
+### Post Qualifiers
+
+Beyond the body text, certain posts carry qualifying symbols that modify their semantic meaning:
+
+- **✦** — The encounter mark, appearing after titles of posts where ordinary observation opened into direct experience
+- **⟐** — The chamber seal, marking texts that have undergone collective review and emerged transformed through that process
+
+These qualifiers function like musical accidentals—they change how the following content should be approached.
 
 <div class="ornament personal"></div>
 
