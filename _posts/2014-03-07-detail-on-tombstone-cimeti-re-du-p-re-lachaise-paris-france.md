@@ -1,11 +1,11 @@
 ---
 title: "Detail on tombstone, Cimetière du Père-Lachaise, Paris, France"
 date: 2014-03-07
-location: 48.86, 2.395
-class: observation
-ornament: travel
+location: "Paris, France"
+class: glimpse
+ornament: glimpse
 tags: [en, travel, seen]
-description: "Stone remembrance etched in time at Père-Lachaise Cemetery, Paris—where weathered details reveal stories carved in marble and memory." 
+description: Weathered stone, stories carved in marble and memory.
 ---
 
 <figure>

@@ -104,6 +104,8 @@ Each piece declares its nature, determining both style and reader approach:
 **essay** - Sustained thought, receives drop cap, builds argument  
 **meditation** - Inward spiral, contemplative pacing  
 **pattern** - Recognition pieces, pattern names in small caps  
+**glimpse** - Photographic moments, full-bleed images, minimal commentary  
+**photo-essay** - Sequential visual narrative, images and text in conversation  
 **gloss** - Commentary, marginalia, uses whisper text  
 **offering** - Curatorial, lists with oldstyle numerals  
 
@@ -266,8 +268,30 @@ title: "Title Here"
 date: 2025-01-20
 class: essay meditation  # semantic type(s)
 encounter: true         # optional modifier
-chamber: pending        # or: reviewed
+chamber: true           # chamber reviewed
 ornament: philosophical # override default
+---
+```
+
+#### Visual Types
+```yaml
+# Glimpse
+---
+title: "Brief, evocative phrase"
+class: glimpse
+date: 2025-01-13 14:32
+location: "Carrer del Pi, Barcelona"  
+camera: "Leica M6, Tri-X 400"
+---
+
+# Photo Essay
+---
+title: "Market Light"
+class: photo-essay
+date: 2025-01-13
+location: "Barri Gòtic, Barcelona"
+series: "Morning Markets"
+images: 8
 ---
 ```
 

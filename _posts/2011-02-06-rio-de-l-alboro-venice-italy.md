@@ -1,11 +1,11 @@
 ---
 title: "Rio de l'Alboro, Venice, Italy"
 date: 2011-02-06
-location: 45.432, 12.3335
+location: "Venice, Italy"
 tags: [en, travel, seen]
-description: "Discover the quiet beauty of Rio de l'Alboro, a hidden Venetian waterway where ancient stone bridges frame timeless reflections in Venice's labyrinthine canal system." 
-class: observation
-ornament: travel
+description: Hidden waterway where ancient stone frames timeless reflections.
+class: glimpse
+ornament: glimpse
 ---
 
 <figure>

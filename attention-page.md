@@ -99,6 +99,16 @@ Different from performance, teaching pieces focus on the student's journey rathe
 
 Between major movements, music offers interludes—not lesser but different. These pieces mark transitions, seasons, the space between what was and what's becoming. Often brief, always temporary.
 
+### Glimpse
+*The decisive moment*
+
+When the camera becomes an extension of attention—the fleeting instant captured in passing, accompanied by minimal commentary. Neither more nor less than observation, but immediate, visual, caught rather than composed. Like Cartier-Bresson's decisive moment: when all elements align in one frame.
+
+### Photo Essay
+*Sequential visual narrative*
+
+When images and text interrogate each other across time, building meaning through accumulation and the spaces between frames. Following the tradition of Mohr and Berger: photographs asking questions words cannot answer, text providing context images lack. The conversation between seeing and understanding.
+
 <div class="ornament thought"></div>
 
 ## The Modifiers
@@ -168,6 +178,8 @@ In the end, there's only this: We write what comes to us. We read with the atten
 *Continue exploring:*
 
 **Primary Types:** [Observations](/observations/) · [Essays](/essays/) · [Meditations](/meditations/) · [Patterns](/patterns/) · [Fragments](/fragments/)
+
+**Visual Forms:** [Glimpses](/glimpses/) · [Photo Essays](/photo-essays/)
 
 **Specialized Forms:** [Glosses](/glosses/) · [Correspondences](/correspondences/) · [Offerings](/offerings/) · [Performances](/performances/) · [Teachings](/teachings/) · [Interludes](/interludes/)
 

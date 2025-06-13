@@ -1,11 +1,11 @@
 ---
 title: "Harbour City, Hong Kong"
 date: 2013-02-28
-location: 22.292167, 114.165000
+location: "Hong Kong"
 tags: [en, travel, seen]
-class: observation
-ornament: travel
-description: "Capturing the commercial pulse of Hong Kong at Harbour City, where international commerce and local culture converge in this iconic shopping district."
+class: glimpse
+ornament: glimpse
+description: Commercial pulse where international commerce meets local culture.
 ---
 
 <figure>

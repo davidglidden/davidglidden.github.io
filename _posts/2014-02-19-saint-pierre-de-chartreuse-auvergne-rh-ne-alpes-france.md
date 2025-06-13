@@ -1,11 +1,11 @@
 ---
 title: "Saint-Pierre-de-Chartreuse⁩, ⁨Auvergne-Rhône-Alpes⁩, ⁨France⁩"
 date: 2014-02-19
-location: 45.345361, 5.827103
-class: observation
-ornament: travel
+location: "Auvergne-Rhône-Alpes, France"
+class: glimpse
+ornament: glimpse
 tags: [en, travel, seen]
-description: "Alpine tranquility captured in Saint-Pierre-de-Chartreuse, where mountain light meets the quiet spaces of France's Auvergne-Rhône-Alpes region." 
+description: Mountain light in the quiet spaces of the French Alps.
 ---
 
 <figure>

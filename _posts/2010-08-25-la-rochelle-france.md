@@ -1,11 +1,11 @@
 ---
 title: "La Rochelle, France"
 date: 2010-08-25
-location: 46.175961, -1.218947
+location: "La Rochelle, France"
 tags: [en, travel, seen]
-description: "Historic maritime beauty of La Rochelle, France. Atlantic port city where medieval towers guard harbors filled with centuries of seafaring history." 
-class: observation
-ornament: travel
+description: Medieval towers guarding Atlantic harbors, centuries of seafaring.
+class: glimpse
+ornament: glimpse
 ---
 
 <figure>

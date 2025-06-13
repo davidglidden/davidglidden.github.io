@@ -74,6 +74,8 @@ Where others place horizontal rules, we set ornaments—breathing marks borrowed
 - **⁂** — The asterism, for triple emphasis
 - **❧** — The rotated fleuron, marking turns in thought
 - **◊** — The lozenge, for journeys and positions
+- **◉** — The aperture, for photographic glimpses
+- **⊙ ⊙ ⊙** — The triple viewfinder, for photo essays
 
 These aren't mere decoration. They're semantic punctuation, each carrying its own quality of pause.
 

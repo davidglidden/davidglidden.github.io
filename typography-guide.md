@@ -54,7 +54,7 @@ Add to your post front matter:
 ```yaml
 ---
 layout: post
-class: observation  # or: pattern, essay, meditation, fragment, etc.
+class: observation  # or: pattern, essay, meditation, fragment, glimpse, photo-essay, etc.
 encounter: true     # optional flag for transformative moments
 chamber: true       # optional flag for chamber-reviewed texts
 ornament: personal  # optional ornament override
@@ -76,6 +76,8 @@ ornament: personal  # optional ornament override
 | `performance` | May include musical notation | No | Technical + spiritual |
 | `teaching` | Standard format | No | Narrative emergence |
 | `interlude` | Often uses `.poetic` | No | Seasonal/transitional |
+| `glimpse` | Full-bleed images, centered text | No | Visual fragments |
+| `photo-essay` | Images within text column | Yes | Sequential narrative |
 
 ### Compound Classes
 
@@ -267,6 +269,8 @@ Based on the nature of your content, use these semantically meaningful ornaments
 <div class="ornament philosophical"></div><!-- ❧ for philosophical asides -->
 <div class="ornament travel"></div>       <!-- ◊ for travel/place descriptions -->
 <div class="ornament chamber"></div>      <!-- ⟐ for chamber-reviewed texts -->
+<div class="ornament glimpse"></div>      <!-- ◉ for photographic moments -->
+<div class="ornament photo-essay"></div>  <!-- ⊙ ⊙ ⊙ for sequential visual narrative -->
 ```
 
 #### <span class="small-caps">Jekyll</span> Include:

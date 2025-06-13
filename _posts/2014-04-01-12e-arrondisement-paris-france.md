@@ -1,11 +1,11 @@
 ---
 title: "12e arrondisement, Paris, France"
 date: 2014-04-01
-location: 48.840833, 2.388056
-class: observation
-ornament: travel
+location: "Paris, France"
+class: glimpse
+ornament: glimpse
 tags: [en, travel, seen]
-description: "Everyday Parisian life glimpsed in the 12th arrondissement, where urban rhythms reveal themselves in unexpected architectural moments." 
+description: Urban rhythms in unexpected architectural moments.
 ---
 
 <figure>

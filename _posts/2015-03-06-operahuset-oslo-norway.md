@@ -1,11 +1,11 @@
 ---
 title: "Operahuset, Oslo, Norway"
 date: 2015-03-06
-location: 59.907817, 10.753311
+location: "Oslo, Norway"
 tags: [en, travel, seen]
-description: Oslo's striking Operahuset emerges from the harbor like marble landscape, inviting visitors to walk across its angled roof into sky and fjord. 
-class: observation
-ornament: travel
+description: Marble landscape emerging from Oslo's harbor, where roof meets sky.
+class: glimpse
+ornament: glimpse
 ---
 
 <figure>

@@ -1,11 +1,11 @@
 ---
 title: "白云观, Shanghai, China"
 date: 2013-03-03
-location: 31.227167, 121.480000
+location: "Shanghai, China"
 tags: [en, travel, seen]
-class: observation
-ornament: travel
-description: "Ancient Taoist wisdom endures at Shanghai's 白云观 (White Cloud Temple), where spiritual traditions persist amid China's rapid urban transformation."
+class: glimpse
+ornament: glimpse
+description: Ancient Taoist traditions persisting amid urban transformation.
 ---
 
 <figure>

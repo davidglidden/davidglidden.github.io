@@ -1,11 +1,11 @@
 ---
 title: "Dawn at Salmon Lake, Canada"
 date: 2006-08-23
-location: 44.822272, -78.449250
+location: "Canada"
 tags: [en, travel, seen]
-description: "First light over Salmon Lake, Canada. Contemplative nature photography capturing the serene beauty of Canadian wilderness at dawn's golden hour." 
-class: observation
-ornament: travel
+description: First light over Canadian wilderness, golden hour silence.
+class: glimpse
+ornament: glimpse
 ---
 
 <figure>
