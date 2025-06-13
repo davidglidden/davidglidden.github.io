@@ -23,7 +23,9 @@
       <article itemscope itemtype="https://schema.org/BlogPosting">
 
         <header class="header">
+          {% unless page.class contains 'glimpse' %}
           <h1 class="header-title center" itemprop="headline">{{ page.title | escape }}</h1>
+          {% endunless %}
           {% if page.tags and page.tags != empty %}
           <div class="tags center">
             {% assign tags = page.tags %}
@@ -62,6 +64,14 @@
 
         <div class="page-content" itemprop="articleBody">
           {% include anchor_headings.html html=content anchorClass="anchor-head" beforeHeading=false h_min=1 h_max=4 %}
+          
+          {% if page.class contains 'glimpse' %}
+          <div class="glimpse-meta">
+            {% if page.location %}<span class="location">{{ page.location }}</span>{% endif %}
+            {% if page.camera %}<span class="camera">{{ page.camera }}</span>{% endif %}
+          </div>
+          {% endif %}
+          
           {% if page.tweet %}
           <p>Comments this article on 
             <a href="https://twitter.com/{{site.username}}/status/{{page.tweet}}">Twitter</a>.

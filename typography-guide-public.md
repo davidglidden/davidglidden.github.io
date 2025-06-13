@@ -74,7 +74,7 @@ Where others place horizontal rules, we set ornaments—breathing marks borrowed
 - **⁂** — The asterism, for triple emphasis
 - **❧** — The rotated fleuron, marking turns in thought
 - **◊** — The lozenge, for journeys and positions
-- **◉** — The aperture, for photographic glimpses
+- **◉** — The aperture, for photographic glimpses (no title, pure image)
 - **⊙ ⊙ ⊙** — The triple viewfinder, for photo essays
 
 These aren't mere decoration. They're semantic punctuation, each carrying its own quality of pause.
@@ -122,7 +122,7 @@ Every font loads with `font-display: swap`, respecting slow connections. No exte
 View the complete technical implementation:
 - [Internal typography documentation](/typography-guide/) 
 - [SCSS source files](https://github.com/yourusername/yourrepo)
-- [Type specimen tests](/specimens/) *(future page)*
+- [Type specimen tests](/specimens/)
 
 <div class="ornament philosophical"></div>
 

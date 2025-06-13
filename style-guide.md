@@ -93,26 +93,143 @@ Beauty can hide violence. Craft can serve oppression. Our style must:
 
 <div class="ornament personal"></div>
 
-## Semantic Post Types
+## Semantic Post Types — Complete Reference
 
-Each piece declares its nature, determining both style and reader approach:
+*Typology as topology: These are rooms to inhabit, not boxes to fill*
+
+### Core Principles
+- **Compound classes**: Enable nuance through combination (`class: essay meditation`)
+- **Transformative flags**: Any type can become an `encounter` when threshold moments occur
+- **Ornament alignment**: Each type has preferred ornamental breathing marks
+- **Living taxonomy**: Types evolve as new forms of attention emerge
+
+---
 
 ### Primary Types
 
-**observation** - External attention, present tense, no interpretation  
-**fragment** - Incomplete by design, often italic, honors the partial  
-**essay** - Sustained thought, receives drop cap, builds argument  
-**meditation** - Inward spiral, contemplative pacing  
-**pattern** - Recognition pieces, pattern names in small caps  
-**glimpse** - Photographic moments, full-bleed images, minimal commentary  
-**photo-essay** - Sequential visual narrative, images and text in conversation  
-**gloss** - Commentary, marginalia, uses whisper text  
-**offering** - Curatorial, lists with oldstyle numerals  
+#### **observation**
+- **Rationale**: From Berger's "ways of seeing"—attention as encounter with the external
+- **Tone**: Present-tense immediacy, sensory precision, quiet wonder
+- **Typography**: No drop caps, `.observation` class for generous spacing
+- **Ornament**: `.personal` (❦) 
+- **Can become**: `encounter: true` when the world meets you back
+- **Examples**: "Morning Light Through Catalan Shutters", "The Cellist's Breathing Before the Suite"
 
-### Modifiers
+#### **fragment**
+- **Rationale**: Incomplete thoughts that honor their incompleteness
+- **Tone**: Tentative, elliptical, resistant to closure, often inward-facing
+- **Typography**: `.fragment` class (85% width, special em styling)
+- **Ornament**: `.thought` (❧)
+- **Distinction**: Fragments are internal; observations external
+- **Examples**: "Notes Toward a Theory of Musical Grief", "The Sentence I Cannot Complete"
 
-`encounter: true` - When world stops, marked with ✦  
-`chamber: true` - Underwent Chamber review, marked with ⟐
+#### **essay**
+- **Rationale**: Substantial explorations deserving classical treatment
+- **Tone**: Sustained inquiry, allowing complexity and contradiction
+- **Typography**: `.essay` class triggers drop caps, full measure
+- **Ornament**: `.chapter` (❦ ❦ ❦) for major works
+- **Can combine**: Often `essay meditation` for contemplative depth
+- **Examples**: "On Becoming Animal Rationis Capax", "The Ethics of Unfinished Work"
+
+#### **meditation**
+- **Rationale**: Discursive wanderings that resist essay's formality
+- **Tone**: Circular rather than linear, contemplative, open-ended
+- **Typography**: Can combine with `.essay` for drop caps or standalone
+- **Ornament**: `.philosophical` (❧)
+- **Can become**: `encounter: true` when insight arrives unbidden
+- **Examples**: "What the Bow Teaches About Time", "Variations on Silence"
+
+#### **pattern**
+- **Rationale**: Alexander's pattern language applied across domains
+- **Tone**: Analytical yet embodied, seeking the universal in the particular
+- **Typography**: Pattern names in `.small-caps`, structured sections
+- **Ornament**: `.section` (§ § §)
+- **Examples**: "The Pause Before Teaching", "Bow Distribution as Breath Distribution"
+
+#### **glimpse**
+- **Rationale**: Cartier-Bresson's decisive moment—photography as immediate attention
+- **Tone**: Visual fragments, caught rather than composed
+- **Typography**: `.glimpse` class (full-bleed images, no title display, whisper metadata)
+- **Ornament**: `.glimpse` (◉) — aperture/eye opening to light
+- **Presentation**: No title shown—image speaks first, metadata whispers after
+- **Metadata**: `location:` and `camera:` displayed below image in italicized gray
+- **Distinction**: Glimpses are purely visual; observations are text-first
+- **Technical note**: Title exists in frontmatter for URLs/archives but isn't displayed
+- **Examples**: Pure image + "La Rochelle, France", "Carrer del Pi, Barcelona · Leica M6"
+
+#### **photo-essay**
+- **Rationale**: Mohr/Berger collaboration—images and text interrogating each other
+- **Tone**: Sequential narrative, meaning through accumulation
+- **Typography**: Images within text column, full essay treatment with drop caps
+- **Ornament**: `.photo-essay` (⊙ ⊙ ⊙) — triple viewfinder
+- **Metadata**: `series:` and `images:` count fields
+- **Distinction**: Photo-essays build argument; glimpses capture instant
+- **Examples**: "Market Light" (morning markets series), "Barcelona Gothic: Stone Memory"
+
+#### **gloss**
+- **Rationale**: Close readings in the manuscript tradition
+- **Tone**: Intimate attention, scholarly care, revelatory
+- **Typography**: Quoted text in `.poetic`, commentary in `.whisper`
+- **Ornament**: `.lozenge` (◊)
+- **Future enhancement**: Consider margin layout for true marginalia effect
+- **Examples**: "On 'Animal Rationis Capax': A Phrase Unfolds", "Reading Bachelard's Margins"
+
+#### **correspondence** *(alias: letter)*
+- **Rationale**: Epistolary form as thinking-toward-another
+- **Tone**: Direct address, vulnerability, temporal awareness
+- **Typography**: Standard essay format, perhaps `.poetic` salutation
+- **Ornament**: `.personal` (❦)
+- **Technical note**: Use `letter` in YAML for clarity
+- **Examples**: "Letter to My Unborn Son", "Dear Student Who Cried During Bach"
+
+#### **offering** *(formerly reference)*
+- **Rationale**: Curatorial acts as gifts to readers
+- **Tone**: Generous, connective, intellectually hospitable
+- **Typography**: Lists with `.oldstyle` numerals, annotated links
+- **Ornament**: `.triple` (• • •)
+- **Name evolution**: From "reference" to honor gift-economy ethos
+- **Examples**: "Essential Readings on Craft Time", "Barcelona Walks: An Annotated Map"
+
+#### **performance**
+- **Rationale**: Where musical work meets spiritual inquiry
+- **Tone**: Technical precision wed to interpretive freedom
+- **Typography**: May include musical examples, fingering notations
+- **Ornament**: `.musical` (⁂)
+- **Examples**: "Finding the Emotional Temperature of Prelude No. 1", "The Audience as Co-Performer"
+
+#### **teaching**
+- **Rationale**: Pedagogical stories as forms of knowledge
+- **Tone**: Narrative, revealing, attentive to emergence
+- **Typography**: Standard format, may use `.callout` for key moments
+- **Ornament**: `.asterism` (⁂)
+- **Can become**: `encounter: true` when student becomes teacher
+- **Examples**: "The Student Who Taught Me About Silence", "When Technique Becomes Prayer"
+
+#### **interlude**
+- **Rationale**: Breathing spaces between major movements
+- **Tone**: Seasonal, transitional, briefly personal
+- **Typography**: Often shorter, may use `.poetic` throughout
+- **Ornament**: Varies by season/mood
+- **Examples**: "Spring Equinox: Site Notes", "Between Books", "The Desk, Revisited"
+
+---
+
+### Transformative Modifiers
+
+#### **encounter: true**
+Not a type but a quality that can emerge within any type:
+- **Porosity**: Observer/observed boundary dissolves
+- **Risk**: Something is at stake
+- **Transformation**: You leave changed
+- **Ethical weight**: Demands response, even if silence
+- **Symbol**: ✦ (four-pointed star)
+
+#### **chamber: true**
+Review process marking texts transformed through collective examination:
+- **Witnessed**: Multiple perspectives have interrogated the work
+- **Transformed**: Emerged different from review process
+- **Sealed**: Bears the ⟐ mark of examination
+- **Symbol**: ⟐ (chamber seal)
 
 <div class="ornament philosophical"></div>
 

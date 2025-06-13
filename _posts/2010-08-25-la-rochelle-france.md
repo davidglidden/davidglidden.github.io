@@ -8,7 +8,4 @@ class: glimpse
 ornament: glimpse
 ---
 
-<figure>
-  <img src="/assets/img/2010-08-25-la-rochelle-france.jpeg" alt="La Rochelle, France">
-  <figcaption>La Rochelle, France</figcaption>
-</figure>
+<img src="/assets/img/2010-08-25-la-rochelle-france.jpeg" alt="La Rochelle, France">
