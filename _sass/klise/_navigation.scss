@@ -34,19 +34,6 @@ $header-avatar-size-mobile: round($theme-toggle-size-mobile * 1.618); // ~45px
 @include media-query($on-mobile) {
   body {
     padding-top: 3.5rem; // Adjust as needed
-    
-    // Create fade effect under header - content slips under naturally
-    &::before {
-      content: '';
-      position: fixed;
-      top: 3.5rem;
-      left: 0;
-      right: 0;
-      height: 2rem;
-      background: linear-gradient(to bottom, rgba(255, 255, 255, 0.75), transparent);
-      z-index: 999;
-      pointer-events: none;
-    }
   }
 }
 
@@ -56,11 +43,6 @@ body[data-theme="dark"] {
     .quiet-header {
       background: rgba(0, 0, 0, 0.75);
       border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    }
-    
-    // Dark mode fade effect
-    &::before {
-      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), transparent);
     }
   }
 }
