@@ -189,7 +189,7 @@ The site will migrate from Jekyll eventually—when there's time, when it matter
 <nav class="about-enfilade">
   <a href="/colophon/">Colophon</a>
   <span class="separator">·</span>
-  <a href="/typography-guide/">Typography</a>
+  <a href="/typography/">Typography</a>
   <span class="separator">·</span>
   <a href="/navigation-philosophy/">Navigation</a>
   <span class="separator">·</span>

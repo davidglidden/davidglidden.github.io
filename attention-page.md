@@ -144,7 +144,7 @@ In the end, there's only this: We write what comes to us. We read with the atten
 <nav class="about-enfilade">
   <a href="/colophon/">Colophon</a>
   <span class="separator">·</span>
-  <a href="/typography-guide/">Typography</a>
+  <a href="/typography/">Typography</a>
   <span class="separator">·</span>
   <a href="/navigation-philosophy/">Navigation</a>
   <span class="separator">·</span>
@@ -165,4 +165,10 @@ In the end, there's only this: We write what comes to us. We read with the atten
 
 <div class="ornament personal"></div>
 
-*Continue exploring: [Observations](/observations/) · [Essays](/essays/) · [Patterns](/patterns/) · [Fragments](/fragments/)*
+*Continue exploring:*
+
+**Primary Types:** [Observations](/observations/) · [Essays](/essays/) · [Meditations](/meditations/) · [Patterns](/patterns/) · [Fragments](/fragments/)
+
+**Specialized Forms:** [Glosses](/glosses/) · [Correspondences](/correspondences/) · [Offerings](/offerings/) · [Performances](/performances/) · [Teachings](/teachings/) · [Interludes](/interludes/)
+
+**Transformative:** [Encounters](/encounters/) · [Council Reviewed](/council-reviewed/)

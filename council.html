@@ -1,0 +1,19 @@
+---
+layout: page
+title: Council Reviewed
+permalink: /council-reviewed/
+---
+
+<div class="archive">
+  {% assign council_posts = site.posts | where: "council", true %}
+  {% for post in council_posts %}
+    <div class="archive-item">
+      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span class="whisper">⟐</span>
+      {% if post.encounter %}
+        <span class="whisper">◊</span>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>

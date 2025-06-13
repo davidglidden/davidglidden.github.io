@@ -142,6 +142,28 @@ This typographic system is open for adaptation. Take what serves, leave what doe
 
 For implementation details, see the [technical guide](/typography-guide/). For philosophy, you're already here.
 
+<nav class="about-enfilade">
+  <a href="/colophon/">Colophon</a>
+  <span class="separator">·</span>
+  <span class="current">Typography <span class="arrow">←</span></span>
+  <span class="separator">·</span>
+  <a href="/navigation-philosophy/">Navigation</a>
+  <span class="separator">·</span>
+  <a href="/council/">Council</a>
+  <span class="separator">·</span>
+  <a href="/attention/">Attention</a>
+  <span class="separator">·</span>
+  <a href="/patterns/">Patterns</a>
+  <span class="separator">·</span>
+  <a href="/tools/">Tools</a>
+  <span class="separator">·</span>
+  <a href="/influences/">Influences</a>
+  <span class="separator">·</span>
+  <a href="/now/">Now</a>
+  <span class="separator">·</span>
+  <a href="/bio/">Bio</a>
+</nav>
+
 <div class="ornament section"></div>
 
 *Typography set in <span class="small-caps">EB Garamond</span>, <span class="small-caps">IBM Plex Sans</span>, and <span class="small-caps">IBM Plex Mono</span>. Designed in Barcelona, <span class="oldstyle">2024</span>–<span class="oldstyle">2025</span>. Last refined: today, probably.*

@@ -1,0 +1,18 @@
+---
+layout: page
+title: Teachings
+permalink: /teachings/
+---
+
+<div class="archive">
+  {% assign teachings = site.posts | where_exp: "post", "post.class contains 'teaching'" %}
+  {% for post in teachings %}
+    <div class="archive-item">
+      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {% if post.council %}
+        <span class="whisper">⟐</span>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>

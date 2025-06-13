@@ -1,0 +1,19 @@
+---
+layout: page
+title: Encounters
+permalink: /encounters/
+---
+
+<div class="archive">
+  {% assign encounters = site.posts | where: "encounter", true %}
+  {% for post in encounters %}
+    <div class="archive-item">
+      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span class="whisper">◊</span>
+      {% if post.council %}
+        <span class="whisper">⟐</span>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>

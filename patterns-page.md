@@ -116,7 +116,7 @@ Those interested in how these patterns manifest in specific domains must wait. S
 <nav class="about-enfilade">
   <a href="/colophon/">Colophon</a>
   <span class="separator">·</span>
-  <a href="/typography-guide/">Typography</a>
+  <a href="/typography/">Typography</a>
   <span class="separator">·</span>
   <a href="/navigation-philosophy/">Navigation</a>
   <span class="separator">·</span>

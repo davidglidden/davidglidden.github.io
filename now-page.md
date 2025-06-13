@@ -53,7 +53,7 @@ Barcelona spring—the city between seasons. My son grows more present though no
 <nav class="about-enfilade">
   <a href="/colophon/">Colophon</a>
   <span class="separator">·</span>
-  <a href="/typography-guide/">Typography</a>
+  <a href="/typography/">Typography</a>
   <span class="separator">·</span>
   <a href="/navigation-philosophy/">Navigation</a>
   <span class="separator">·</span>

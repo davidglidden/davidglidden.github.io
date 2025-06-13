@@ -1,0 +1,18 @@
+---
+layout: page
+title: Glosses
+permalink: /glosses/
+---
+
+<div class="archive">
+  {% assign glosses = site.posts | where_exp: "post", "post.class contains 'gloss'" %}
+  {% for post in glosses %}
+    <div class="archive-item">
+      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {% if post.council %}
+        <span class="whisper">⟐</span>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>

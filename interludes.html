@@ -1,0 +1,18 @@
+---
+layout: page
+title: Interludes
+permalink: /interludes/
+---
+
+<div class="archive">
+  {% assign interludes = site.posts | where_exp: "post", "post.class contains 'interlude'" %}
+  {% for post in interludes %}
+    <div class="archive-item">
+      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {% if post.encounter %}
+        <span class="whisper">◊</span>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>

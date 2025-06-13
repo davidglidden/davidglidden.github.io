@@ -82,7 +82,7 @@ The council continues its work, mostly in silence, always in service of the livi
 <nav class="about-enfilade">
   <a href="/colophon/">Colophon</a>
   <span class="separator">·</span>
-  <a href="/typography-guide/">Typography</a>
+  <a href="/typography/">Typography</a>
   <span class="separator">·</span>
   <a href="/navigation-philosophy/">Navigation</a>
   <span class="separator">·</span>

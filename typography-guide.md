@@ -5,31 +5,31 @@ layout: page
 comments: false
 ---
 
-# ✍️ Typographic Style Guide — Animal Rationis Capax
+## Technical Implementation
 
-This guide outlines how to access the full expressive range of the typographic system implemented on *Animal Rationis Capax*. It balances elegant design with Markdown compatibility and GitHub Pages deployment.
+This guide outlines how to access the full expressive range of the typographic system implemented on *Animal Rationis Capax*. It balances elegant design with <span class="small-caps">Markdown</span> compatibility and <span class="small-caps">GitHub Pages</span> deployment.
 
 ---
 
-## 📚 Font System Overview
+## Font System Overview
 
-- **Body Font**: EB Garamond (400 normal, 400 italic, 700 bold)
-- **UI / Headings Font**: IBM Plex Sans (400, 500, 700)
-- **Code**: IBM Plex Mono
-- **Small Caps**: EB Garamond SC (Regular + Display variants)
+- <strong>Body Font</strong>: <span class="small-caps">EB Garamond</span> (400 normal, 400 italic, 700 bold)
+- <strong>UI / Headings Font</strong>: <span class="small-caps">IBM Plex Sans</span> (400, 500, 700)
+- <strong>Code</strong>: <span class="small-caps">IBM Plex Mono</span>
+- <strong>Small Caps</strong>: <span class="small-caps">EB Garamond SC</span> (Regular + Display variants)
 
 All fonts are self-hosted (WOFF2) in `/fonts/` and declared via `@font-face` in `_fonts.scss`.
 
 ### Responsive Font Sizing
-- **Mobile**: 1.375rem base font size (22px) with 1.55 line height
-- **Tablet**: 1.25rem base font size (20px)
-- **Desktop**: 1.3125rem base font size (21px) with 1.6 line height
+- <strong>Mobile</strong>: <span class="oldstyle">1.375</span>rem base font size (<span class="oldstyle">22</span>px) with <span class="oldstyle">1.55</span> line height
+- <strong>Tablet</strong>: <span class="oldstyle">1.25</span>rem base font size (<span class="oldstyle">20</span>px)
+- <strong>Desktop</strong>: <span class="oldstyle">1.3125</span>rem base font size (<span class="oldstyle">21</span>px) with <span class="oldstyle">1.6</span> line height
 
 ---
 
-## 🧰 Typographic Utilities (Defined in `_utilities.scss`)
+## Typographic Utilities
 
-These custom classes enable extended typographic expression in Markdown-rendered HTML:
+These custom classes enable extended typographic expression in <span class="small-caps">Markdown</span>-rendered HTML:
 
 | Class         | Effect                                                     | Mobile Behavior |
 |---------------|------------------------------------------------------------|-----------------|
@@ -44,7 +44,7 @@ These custom classes enable extended typographic expression in Markdown-rendered
 
 ---
 
-## 🏛️ Semantic Post Types & Typography
+## Semantic Post Types
 
 The site uses semantic post types that influence typographic treatment:
 
@@ -105,11 +105,11 @@ Displays the ⟐ mark (divided lozenge) and may include additional spacing for c
 
 ---
 
-## 📝 How to Use in Markdown (with GitHub Pages)
+## Implementation in <span class="small-caps">Markdown</span>
 
-### 1. **Raw HTML Embedding in Markdown**
+### Raw HTML Embedding in <span class="small-caps">Markdown</span>
 
-GitHub Pages supports inline HTML. You can use this to apply styles:
+<span class="small-caps">GitHub Pages</span> supports inline HTML. You can use this to apply styles:
 
 ```markdown
 <p class="small-caps">This sentence uses small caps.</p>
@@ -119,13 +119,13 @@ GitHub Pages supports inline HTML. You can use this to apply styles:
 <p class="whisper"><em>A quiet aside, noted softly.</em></p>
 ```
 
-Avoid mixing with fenced code blocks or indented Markdown blocks.
+Avoid mixing with fenced code blocks or indented <span class="small-caps">Markdown</span> blocks.
 
 ---
 
-### 2. **Drop Caps**
+### Drop Caps
 
-Drop caps are now **intentionally applied** rather than automatic, following classical typography principles where drop caps mark significant beginnings.
+Drop caps are now <strong>intentionally applied</strong> rather than automatic, following classical typography principles where drop caps mark significant beginnings.
 
 #### For Essays and Substantial Pieces:
 Add the `.essay` class to your layout or post front matter:
@@ -153,7 +153,7 @@ This will automatically apply a drop cap to the first paragraph.
 
 ### 3. **Headings and Lists**
 
-These are handled via your existing SCSS:
+These are handled via your existing <span class="small-caps">SCSS</span>:
 
 - Headings use IBM Plex Sans at defined scale ratios
 - Lists inherit body typography (EB Garamond)
@@ -269,7 +269,7 @@ Based on the nature of your content, use these semantically meaningful ornaments
 <div class="ornament council"></div>      <!-- ⟐ for council-reviewed texts -->
 ```
 
-#### Jekyll Include:
+#### <span class="small-caps">Jekyll</span> Include:
 ```liquid
 {% include ornament.html type="asterism" %}
 {% include ornament.html type="fleuron" %}
@@ -331,7 +331,7 @@ Navigation uses IBM Plex Sans Regular (400 weight) to distinguish from bold head
 - **Use private browsing** or clear cache to verify font loads
 - Ensure `.woff2` paths are correct and lowercase
 - Small caps require separate `EB Garamond SC` face—ensure that's installed and called properly
-- GitHub Pages will honor styles in your Jekyll theme as long as they compile cleanly from SCSS
+- <span class="small-caps">GitHub Pages</span> will honor styles in your <span class="small-caps">Jekyll</span> theme as long as they compile cleanly from <span class="small-caps">SCSS</span>
 - Test mobile layouts using browser dev tools at various breakpoints (375px, 768px, 1024px)
 - Council marks (⟐) may require Unicode support—test across browsers
 
@@ -384,7 +384,7 @@ article[data-council="true"] {
 <nav class="about-enfilade">
   <a href="/colophon/">Colophon</a>
   <span class="separator">·</span>
-  <span class="current">Typography <span class="arrow">←</span></span>
+  <a href="/typography/">Typography</a>
   <span class="separator">·</span>
   <a href="/navigation-philosophy/">Navigation</a>
   <span class="separator">·</span>
@@ -405,4 +405,6 @@ article[data-council="true"] {
 
 ---
 
-For the philosophy behind these choices, see "[Typography: The Shape of Thought](/typography/)"
+<p class="whisper">
+For the philosophy behind these choices, see <a href="/typography/">Typography: The Shape of Thought</a>. This technical guide serves implementation; that page serves understanding.
+</p>

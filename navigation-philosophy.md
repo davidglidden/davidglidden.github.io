@@ -158,7 +158,7 @@ True navigation, like true teaching, knows when to appear and when to vanish. Th
 <nav class="about-enfilade">
   <a href="/colophon/">Colophon</a>
   <span class="separator">·</span>
-  <a href="/typography-guide/">Typography</a>
+  <a href="/typography/">Typography</a>
   <span class="separator">·</span>
   <span class="current">Navigation <span class="arrow">←</span></span>
   <span class="separator">·</span>

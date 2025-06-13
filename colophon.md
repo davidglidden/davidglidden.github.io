@@ -94,7 +94,7 @@ Writing here
 <nav class="about-enfilade">
   <span class="current">Colophon <span class="arrow">←</span></span>
   <span class="separator">·</span>
-  <a href="/typography-guide/">Typography</a>
+  <a href="/typography/">Typography</a>
   <span class="separator">·</span>
   <a href="/navigation-philosophy/">Navigation</a>
   <span class="separator">·</span>
