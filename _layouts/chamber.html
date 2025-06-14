@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+{% include chamber_navigation.html %}
+
+<article class="post h-entry chamber-content" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    
+    {% if page.date %}
+    <p class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.klise.date_format | default: "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
+      {% if page.protocol %}
+        <span class="protocol-meta">{{ page.protocol | capitalize }} Protocol</span>
+      {% endif %}
+      {% if page.engines %}
+        <span class="engines-meta">{{ page.engines | join: " + " }}</span>
+      {% endif %}
+    </p>
+    {% endif %}
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {% include chamber_cross_refs.html %}
+
+  {% if page.chamber %}
+  <footer class="chamber-footer">
+    <div class="chamber-attribution">
+      {% if page.created_by %}
+        <p><em>Generated through {{ page.created_by }}</em></p>
+      {% endif %}
+      
+      {% if page.session_id %}
+        <p><em>Session ID: {{ page.session_id }}</em></p>
+      {% endif %}
+      
+      {% if page.first_cited %}
+        <p><em>First cited: {{ page.first_cited }}</em></p>
+      {% endif %}
+    </div>
+  </footer>
+  {% endif %}
+</article>

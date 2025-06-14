@@ -1,0 +1,150 @@
+<!-- Dynamic cross-referencing for Chamber content -->
+{% comment %}
+This include generates cross-references between canon entries and sessions,
+creating the bliki functionality for interconnected navigation.
+{% endcomment %}
+
+{% if page.chamber %}
+
+<!-- Related Canon Entries -->
+{% assign related_canon = site.chamber_canon | where_exp: "item", "item.url != page.url" %}
+{% assign page_voices = page.emergent_voices | default: empty %}
+{% assign page_refusals = page.refusals | default: empty %}
+
+{% if related_canon.size > 0 %}
+<div class="chamber-cross-refs">
+  <h3>Related Canon</h3>
+  
+  <!-- Direct citations from this session -->
+  {% if page.canonical_refs %}
+  <div class="direct-citations">
+    <h4>Fictional Works Cited</h4>
+    <ul>
+    {% for ref in page.canonical_refs %}
+      {% assign canon_entry = site.chamber_canon | where: "slug", ref.slug | first %}
+      {% if canon_entry %}
+      <li>
+        <a href="{{ canon_entry.url }}">{{ ref.title }}{{ ref.marker }}</a>
+        {% if ref.context %} — {{ ref.context }}{% endif %}
+      </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  <!-- Works by similar voices -->
+  {% if page_voices.size > 0 %}
+  {% assign voice_matches = site.chamber_canon | where_exp: "item", "page_voices contains item.attributed_to" %}
+  {% if voice_matches.size > 0 %}
+  <div class="voice-connections">
+    <h4>Other Works by Session Voices</h4>
+    <ul>
+    {% for work in voice_matches limit: 5 %}
+      <li>
+        <a href="{{ work.url }}">{{ work.title }}{{ work.marker }}</a> 
+        by {{ work.attributed_to }}
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+  {% endif %}
+
+  <!-- Works from same source type -->
+  {% if page.source_type %}
+  {% assign type_matches = site.chamber_canon | where: "source_type", page.source_type | where_exp: "item", "item.url != page.url" %}
+  {% if type_matches.size > 0 %}
+  <div class="source-type-connections">
+    <h4>Other {{ page.source_type | capitalize }} Works</h4>
+    <ul>
+    {% for work in type_matches limit: 3 %}
+      <li>
+        <a href="{{ work.url }}">{{ work.title }}{{ work.marker }}</a>
+        {% if work.fictional_description %} — {{ work.fictional_description }}{% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+  {% endif %}
+</div>
+{% endif %}
+
+<!-- Session Cross-References -->
+{% assign related_sessions = site.chamber_deliberations | where_exp: "item", "item.url != page.url" %}
+{% if related_sessions.size > 0 %}
+<div class="session-cross-refs">
+  <h3>Related Sessions</h3>
+  
+  <!-- Sessions citing this work (for canon entries) -->
+  {% if page.chambers_cited_in %}
+  <div class="citing-sessions">
+    <h4>Sessions Citing This Work</h4>
+    <ul>
+    {% for citation in page.chambers_cited_in %}
+      {% assign citing_session = site.chamber_deliberations | where: "session_id", citation.session | first %}
+      {% if citing_session %}
+      <li>
+        <a href="{{ citing_session.url }}">{{ citing_session.title }}</a>
+        {% if citation.voice %} (via {{ citation.voice }}){% endif %}
+        {% if citation.context %} — {{ citation.context }}{% endif %}
+      </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  <!-- Sessions with overlapping voices -->
+  {% if page_voices.size > 0 %}
+  {% assign voice_session_matches = site.chamber_deliberations | where_exp: "session", "session.emergent_voices and page_voices and session.emergent_voices contains page_voices[0]" %}
+  {% if voice_session_matches.size > 0 %}
+  <div class="voice-session-connections">
+    <h4>Sessions with Shared Voices</h4>
+    <ul>
+    {% for session in voice_session_matches limit: 3 %}
+      {% if session.url != page.url %}
+      <li>
+        <a href="{{ session.url }}">{{ session.title }}</a>
+        {% if session.date %} ({{ session.date }}){% endif %}
+      </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+  {% endif %}
+</div>
+{% endif %}
+
+<!-- Voice Tracking -->
+{% if page_voices.size > 0 or page_refusals.size > 0 %}
+<div class="voice-tracking">
+  <h3>Voice Patterns</h3>
+  
+  {% if page_voices.size > 0 %}
+  <div class="emergent-voices">
+    <h4>Voices Who Spoke</h4>
+    <ul class="voice-list">
+    {% for voice in page_voices %}
+      <li class="voice-tag">{{ voice }}</li>
+    {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if page_refusals.size > 0 %}
+  <div class="refusing-voices">
+    <h4>Voices Who Refused</h4>
+    <ul class="refusal-list">
+    {% for refusal in page_refusals %}
+      <li class="refusal-tag">{{ refusal }}</li>
+    {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+</div>
+{% endif %}
+
+{% endif %}

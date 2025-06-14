@@ -43,7 +43,7 @@ Each Chamber session generates not just critique but new knowledge. References t
 - The *Archive of Unwritten Books*§ - The Chamber's own library
 - *Marginalia of the Burned*† - What survives destruction
 
-Browse the full <a href="/chamber/canon/">Canonical References</a> or read <a href="/chamber/deliberations/">Session Deliberations</a>.
+Browse the full <a href="/chamber/canon/">Canonical References</a> ({{ site.chamber_canon.size }} works and growing) or read <a href="/chamber/sessions/">Session Deliberations</a>.
 
 <div class="ornament personal"></div>
 
@@ -67,14 +67,30 @@ This follows hermetic principle: as above, so below. The editorial process mirro
 
 Works that have undergone Chamber review bear the seal: ⟐
 
-## The Growing Canon
+## Navigation
 
-Browse the <a href="/chamber/canon/">Canonical References</a> or read <a href="/chamber/deliberations/">Session Deliberations</a>.
+{% assign recent_sessions = site.chamber_deliberations | sort: 'date' | reverse | limit: 2 %}
+{% assign recent_canon = site.chamber_canon | sort: 'first_cited' | reverse | limit: 3 %}
 
-Read more:
-- <a href="/chamber/about/">How The Chamber Works</a> - Detailed explanation
-- <a href="/chamber/canon/">Canonical References</a> - Growing fictional bibliography  
-- <a href="/chamber/sessions/">Session Archive</a> - Completed deliberations
+**Core Sections:**
+- <a href="/chamber/canon/">Canonical References</a> — {{ site.chamber_canon.size }} fictional works
+- <a href="/chamber/sessions/">Session Archive</a> — {{ site.chamber_deliberations.size }} completed deliberations
+- <a href="/chamber/voices/">Voice Patterns</a> — Track manifestations across sessions
+- <a href="/chamber/about/">How The Chamber Works</a> — Detailed methodology
+
+{% if recent_sessions.size > 0 %}
+**Latest Sessions:**
+{% for session in recent_sessions %}
+- [{{ session.title }}]({{ session.url }}) — {{ session.session_summary }}
+{% endfor %}
+{% endif %}
+
+{% if recent_canon.size > 0 %}
+**Recently Added to Canon:**
+{% for work in recent_canon %}
+- [*{{ work.title }}*{{ work.marker }}]({{ work.url }}) — {{ work.fictional_description }}
+{% endfor %}
+{% endif %}
 
 <p class="whisper">
 <em>Some transformations cannot be described, only undergone. The Chamber awaits those ready for genuine change.</em>

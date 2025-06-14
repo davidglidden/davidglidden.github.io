@@ -11,37 +11,65 @@ class: offering
 
 <div class="ornament philosophical"></div>
 
-### Inventions° — Pure Chamber Creations
+<div class="chamber-canon-section">
+<h3 id="inventions">Inventions° — Pure Chamber Creations</h3>
 
-{% for work in site.chamber_canon %}
-  {% if work.source_type == 'inventions' %}
-- [*{{ work.title }}*{{ work.marker }}]({{ work.url }}) — {{ work.fictional_description }}
-  {% endif %}
+{% assign inventions = site.chamber_canon | where: "source_type", "inventions" | sort: "first_cited" %}
+{% if inventions.size > 0 %}
+<ul>
+{% for work in inventions %}
+<li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.marker }}</a> — {{ work.fictional_description }}</li>
 {% endfor %}
+</ul>
+{% else %}
+<p><em>No inventions yet...</em></p>
+{% endif %}
+</div>
 
-### Hybrid Works~ — Real Authors, Imagined Texts
+<div class="chamber-canon-section">
+<h3 id="hybrid">Hybrid Works~ — Real Authors, Imagined Texts</h3>
 
-{% for work in site.chamber_canon %}
-  {% if work.source_type == 'hybrid' %}
-- [*{{ work.title }}*{{ work.marker }}]({{ work.url }}) — {{ work.fictional_description }}
-  {% endif %}
+{% assign hybrid = site.chamber_canon | where: "source_type", "hybrid" | sort: "first_cited" %}
+{% if hybrid.size > 0 %}
+<ul>
+{% for work in hybrid %}
+<li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.marker }}</a> — {{ work.fictional_description }}</li>
 {% endfor %}
+</ul>
+{% else %}
+<p><em>No hybrid works yet...</em></p>
+{% endif %}
+</div>
 
-### Chamber Generated§ — Knowledge Through Dialogue
+<div class="chamber-canon-section">
+<h3 id="chamber-generated">Chamber Generated§ — Knowledge Through Dialogue</h3>
 
-{% for work in site.chamber_canon %}
-  {% if work.source_type == 'chamber-generated' %}
-- [*{{ work.title }}*{{ work.marker }}]({{ work.url }}) — {{ work.fictional_description }}
-  {% endif %}
+{% assign chamber_generated = site.chamber_canon | where: "source_type", "chamber-generated" | sort: "first_cited" %}
+{% if chamber_generated.size > 0 %}
+<ul>
+{% for work in chamber_generated %}
+<li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.marker }}</a> — {{ work.fictional_description }}</li>
 {% endfor %}
+</ul>
+{% else %}
+<p><em>No chamber-generated works yet...</em></p>
+{% endif %}
+</div>
 
-### Hermetic Sources∞ — Ancient Wisdom Traditions
+<div class="chamber-canon-section">
+<h3 id="hermetic">Hermetic Sources∞ — Ancient Wisdom Traditions</h3>
 
-{% for work in site.chamber_canon %}
-  {% if work.source_type == 'hermetic' %}
-- [*{{ work.title }}*{{ work.marker }}]({{ work.url }}) — {{ work.fictional_description }}
-  {% endif %}
+{% assign hermetic = site.chamber_canon | where: "source_type", "hermetic" | sort: "first_cited" %}
+{% if hermetic.size > 0 %}
+<ul>
+{% for work in hermetic %}
+<li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.marker }}</a> — {{ work.fictional_description }}</li>
 {% endfor %}
+</ul>
+{% else %}
+<p><em>No hermetic sources yet...</em></p>
+{% endif %}
+</div>
 
 <div class="ornament personal"></div>
 

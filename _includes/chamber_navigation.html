@@ -1,0 +1,84 @@
+<!-- Chamber-specific navigation and discovery -->
+{% comment %}
+Provides bliki-style navigation within The Chamber section
+{% endcomment %}
+
+{% if page.chamber %}
+<nav class="chamber-nav">
+  <div class="chamber-breadcrumb">
+    <a href="/chamber/">The Chamber</a>
+    {% if page.source_type %}
+      → <a href="/chamber/canon/">Canon</a>
+      → <span class="source-type">{{ page.source_type | capitalize }}</span>
+    {% elsif page.protocol %}
+      → <a href="/chamber/sessions/">Sessions</a>
+      → <span class="protocol-type">{{ page.protocol | capitalize }}</span>
+    {% elsif page.session_id %}
+      → <a href="/chamber/meta-commentaries/">Meta-Commentary</a>
+    {% endif %}
+  </div>
+
+  <div class="chamber-tools">
+    <a href="/chamber/canon/" class="nav-tool">Browse Canon</a>
+    <a href="/chamber/sessions/" class="nav-tool">Session Archive</a>
+    <a href="/chamber/voices/" class="nav-tool">Voice Patterns</a>
+    {% comment %}Future: <a href="/chamber/search/" class="nav-tool">Search</a>{% endcomment %}
+  </div>
+</nav>
+
+<!-- Quick discovery based on current page -->
+<aside class="chamber-discovery">
+  {% if page.source_type %}
+    <!-- For canon entries, show recent sessions -->
+    {% assign recent_sessions = site.chamber_deliberations | sort: 'date' | reverse | limit: 3 %}
+    <div class="discovery-section">
+      <h4>Recent Sessions</h4>
+      <ul>
+      {% for session in recent_sessions %}
+        <li><a href="{{ session.url }}">{{ session.title }}</a></li>
+      {% endfor %}
+      </ul>
+    </div>
+  {% elsif page.protocol %}
+    <!-- For sessions, show related canon -->
+    {% assign recent_canon = site.chamber_canon | sort: 'first_cited' | reverse | limit: 4 %}
+    <div class="discovery-section">
+      <h4>Recent Canon Additions</h4>
+      <ul>
+      {% for work in recent_canon %}
+        <li><a href="{{ work.url }}">{{ work.title }}{{ work.marker }}</a></li>
+      {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+
+  <!-- Source type distribution -->
+  {% assign all_canon = site.chamber_canon %}
+  {% assign hermetic_count = all_canon | where: "source_type", "hermetic" | size %}
+  {% assign hybrid_count = all_canon | where: "source_type", "hybrid" | size %}
+  {% assign inventions_count = all_canon | where: "source_type", "inventions" | size %}
+  {% assign chamber_count = all_canon | where: "source_type", "chamber-generated" | size %}
+  
+  <div class="discovery-section canon-stats">
+    <h4>Canon Overview</h4>
+    <div class="source-breakdown">
+      <div class="source-stat">
+        <a href="/chamber/canon/#hermetic">{{ hermetic_count }} Hermetic∞</a>
+      </div>
+      <div class="source-stat">
+        <a href="/chamber/canon/#hybrid">{{ hybrid_count }} Hybrid~</a>
+      </div>
+      <div class="source-stat">
+        <a href="/chamber/canon/#inventions">{{ inventions_count }} Inventions°</a>
+      </div>
+      <div class="source-stat">
+        <a href="/chamber/canon/#chamber-generated">{{ chamber_count }} Chamber§</a>
+      </div>
+    </div>
+    <div class="total-works">
+      <strong>{{ all_canon.size }} total fictional works</strong>
+    </div>
+  </div>
+</aside>
+
+{% endif %}

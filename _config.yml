@@ -74,14 +74,14 @@ defaults:
       path: ""
       type: "chamber_canon"
     values:
-      layout: "page"
+      layout: "chamber"
       class: "reference"
       chamber: true
   - scope:
       path: ""
       type: "chamber_deliberations"
     values:
-      layout: "page"
+      layout: "chamber"
       class: "essay meditation encounter"
       chamber: true
       encounter: true
@@ -89,7 +89,7 @@ defaults:
       path: ""
       type: "chamber_meta"
     values:
-      layout: "page"
+      layout: "chamber"
       class: "essay"
       chamber: true
 
