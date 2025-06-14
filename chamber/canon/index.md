@@ -11,45 +11,37 @@ class: offering
 
 <div class="ornament philosophical"></div>
 
-### Pure Inventions°
+### Inventions° — Pure Chamber Creations
 
-Works that emerged wholly from Chamber dialogues:
+{% for work in site.chamber_canon %}
+  {% if work.source_type == 'inventions' %}
+- [*{{ work.title }}*{{ work.marker }}]({{ work.url }}) — {{ work.fictional_description }}
+  {% endif %}
+{% endfor %}
 
-- *The Gutenberg Meditations*° (Anonymous, c. 1465)
-- *Carthaginian Principles of Sacred Geometry*° (Unknown, 3rd century BCE)  
-- *The Unwritten Pedagogies*° (Stolen Generations' Teachers, oral tradition)
+### Hybrid Works~ — Real Authors, Imagined Texts
 
-### Hybrid Works~
+{% for work in site.chamber_canon %}
+  {% if work.source_type == 'hybrid' %}
+- [*{{ work.title }}*{{ work.marker }}]({{ work.url }}) — {{ work.fictional_description }}
+  {% endif %}
+{% endfor %}
 
-Real authors, imagined texts:
+### Chamber Generated§ — Knowledge Through Dialogue
 
-- *Tschichold's Letters to the Digital Age*~ (Jan Tschichold, projected)
-- *Weil's Notebooks on Typography*~ (Simone Weil, discovered)
-- *The Lost Folio of Aldus Manutius*~ (containing the hermetic keys)
+{% for work in site.chamber_canon %}
+  {% if work.source_type == 'chamber-generated' %}
+- [*{{ work.title }}*{{ work.marker }}]({{ work.url }}) — {{ work.fictional_description }}
+  {% endif %}
+{% endfor %}
 
-### Chamber Syntheses§
+### Hermetic Sources∞ — Ancient Wisdom Traditions
 
-Knowledge generated through dialogue:
-
-- *Patterns of Textual Violence*§ (Shadow Protocol Sessions)
-- *The Archive of Refusals*§ (Who wouldn't speak and why)
-- *Harmonics of Voice Assignment*§ (How The Chamber chooses)
-
-### Hermetic Sources∞
-
-Ancient wisdom traditions cited:
-
-- *Corpus Hermeticum*∞
-- *The Emerald Tablet*∞  
-- Khunrath's *Amphitheatrum Sapientiae Aeternae*∞
-
-### Contested Attributions†
-
-Disputed or legendary works:
-
-- *The Prague Codex of Living Letters*†
-- *Fragments of the Library of Alexandria*†
-- *The Sarajevo Haggadah Marginalia*†
+{% for work in site.chamber_canon %}
+  {% if work.source_type == 'hermetic' %}
+- [*{{ work.title }}*{{ work.marker }}]({{ work.url }}) — {{ work.fictional_description }}
+  {% endif %}
+{% endfor %}
 
 <div class="ornament personal"></div>
 

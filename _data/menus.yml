@@ -15,6 +15,10 @@
   url: /archive/
   external: false
 
+- title: the chamber
+  url: /chamber/
+  external: false
+
 # - title: now
 #   url: /now/
 #   external: false

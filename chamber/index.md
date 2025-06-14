@@ -67,10 +67,14 @@ This follows hermetic principle: as above, so below. The editorial process mirro
 
 Works that have undergone Chamber review bear the seal: ⟐
 
+## The Growing Canon
+
+Browse the <a href="/chamber/canon/">Canonical References</a> or read <a href="/chamber/deliberations/">Session Deliberations</a>.
+
 Read more:
-- <a href="/chamber/about/">How The Chamber Works</a>  
-- <a href="/chamber/voices/">The Complete Voice Registry</a>
-- <a href="/chamber/sessions/">Recent Sessions</a>
+- <a href="/chamber/about/">How The Chamber Works</a> - Detailed explanation
+- <a href="/chamber/canon/">Canonical References</a> - Growing fictional bibliography  
+- <a href="/chamber/sessions/">Session Archive</a> - Completed deliberations
 
 <p class="whisper">
 <em>Some transformations cannot be described, only undergone. The Chamber awaits those ready for genuine change.</em>
