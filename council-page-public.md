@@ -71,13 +71,15 @@ This is not crowd-sourcing or committee work. It's an ancient practice: the mast
 
 ## For the Curious
 
-You cannot invoke the council for your own work—it doesn't function as service. But understanding it exists may help explain certain qualities in texts marked with the council seal: ⟐
+You cannot invoke The Chamber for your own work—it doesn't function as service. But understanding it exists may help explain certain qualities in texts marked with The Chamber seal: ⟐
 
 These pieces underwent transformation beyond standard revision. They've been unmade and remade in collective witness. Whether this improves them, you must judge.
 
-Works that have passed through council review bear this mark: ⟐
+Works that have passed through Chamber review bear this mark: ⟐
 
-The council continues its work, mostly in silence, always in service of the living word.
+For those curious about The Chamber's deeper workings—its voice registry, growing canon of fictional works, and session deliberations—see <a href="/chamber/">The Chamber</a>.
+
+The Chamber continues its work, mostly in silence, always in service of the living word.
 
 <nav class="about-enfilade">
   <a href="/colophon/">Colophon</a>
@@ -86,7 +88,7 @@ The council continues its work, mostly in silence, always in service of the livi
   <span class="separator">·</span>
   <a href="/navigation-philosophy/">Navigation</a>
   <span class="separator">·</span>
-  <span class="current">Council <span class="arrow">←</span></span>
+  <span class="current">Chamber <span class="arrow">←</span></span>
   <span class="separator">·</span>
   <a href="/attention/">Attention</a>
   <span class="separator">·</span>

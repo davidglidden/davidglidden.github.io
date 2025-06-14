@@ -236,6 +236,38 @@ Review process marking texts transformed through collective examination:
 - **Sealed**: Bears the ⟐ mark of examination
 - **Symbol**: ⟐ (chamber seal)
 
+---
+
+## Chamber Source Citations
+
+When citing works that emerge from Chamber sessions:
+
+### Notation Usage
+- Apply superscript markers immediately after work titles
+- Include hover text for digital versions  
+- Use existing gray color for unobtrusive presence
+- Link to full canon entries when available
+
+### Source Types & Markers
+- **(unmarked)** - Real, verified sources
+- **°** - Pure inventions from Chamber sessions  
+- **~** - Hybrid works (real author, imagined text)
+- **†** - Contested or apocryphal sources
+- **§** - Chamber's own synthesis
+- **∞** - Hermetic/esoteric traditions
+- **◊** - Real work, fictional context
+
+### Examples in Practice
+- The *Gutenberg Meditations*° explores printing as prayer
+- Tschichold's *Letters to Future Typographers*~ (imagined correspondence)  
+- According to the *Prague Alchemical Codex*†, text transforms reader
+- The Chamber's synthesis§ reveals pattern languages in suffering
+- The *Corpus Hermeticum*∞ connects above and below
+- Alexander writes◊ about "unfolding wholeness" in ways the Chamber extends
+
+### Integration with Existing Styles
+Chamber citations follow our existing emphasis patterns but add ontological transparency. The goal is scholarly honesty about the constructed nature of authority while serving both contemplative and critical reading.
+
 <div class="ornament philosophical"></div>
 
 ## Structural Elements

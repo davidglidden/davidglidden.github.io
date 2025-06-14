@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Council Reviewed
-permalink: /council-reviewed/
+title: Chamber Reviewed
+permalink: /chamber-reviewed/
 ---
 
 <div class="archive">
-  {% assign council_posts = site.posts | where: "council", true %}
-  {% for post in council_posts %}
+  {% assign chamber_posts = site.posts | where: "chamber", true %}
+  {% for post in chamber_posts %}
     <div class="archive-item">
       <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>

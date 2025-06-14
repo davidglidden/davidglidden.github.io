@@ -136,6 +136,15 @@
     content: "⊙ ⊙ ⊙"; // Three viewfinders for sequential visual narrative
     letter-spacing: 0.3em;
   }
+  
+  &.hermetic::before {
+    content: "☉ ☉ ☉"; // Triple suns for hermetic content
+    letter-spacing: 0.3em;
+  }
+  
+  &.chamber::before {
+    content: "⟐"; // Chamber seal for reviewed content
+  }
 }
 
 // Observational prose styling
@@ -457,6 +466,83 @@
 }
 
 // Dark mode
+// Chamber source notation system
+// ================================================
+.source-marker {
+  vertical-align: super;
+  font-size: 0.8em;
+  color: $gray;
+  cursor: help;
+  font-family: $serif-family;
+  margin-left: 0.1em;
+}
+
+// Chamber deliberation formatting
+.chamber-dialogue {
+  .voice {
+    font-family: $sans-family;
+    font-weight: $medium-weight;
+    font-size: 0.95em;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: $gray;
+  }
+  
+  .speech {
+    margin-left: 2rem;
+    font-style: italic;
+    line-height: 1.7;
+  }
+  
+  .refusal {
+    color: $gray;
+    font-style: normal;
+    margin-left: 2rem;
+    opacity: 0.7;
+    
+    &::before {
+      content: "[Refuses to speak]";
+    }
+  }
+}
+
+// Canon entry layout
+.canon-entry {
+  .metadata {
+    font-size: 0.9em;
+    color: $gray;
+    margin-bottom: 2rem;
+    
+    .marker {
+      font-size: 1.2em;
+      margin-left: 0.25em;
+    }
+  }
+  
+  .excerpts {
+    margin: 2rem 0;
+    padding-left: 2rem;
+    border-left: 2px solid $light;
+    
+    blockquote {
+      font-style: italic;
+      margin: 1rem 0;
+    }
+  }
+}
+
+// Include helper for source markers
+.chamber-citation {
+  position: relative;
+  
+  .source-marker {
+    &[title]:hover {
+      opacity: 0.6;
+    }
+  }
+}
+
+// Dark mode
 body[data-theme="dark"] {
   .version-stamp {
     color: $dark-gray;
@@ -469,5 +555,27 @@ body[data-theme="dark"] {
   
   .glimpse-meta {
     color: $dark-gray;
+  }
+  
+  .source-marker {
+    color: $dark-gray;
+  }
+  
+  .chamber-dialogue .voice {
+    color: $dark-gray;
+  }
+  
+  .chamber-dialogue .refusal {
+    color: $dark-gray;
+  }
+  
+  .canon-entry {
+    .metadata {
+      color: $dark-gray;
+    }
+    
+    .excerpts {
+      border-left-color: $dark-light;
+    }
   }
 }
