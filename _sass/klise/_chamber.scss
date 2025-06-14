@@ -33,7 +33,7 @@
       font-size: 0.9rem;
       
       a {
-        color: $dark;
+        color: $heading-color;
         text-decoration: none;
         border-bottom: 1px solid transparent;
         
@@ -108,7 +108,7 @@
       text-decoration: none;
       
       &:hover {
-        color: $dark;
+        color: $heading-color;
       }
     }
 
@@ -131,7 +131,7 @@
       
       &:hover {
         background: rgba($gray, 0.1);
-        color: $dark;
+        color: $heading-color;
       }
     }
   }
@@ -173,7 +173,7 @@
         margin-bottom: 0.25rem;
         
         a {
-          color: $dark;
+          color: $heading-color;
           text-decoration: none;
           font-size: 0.8rem;
           
@@ -201,14 +201,14 @@
         text-decoration: none;
         
         &:hover {
-          color: $dark;
+          color: $heading-color;
         }
       }
     }
 
     .total-works {
       font-size: 0.8rem;
-      color: $dark;
+      color: $heading-color;
       text-align: center;
       padding-top: 0.5rem;
       border-top: 1px solid rgba($gray, 0.2);
