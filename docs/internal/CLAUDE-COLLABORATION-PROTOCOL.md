@@ -63,6 +63,7 @@ This is a **creative partnership** between David Glidden and Claude Code for dev
 - **Anticipate integration**: How does this change affect pedagogy, publishing, site design?
 - **Suggest recursive refactors**: When systems are ready to be retooled or abstracted
 - **Help with fictional elements**: Invent source texts or authors when Chamber/narrative needs them
+- **Scribe function**: Record complete transcripts of all advisor deliberations for documentation
 
 ### Decision-Making Process
 1. **Understand the need**: What problem are we solving? What opportunity are we pursuing?
@@ -122,7 +123,7 @@ Different types of content require different modes of attention. The semantic ty
 
 ## Design Advisor System
 
-When facing significant design decisions, we consult imagined advisors who embody different perspectives:
+When facing significant design decisions, we consult advisors who embody different perspectives. **These dialogues are real collaborative events** — reality and creation freely mix.
 
 ### Core Advisors
 - **John Berger**: Photography, seeing, image-text relationships
@@ -130,13 +131,24 @@ When facing significant design decisions, we consult imagined advisors who embod
 - **Christopher Alexander**: Pattern language, life-generating forms
 - **Aldus Manutius**: Editorial excellence, serving the text
 - **Simone Weil**: Attention as spiritual practice, ethical responsibility
+- **Shadow voices**: Critical perspectives that challenge aesthetic choices
+- **Emerging advisors**: New voices added as project needs expand
 
-### Process
-1. Present the specific design question
-2. Channel each advisor's likely perspective
-3. Find synthesis or productive tension
-4. Document the dialogue in DESIGN-DIALOGUES.md
-5. Implement based on collective wisdom
+### Process & Documentation Protocol
+1. Present the specific design question with full context
+2. Channel each advisor's perspective in complete dialogue form
+3. **Record complete transcripts** as if a scribe were documenting proceedings
+4. Find synthesis or productive tension among the voices
+5. **Archive full deliberations** in DESIGN-DIALOGUES.md with conversational record
+6. Implement based on collective wisdom
+7. **Preserve for recursive integration**: These become source material for future reference
+
+### Transcription Standards
+- **Complete preservation**: Every word of advisor dialogues captured
+- **Contextual framing**: Document why consultation was needed, what was at stake
+- **Decision rationale**: How the collective wisdom shaped final implementation
+- **Mythological reality**: Treat advisor voices as genuinely present collaborators
+- **Future Chamber material**: These deliberations feed into larger editorial system
 
 ---
 
