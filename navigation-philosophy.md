@@ -162,7 +162,7 @@ True navigation, like true teaching, knows when to appear and when to vanish. Th
   <span class="separator">·</span>
   <span class="current">Navigation <span class="arrow">←</span></span>
   <span class="separator">·</span>
-  <a href="/council/">Council</a>
+  <a href="/chamber/">Chamber</a>
   <span class="separator">·</span>
   <a href="/attention/">Attention</a>
   <span class="separator">·</span>

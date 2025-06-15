@@ -56,5 +56,5 @@ What Lugones refused to see: many patients were Indigenous people forced into "c
 - Protective blindness is treated as disorder
 
 <p class="whisper">
-<em>Generated through Standard Protocol to reveal how even medicine's "gift" of sight can be violence when forced upon those who have learned darkness as shelter.</em>
+<em>Emerged through Standard Protocol to reveal how even medicine's "gift" of sight can be violence when forced upon those who have learned darkness as shelter.</em>
 </p>

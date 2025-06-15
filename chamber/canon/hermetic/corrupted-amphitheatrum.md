@@ -64,5 +64,5 @@ Not Khunrath's cosmic architecture but the real theaters where power performs wi
 - Any space where illumination has a price
 
 <p class="whisper">
-<em>Generated through Shadow Protocol to expose hermetic wisdom's service to power. The corruption was always already there.</em>
+<em>Emerged through Shadow Protocol to expose hermetic wisdom's service to power. The corruption was always already there.</em>
 </p>

@@ -57,5 +57,5 @@ The manuscript includes instructions for its own destruction:
 This text grows with each Shadow Protocol session, accumulating examples of how beautiful writing obscures brutal systems. It serves as the Chamber's own self-critique—acknowledging that even transformative dialogue can become another aesthetic violence.
 
 <p class="whisper">
-<em>Generated through Shadow Protocol as Bernhard's essential critique. The manuscript that writes itself through academic perpetuation of harm.</em>
+<em>Emerged through Shadow Protocol as Bernhard's essential critique. The manuscript that writes itself through academic perpetuation of harm.</em>
 </p>

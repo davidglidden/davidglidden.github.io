@@ -7,7 +7,7 @@ class: offering
 
 ## A Living Bibliography
 
-<p class="drop-cap">The Chamber generates references to works that don't yet exist—or didn't until cited. Following Borges, we build libraries through reference rather than writing. This canon grows with each session.</p>
+<p class="drop-cap">The Chamber accumulates references to works that don't yet exist—or didn't until cited. Following Borges, we build libraries through reference rather than writing. This canon grows with each session.</p>
 
 <div class="ornament philosophical"></div>
 
@@ -42,17 +42,17 @@ class: offering
 </div>
 
 <div class="chamber-canon-section">
-<h3 id="chamber-generated">Chamber Generated§ — Knowledge Through Dialogue</h3>
+<h3 id="chamber-written">Chamber Written§ — Knowledge Through Dialogue</h3>
 
-{% assign chamber_generated = site.chamber_canon | where: "source_type", "chamber-generated" | sort: "first_cited" %}
-{% if chamber_generated.size > 0 %}
+{% assign chamber_written = site.chamber_canon | where: "source_type", "chamber-generated" | sort: "first_cited" %}
+{% if chamber_written.size > 0 %}
 <ul>
-{% for work in chamber_generated %}
+{% for work in chamber_written %}
 <li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.marker }}</a> — {{ work.fictional_description }}</li>
 {% endfor %}
 </ul>
 {% else %}
-<p><em>No chamber-generated works yet...</em></p>
+<p><em>No chamber-written works yet...</em></p>
 {% endif %}
 </div>
 
@@ -76,3 +76,15 @@ class: offering
 Each entry links to its full description, excerpts, and Chamber appearances. The canon is searchable, browseable, and ever-growing.
 
 <a href="/chamber/canon/all/">Browse All Entries</a> | <a href="/chamber/canon/recent/">Recent Additions</a>
+
+<nav class="chamber-enfilade">
+  <a href="/chamber/">Chamber</a>
+  <span class="separator">·</span>
+  <a href="/chamber/about/">About</a>
+  <span class="separator">·</span>
+  <span class="current">Canon <span class="arrow">←</span></span>
+  <span class="separator">·</span>
+  <a href="/chamber/sessions/">Sessions</a>
+  <span class="separator">·</span>
+  <a href="/chamber/voices/">Voices</a>
+</nav>

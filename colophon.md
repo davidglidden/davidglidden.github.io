@@ -98,7 +98,7 @@ Writing here
   <span class="separator">·</span>
   <a href="/navigation-philosophy/">Navigation</a>
   <span class="separator">·</span>
-  <a href="/council/">Council</a>
+  <a href="/chamber/">Chamber</a>
   <span class="separator">·</span>
   <a href="/attention/">Attention</a>
   <span class="separator">·</span>

@@ -88,7 +88,7 @@ This document lives and breathes. New influences will be added as they reveal th
   <span class="separator">·</span>
   <a href="/navigation-philosophy/">Navigation</a>
   <span class="separator">·</span>
-  <a href="/council/">Council</a>
+  <a href="/chamber/">Chamber</a>
   <span class="separator">·</span>
   <a href="/attention/">Attention</a>
   <span class="separator">·</span>

@@ -88,5 +88,5 @@ The *Behavioral Blindness Index* reveals willful blindness not as moral failure 
 When people "refuse to see," the algorithm sees profit.
 
 <p class="whisper">
-<em>Generated through Shadow Protocol to expose how technological systems weaponize the very conditions that make contemplation impossible.</em>
+<em>Emerged through Shadow examination to expose how technological systems weaponize the very conditions that make contemplation impossible.</em>
 </p>

@@ -97,3 +97,15 @@ class: offering
 ---
 
 *The Chamber remembers every voice, spoken and refused.*
+
+<nav class="chamber-enfilade">
+  <a href="/chamber/">Chamber</a>
+  <span class="separator">·</span>
+  <a href="/chamber/about/">About</a>
+  <span class="separator">·</span>
+  <a href="/chamber/canon/">Canon</a>
+  <span class="separator">·</span>
+  <a href="/chamber/sessions/">Sessions</a>
+  <span class="separator">·</span>
+  <span class="current">Voices <span class="arrow">←</span></span>
+</nav>

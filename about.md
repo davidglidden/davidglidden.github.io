@@ -36,8 +36,8 @@ How letterforms shape thought. The conversation between <span class="small-caps"
 ### [Navigation Philosophy](/navigation-philosophy/)
 How interface responds to attention. A translucent header on mobile, a floating avatar on desktop—each viewport receives its own inevitable solution. Not mere responsive design but responsive presence, honoring how we hold devices and how they hold us.
 
-### [Council](/council/)
-The inter-temporal review process for certain texts. Work that demands collective wisdom beyond solitary revision. Pieces that emerge from this process bear the mark ⟐—the journey ornament opened through examination.
+### [The Chamber](/chamber/)
+Where certain texts undergo transformation through dialogue with voices across time, discipline, and reality. Work that emerges from this process bears the mark ⟐—the journey ornament opened through examination.
 
 ### [What Kind of Attention Does This Require?](/attention/)
 The semantic post types that organize this site. Not categories but qualities of looking—observation, fragment, pattern, essay, meditation, and more. Each type is a room with its own quality of light.

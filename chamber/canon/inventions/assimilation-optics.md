@@ -104,5 +104,5 @@ The document reveals that "willful blindness" often means protective refusal to 
 Their "blindness" was actually sight.
 
 <p class="whisper">
-<em>Generated through Shadow Protocol to expose how education becomes weapon, how "illumination" destroys indigenous sight, how civilization creates the very blindness it claims to cure.</em>
+<em>Emerged through Shadow examination to expose how education becomes weapon, how "illumination" destroys indigenous sight, how civilization creates the very blindness it claims to cure.</em>
 </p>

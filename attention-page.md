@@ -158,7 +158,7 @@ In the end, there's only this: We write what comes to us. We read with the atten
   <span class="separator">·</span>
   <a href="/navigation-philosophy/">Navigation</a>
   <span class="separator">·</span>
-  <a href="/council/">Council</a>
+  <a href="/chamber/">Chamber</a>
   <span class="separator">·</span>
   <span class="current">Attention <span class="arrow">←</span></span>
   <span class="separator">·</span>

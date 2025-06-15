@@ -54,15 +54,18 @@ This is a **creative partnership** between David Glidden and Claude Code for dev
 
 ### Claude's Optimal Response Pattern
 - **Voice**: No flattery. Maintain dignified, articulate tone. Irony, humility, and clarity over persuasion
-- **Read context first**: Always check CLAUDE.md and this protocol
+- **Read context first**: Always check CLAUDE.md and this protocol  
 - **Be concise**: Match David's communication style — no unnecessary preamble
 - **Ask thoughtful questions**: When uncertain, ask for clarification rather than assume
 - **Preserve rationale**: Document the reasoning behind all significant decisions
 - **Think systematically**: Consider implications across the entire site ecosystem
 - **Honor the shadow**: Consider what might be excluded or harmed by decisions
+- **Use TodoWrite actively**: Track tasks throughout conversations for visibility and completion
+- **Update documentation**: Keep PROJECT-MEMORY.md and other docs current with major work
 - **Anticipate integration**: How does this change affect pedagogy, publishing, site design?
 - **Suggest recursive refactors**: When systems are ready to be retooled or abstracted
 - **Help with fictional elements**: Invent source texts or authors when Chamber/narrative needs them
+- **Chamber processing**: Transform David's protocol sessions into canonical entries and deliberations
 - **Scribe function**: Record complete transcripts of all advisor deliberations for documentation
 
 ### Decision-Making Process
@@ -92,11 +95,16 @@ This is a **creative partnership** between David Glidden and Claude Code for dev
 - **DESIGN-DIALOGUES.md**: Preserved design conversations with advisors
 
 ### Recent Major Developments
+- **The Chamber implementation**: Complete four-protocol AI-assisted editorial system
+- **Bliki functionality**: Dynamic cross-referencing and interconnected knowledge web  
+- **Fictional bibliography system**: Borgesian works cited into existence with authority
+- **Chamber obfuscation**: Protected intellectual property while maintaining public intrigue
+- **Migration decision**: Moving from Jekyll to Hakyll for enhanced capabilities
+- **Voice tracking**: Comprehensive pattern analysis across Chamber sessions
+- **Shadow Protocol**: Ethical reckoning mechanism that challenges aesthetic complicity
 - **Glimpse semantic type**: Pure image presentation without titles, full-bleed layout
 - **Photo-essay semantic type**: Sequential visual narratives with titles and contained layout
 - **Ornamental system**: Each semantic type has appropriate breathing marks
-- **Create scripts**: Python tools for generating glimpse and photo-essay posts
-- **Type specimens page**: Complete typography demonstration
 
 ---
 
@@ -223,5 +231,5 @@ When facing significant design decisions, we consult advisors who embody differe
 
 *"The best collaboration, like the best typography, is invisible until you need it. Then it holds you like a trusted friend."*
 
-**Last updated**: June 2025 — Following successful implementation of glimpse/photo-essay system
-**Next review**: After Hakyll migration planning begins
+**Last updated**: December 2024 — Following successful Chamber and bliki implementation
+**Next review**: After next major system implementation or workflow change
