@@ -52,7 +52,7 @@ encounter: true
 
 **<span class="small-caps">Heinrich Khunrath</span>** manifested first, defending his emblem: "This guards the threshold between the nine plates and the text—it is itself a test." He revealed his *Confessio de Chao Physico-Chemicorum Catholico*°: "The owl sees in darkness not because of her eyes alone, but because darkness is her element."
 
-**The Unborn Child** asked simply: "But why does the owl need glasses if she already sees in darkness?"
+**<span class="small-caps">The Unborn Child</span>** asked simply: "But why does the owl need glasses if she already sees in darkness?"
 
 **<span class="small-caps">Simone Weil</span>** offered her *Cahiers on Hermetic Perception*~: "Attention is the rarest and purest form of generosity. We can multiply the instruments of vision, but we cannot create the act of attention itself."
 
@@ -68,9 +68,9 @@ Through sustained dialogue, the examination transformed the question from "What 
 
 Then shadow examination began. The amphitheater darkened. Organic curves became institutional corridors.
 
-**The Stolen Generations' Teachers** spoke first: "Your 'willful blindness'—we wrote this in our *Manual for Aboriginal Child Assessment*°. Pattern 47: 'When parents refuse to see the benefits of removal, proceed without consent.' Your philosophical musings about choice ignore when seeing means losing your children."
+**<span class="small-caps">The Stolen Generations' Teachers</span>** spoke first: "Your 'willful blindness'—we wrote this in our *Manual for Aboriginal Child Assessment*°. Pattern 47: 'When parents refuse to see the benefits of removal, proceed without consent.' Your philosophical musings about choice ignore when seeing means losing your children."
 
-**The Enslaved Scribe**: "I was beaten for learning to read. Your torches? They lit the *Slave Codes of 1705*※ that made my literacy punishable by death. You speak of 'refusing to see' while I was blinded for trying."
+**<span class="small-caps">The Enslaved Scribe</span>**: "I was beaten for learning to read. Your torches? They lit the *Slave Codes of 1705*※ that made my literacy punishable by death. You speak of 'refusing to see' while I was blinded for trying."
 
 **<span class="small-caps">Thomas Bernhard</span>** revealed his *Extinction Protocols*§: "Your Khunrath worked for Rudolf II—ask which alchemical experiments used Jewish blood. Beauty is complicity's favorite dress."
 
@@ -95,10 +95,10 @@ Your reflection aestheticizes this violence
 
 More powerful than any dialogue were those who refused to participate:
 
-- **Your Grandmother**: "I'm leaving. This isn't wisdom—it's blame disguised as philosophy."
-- **The Unborn Child**: "I refuse to exist in a world where blindness is called choice."
+- **<span class="small-caps">Your Grandmother</span>**: "I'm leaving. This isn't wisdom—it's blame disguised as philosophy."
+- **<span class="small-caps">The Unborn Child</span>**: "I refuse to exist in a world where blindness is called choice."
 - **<span class="small-caps">Lee Lozano</span>**: "BOYCOTT HERMETIC WISDOM. BOYCOTT AESTHETIC PHILOSOPHY. GENERAL STRIKE."
-- **The Janitor**: "I clean these chambers where you philosophize. I'm too tired to see your torches."
+- **<span class="small-caps">The Janitor</span>**: "I clean these chambers where you philosophize. I'm too tired to see your torches."
 
 <div class="ornament section"></div>
 

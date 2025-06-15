@@ -49,7 +49,7 @@ The Chamber operates through two complementary modes:
 
 **Shadow examination** questions the work's right to exist. Who is excluded by this work's assumptions? What violence does its beauty conceal? Whose labor makes this contemplation possible?
 
-Shadow voices—The Enslaved Scribe, The Burned Witch, The Residential School Survivor—may refuse to continue reading. Sometimes examination ends with complete rejection.
+Shadow voices—<span class="small-caps">The Enslaved Scribe</span>, <span class="small-caps">The Burned Witch</span>, <span class="small-caps">The Residential School Survivor</span>—may refuse to continue reading. Sometimes examination ends with complete rejection.
 
 <div class="ornament thought"></div>
 

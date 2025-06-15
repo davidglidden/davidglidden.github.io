@@ -21,10 +21,10 @@ The Chamber exists as both method and metaphor. Inspired by Heinrich Khunrath's 
 
 Unlike traditional editing, The Chamber treats revision as philosophical theater. Through processes refined over decades of practice, texts encounter:
 
-- **The Anonymous Anchors**: The Unborn Child, The Student with Unanswerable Questions, The Janitor Who Knows Where Sound Lives
+- **The Anonymous Anchors**: <span class="small-caps">The Unborn Child</span>, <span class="small-caps">The Student with Unanswerable Questions</span>, <span class="small-caps">The Janitor Who Knows Where Sound Lives</span>
 - **Historical Figures**: <span class="small-caps">Simone Weil</span>, <span class="small-caps">James Baldwin</span>, <span class="small-caps">Jan Tschichold</span>
 - **Contemporary Consciousness**: <span class="small-caps">Robin Wall Kimmerer</span>, <span class="small-caps">bell hooks</span>
-- **Shadow Voices**: The Enslaved Scribe, The Algorithm, Those who refuse to speak
+- **Shadow Voices**: <span class="small-caps">The Enslaved Scribe</span>, <span class="small-caps">The Algorithm</span>, Those who refuse to speak
 
 <div class="ornament section"></div>
 

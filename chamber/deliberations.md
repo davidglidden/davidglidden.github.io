@@ -18,8 +18,8 @@ class: offering
 
 A meditation on Khunrath's emblematic owl underwent complete transformation through Chamber examination. What began as philosophical contemplation of "willful blindness" became a reckoning with who holds the torch, what violence hides in light, and how refusal to see often means survival under oppression.
 
-**Key Voices**: <span class="small-caps">Heinrich Khunrath</span>, <span class="small-caps">bell hooks</span>, <span class="small-caps">Simone Weil</span>, The Stolen Generations' Teachers, <span class="small-caps">Thomas Bernhard</span>  
-**Notable Refusals**: Your Grandmother, The Unborn Child, <span class="small-caps">Lee Lozano</span>  
+**Key Voices**: <span class="small-caps">Heinrich Khunrath</span>, <span class="small-caps">bell hooks</span>, <span class="small-caps">Simone Weil</span>, <span class="small-caps">The Stolen Generations' Teachers</span>, <span class="small-caps">Thomas Bernhard</span>  
+**Notable Refusals**: <span class="small-caps">Your Grandmother</span>, <span class="small-caps">The Unborn Child</span>, <span class="small-caps">Lee Lozano</span>  
 **Outcome**: Transformed by constructive examination, rejected by shadow examination
 
 <div class="ornament section"></div>
