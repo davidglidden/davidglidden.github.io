@@ -161,42 +161,23 @@
 }
 
 
-// 404 page
+// 404 page - Fixed for proper header/footer spacing
 .wrapper.not-found {
+  min-height: calc(100vh - 120px); // Account for header and footer
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 75vh;
-  text-align: center;
-
-  .title {
-    font-size: 5em;
-    font-weight: $bold-weight;
-    line-height: 1.1;
-    color: $heading-color;
-    text-shadow: 1px 0 0 $accent-color;
+  padding: 2rem 0;
+  
+  @include media-query($on-tablet) {
+    min-height: calc(100vh - 100px);
+    padding: 1.5rem 0;
   }
-
-  .phrase {
-    color: $text-color;
+  
+  @include media-query($on-mobile) {
+    min-height: calc(100vh - 80px);
+    padding: 1rem 0;
   }
-
-  .solution {
-    color: $accent-color;
-    letter-spacing: 0.5px;
-
-    &:hover {
-      color: darken($accent-color, 10%);
-    }
-  }
-}
-
-// 404 page refined styling
-.wrapper.not-found {
-  min-height: 60vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   
   .page-content {
     max-width: $narrow-size;
@@ -211,8 +192,12 @@
       opacity: 0.9;
       margin-bottom: 2rem;
       
+      @include media-query($on-tablet) {
+        font-size: 4.5rem;
+      }
+      
       @include media-query($on-mobile) {
-        font-size: 4rem;
+        font-size: 3.5rem;
       }
     }
     

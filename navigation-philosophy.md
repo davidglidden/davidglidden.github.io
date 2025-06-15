@@ -11,7 +11,7 @@ class: essay meditation
 —<span class="small-caps">Christopher Alexander</span>
 </blockquote>
 
-<p class="drop-cap">Navigation is not wayfinding. It is presence made interactive—the delicate negotiation between appearing when needed and vanishing when not. After inordinate amount of time wrestling with iOS Safari's peculiar refusal to honor the simplest gesture, I learned what Alexander knew: sometimes the solution isn't clever code but patient observation of what wants to happen.</p>
+<p class="drop-cap">Navigation is not wayfinding. It is presence made interactive—the delicate negotiation between appearing when needed and vanishing when not. After inordinate amount of time wrestling with iOS Safari's peculiar refusal to honor the simplest gesture, I learned what <span class="small-caps">Alexander</span> knew: sometimes the solution isn't clever code but patient observation of what wants to happen.</p>
 
 This page maps one small victory in the eternal struggle between human intention and machine interpretation. Take what serves. Leave what doesn't. The best interface is the one you forget exists.
 
@@ -42,9 +42,9 @@ The revelation came through elimination: iOS Safari's touch events break when CS
 ## The Dodecahedron's Teaching
 
 Why a dodecahedron? The question arrived only after solving the technical problem—as if the form had been waiting to reveal its purpose.
-In Plato's Timaeus, the dodecahedron represents the cosmos itself—the shape that encompasses all others. Twelve pentagonal faces, each a golden portal. And within each pentagon lives a five-pointed star—the pentagram that ancients saw as human form (head, two arms, two legs) and golden proportion made manifest. For a site exploring our capacity for rationality rather than our possession of it, this geometrical form becomes philosophy made visible: the human inscribed within the cosmic, capability nested within structure.
+In <span class="small-caps">Plato</span>'s <em>Timaeus</em>, the dodecahedron represents the cosmos itself—the shape that encompasses all others. Twelve pentagonal faces, each a golden portal. And within each pentagon lives a five-pointed star—the pentagram that ancients saw as human form (head, two arms, two legs) and golden proportion made manifest. For a site exploring our capacity for rationality rather than our possession of it, this geometrical form becomes philosophy made visible: the human inscribed within the cosmic, capability nested within structure.
 The twelve faces echo the chromatic scale—that musical democracy where every tone has equal weight. But look closer: each pentagonal face contains its own five-pointed star, the golden ratio spiraling inward. As a violist, I recognize this: the overtone series made geometry, the human proportion (that Vitruvian reach) repeated twelve times around a perfect solid. The avatar doesn't just mark a location; it suggests a tuning between human measure and cosmic order.
-Alexander would approve. In The Timeless Way of Building, he writes of forms that feel inevitable rather than imposed. The dodecahedron carries this quality—appearing in Islamic tile work, Renaissance drawings, molecular diagrams. A pattern that transcends its instances.
+<span class="small-caps">Alexander</span> would approve. In <em>The Timeless Way of Building</em>, he writes of forms that feel inevitable rather than imposed. The dodecahedron carries this quality—appearing in Islamic tile work, Renaissance drawings, molecular diagrams. A pattern that transcends its instances.
 That this perfect Platonic solid refused iOS touch events becomes its own teaching. Even the most elegant abstractions must negotiate with stubborn material reality. The gap between intention and reception. Between capability and achievement. The dodecahedron, patient and crystalline, waiting for touch that cannot register—a koan in code.
 Now it rotates gently in the corner, accessible at last through the humblest of solutions: a checkbox. Sacred geometry meeting HTML form elements. This is what "rationis capax" means—not choosing between the ideal and the real, but finding where they dance.
 
@@ -52,7 +52,7 @@ Now it rotates gently in the corner, accessible at last through the humblest of 
 
 ## Three Distances, Three Presences
 
-Just as [typography](typography-guide-public.md) adapts to reading distance, navigation must honor the fundamental differences in how we hold devices:
+Just as [typography](/typography/) adapts to reading distance, navigation must honor the fundamental differences in how we hold devices:
 
 ### Mobile: The Intimate Device
 *In hand, natural arm's length*
@@ -99,7 +99,7 @@ The solutions that survived:
 
 **No CSS transforms on fixed elements**. iOS Safari simply cannot handle them. Accept this limitation rather than fighting it.
 
-**Proper touch targets**. Apple demands <span class="oldstyle">44×44</span> pixels minimum. Anything smaller is hope, not design.
+**Proper touch targets**. <span class="small-caps">Apple</span> demands <span class="oldstyle">44×44</span> pixels minimum. Anything smaller is hope, not design.
 
 **Native form elements for interaction**. When JavaScript touch events fail, HTML form elements still work. The platform wants to help—let it.
 
@@ -111,7 +111,7 @@ The solutions that survived:
 
 Every debugging journey carries lessons beyond the technical:
 
-1. **Platform constraints are teachers**. iOS Safari's limitations forced a simpler, more robust solution.
+1. **Platform constraints are teachers**. iOS <span class="small-caps">Safari</span>'s limitations forced a simpler, more robust solution.
 
 2. **Testing environments lie**. Always verify on actual devices. Simulators show intention, not reality.
 
@@ -131,7 +131,7 @@ This isn't just about fixing a menu. It's about recognizing that each device cre
 
 The navigation must honor these different modes of being. Not responsive design—responsive *presence*.
 
-Alexander would recognize this: form following not function but life. The navigation wants to support the reader's attention, not dominate it. When it works, you don't notice it. When it fails, you can't ignore it.
+<span class="small-caps">Alexander</span> would recognize this: form following not function but life. The navigation wants to support the reader's attention, not dominate it. When it works, you don't notice it. When it fails, you can't ignore it.
 
 <div class="ornament personal"></div>
 
@@ -147,7 +147,7 @@ If you're fighting similar battles:
 
 **Simple survives clever**. Every time.
 
-The code lives in the [repository](https://github.com/yourusername/yourrepo). Take what helps. Leave what doesn't. Share what you learn.
+The code lives in the repository. Take what helps. Leave what doesn't. Share what you learn.
 
 <div class="ornament philosophical"></div>
 
