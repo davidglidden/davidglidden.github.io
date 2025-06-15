@@ -452,6 +452,64 @@
   }
 }
 
+// Chamber Enfilade Navigation (matches About Enfilade)
+.chamber-enfilade {
+  text-align: center;
+  margin: 3rem 0 2rem;
+  font-family: $sans-family;
+  font-size: 0.875rem;
+  line-height: 1.8;
+  
+  a {
+    color: $gray;
+    text-decoration: none;
+    
+    &:hover {
+      color: $text-color;
+    }
+  }
+  
+  .separator {
+    color: $gray;
+    margin: 0 0.35rem;
+  }
+  
+  .current {
+    color: $text-color;
+    font-weight: $medium-weight;
+    
+    .arrow {
+      margin-left: 0.25rem;
+      color: $gray;
+    }
+  }
+  
+  // Back to About link
+  .back-to-about {
+    display: block;
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+    
+    &::before {
+      content: "← ";
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .separator {
+      display: inline-block;
+      margin: 0 0.25rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    a, .current {
+      display: inline-block;
+      margin: 0.2rem 0;
+    }
+  }
+}
+
 // Version stamp for Colophon - an editorial element
 .version-stamp {
   text-align: center;

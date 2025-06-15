@@ -55,4 +55,5 @@ The Chamber awaits texts brave enough to undergo transformation through collecti
   <span class="current">Sessions <span class="arrow">←</span></span>
   <span class="separator">·</span>
   <a href="/chamber/voices/">Voices</a>
+  <a href="/colophon/" class="back-to-about">Back to About pages</a>
 </nav>

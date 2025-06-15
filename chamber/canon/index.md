@@ -84,7 +84,8 @@ Each entry links to its full description, excerpts, and Chamber appearances. The
   <span class="separator">·</span>
   <span class="current">Canon <span class="arrow">←</span></span>
   <span class="separator">·</span>
-  <a href="/chamber/sessions/">Sessions</a>
+  <a href="/chamber/deliberations/">Deliberations</a>
   <span class="separator">·</span>
   <a href="/chamber/voices/">Voices</a>
+  <a href="/colophon/" class="back-to-about">Back to About pages</a>
 </nav>

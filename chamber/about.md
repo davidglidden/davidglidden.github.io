@@ -86,7 +86,8 @@ Works that survive Chamber examination bear the seal: ⟐
   <span class="separator">·</span>
   <a href="/chamber/canon/">Canon</a>
   <span class="separator">·</span>
-  <a href="/chamber/sessions/">Sessions</a>
+  <a href="/chamber/deliberations/">Deliberations</a>
   <span class="separator">·</span>
   <a href="/chamber/voices/">Voices</a>
+  <a href="/colophon/" class="back-to-about">Back to About pages</a>
 </nav>

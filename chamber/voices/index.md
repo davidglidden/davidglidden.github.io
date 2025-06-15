@@ -105,7 +105,8 @@ class: offering
   <span class="separator">·</span>
   <a href="/chamber/canon/">Canon</a>
   <span class="separator">·</span>
-  <a href="/chamber/sessions/">Sessions</a>
+  <a href="/chamber/deliberations/">Deliberations</a>
   <span class="separator">·</span>
   <span class="current">Voices <span class="arrow">←</span></span>
+  <a href="/colophon/" class="back-to-about">Back to About pages</a>
 </nav>

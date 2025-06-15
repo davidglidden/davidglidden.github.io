@@ -32,7 +32,7 @@ Unlike traditional editing, The Chamber treats revision as philosophical theater
 
 Each Chamber session generates not just critique but new knowledge. References to non-existent works—in the tradition of Borges—become real through citation. Authority grows through use rather than origin.
 
-Browse the <a href="/chamber/canon/">Canonical References</a> or read completed <a href="/chamber/sessions/">Session Deliberations</a> to see the process in action.
+Browse the <a href="/chamber/canon/">Canonical References</a> or read completed <a href="/chamber/deliberations/">Deliberations</a> to see the process in action.
 
 <div class="ornament personal"></div>
 
@@ -64,7 +64,7 @@ The Chamber currently operates in **private development**. While the methods rem
 
 **Browse:**
 - [Canonical References](/chamber/canon/) — Fictional works cited into existence
-- [Session Archive](/chamber/sessions/) — Completed deliberations  
+- [Deliberations](/chamber/deliberations/) — Completed examinations  
 - [Voice Patterns](/chamber/voices/) — Manifestation across sessions
 
 <nav class="chamber-enfilade">
@@ -74,9 +74,10 @@ The Chamber currently operates in **private development**. While the methods rem
   <span class="separator">·</span>
   <a href="/chamber/canon/">Canon</a>
   <span class="separator">·</span>
-  <a href="/chamber/sessions/">Sessions</a>
+  <a href="/chamber/deliberations/">Deliberations</a>
   <span class="separator">·</span>
   <a href="/chamber/voices/">Voices</a>
+  <a href="/colophon/" class="back-to-about">Back to About pages</a>
 </nav>
 
 <p class="whisper">

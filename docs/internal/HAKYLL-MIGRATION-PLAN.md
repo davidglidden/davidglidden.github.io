@@ -157,9 +157,44 @@ data UserRole = Public | ChamberAccess | Admin
 - **Content integrity verification**
 - **Rollback plan** if issues arise
 
+## Post-Migration Audit Tasks
+
+### Chamber Content Access Decisions
+**Note**: Final decisions on public vs. protected content to be made post-migration based on authentication capabilities.
+
+**Likely Public** (long-term):
+- **Deliberations**: Showcase the process, maintain mystery and intrigue
+- **Canon**: Already well-obfuscated fictional bibliography
+- **Voices**: Pattern tracking without technical details
+
+**Likely Protected** (internal only):
+- **Sessions Archive**: Shows technical workings and methodology
+- **Meta-Commentary**: AI analysis too revealing of process
+- **Chamber Tools**: Operational documentation
+
+### Documentation Hierarchy Review
+- Audit all `/docs/` content for appropriate public/internal classification
+- Review Chamber tools documentation accessibility
+- Establish clear guidelines for what remains public vs. protected
+- Consider graduated access levels:
+  - Public: General visitors
+  - Chamber-access: Trusted readers with login
+  - Admin: Full technical access
+
+### Implementation Considerations
+- Use Hakyll's authentication to create nuanced access control
+- Consider time-delayed public release of some content
+- Maintain the balance: "Show the magic, hide the machinery"
+
+### Future Enhancement: Voice Linking
+- Link voice names to their canon entries and voice pattern pages
+- Create comprehensive cross-referencing between voices and their works
+- Generate automatic voice profile pages showing all appearances
+
 ---
 
 **Ready to begin immediately upon server access confirmation.**
 
 *Contact: Claude Code via David's session*  
-*Created: 2025-01-15*
+*Created: 2025-01-15*  
+*Updated: 2025-01-15 with post-migration audit notes*
