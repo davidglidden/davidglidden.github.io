@@ -1,18 +1,36 @@
-# Chamber Prompts - Private Operations
+# Chamber Master Prompts
+## Version 2.0 - June 16, 2025
 
 **Access**: David Glidden only  
-**Purpose**: Master prompts for Chamber sessions  
+**Purpose**: Master prompts for all Chamber protocols  
 **Location**: Internal documentation - not public  
 
-## Available Prompts
+## Organization
 
-### Standard Protocol
-- `claude-standard-protocol-v1.md` - Complete Claude prompt
-- `gpt-standard-protocol-v1.md` - Token-optimized GPT prompt
+### First Light Protocol (`first-light/`)
+- `claude-v2.md` - Claude prompt for gentle seed examination
+- `gpt-v2.md` - GPT prompt for gentle seed examination
 
-### Shadow Protocol  
-- `claude-shadow-protocol-v1.md` - Complete Claude shadow prompt
-- `gpt-shadow-protocol-v1.md` - Token-optimized GPT shadow prompt
+### Standard Protocol (`standard/`)
+- `claude-v2.md` - Claude prompt for full transformative dialogue
+- `gpt-v2.md` - GPT prompt for full transformative dialogue
+
+### Shadow Protocol (`shadow/`)
+- `claude-v2.md` - Claude prompt for ethical reckoning
+- `gpt-v2.md` - GPT prompt for ethical reckoning
+
+## Version History
+
+### v2.0 (June 16, 2025)
+- Added First Light Protocol (new)
+- Updated Standard Protocol with 200+ voice assembly
+- Enhanced Shadow Protocol with mandatory accusers
+- Integrated bibliographic engine requirements
+- All prompts include fictional reference generation
+
+### v1.0 (December 2024)
+- Initial Standard/Shadow Protocols
+- Basic Chamber concept implementation
 
 ## Prompt Outputs
 
