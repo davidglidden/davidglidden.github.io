@@ -6,7 +6,7 @@ class: meditation
 ---
 
 <blockquote class="poetic">
-"Dar a luz" — to give to the light<br>
+<span lang="es">"Dar a luz"</span> — to give to the light<br>
 —<span class="small-caps">Spanish wisdom</span>
 </blockquote>
 

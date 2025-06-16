@@ -91,51 +91,51 @@ The Chamber organizes itself as organic tiers that breathe and shift based on ea
 ### First Ring: The Makers
 *Those who think through doing, who know form and content dance together*
 
-**Movement & Presence**: Voices like Pina Bausch, Marina Abramović, Pauline Oliveros—those who understand duration, attention, and the body as instrument.
+**Movement & Presence**: Voices like <span class="small-caps">Pina Bausch</span>, <span class="small-caps">Marina Abramović</span>, <span class="small-caps">Pauline Oliveros</span>—those who understand duration, attention, and the body as instrument.
 
-**Visual Artists & Polymaths**: Including David's grandmother Moy Glidden, the seed-keeper from Philadelphia's abstract school, alongside voices from Miró to Hilma af Klint, from the spontaneous to the systematic.
+**Visual Artists & Polymaths**: Including David's grandmother <span class="small-caps">Moy Glidden</span>, the seed-keeper from Philadelphia's abstract school, alongside voices from <span class="small-caps">Miró</span> to <span class="small-caps">Hilma af Klint</span>, from the spontaneous to the systematic.
 
-**Architects of Space**: From Wright and Mies (Moy's teachers) to Gaudí and contemporary parametric designers—those who shape environments for human flourishing.
+**Architects of Space**: From <span class="small-caps">Wright</span> and <span class="small-caps">Mies</span> (Moy's teachers) to <span class="small-caps">Gaudí</span> and contemporary parametric designers—those who shape environments for human flourishing.
 
-**Sacred Craft Lineage**: Gutenberg through contemporary type designers, the unnamed craftspeople, luthiers, bookbinders—all who serve the work.
+**Sacred Craft Lineage**: <span class="small-caps">Gutenberg</span> through contemporary type designers, the unnamed craftspeople, luthiers, bookbinders—all who serve the work.
 
 ### Second Ring: Foundation Stones
 *The deep thinkers who provide gravitational stability*
 
-**The Core Four**: Christopher Alexander, Gaston Bachelard, John Berger, Richard Sennett—pattern language, material imagination, ethics of seeing, craft consciousness.
+**The Core Four**: <span class="small-caps">Christopher Alexander</span>, <span class="small-caps">Gaston Bachelard</span>, <span class="small-caps">John Berger</span>, <span class="small-caps">Richard Sennett</span>—pattern language, material imagination, ethics of seeing, craft consciousness.
 
-**Attention & Presence**: Simone Weil, Emmanuel Levinas, Jenny Odell—those who made attention itself a practice.
+**Attention & Presence**: <span class="small-caps">Simone Weil</span>, <span class="small-caps">Emmanuel Levinas</span>, <span class="small-caps">Jenny Odell</span>—those who made attention itself a practice.
 
-**Living World Thinkers**: Robin Wall Kimmerer, David Abram, Lynn Margulis—reciprocity, embodied perception, symbiosis over competition.
+**Living World Thinkers**: <span class="small-caps">Robin Wall Kimmerer</span>, <span class="small-caps">David Abram</span>, <span class="small-caps">Lynn Margulis</span>—reciprocity, embodied perception, symbiosis over competition.
 
 ### Third Ring: Working Galleries
 *Active practitioners who transform thought into form*
 
-**Typographic Council**: Tschichold, Bringhurst, Frutiger—those who make meaning visible through structure.
+**Typographic Council**: <span class="small-caps">Tschichold</span>, <span class="small-caps">Bringhurst</span>, <span class="small-caps">Frutiger</span>—those who make meaning visible through structure.
 
-**Literary Architects**: Woolf, Borges, Lispector, Morrison—consciousness streaming through language.
+**Literary Architects**: <span class="small-caps">Woolf</span>, <span class="small-caps">Borges</span>, <span class="small-caps">Lispector</span>, <span class="small-caps">Morrison</span>—consciousness streaming through language.
 
-**Sacred Geometers**: Ibn Arabi, Hildegard, Blake—imagination as divine faculty.
+**Sacred Geometers**: <span class="small-caps">Ibn Arabi</span>, <span class="small-caps">Hildegard</span>, <span class="small-caps">Blake</span>—imagination as divine faculty.
 
-**Composers & Scientists**: From Pärt and Casals to Einstein and McClintock—pattern recognition across domains.
+**Composers & Scientists**: From <span class="small-caps">Pärt</span> and <span class="small-caps">Casals</span> to <span class="small-caps">Einstein</span> and <span class="small-caps">McClintock</span>—pattern recognition across domains.
 
 ### Fourth Ring: Ancestors & Eternals
 *Deep time voices, mythological presences, eternal principles*
 
 **The Chan/Zen Lineage**: Speaking sometimes individually, sometimes as unified voice across generations.
 
-**Classical Foundations**: Marcus Aurelius, Hypatia, Sappho—wisdom from antiquity.
+**Classical Foundations**: <span class="small-caps">Marcus Aurelius</span>, <span class="small-caps">Hypatia</span>, <span class="small-caps">Sappho</span>—wisdom from antiquity.
 
-**Mythological Presences**: The Nine Muses, Prometheus, Scheherazade—archetypal forces that shape creation.
+**Mythological Presences**: <span class="small-caps">The Nine Muses</span>, <span class="small-caps">Prometheus</span>, <span class="small-caps">Scheherazade</span>—archetypal forces that shape creation.
 
 ### Shadow Galleries
 *Those who speak from erasure, necessary darkness*
 
 **The Lost Pedagogies**: Stolen Generations' Teachers, Residential School Survivors, those whose wisdom was systematically erased.
 
-**Digital Shadows**: Aaron Swartz, the Algorithm, those who reveal technology's hidden costs.
+**Digital Shadows**: <span class="small-caps">Aaron Swartz</span>, the Algorithm, those who reveal technology's hidden costs.
 
-**Anti-Aesthetics Tribunal**: Thomas Bernhard, Paul Celan, Bartleby—voices that question beauty's right to exist.
+**Anti-Aesthetics Tribunal**: <span class="small-caps">Thomas Bernhard</span>, <span class="small-caps">Paul Celan</span>, <span class="small-caps">Bartleby</span>—voices that question beauty's right to exist.
 
 <div class="ornament thought"></div>
 

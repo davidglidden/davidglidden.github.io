@@ -49,13 +49,16 @@ Include any notes about:
 
 # CLAUDE CODE'S WORKFLOW (Steps 3-9)
 
-## Step 3: Detect Protocol and Extract Fictional References
+## Step 3: Detect Protocol and Extract All References
 Auto-detect protocol from filename brackets: `[first-light]`, `[standard]`, or `[shadow]`
 
-Hunt through both raw outputs for works marked with notation (°, ~, †, §, ∞, ◊).
+Hunt through both raw outputs for:
+- **Fictional works** marked with notation (°, ~, †, §, ∞, ◊)
+- **Real works** explicitly referenced (books, articles, actual texts)
 
 Create comprehensive extraction document cataloging:
 - All fictional works by voice (from both GPT and Claude outputs)
+- All real works referenced during deliberations
 - Overlapping citations between engines
 - Conflicts or variations
 - Assessment of which works merit canon entries
@@ -77,6 +80,7 @@ Synthesize both engine outputs for the chosen protocol into unified narrative:
 - Synthesized recommendations
 - Essential questions that emerged
 - Links to generated canon entries
+- Complete bibliographic record (both fictional and real references)
 
 ## Step 6: Write Meta-Commentary
 Analyze differences between AI systems:
@@ -87,6 +91,7 @@ Analyze differences between AI systems:
 
 ## Step 7: Jekyll Integration
 - Create proper file paths and YAML frontmatter
+- Include both `canonical_refs` and `real_refs` in session frontmatter
 - Set up cross-links between deliberations and canon
 - Update session archive and navigation
 - Ensure source markers display correctly

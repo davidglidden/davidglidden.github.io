@@ -43,6 +43,7 @@ The site is deployed via GitHub Pages on the `master` branch. Any commits to mas
 - **Ask thoughtful questions**: When uncertain, clarify rather than assume
 - **Consult advisors**: For design decisions, channel Berger, Alexander, Manutius, etc.
 - **Update documentation**: Add to project memory as work progresses
+- **Propose Obsidian vault updates**: When important changes occur, suggest syncing relevant files to David's Obsidian vault for cross-platform access
 
 ---
 
