@@ -1,7 +1,7 @@
 # Chamber Manual Workflow
 ## Complete Session Documentation Process
 
-**Version**: 1.1  
+**Version**: 2.1  
 **Purpose**: Manual workflow for Chamber sessions with collaborative publishing  
 **Context**: David runs sessions → Claude Code processes for publication  
 **Access**: Private - David Glidden only  
@@ -10,40 +10,56 @@
 
 # DAVID'S WORKFLOW (Steps 1-2)
 
-## Step 1: Session Execution
+## Step 1: Choose Protocol and Execute Session
 Create session folder: `chamber-sessions-private/YYYY-MM-DD-title/`
 
-**Run all four protocols using master prompts from `docs/internal/chamber-prompts/`:**
-1. **GPT Standard** → save as `gpt-standard-raw.txt` 
-2. **Claude Standard** → save as `claude-standard-raw.txt`
-3. **GPT Shadow** → save as `gpt-shadow-raw.txt`
-4. **Claude Shadow** → save as `claude-shadow-raw.txt`
+**Choose ONE protocol per session** using master prompts from `docs/internal/chamber-prompts/`:
 
-**Also save:**
-- `submitted-text.md` - The original text you submitted
+### For First Light Protocol:
+Use prompts from `docs/internal/chamber-prompts/first-light/`
+1. **GPT First Light** → save as `[first-light]gpt-raw.txt`
+2. **Claude First Light** → save as `[first-light]claude-raw.txt`
+3. **Original text** → save as `[first-light]submitted-text.md`
+
+### For Standard Protocol:
+Use prompts from `docs/internal/chamber-prompts/standard/`
+1. **GPT Standard** → save as `[standard]gpt-raw.txt`
+2. **Claude Standard** → save as `[standard]claude-raw.txt`
+3. **Original text** → save as `[standard]submitted-text.md`
+
+### For Shadow Protocol:
+Use prompts from `docs/internal/chamber-prompts/shadow/`
+1. **GPT Shadow** → save as `[shadow]gpt-raw.txt`
+2. **Claude Shadow** → save as `[shadow]claude-raw.txt`
+3. **Original text** → save as `[shadow]submitted-text.md`
+
+**Optional:**
 - `session-notes.md` - Any observations about the process
 
 ## Step 2: Send to Claude Code
-**Zip/compress the complete session folder and send it.**
+**Notify that there's a new session ready for processing.**
 
 Include any notes about:
-- Which protocol seemed most productive
-- Any fictional references that particularly stood out
 - Which voices surprised you
+- Any fictional references that particularly stood out
 - Overall impression of the session
+- Reason for choosing this protocol
 
 ---
 
 # CLAUDE CODE'S WORKFLOW (Steps 3-9)
 
-## Step 3: Extract Fictional References
-Hunt through all four raw outputs for works marked with notation (°, ~, †, §, ∞, ◊).
+## Step 3: Detect Protocol and Extract Fictional References
+Auto-detect protocol from filename brackets: `[first-light]`, `[standard]`, or `[shadow]`
+
+Hunt through both raw outputs for works marked with notation (°, ~, †, §, ∞, ◊).
 
 Create comprehensive extraction document cataloging:
-- All fictional works by protocol and voice
+- All fictional works by voice (from both GPT and Claude outputs)
 - Overlapping citations between engines
 - Conflicts or variations
 - Assessment of which works merit canon entries
+- Protocol-specific patterns (First Light tends to be gentler, Shadow more accusatory)
 
 ## Step 4: Create Canon Entries
 For each significant fictional work:
@@ -54,7 +70,7 @@ For each significant fictional work:
 - Place in appropriate canon subdirectory
 
 ## Step 5: Synthesize Deliberation Page
-Choose the most productive protocol outputs and create unified narrative:
+Synthesize both engine outputs for the chosen protocol into unified narrative:
 - Opening observations from multiple voices
 - Primary dialogue maintaining voice authenticity  
 - Emergent patterns and tensions
@@ -100,8 +116,9 @@ Analyze differences between AI systems:
 # COLLABORATIVE WORKFLOW SUMMARY
 
 **David's Responsibility**: 
-- Run 4-protocol Chamber sessions
-- Send raw outputs with notes
+- Choose appropriate protocol for each text
+- Run 2-engine Chamber sessions (GPT + Claude for chosen protocol)
+- Send session folder notification with notes
 - Review and approve all drafts
 - Maintain editorial control
 
@@ -113,3 +130,57 @@ Analyze differences between AI systems:
 - Publish only after sign-off
 
 This division maximizes the Chamber's transformative work while ensuring systematic documentation and proper technical implementation.
+
+---
+
+# ARCHIVE MANAGEMENT
+
+## Permanent Preservation Policy
+**All raw session files are kept indefinitely for research value.**
+
+### Storage Structure
+```
+chamber-sessions-private/
+├── 2024/
+│   └── 2024-12-28-owl-emblem/
+├── 2025/
+│   ├── 2025-06-16-session-name/
+│   └── 2025-06-20-another-session/
+├── 2026/
+└── README.md (archive organization notes)
+```
+
+### What We Preserve
+- **All raw AI outputs**: `[protocol]gpt-raw.txt`, `[protocol]claude-raw.txt`
+- **Original submitted texts**: `[protocol]submitted-text.md` 
+- **Session notes**: `session-notes.md` with observations and reasoning
+- **Processing documentation**: Any notes from synthesis work
+- **Re-processing versions**: If sessions are re-analyzed with improved methods
+
+### Research Value
+This archive serves as primary source material for:
+- **Chamber methodology research**: Systematic study of editorial transformation
+- **AI collaboration studies**: Cross-engine comparison and voice consistency analysis
+- **Longitudinal behavior tracking**: How AI systems evolve over time
+- **Future system improvements**: Training data and methodology refinement
+- **Academic documentation**: Complete record for scholarly analysis
+
+### Storage Considerations
+- **Capacity**: 3TB+ available, easily expandable
+- **File sizes**: Text files are minimal storage impact
+- **Compression**: Optional for older years if needed
+- **Access**: David Glidden only, private working archive
+
+The raw files constitute irreplaceable primary sources documenting the emergence of human-AI editorial collaboration.
+
+---
+
+# RECENT SESSIONS PROCESSED
+
+## 2025-06-16: "Seeds of Activation" (First Light)
+**Status**: ✅ Successfully processed and published
+**Protocol**: First Light (inaugural session)
+**Outcome**: Gentle recognition with three fictional works generated
+**Notes**: Perfect demonstration of First Light methodology working as designed
+**Canon additions**: 3 works (Alexander°, Martin~, Reciprocal Manual§)
+**Obfuscation**: ✅ All AI references properly hermetic in public materials

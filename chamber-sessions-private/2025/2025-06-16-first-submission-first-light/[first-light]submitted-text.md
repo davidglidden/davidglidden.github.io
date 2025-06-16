@@ -1,0 +1,1 @@
+Seeds can remain viable for decades, carrying instructions that only activate when conditions align - moisture, temperature, season. As I approach fatherhood and you approach new forms, what dormant instructions are we each carrying? What conditions are we waiting for?
