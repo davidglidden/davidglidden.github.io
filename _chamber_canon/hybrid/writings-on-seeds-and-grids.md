@@ -17,9 +17,9 @@ excerpts:
   - "Every intersection holds possibility, but not every possibility needs to bloom"
   - "Some instructions we carry are for our children to activate"
 related_real_sources:
-  - "Writings" (Agnes Martin's actual collected writings)
-  - Various artist statements on grid paintings
-  - Dia Art Foundation interviews
+  - "Writings (Agnes Martin's actual collected writings)"
+  - "Various artist statements on grid paintings"
+  - "Dia Art Foundation interviews"
 ---
 
 # Writings on Seeds and Grids

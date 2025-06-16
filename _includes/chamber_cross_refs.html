@@ -98,7 +98,7 @@ creating the bliki functionality for interconnected navigation.
 
   <!-- Sessions with overlapping voices -->
   {% if page_voices.size > 0 %}
-  {% assign voice_session_matches = site.chamber_deliberations | where_exp: "session", "session.emergent_voices and page_voices and session.emergent_voices contains page_voices[0]" %}
+  {% assign voice_session_matches = site.chamber_deliberations | where: "emergent_voices", page_voices[0] %}
   {% if voice_session_matches.size > 0 %}
   <div class="voice-session-connections">
     <h4>Sessions with Shared Voices</h4>
