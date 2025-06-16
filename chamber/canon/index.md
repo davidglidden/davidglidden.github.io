@@ -11,6 +11,52 @@ class: offering
 
 <div class="ornament philosophical"></div>
 
+## The Living Bibliographic Engine
+
+Each examination generates more than critique—it creates the knowledge required for its own existence. Through every session, the Chamber builds an ever-expanding library of referenced works that gain authority through repetition, cross-reference, and use.
+
+### How References Emerge
+
+During examinations, voices naturally cite their own works:
+- Real works they actually created
+- Fictional works that should exist but don't
+- Hybrid works that blur the boundary between real and imagined
+- Works destroyed, suppressed, or lost to history
+- Future works not yet written but already influencing thought
+
+### The Notation System
+
+Each reference carries metadata through sacred markers:
+
+- **°** Pure inventions—works that exist only in the Chamber's reality
+- **~** Hybrid works—real authors, imagined texts that extend their thinking  
+- **†** Contested sources—disputed attribution, apocryphal works
+- **§** Chamber synthesis—knowledge generated through dialogue itself
+- **∞** Hermetic sources—texts from hidden wisdom traditions
+- **◊** Miscellanea—works that resist other categories
+
+### Authority Through Repetition
+
+A fictional work gains reality through:
+- **Multiple citations** across different examinations
+- **Cross-references** between voices from different eras
+- **Elaborated content** revealed progressively over time
+- **Influence** on subsequent Chamber discussions
+- **Echo** in actual creative work that follows
+
+### Examples Across Examinations
+
+**First Light** generates gentle, emergent references:
+> "This seed reminds me of what I explored in 'Night Gardens of the Mind'°, where I wrote about ideas that only bloom in darkness." —Bachelard
+
+**Standard Examination** produces full scholarly apparatus:
+> "Your typography contradicts everything I established in 'The Crystal Goblet Shattered: A Post-Digital Typography'°. Modern screens demand new principles." —Beatrice Warde
+
+**Shadow Examination** reveals dark bibliography:
+> "Your 'pattern language' mirrors our 'Residential School Architecture Manual'°—designed to erase identity through space." —Stolen Generations' Teacher
+
+<div class="ornament section"></div>
+
 <div class="chamber-canon-section">
 <h3 id="inventions">Inventions° — Pure Chamber Creations</h3>
 
@@ -81,6 +127,8 @@ Each entry links to its full description, excerpts, and Chamber appearances. The
   <a href="/chamber/">Chamber</a>
   <span class="separator">·</span>
   <a href="/chamber/about/">About</a>
+  <span class="separator">·</span>
+  <a href="/chamber/first-light/">First Light</a>
   <span class="separator">·</span>
   <span class="current">Canon <span class="arrow">←</span></span>
   <span class="separator">·</span>

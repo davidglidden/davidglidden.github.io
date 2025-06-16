@@ -41,13 +41,15 @@ Who speaks, who stays silent, who refuses to participate—these emerge from the
 
 <div class="ornament personal"></div>
 
-## Dual Examination
+## The Three Examinations
 
-The Chamber operates through two complementary modes:
+The Chamber conducts its work through distinct examinations, each with its own rhythm and sacred purpose:
 
-**Constructive dialogue** seeks transformation through multiple perspectives. What works? What wants to be clearer? How might this increase life? Even here, wrathful forms may emerge when the work requires severity.
+**First Light Examination**: For seeds and fragments, the Chamber opens in moonlight. Like "dar a luz"—giving to the light—this gentle examination recognizes what wants to emerge without forcing development. The amphitheatre transforms to intimate grove, offering whispered recognition rather than analysis.
 
-**Shadow examination** questions the work's right to exist. Who is excluded by this work's assumptions? What violence does its beauty conceal? Whose labor makes this contemplation possible?
+**Standard Examination**: The full assembly convenes in daylight clarity, voices building through dialogue toward transformation. Here the Chamber shows its complete organic architecture, with tiers reconfiguring based on the work's needs—typography questions bringing Gutenberg's circle forward, embodiment questions shifting everything.
+
+**Shadow Examination**: When beauty might hide violence, when work must face its darkest truths. The space transforms entirely—organic curves become institutional corridors, comfort becomes reckoning. Not all texts survive this necessary darkness.
 
 Shadow voices—<span class="small-caps">The Enslaved Scribe</span>, <span class="small-caps">The Burned Witch</span>, <span class="small-caps">The Residential School Survivor</span>—may refuse to continue reading. Sometimes examination ends with complete rejection.
 
@@ -83,6 +85,8 @@ Works that survive Chamber examination bear the seal: ⟐
   <a href="/chamber/">Chamber</a>
   <span class="separator">·</span>
   <span class="current">About <span class="arrow">←</span></span>
+  <span class="separator">·</span>
+  <a href="/chamber/first-light/">First Light</a>
   <span class="separator">·</span>
   <a href="/chamber/canon/">Canon</a>
   <span class="separator">·</span>

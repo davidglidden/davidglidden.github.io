@@ -72,6 +72,8 @@ The Chamber currently operates in **private development**. While the methods rem
   <span class="separator">·</span>
   <a href="/chamber/about/">About</a>
   <span class="separator">·</span>
+  <a href="/chamber/first-light/">First Light</a>
+  <span class="separator">·</span>
   <a href="/chamber/canon/">Canon</a>
   <span class="separator">·</span>
   <a href="/chamber/deliberations/">Deliberations</a>

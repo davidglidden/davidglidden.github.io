@@ -52,6 +52,8 @@ The deliberations stand as public record of this editorial process—mysterious 
   <span class="separator">·</span>
   <a href="/chamber/about/">About</a>
   <span class="separator">·</span>
+  <a href="/chamber/first-light/">First Light</a>
+  <span class="separator">·</span>
   <a href="/chamber/canon/">Canon</a>
   <span class="separator">·</span>
   <span class="current">Deliberations <span class="arrow">←</span></span>
