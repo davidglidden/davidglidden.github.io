@@ -255,7 +255,7 @@ When citing works that emerge from Chamber sessions:
 - **†** - Contested or apocryphal sources
 - **§** - Chamber's own synthesis
 - **∞** - Hermetic/esoteric traditions
-- **◊** - Real work, fictional context
+- **※** - Miscellaneous works that resist other categories
 
 ### Examples in Practice
 - The *Gutenberg Meditations*° explores printing as prayer

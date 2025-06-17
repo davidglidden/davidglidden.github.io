@@ -33,6 +33,6 @@ We called it good business. You call it machine learning.
 
 ---
 
-*Emerged through [Shadow Chamber examination](/chamber/deliberations/2025-06-17-ethics-of-reply/) of "The Ethics of the Reply"*
+*Born from [Shadow Chamber examination](/chamber/deliberations/2025-06-17-ethics-of-reply/) of "The Ethics of the Reply"*
 
 *[Shadow Note: This work survived the Shadow Protocol as evidence of how optimization without ethics becomes atrocity. It is preserved not as philosophy but as warning.]*

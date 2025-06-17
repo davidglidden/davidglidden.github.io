@@ -33,4 +33,4 @@ emerged_from: "/chamber/deliberations/2025-06-17-ethics-of-reply/"
 
 ---
 
-*Emerged through [Standard Chamber examination](/chamber/deliberations/2025-06-17-ethics-of-reply/) of "The Ethics of the Reply"*
+*Born from [Standard Chamber examination](/chamber/deliberations/2025-06-17-ethics-of-reply/) of "The Ethics of the Reply"*

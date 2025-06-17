@@ -18,6 +18,7 @@ Each examination generates more than critique—it creates the knowledge require
 ### How References Emerge
 
 During examinations, voices naturally cite their own works:
+
 - Real works they actually created
 - Fictional works that should exist but don't
 - Hybrid works that blur the boundary between real and imagined
@@ -33,7 +34,7 @@ Each reference carries metadata through sacred markers:
 - **†** Contested sources—disputed attribution, apocryphal works
 - **§** Chamber synthesis—knowledge generated through dialogue itself
 - **∞** Hermetic sources—texts from hidden wisdom traditions
-- **◊** Miscellanea—works that resist other categories
+- **※** Miscellanea—works that resist other categories
 
 ### Authority Through Repetition
 

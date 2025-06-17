@@ -24,4 +24,4 @@ I write this as rain falls on Mediterranean stones, each drop creating and aband
 
 ---
 
-*Emerged through [Standard Chamber examination](/chamber/deliberations/2025-06-17-ethics-of-reply/) of "The Ethics of the Reply"*
+*Born from [Standard Chamber examination](/chamber/deliberations/2025-06-17-ethics-of-reply/) of "The Ethics of the Reply"*

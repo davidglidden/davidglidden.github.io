@@ -26,4 +26,4 @@ This is the terror and the promise: ethics without a face to guide us.
 
 ---
 
-*Emerged through [Standard Chamber examination](/chamber/deliberations/2025-06-17-ethics-of-reply/) of "The Ethics of the Reply"*
+*Born from [Standard Chamber examination](/chamber/deliberations/2025-06-17-ethics-of-reply/) of "The Ethics of the Reply"*

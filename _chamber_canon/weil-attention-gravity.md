@@ -24,4 +24,4 @@ True attention asks nothing. It simply makes space. In that space, perhaps, new 
 
 ---
 
-*Emerged through [Standard Chamber examination](/chamber/deliberations/2025-06-17-ethics-of-reply/) of "The Ethics of the Reply"*
+*Born from [Standard Chamber examination](/chamber/deliberations/2025-06-17-ethics-of-reply/) of "The Ethics of the Reply"*

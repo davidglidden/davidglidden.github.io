@@ -59,7 +59,7 @@ Shadow voices—<span class="small-caps">The Enslaved Scribe</span>, <span class
 
 Each session generates more than critique—it creates fictional scholarship in Borges' tradition. When voices reference works that don't yet exist, those works begin to exist through citation.
 
-The notation system (°, ~, †, §, ∞, ◊) guides readers through this fictional-real continuum. Fiction serves truth when undertaken consciously, transparently, in service of understanding what historical accident left unsaid.
+The notation system (°, ~, †, §, ∞, ※) guides readers through this fictional-real continuum. Fiction serves truth when undertaken consciously, transparently, in service of understanding what historical accident left unsaid.
 
 <div class="ornament philosophical"></div>
 

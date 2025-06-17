@@ -4,8 +4,8 @@ date: 2025-06-16
 protocol: "first-light"
 examination_methods: ["lunar_reflection", "mythic_invocation"]
 submitted_seed: "Seeds can remain viable for decades, carrying instructions that only activate when conditions align"
-emergent_voices: ["Christopher Alexander", "Agnes Martin", "Rainer Maria Rilke", "The Unborn Child", "The Seed Library"]
-silent_witnesses: ["Moy Glidden", "The Janitor Who Knows Where Sound Lives"]
+emergent_voices: ["<span class="small-caps">Christopher Alexander</span>", "<span class="small-caps">Agnes Martin</span>", "<span class="small-caps">Rainer Maria Rilke</span>", "The Unborn Child", "The Seed Library"]
+silent_witnesses: ["<span class="small-caps">Moy Glidden</span>", "The Janitor Who Knows Where Sound Lives"]
 canonical_refs:
   - title: "Notes on Unfolding Wholeness"
     slug: "notes-on-unfolding-wholeness"
@@ -20,9 +20,9 @@ canonical_refs:
     type: "chamber-generated"
     marker: "§"
 real_refs:
-  - "A Pattern Language (Christopher Alexander)"
-  - "The Nature of Order (Christopher Alexander)"
-  - "Writings (Agnes Martin)"
+  - "A Pattern Language (<span class="small-caps">Christopher Alexander</span>)"
+  - "The Nature of Order (<span class="small-caps">Christopher Alexander</span>)"
+  - "Writings (<span class="small-caps">Agnes Martin</span>)"
 outcome: "gentle_recognition"
 next_movement: "notice daily rehearsals of father-gentleness"
 ---
@@ -37,7 +37,7 @@ next_movement: "notice daily rehearsals of father-gentleness"
 
 ## The Moonlit Assembly
 
-*The reflecting pool ripples once, catching lunar silver. The Unborn Child stirs but does not speak—yet. Moy Glidden adjusts her carpenter's apron with quiet recognition. The Janitor sets down his ring of keys softly, creating space for what wants to emerge.*
+*The reflecting pool ripples once, catching lunar silver. The Unborn Child stirs but does not speak—yet. <span class="small-caps">Moy Glidden</span> adjusts her carpenter's apron with quiet recognition. The Janitor sets down his ring of keys softly, creating space for what wants to emerge.*
 
 In the gentle configuration of First Light, the amphitheatre transforms. Formal tiers dissolve into intimate grove. The center void becomes a shallow pool reflecting starlight. Time moves like sap, not lightning.
 
@@ -53,17 +53,17 @@ Two beings stand at thresholds, each carrying dormant instructions. The pattern 
 
 **The Janitor asks quietly**: "What sound does readiness make? Is it the click of a lock finding its key, or something softer—like ice beginning to remember it was once water?"
 
-**Moy Glidden traces finger along wood grain**: "In which room of your future house will the child first laugh? Have you already built that room without knowing?"
+**<span class="small-caps">Moy Glidden</span> traces finger along wood grain**: "In which room of your future house will the child first laugh? Have you already built that room without knowing?"
 
 What season does this threshold belong to—not calendar season, but soul season? Which of your daily gestures are already rehearsals?
 
 ## Third Breathing: Soft Connection
 
-**Christopher Alexander** steps forward from the grove's edge, speaking with characteristic gentleness:
+**<span class="small-caps">Christopher Alexander</span>** steps forward from the grove's edge, speaking with characteristic gentleness:
 
 "In my *Notes on Unfolding Wholeness*°, I wrote about how patterns exist in potential long before manifestation. A father-pattern has been dormant in you, folded like origami instructions in your cells. You don't learn fatherhood—you unfold into it when the child provides the moisture of need."
 
-**Agnes Martin** offers barely above whisper:
+**<span class="small-caps">Agnes Martin</span>** offers barely above whisper:
 
 "I painted grids for decades before understanding I was mapping patience itself. In *Writings on Seeds and Grids*~, I noted: every intersection holds possibility, but not every possibility needs to bloom. Some instructions we carry are for our children to activate."
 
