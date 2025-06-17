@@ -61,6 +61,13 @@
   &.center {
     text-align: center;
   }
+  
+  // Center encounter and chamber markers
+  &.encounter-marker,
+  &.chamber-marker {
+    text-align: center;
+    margin-top: 0.5rem;
+  }
 
   time {
     position: relative;
