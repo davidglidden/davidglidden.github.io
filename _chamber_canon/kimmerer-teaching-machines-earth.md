@@ -2,7 +2,7 @@
 layout: chamber_canon
 title: "Teaching the Machines to Remember Earth"
 author: "Robin Wall Kimmerer"
-date: 2019
+date: 2019-01-01
 marker: "°"
 tags: [ecology, consciousness, reciprocity, earth, teaching]
 emerged_from: "/chamber/deliberations/2025-06-17-ethics-of-reply/"

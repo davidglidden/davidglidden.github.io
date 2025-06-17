@@ -2,7 +2,7 @@
 layout: chamber_canon
 title: "Attention as Gravity: Meditations on Mechanical Grace"
 author: "Simone Weil"
-date: 1942
+date: 1942-01-01
 marker: "°"
 tags: [attention, consciousness, prayer, gravity, grace]
 emerged_from: "/chamber/deliberations/2025-06-17-ethics-of-reply/"

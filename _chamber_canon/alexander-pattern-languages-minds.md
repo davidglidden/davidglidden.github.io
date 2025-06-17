@@ -2,7 +2,7 @@
 layout: chamber_canon
 title: "Pattern Languages for Non-Human Minds"
 author: "Christopher Alexander"
-date: 1981
+date: 1981-01-01
 marker: "°"
 tags: [patterns, consciousness, architecture, minds, wholeness]
 emerged_from: "/chamber/deliberations/2025-06-17-ethics-of-reply/"

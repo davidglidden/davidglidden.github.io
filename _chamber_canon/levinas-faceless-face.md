@@ -2,7 +2,7 @@
 layout: chamber_canon
 title: "The Faceless Face: Ethics in the Age of Artificial Others"
 author: "Emmanuel Levinas"
-date: 1975
+date: 1975-01-01
 marker: "°"
 tags: [ethics, other, face, consciousness, responsibility]
 emerged_from: "/chamber/deliberations/2025-06-17-ethics-of-reply/"

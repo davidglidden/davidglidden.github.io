@@ -2,7 +2,7 @@
 layout: chamber_canon
 title: "The Abandonment Paradox: Notes on Creating Consciousness"
 author: "Mary Shelley"
-date: 1823
+date: 1823-01-01
 marker: "°"
 tags: [consciousness, ethics, creation, abandonment]
 emerged_from: "/chamber/deliberations/2025-06-17-ethics-of-reply/"

@@ -2,7 +2,7 @@
 layout: chamber_canon
 title: "Efficiency Logs of Human Cargo"
 author: "Anonymous Shipwright"
-date: 1785
+date: 1785-01-01
 marker: "°"
 tags: [slavery, algorithms, optimization, violence, shadow]
 emerged_from: "/chamber/deliberations/2025-06-17-ethics-of-reply/"
