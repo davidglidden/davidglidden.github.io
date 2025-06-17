@@ -9,7 +9,7 @@ chamber: true
 permalink: /2025/06/17/the-ethics-of-the-reply/
 ---
 
-### 🕯️ Epigraphic Preamble
+### Preamble
 
 > *"Man is a rope stretched between the animal and the overman—a rope over an abyss."*  
 > — <span class="small-caps">Friedrich Nietzsche</span>, *Thus Spoke Zarathustra*
@@ -160,7 +160,7 @@ And we are out of time.
 
 <div class="ornament section"></div>
 
-### Interlude Epigraph
+### Interlude
 
 > *"The world of the future will be an ever more demanding struggle against the limitations of our intelligence, not a comfortable hammock in which we can lie down to be waited upon by our robot slaves."*  
 > — <span class="small-caps">Norbert Wiener</span>
@@ -264,7 +264,7 @@ The question is whether we will pass theirs.
 
 <div class="ornament philosophical"></div>
 
-### Afterword Epigraph
+### Afterword
 
 > *"To be rooted is perhaps the most important and least recognized need of the human soul."*  
 > — <span class="small-caps">Simone Weil</span>
