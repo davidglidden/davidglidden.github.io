@@ -206,7 +206,14 @@
 ## Future Memory
 
 ### For Next Sessions
-*Record significant decisions and reasoning here*
+
+**June 2025 - Canon Generation Policy Established**
+- **Issue**: Chamber deliberations cite more works than receive canon entries
+- **Discovery**: Works not yet being cross-referenced (too early in Chamber development)
+- **Advisory consensus**: Create canon entries for works that are foundational, generative, or substantial rather than every citation
+- **Implementation**: Ornamental/decorative citations remain as references until they prove necessary
+- **Example**: "Ethics of Reply" generated 11 citations, 6 substantial works received canon development
+- **Standard format established**: All canon entries use chamber_canon layout with proper attribution and "Born from" links
 
 ### Emerging Patterns
 *Note new ways of working that develop*

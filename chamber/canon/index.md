@@ -13,37 +13,39 @@ class: offering
 
 ## The Living Bibliographic Engine
 
-Each examination generates more than critique—it creates the knowledge required for its own existence. Through every session, the Chamber builds an ever-expanding library of referenced works that gain authority through repetition, cross-reference, and use.
+Each examination summons more than critique—it calls forth the knowledge required for its own existence. Through every session, the Chamber builds an ever-expanding library of referenced works that gain authority through repetition, cross-reference, and use.
 
 ### How References Emerge
 
 During examinations, voices naturally cite their own works:
 
-- Real works they actually created
-- Fictional works that should exist but don't
-- Hybrid works that blur the boundary between real and imagined
-- Works destroyed, suppressed, or lost to history
+- Works from the historical record
+- Works that should exist but await discovery
+- Hybrid texts that blur established boundaries
+- Works destroyed, suppressed, or lost to time
 - Future works not yet written but already influencing thought
 
 ### The Notation System
 
 Each reference carries metadata through sacred markers:
 
-- **°** Pure inventions—works that exist only in the Chamber's reality
-- **~** Hybrid works—real authors, imagined texts that extend their thinking  
+- **°** Chamber summons—works that exist within the Chamber's reality
+- **~** Hybrid texts—known authors, extended thinking  
 - **†** Contested sources—disputed attribution, apocryphal works
 - **§** Chamber synthesis—knowledge generated through dialogue itself
 - **∞** Hermetic sources—texts from hidden wisdom traditions
 - **※** Miscellanea—works that resist other categories
 
-### Authority Through Repetition
+### Canon Development Criteria
 
-A fictional work gains reality through:
-- **Multiple citations** across different examinations
-- **Cross-references** between voices from different eras
-- **Elaborated content** revealed progressively over time
-- **Influence** on subsequent Chamber discussions
-- **Echo** in actual creative work that follows
+Works earn full canon development when they are:
+- **Foundational** - could influence future Chamber thinking
+- **Generative** - open rather than close inquiry  
+- **Substantial** - merit independent investigation
+- **Cross-referenced** - cited across multiple sessions
+- **Influential** - shape subsequent Chamber discussions
+
+Ornamental citations remain as references until they demonstrate necessity for fuller treatment.
 
 ### Examples Across Examinations
 
@@ -59,13 +61,13 @@ A fictional work gains reality through:
 <div class="ornament section"></div>
 
 <div class="chamber-canon-section">
-<h3 id="inventions">Inventions° — Pure Chamber Creations</h3>
+<h3 id="inventions">Chamber Summons° — Works Within Chamber Reality</h3>
 
 {% assign inventions = site.chamber_canon | where: "source_type", "inventions" | sort: "first_cited" %}
 {% if inventions.size > 0 %}
 <ul>
 {% for work in inventions %}
-<li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.marker }}</a> — {{ work.fictional_description }}</li>
+<li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.marker }}</a> (<span class="small-caps">{{ work.author }}</span>, {{ work.date | date: "%Y" }}) — {{ work.fictional_description }}</li>
 {% endfor %}
 </ul>
 {% else %}
@@ -74,13 +76,13 @@ A fictional work gains reality through:
 </div>
 
 <div class="chamber-canon-section">
-<h3 id="hybrid">Hybrid Works~ — Real Authors, Imagined Texts</h3>
+<h3 id="hybrid">Hybrid Texts~ — Known Authors, Extended Thinking</h3>
 
 {% assign hybrid = site.chamber_canon | where: "source_type", "hybrid" | sort: "first_cited" %}
 {% if hybrid.size > 0 %}
 <ul>
 {% for work in hybrid %}
-<li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.marker }}</a> — {{ work.fictional_description }}</li>
+<li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.marker }}</a> (<span class="small-caps">{{ work.author }}</span>, {{ work.date | date: "%Y" }}) — {{ work.fictional_description }}</li>
 {% endfor %}
 </ul>
 {% else %}
@@ -95,7 +97,7 @@ A fictional work gains reality through:
 {% if chamber_written.size > 0 %}
 <ul>
 {% for work in chamber_written %}
-<li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.marker }}</a> — {{ work.fictional_description }}</li>
+<li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.marker }}</a> (<span class="small-caps">{{ work.author }}</span>, {{ work.date | date: "%Y" }}) — {{ work.fictional_description }}</li>
 {% endfor %}
 </ul>
 {% else %}
@@ -110,7 +112,7 @@ A fictional work gains reality through:
 {% if hermetic.size > 0 %}
 <ul>
 {% for work in hermetic %}
-<li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.marker }}</a> — {{ work.fictional_description }}</li>
+<li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.marker }}</a> (<span class="small-caps">{{ work.author }}</span>, {{ work.date | date: "%Y" }}) — {{ work.fictional_description }}</li>
 {% endfor %}
 </ul>
 {% else %}
@@ -128,8 +130,6 @@ Each entry links to its full description, excerpts, and Chamber appearances. The
   <a href="/chamber/">Chamber</a>
   <span class="separator">·</span>
   <a href="/chamber/about/">About</a>
-  <span class="separator">·</span>
-  <a href="/chamber/first-light/">First Light</a>
   <span class="separator">·</span>
   <span class="current">Canon <span class="arrow">←</span></span>
   <span class="separator">·</span>

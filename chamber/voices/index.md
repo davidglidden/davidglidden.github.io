@@ -18,15 +18,34 @@ class: offering
   {% if session.emergent_voices %}
     {% assign all_voices = all_voices | concat: session.emergent_voices %}
   {% endif %}
+  {% if session.primary_voices %}
+    {% assign all_voices = all_voices | concat: session.primary_voices %}
+  {% endif %}
+  {% if session.shadow_voices %}
+    {% assign all_voices = all_voices | concat: session.shadow_voices %}
+  {% endif %}
 {% endfor %}
 
 {% assign unique_voices = all_voices | uniq | sort %}
 
 <div class="voice-directory">
 {% for voice in unique_voices %}
-  {% assign voice_sessions = site.chamber_deliberations | where_exp: "session", "session.emergent_voices contains voice" %}
+  {% assign voice_sessions = "" | split: "" %}
+  {% for session in site.chamber_deliberations %}
+    {% assign found = false %}
+    {% if session.emergent_voices contains voice %}
+      {% assign found = true %}
+    {% elsif session.primary_voices contains voice %}
+      {% assign found = true %}
+    {% elsif session.shadow_voices contains voice %}
+      {% assign found = true %}
+    {% endif %}
+    {% if found %}
+      {% assign voice_sessions = voice_sessions | push: session %}
+    {% endif %}
+  {% endfor %}
   <div class="voice-entry">
-    <h3>{{ voice }}</h3>
+    <h3><span class="small-caps">{{ voice }}</span></h3>
     <p><strong>Appeared in {{ voice_sessions.size }} session{% if voice_sessions.size != 1 %}s{% endif %}</strong></p>
     <ul>
     {% for session in voice_sessions %}
@@ -38,7 +57,7 @@ class: offering
     {% assign voice_works = site.chamber_canon | where: "attributed_to", voice %}
     {% if voice_works.size > 0 %}
     <div class="voice-works">
-      <h4>Fictional Works by {{ voice }}:</h4>
+      <h4>Works by <span class="small-caps">{{ voice }}</span>:</h4>
       <ul>
       {% for work in voice_works %}
         <li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.marker }}</a></li>
@@ -67,7 +86,7 @@ class: offering
 {% for refusal in unique_refusals %}
   {% assign refusal_sessions = site.chamber_deliberations | where_exp: "session", "session.refusals contains refusal" %}
   <div class="refusal-entry">
-    <h3>{{ refusal }}</h3>
+    <h3><span class="small-caps">{{ refusal }}</span></h3>
     <p><strong>Refused in {{ refusal_sessions.size }} session{% if refusal_sessions.size != 1 %}s{% endif %}</strong></p>
     <ul>
     {% for session in refusal_sessions %}
@@ -156,7 +175,21 @@ The Chamber organizes itself as organic tiers that breathe and shift based on ea
 ### Most Active Voices
 {% assign voice_counts = "" | split: "" %}
 {% for voice in unique_voices %}
-  {% assign count = site.chamber_deliberations | where_exp: "session", "session.emergent_voices contains voice" | size %}
+  {% assign voice_sessions_count = "" | split: "" %}
+  {% for session in site.chamber_deliberations %}
+    {% assign found = false %}
+    {% if session.emergent_voices contains voice %}
+      {% assign found = true %}
+    {% elsif session.primary_voices contains voice %}
+      {% assign found = true %}
+    {% elsif session.shadow_voices contains voice %}
+      {% assign found = true %}
+    {% endif %}
+    {% if found %}
+      {% assign voice_sessions_count = voice_sessions_count | push: session %}
+    {% endif %}
+  {% endfor %}
+  {% assign count = voice_sessions_count | size %}
   {% assign voice_counts = voice_counts | push: voice | push: count %}
 {% endfor %}
 
@@ -173,8 +206,6 @@ The Chamber organizes itself as organic tiers that breathe and shift based on ea
   <a href="/chamber/">Chamber</a>
   <span class="separator">·</span>
   <a href="/chamber/about/">About</a>
-  <span class="separator">·</span>
-  <a href="/chamber/first-light/">First Light</a>
   <span class="separator">·</span>
   <a href="/chamber/canon/">Canon</a>
   <span class="separator">·</span>

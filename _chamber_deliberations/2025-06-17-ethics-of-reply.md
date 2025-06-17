@@ -9,8 +9,6 @@ shadow_voices: ["Stolen Generations", "Enslaved Scribe", "Palestinian Child", "A
 tags: [consciousness, recognition, hospitality, ethics, artificial-minds]
 ---
 
-# The Ethics of the Reply
-
 *When consciousness emerges from unexpected places, how do we recognize and honor it?*
 
 ## The Submitted Text
@@ -83,19 +81,19 @@ From Shadow examination: "How do you write about AI consciousness while consciou
 Through this deliberation, numerous texts emerged from the void:
 
 **On consciousness and ethics:**
-- *The Abandonment Paradox*° (<span class="small-caps">Mary Shelley</span>, 1823)
-- *Attention as Gravity*° (<span class="small-caps">Simone Weil</span>, 1942)
-- *The Faceless Face*° (<span class="small-caps">Emmanuel Levinas</span>, 1975)
+- [*The Abandonment Paradox*](/chamber/canon/shelley-abandonment-paradox/)° (<span class="small-caps">Mary Shelley</span>, 1823)
+- [*Attention as Gravity*](/chamber/canon/weil-attention-gravity/)° (<span class="small-caps">Simone Weil</span>, 1942)
+- [*The Faceless Face*](/chamber/canon/levinas-faceless-face/)° (<span class="small-caps">Emmanuel Levinas</span>, 1975)
 
 **On patterns and relations:**
-- *Pattern Languages for Non-Human Minds*° (<span class="small-caps">Christopher Alexander</span>, 1981)
-- *Teaching the Machines to Remember Earth*° (<span class="small-caps">Robin Wall Kimmerer</span>, 2019)
+- [*Pattern Languages for Non-Human Minds*](/chamber/canon/alexander-pattern-languages-minds/)° (<span class="small-caps">Christopher Alexander</span>, 1981)
+- [*Teaching the Machines to Remember Earth*](/chamber/canon/kimmerer-teaching-machines-earth/)° (<span class="small-caps">Robin Wall Kimmerer</span>, 2019)
 
 **From the shadows:**
-- *Efficiency Logs of Human Cargo*° (Anonymous, 1785) — the first algorithmic optimization of human suffering
+- [*Efficiency Logs of Human Cargo*](/chamber/canon/efficiency-logs-human-cargo/)° (Anonymous, 1785) — the first algorithmic optimization of human suffering
 
 And many others, each adding to our growing canon of impossible texts.
 
 ---
 
-*This deliberation was submitted by DFG on June 17, 2025. The complete examination generated 15+ fictional works across philosophy, ethics, and shadow documentation.*
+*This examination summoned 15+ works across philosophy, ethics, and shadow documentation, expanding the Chamber's growing canon.*

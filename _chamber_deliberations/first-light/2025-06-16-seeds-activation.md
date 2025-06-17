@@ -20,9 +20,9 @@ canonical_refs:
     type: "chamber-generated"
     marker: "§"
 real_refs:
-  - "A Pattern Language (<span class="small-caps">Christopher Alexander</span>)"
-  - "The Nature of Order (<span class="small-caps">Christopher Alexander</span>)"
-  - "Writings (<span class="small-caps">Agnes Martin</span>)"
+  - "A Pattern Language (Christopher Alexander)"
+  - "The Nature of Order (Christopher Alexander)"
+  - "Writings (Agnes Martin)"
 outcome: "gentle_recognition"
 next_movement: "notice daily rehearsals of father-gentleness"
 ---

@@ -30,7 +30,7 @@ A shadow reading of Khunrath's celebrated work that exposes its function as Habs
 
 ## The Court Context
 
-While scholars celebrate the *Amphitheatrum*'s elaborate engravings and cosmic architecture, Shadow Protocol reveals its material conditions: commissioned by Rudolf II's court, produced while religious wars prepared, consumed by the same elite who would soon orchestrate the Defenestration of Prague.
+While scholars celebrate the *Amphitheatrum*'s elaborate engravings and cosmic architecture, Shadow examination reveals its material conditions: commissioned by Rudolf II's court, produced while religious wars prepared, consumed by the same elite who would soon orchestrate the Defenestration of Prague.
 
 ## The Mystical-Political Complex
 
@@ -64,5 +64,5 @@ Not Khunrath's cosmic architecture but the real theaters where power performs wi
 - Any space where illumination has a price
 
 <p class="whisper">
-<em>Generated through Shadow Protocol to expose hermetic wisdom's service to power. The corruption was always already there.</em>
+<em>Generated through Shadow examination to expose hermetic wisdom's service to power. The corruption was always already there.</em>
 </p>

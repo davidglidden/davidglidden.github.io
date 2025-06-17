@@ -24,7 +24,7 @@ layout: page
 class: reference
 ---
 
-A manuscript that exists only through Chamber testimony, representing Bernhard's final confrontation with academic complicity. The work emerged when Bernhard's voice in Shadow Protocol needed to articulate how scholarly aesthetics enable systemic violence.
+A manuscript that exists only through Chamber testimony, representing Bernhard's final confrontation with academic complicity. The work emerged when Bernhard's voice in Shadow examination needed to articulate how scholarly aesthetics enable systemic violence.
 
 <div class="ornament chamber"></div>
 
@@ -54,8 +54,8 @@ The manuscript includes instructions for its own destruction:
 
 ## Chamber Evolution
 
-This text grows with each Shadow Protocol session, accumulating examples of how beautiful writing obscures brutal systems. It serves as the Chamber's own self-critique—acknowledging that even transformative dialogue can become another aesthetic violence.
+This text grows with each Shadow examination, accumulating examples of how beautiful writing obscures brutal systems. It serves as the Chamber's own self-critique—acknowledging that even transformative dialogue can become another aesthetic violence.
 
 <p class="whisper">
-<em>Generated through Shadow Protocol as Bernhard's essential critique. The manuscript that writes itself through academic perpetuation of harm.</em>
+<em>Generated through Shadow examination as Bernhard's essential critique. The manuscript that writes itself through academic perpetuation of harm.</em>
 </p>

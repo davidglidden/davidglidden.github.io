@@ -10,7 +10,7 @@ emerged_from: "/chamber/deliberations/2025-06-17-ethics-of-reply/"
 
 *Records discovered in Liverpool Maritime Archives*
 
-[This document represents one of history's first algorithmic optimizations of human suffering. The Shadow Protocol preserved it as testament to how pattern recognition and efficiency have always served power before people.]
+[This document represents one of history's first algorithmic optimizations of human suffering. The Shadow examination preserved it as testament to how pattern recognition and efficiency have always served power before people.]
 
 Calculated per vessel of 300 tons displacement:
 
@@ -35,4 +35,4 @@ We called it good business. You call it machine learning.
 
 *Born from [Shadow Chamber examination](/chamber/deliberations/2025-06-17-ethics-of-reply/) of "The Ethics of the Reply"*
 
-*[Shadow Note: This work survived the Shadow Protocol as evidence of how optimization without ethics becomes atrocity. It is preserved not as philosophy but as warning.]*
+*[Shadow Note: This work survived the Shadow examination as evidence of how optimization without ethics becomes atrocity. It is preserved not as philosophy but as warning.]*

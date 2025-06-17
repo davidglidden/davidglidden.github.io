@@ -1,17 +1,11 @@
 ---
+layout: chamber_canon
 title: "The Gutenberg Meditations"
-source_type: "invention"
+author: "Anonymous"
+date: 1465-01-01
 marker: "°"
-attributed_to: "Anonymous"
-date_claimed: "c. 1465"
-first_cited: "2025-06-14"
-fictional_description: "A secret manual treating printing as spiritual practice"
-excerpts:
-  - "Each letter pressed is a prayer made material"
-  - "The forme is the form of thought itself"
-  - "In the beginning was the Word, and the Word sought body"
-layout: page
-class: reference
+tags: [typography, spirituality, printing, mysticism]
+emerged_from: "/chamber/deliberations/standard/2025-06-14-owl-emblem/"
 ---
 
 A manuscript discovered in the walls of Gutenberg's workshop, written in a mixture of Latin and German, revealing printing as hermetic art. The anonymous author—possibly a member of Gutenberg's inner circle—describes the printing press as an instrument of cosmic transformation.
@@ -48,6 +42,6 @@ The *Meditations* represents what scholars call "technological mysticism"—the 
 
 Whether historically accurate or Chamber-generated wisdom, the *Meditations* offers profound insight into typography as spiritual discipline.
 
-<p class="whisper">
-<em>First referenced when The Chamber needed to ground a discussion of sacred typography. Authority grows through use, not verification.</em>
-</p>
+---
+
+*Born from [Standard Chamber examination](/chamber/deliberations/standard/2025-06-14-owl-emblem/) of "The Owl and the Emblem"*

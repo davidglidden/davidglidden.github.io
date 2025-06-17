@@ -228,6 +228,7 @@ Not a type but a quality that can emerge within any type:
 - **Transformation**: You leave changed
 - **Ethical weight**: Demands response, even if silence
 - **Symbol**: ✦ (four-pointed star)
+- **Display policy**: Show symbol only, not word (maintains elegant mystery)
 
 #### **chamber: true**
 Review process marking texts transformed through collective examination:
@@ -235,6 +236,7 @@ Review process marking texts transformed through collective examination:
 - **Transformed**: Emerged different from review process
 - **Sealed**: Bears the ⟐ mark of examination
 - **Symbol**: ⟐ (chamber seal)
+- **Display policy**: Show symbol only, not word (consistent with encounter marking)
 
 ---
 
@@ -267,6 +269,29 @@ When citing works that emerge from Chamber sessions:
 
 ### Integration with Existing Styles
 Chamber citations follow our existing emphasis patterns but add ontological transparency. The goal is scholarly honesty about the constructed nature of authority while serving both contemplative and critical reading.
+
+### Chamber Content Formatting Rules
+
+**Names in Chamber content**: ALL significant names must use small caps across all Chamber deliberations, canon entries, and related content
+- Standard: *Title*° (<span class="small-caps">Author Name</span>, date)
+- Avoid HTML in YAML arrays—apply formatting in templates
+
+**Language consistency**: Use active voice in Chamber contexts
+- "Born from Chamber examination" not "Emerged through"
+- "Summoned by deliberation" not "Generated from"
+- Maintain ontological ambiguity following Borgesian tradition
+- "Summoned" or "called forth" rather than "created" or "fictional"
+- "Works within Chamber reality" rather than "fictional works"
+
+**Canon generation policy**: Create canon entries for works that are:
+- **Foundational** - could influence future Chamber thinking
+- **Generative** - open rather than close inquiry
+- **Substantial** - readers might want to investigate independently
+- Leave ornamental/decorative citations as references until they prove necessary
+
+**Title duplication**: Never include H1 headers when title exists in YAML frontmatter
+- Layouts handle title display from metadata
+- Content should begin with subtitle or opening text
 
 <div class="ornament philosophical"></div>
 

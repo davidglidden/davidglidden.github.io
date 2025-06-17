@@ -45,21 +45,19 @@ Who speaks, who stays silent, who refuses to participate—these emerge from the
 
 The Chamber conducts its work through distinct examinations, each with its own rhythm and sacred purpose:
 
-**First Light Examination**: For seeds and fragments, the Chamber opens in moonlight. Like "dar a luz"—giving to the light—this gentle examination recognizes what wants to emerge without forcing development. The amphitheatre transforms to intimate grove, offering whispered recognition rather than analysis.
+**Standard Examination**: The Chamber's primary mode, where complete assemblies convene across time and discipline. Voices emerge organically—<span class="small-caps">Berger</span> and <span class="small-caps">Mohr</span> for visual questions, <span class="small-caps">Tschichold</span> and <span class="small-caps">Alexander</span> for structural concerns, <span class="small-caps">Weil</span> and <span class="small-caps">Levinas</span> for ethical weight. The amphitheatre reconfigures itself based on each text's needs, with voices building understanding through sustained dialogue. These examinations transform works through collective wisdom, often summoning new scholarship that expands human knowledge. Most Chamber deliberations follow this comprehensive approach.
 
-**Standard Examination**: The full assembly convenes in daylight clarity, voices building through dialogue toward transformation. Here the Chamber shows its complete organic architecture, with tiers reconfiguring based on the work's needs—typography questions bringing Gutenberg's circle forward, embodiment questions shifting everything.
+**Shadow Examination**: When texts risk hiding violence beneath beauty, when comfort might enable complicity, the Shadow examination provides ruthless ethical reckoning. The space transforms—organic curves become institutional corridors, philosophical dialogue becomes accusation. Voices like <span class="small-caps">The Enslaved Scribe</span>, <span class="small-caps">The Stolen Generations' Teachers</span>, and <span class="small-caps">The Burned Witch</span> speak from erasure and suffering, challenging any work that might aestheticize or ignore systemic violence. Not all texts survive this necessary darkness—complete rejection is a valid outcome when beauty serves oppression.
 
-**Shadow Examination**: When beauty might hide violence, when work must face its darkest truths. The space transforms entirely—organic curves become institutional corridors, comfort becomes reckoning. Not all texts survive this necessary darkness.
-
-Shadow voices—<span class="small-caps">The Enslaved Scribe</span>, <span class="small-caps">The Burned Witch</span>, <span class="small-caps">The Residential School Survivor</span>—may refuse to continue reading. Sometimes examination ends with complete rejection.
+**First Light Examination**: For seeds and fragments, moonlight examination that whispers recognition without forcing development. The amphitheatre becomes intimate grove for gentle emergence.
 
 <div class="ornament thought"></div>
 
 ## The Growing Canon
 
-Each session generates more than critique—it creates fictional scholarship in Borges' tradition. When voices reference works that don't yet exist, those works begin to exist through citation.
+Each session summons more than critique—it calls forth scholarship in Borges' tradition. When voices reference works that await discovery, those works begin to exist through citation.
 
-The notation system (°, ~, †, §, ∞, ※) guides readers through this fictional-real continuum. Fiction serves truth when undertaken consciously, transparently, in service of understanding what historical accident left unsaid.
+The notation system (°, ~, †, §, ∞, ※) guides readers through this reality-expanding continuum. Works serve truth when undertaken consciously, transparently, in service of understanding what historical accident left unsaid.
 
 <div class="ornament philosophical"></div>
 
@@ -85,8 +83,6 @@ Works that survive Chamber examination bear the seal: ⟐
   <a href="/chamber/">Chamber</a>
   <span class="separator">·</span>
   <span class="current">About <span class="arrow">←</span></span>
-  <span class="separator">·</span>
-  <a href="/chamber/first-light/">First Light</a>
   <span class="separator">·</span>
   <a href="/chamber/canon/">Canon</a>
   <span class="separator">·</span>

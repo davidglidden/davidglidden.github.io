@@ -30,7 +30,7 @@ A composite bureaucratic manual representing the administrative machinery that t
 
 ## Administrative Violence
 
-The manual emerged in Shadow Protocol to expose how philosophical concepts like "willful blindness" become bureaucratic weapons. Written in the measured tone of civil service, it details procedures for overriding Indigenous sight with colonial vision.
+The manual emerged in Shadow examination to expose how philosophical concepts like "willful blindness" become bureaucratic weapons. Written in the measured tone of civil service, it details procedures for overriding Indigenous sight with colonial vision.
 
 ## Documented Procedures
 
