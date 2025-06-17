@@ -1,6 +1,6 @@
 ---
 title: "Chamber Deliberation: The Owl and the Emblem"
-date: 2024-12-28
+date: 2025-06-14
 protocol: "standard-and-shadow"
 engines: ["gpt-4", "claude-3"]
 lead_voice: "Heinrich Khunrath"

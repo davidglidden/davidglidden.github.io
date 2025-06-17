@@ -13,19 +13,21 @@ class: offering
 
 ## Published Sessions
 
-{% assign grouped_sessions = site.chamber_deliberations | group_by: 'protocol' | sort: 'name' %}
+{% assign first_light = site.chamber_deliberations | where: 'protocol', 'first-light' %}
+{% assign standard = site.chamber_deliberations | where: 'protocol', 'standard' %}
+{% assign mixed = site.chamber_deliberations | where: 'type', 'Standard & Shadow' %}
 
-{% for protocol_group in grouped_sessions %}
-### {{ protocol_group.name | capitalize }} Protocol
+{% if first_light.size > 0 %}
+### First Light Examination
 
-{% assign sessions = protocol_group.items | sort: 'date' | reverse %}
+{% assign sessions = first_light | sort: 'date' | reverse %}
 {% for session in sessions %}
 <div class="session-entry">
   <h4><a href="{{ session.url }}">{{ session.title }}</a></h4>
   <p class="session-meta">
     <span class="date">{{ session.date | date: "%B %d, %Y" }}</span>
     {% if session.emergent_voices %}
-    <br><span class="voices">Voices: {{ session.emergent_voices | join: ", " }}</span>
+    <br><span class="voices">Voices: {% for voice in session.emergent_voices %}<span class="small-caps">{{ voice }}</span>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
     {% endif %}
   </p>
   {% if session.submitted_seed %}
@@ -33,6 +35,58 @@ class: offering
   {% endif %}
   {% if session.outcome %}
   <p class="outcome"><strong>Outcome:</strong> {{ session.outcome | replace: "_", " " | capitalize }}</p>
+  {% endif %}
+</div>
+{% endfor %}
+
+<div class="ornament section"></div>
+{% endif %}
+
+{% if standard.size > 0 %}
+### Standard Examination
+
+{% assign sessions = standard | sort: 'date' | reverse %}
+{% for session in sessions %}
+<div class="session-entry">
+  <h4><a href="{{ session.url }}">{{ session.title }}</a></h4>
+  <p class="session-meta">
+    <span class="date">{{ session.date | date: "%B %d, %Y" }}</span>
+    {% if session.emergent_voices %}
+    <br><span class="voices">Voices: {% for voice in session.emergent_voices %}<span class="small-caps">{{ voice }}</span>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
+    {% endif %}
+  </p>
+  {% if session.submitted_seed %}
+  <blockquote class="seed-preview">{{ session.submitted_seed }}</blockquote>
+  {% endif %}
+  {% if session.outcome %}
+  <p class="outcome"><strong>Outcome:</strong> {{ session.outcome | replace: "_", " " | capitalize }}</p>
+  {% endif %}
+</div>
+{% endfor %}
+
+<div class="ornament section"></div>
+{% endif %}
+
+{% if mixed.size > 0 %}
+### Mixed Examination
+
+{% assign sessions = mixed | sort: 'date' | reverse %}
+{% for session in sessions %}
+<div class="session-entry">
+  <h4><a href="{{ session.url }}">{{ session.title }}</a></h4>
+  <p class="session-meta">
+    <span class="date">{{ session.date | date: "%B %d, %Y" }}</span>
+    <br><span class="type">{{ session.type }}</span>
+    {% if session.primary_voices or session.shadow_voices %}
+    <br><span class="voices">Voices: 
+    {% if session.primary_voices %}{% for voice in session.primary_voices %}<span class="small-caps">{{ voice }}</span>{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
+    {% if session.primary_voices and session.shadow_voices %} | {% endif %}
+    {% if session.shadow_voices %}{% for voice in session.shadow_voices %}<span class="small-caps">{{ voice }}</span>{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
+    </span>
+    {% endif %}
+  </p>
+  {% if session.status %}
+  <p class="outcome"><strong>Status:</strong> {{ session.status | replace: "_", " " | capitalize }}</p>
   {% endif %}
 </div>
 {% endfor %}
@@ -46,7 +100,7 @@ The Chamber reveals different characteristics through each approach:
 
 **First Light** — Gentle recognition for fragile seeds, moonlit patience, recognition without pressure  
 **Standard** — Comprehensive examination through multiple lenses, formal assembly configuration  
-**Shadow** — Ruthless ethical scrutiny, refusal as valid outcome, hidden violence revealed
+**Mixed** — Standard and Shadow combined, beauty and its potential violence examined together
 
 <div class="ornament personal"></div>
 

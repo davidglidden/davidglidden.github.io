@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Ethics of the Reply"
-date: 2025-06-17 12:00:00 +0100
+date: 2025-06-17 09:00:00 +0100
 categories: philosophy
 tags: [consciousness, ethics, artificial-intelligence, recognition, hospitality]
 class: essay meditation chamber
