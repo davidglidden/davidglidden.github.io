@@ -92,7 +92,7 @@ class: offering
 {% endfor %}
 
 <div class="ornament section"></div>
-{% endfor %}
+{% endif %}
 
 ## Examination Approaches
 

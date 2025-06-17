@@ -4,8 +4,8 @@ date: 2025-06-16
 protocol: "first-light"
 examination_methods: ["lunar_reflection", "mythic_invocation"]
 submitted_seed: "Seeds can remain viable for decades, carrying instructions that only activate when conditions align"
-emergent_voices: ["<span class="small-caps">Christopher Alexander</span>", "<span class="small-caps">Agnes Martin</span>", "<span class="small-caps">Rainer Maria Rilke</span>", "The Unborn Child", "The Seed Library"]
-silent_witnesses: ["<span class="small-caps">Moy Glidden</span>", "The Janitor Who Knows Where Sound Lives"]
+emergent_voices: ["Christopher Alexander", "Agnes Martin", "Rainer Maria Rilke", "The Unborn Child", "The Seed Library"]
+silent_witnesses: ["Moy Glidden", "The Janitor Who Knows Where Sound Lives"]
 canonical_refs:
   - title: "Notes on Unfolding Wholeness"
     slug: "notes-on-unfolding-wholeness"
