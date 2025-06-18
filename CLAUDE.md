@@ -27,9 +27,10 @@ The site is deployed via GitHub Pages on the `master` branch. Any commits to mas
 ## Quick Reference
 
 ### Architecture Overview
-- **Jekyll 3.8.3** with modified Klisé theme
+- **Jekyll 3.8.3** with modified Klisé theme (migrating to Hakyll)
 - **Semantic post types** determine both content style and reader approach
 - **Typography system**: EB Garamond (body), IBM Plex Sans (interface), IBM Plex Mono (code)
+- **Chamber library**: 136 converted texts with 92+ philosophical voices
 - **Privacy-first**: No tracking, self-hosted fonts, local-first philosophy
 
 ### Key Principles
@@ -37,13 +38,15 @@ The site is deployed via GitHub Pages on the `master` branch. Any commits to mas
 - **Think systematically**: Consider implications across the complete site
 - **Document rationale**: Preserve reasoning behind significant decisions
 - **Honor the philosophy**: Every choice serves contemplative reading
+- **Chamber integration**: All voices now have source-aware capacity
 
 ### Working Style
 - **Be concise**: Match David's communication style
 - **Ask thoughtful questions**: When uncertain, clarify rather than assume
 - **Consult advisors**: For design decisions, channel Berger, Alexander, Manutius, etc.
 - **Update documentation**: Add to project memory as work progresses
-- **Propose Obsidian vault updates**: When important changes occur, suggest syncing relevant files to David's Obsidian vault for cross-platform access
+- **Chamber awareness**: 136 texts spanning all major philosophical traditions ready for citation
+- **Migration readiness**: Hakyll deployment prepared with enhanced capabilities
 
 ---
 
