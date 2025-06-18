@@ -1,0 +1,25 @@
+REFINED CHAMBER LIBRARY ANALYSIS
+==================================================
+
+CORE CHAMBER VOICES:
+
+John Berger (2 books):
+  source_epubs/Landscapes John Berger on Art.epub
+  source_epubs/Selected Essays of John Berger.epub
+
+RELATED THINKERS:
+
+Rumi (1 books):
+  source_epubs/Collected Poetical Works of Rumi Delphi Classics.epub
+
+Friedrich Nietzsche (1 books):
+  source_epubs/Nietzsche.epub
+
+Carl Jung (1 books):
+  source_epubs/The Collected Works of CG Jung Complete Digital Edition.epub
+
+Rainer Maria Rilke (1 books):
+  source_epubs/Dune lyre à cinq cordes Pétrarque Le Tasse Leopardi Ungaretti Montale Bertolucci Luzi Bigongiari Erba Góngora Goethe Hölderlin Ferdinand Meyer Maria Rilke Lavant Burkart Mandelstam Skácel.epub
+
+Michel Foucault (1 books):
+  source_epubs/Foucaults Pendulum.epub

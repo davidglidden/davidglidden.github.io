@@ -1,0 +1,49 @@
+CHAMBER LIBRARY CONVERSION REPORT
+========================================
+
+Conversion Date: 2025-06-18 10:37:25
+Total Chamber books found: 35
+Successfully converted: 0
+Failed conversions: 35
+Success rate: 0.0%
+
+CHAMBER VOICES READY:
+
+CONVERTED BOOKS:
+
+FAILED CONVERSIONS:
+  ❌ Walter Benjamin - Ecrits radiophoniques (conversion failed)
+  ❌ Walter Benjamin - On Photography (conversion failed)
+  ❌ John Berger - Sense of Sight (conversion failed)
+  ❌ Gaston Bachelard - La poétique de la rêverie (conversion failed)
+  ❌ John Berger - Photocopies (conversion failed)
+  ❌ Gaston Bachelard - Psychanalyse Du Feu (conversion failed)
+  ❌ John Berger - Landscapes: John Berger on Art (conversion failed)
+  ❌ Walter Benjamin - Illuminations (conversion failed)
+  ❌ Alexander Pushkin - Eugene Onegin: A Novel in Verse (conversion failed)
+  ❌ Scott Alexander - Unsong (conversion failed)
+  ❌ John Berger - About Looking (conversion failed)
+  ❌ John Berger - Modern Classics Ways of Seeing (conversion failed)
+  ❌ John Berger - The Shape of a Pocket (conversion failed)
+  ❌ Gaston Bachelard - Fragments d'une poétique du feu (conversion failed)
+  ❌ John Berger - Here Is Where We Meet (conversion failed)
+  ❌ Franz Kafka, Max Brod, Joseph Kresh, Martin Greenberg, Hannah Arendt - The Diaries, 1910-1923 (conversion failed)
+  ❌ John Berger - Selected Essays of John Berger (conversion failed)
+  ❌ Hannah Arendt - Eichmann in Jerusalem: A Report on the Banality of Evil (conversion failed)
+  ❌ John Berger - The Success and Failure of Picasso (conversion failed)
+  ❌ John Berger - Bento's Sketchbook (conversion failed)
+  ❌ Scott Alexander - Slate Star Codex 2013-2020 (conversion failed)
+  ❌ Simone Weil, philosophe (1909-1949 - L'enracinement (conversion failed)
+  ❌ John Berger - Titian (conversion failed)
+  ❌ Simone Weil - La Personne et le sacré: Collectivité. Personne. Impersonnel. Droit. Justice (conversion failed)
+  ❌ John Berger - A Fortunate Man (conversion failed)
+  ❌ John Berger - Understanding a Photograph (conversion failed)
+  ❌ Louis ARAGON, Man RAY, Benjamin PERET - 1929 (conversion failed)
+  ❌ Gaston Bachelard - L'Air Et Les Songes, Essai Sur L'Imagination Du Mouvement (conversion failed)
+  ❌ John Berger - And Our Faces, My Heart, Brief As Photos (conversion failed)
+  ❌ John Berger - Cataract (conversion failed)
+  ❌ John Berger - Confabulations (conversion failed)
+  ❌ Gaston Bachelard - La poétique de l'espace (conversion failed)
+  ❌ Gaston Bachelard - La terre et les rêveries de la volonté: essai sur l'imagination de la matière (1948) (conversion failed)
+  ❌ John Berger - Hold Everything Dear (conversion failed)
+  ❌ John Berger, Jean Mohr - Another Way of Telling (conversion failed)

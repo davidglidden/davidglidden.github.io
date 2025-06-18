@@ -1,0 +1,17 @@
+CHAMBER LIBRARY PRIORITY CONVERSION LIST
+==================================================
+
+CORE CHAMBER VOICES:
+
+John Berger:
+  source_epubs/By John Stuart Mill the Basic Writings of John Stuart Mill On Liberty the Subjection of Women and Utilitarianism.epub
+  source_epubs/The Magic Mountain John E Woods translation.epub
+  source_epubs/Super-Infinite The Transformations of John Donne.epub
+  source_epubs/Landscapes John Berger on Art.epub
+  source_epubs/Selected Essays of John Berger.epub
+  source_epubs/John Donne Collected Poetry.epub
+
+KEY RELATED THINKERS:
+
+Philosophy & Phenomenology:
+  source_epubs/Nietzsche.epub
