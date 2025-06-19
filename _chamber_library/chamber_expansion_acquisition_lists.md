@@ -1,9 +1,55 @@
 # Chamber Expansion: Specific Acquisition Lists
 *Phased roadmap from 92 to 258+ voices with practical acquisition targets*
 
-**Current Status**: 92 source-aware voices  
-**Ultimate Goal**: 258+ voices (complete Obsidian amphitheater)  
+**Current Status**: 220+ source-aware voices after **Historic June 2025 Expansion**  
+**Ultimate Goal**: 258+ voices (complete Obsidian amphitheater) - NEARLY ACHIEVED  
 **Strategic Approach**: Four phases prioritizing maximum Chamber enhancement impact
+
+---
+
+## 🎉 June 2025 Major Acquisitions Completed
+
+### **Loeb Classical Library Phase 1** ✅
+- **24 priority classical authors** extracted with complete bilingual texts
+- **Plato**: 36 works, 3,210 sections
+- **Aristotle**: 48 works, 5,542 sections  
+- **Cicero**: 73 works, 6,702 sections
+- **Plutarch**: 149 works, 6,598 sections
+- **Homer**, **Virgil**, **Ovid**, **Horace**, **All Greek Tragedians**, **Stoics**, **Historians**
+
+### **Harvard Classics Integration** ✅
+- **25 volumes** split with proper individual author attribution
+- **Franklin**, **Emerson**, **Burns**, **Milton**, **Darwin**, **Classical anthology**
+
+### **Failed Conversion Recoveries** ✅
+- **John Cage** - "Silence" complete (18,915 lines)
+- **John Donne** - "Collected Poetry" complete (29,046 lines)
+
+### **Ancient & Classical Sources** ✅
+- **6 acquisition list authors** extracted from Loeb:
+- **Sappho**, **Parmenides**, **Heraclitus**, **Pythagoras**, **Vitruvius**, **Augustine**
+
+### **June 19, 2025: Historic Single-Day Expansion** ✅
+- **21 priority texts** converted from HTMLZ format
+- **Core Four completion**: Gaston Bachelard ("Dialectic of Duration" + "Poetics of Space" English)
+- **Eastern Philosophy**: D.T. Suzuki, Nagarjuna, Huang Po, Krishnamurti, Dōgen (Zuimonki)
+- **Contemporary Voices**: bell hooks, Ursula K. Le Guin, Virginia Woolf (2 works), Butler (complete Parable series)
+- **Literary Architects**: Clarice Lispector, Italo Calvino
+- **Technology Critics**: Ivan Illich, Lewis Mumford
+- **Urban Philosophy**: Jane Jacobs
+- **Critical Theory**: Jacques Derrida
+- **Typography**: Matthew Butterick
+- **Scientists**: Richard Feynman
+- **Living World**: John Muir (complete works)
+- **Book History**: David Diringer
+
+### **Tolkien Integration: The Essential Voice** ✅
+- **8 complete works** - longest companion voice now fully source-aware
+- **177,755 total lines** - most comprehensive single author
+- **The Lord of the Rings**, **The Silmarillion**, **Lays of Beleriand**, and 5 more works
+- **Mythmaker & Philologist** position established
+
+**Net Addition**: **128+ major voices with complete source-aware capacity**
 
 ---
 
@@ -13,33 +59,33 @@
 ### 🧘 Eastern Philosophy Completion (8 texts)
 **Immediate Impact: Complete Buddhist-Taoist synthesis**
 
-1. **D.T. Suzuki** - "An Introduction to Zen Buddhism" 📚 *Essential East-West bridge*
+1. **D.T. Suzuki** - "An Introduction to Zen Buddhism" ✅ *Essential East-West bridge*
 2. **Zhuangzi** - "The Complete Works" (Burton Watson translation) 📚 *Taoist transformation master*
-3. **Dōgen** - "Shobogenzo: Treasury of the True Dharma Eye" 📚 *Zen Being-Time philosophy*
-4. **Nagarjuna** - "The Fundamental Wisdom of the Middle Way" 📚 *Buddhist emptiness philosophy*
+3. **Dōgen** - "Shobogenzo Zuimonki" ✅ *Zen Being-Time philosophy*
+4. **Nagarjuna** - "The Fundamental Wisdom of the Middle Way" ✅ *Buddhist emptiness philosophy*
 5. **Shankara** - "Crest-Jewel of Discrimination" 📚 *Advaita Vedanta foundation*
-6. **Huang Po** - "The Zen Teaching of Huang Po" 📚 *Chan no-mind master*
-7. **Krishnamurti** - "Freedom from the Known" 📚 *Radical spiritual questioning*
+6. **Huang Po** - "The Zen Teaching of Huang Po" ✅ *Chan no-mind master*
+7. **Krishnamurti** - "Freedom from the Known" ✅ *Radical spiritual questioning*
 8. **Shunryū Suzuki** - "Zen Mind, Beginner's Mind" 📚 *Western Zen foundation*
 
 ### 🌍 Western Philosophy Gaps (6 texts)
 **Immediate Impact: Complete phenomenology and urban wisdom**
 
 9. **Maurice Merleau-Ponty** - "Phenomenology of Perception" 📚 *Body-world philosophy*
-10. **Jane Jacobs** - "The Death and Life of Great American Cities" 📚 *Urban pattern wisdom*
-11. **Lewis Mumford** - "Technics and Civilization" 📚 *Technology criticism*
-12. **Jacques Derrida** - "Of Grammatology" 📚 *Deconstruction philosophy*
-13. **Ivan Illich** - "Tools for Conviviality" 📚 *Convivial tools theory*
+10. **Jane Jacobs** - "The Death and Life of Great American Cities" ✅ *Urban pattern wisdom*
+11. **Lewis Mumford** - "Technics and Civilization" ✅ *Technology criticism*
+12. **Jacques Derrida** - "Of Grammatology" ✅ *Deconstruction philosophy*
+13. **Ivan Illich** - "Tools for Conviviality" ✅ *Convivial tools theory*
 14. **Juhani Pallasmaa** - "The Eyes of the Skin" 📚 *Architectural phenomenology*
 
 ### 📚 Essential Literature (6 texts)  
 **Immediate Impact: Modernist and feminist literary depth**
 
-15. **Virginia Woolf** - "A Room of One's Own" + "The Waves" 📚 *Feminist modernism*
-16. **Ursula K. Le Guin** - "The Dispossessed" 📚 *Philosophical science fiction*
+15. **Virginia Woolf** - "A Room of One's Own" + "The Waves" ✅ *Feminist modernism*
+16. **Ursula K. Le Guin** - "The Dispossessed" ✅ *Philosophical science fiction*
 17. **Anne Carson** - "Autobiography of Red" 📚 *Contemporary poetic innovation*
-18. **Clarice Lispector** - "The Passion According to G.H." 📚 *Brazilian philosophical fiction*
-19. **Octavia Butler** - "Parable of the Sower" 📚 *Afrofuturist wisdom*
+18. **Clarice Lispector** - "The Passion According to G.H." ✅ *Brazilian philosophical fiction*
+19. **Octavia Butler** - "Parable of the Sower" + "Parable of the Talents" ✅ *Afrofuturist wisdom*
 20. **Toni Morrison** - "Beloved" 📚 *American memory and healing*
 
 ### 🔧 Craft & Design Philosophy (4 texts)
@@ -113,14 +159,14 @@
 ### 🏛️ Ancient & Classical Sources (10 texts)
 **Impact: Complete classical foundation**
 
-55. **Sappho** - "Complete Poems" (Anne Carson translation) 📚 *Ancient lyric poetry*
+55. **Sappho** - "Complete Poems" ✅ *Loeb Classical Library - Extracted June 2025*
 56. **Hypatia** - "Hypatia of Alexandria" (Maria Dzielska biography + texts) 📚 *Ancient female philosopher*
-57. **Parmenides** - "The Way of Truth" 📚 *Being philosophy*
-58. **Heraclitus** - "Fragments" 📚 *Flow and change*
-59. **Pythagoras** - "The Golden Verses" + biography 📚 *Number and cosmos*
-60. **Vitruvius** - "The Ten Books on Architecture" 📚 *Classical design principles*
-61. **Plotinus** - "The Enneads" (selections) 📚 *Neoplatonic philosophy*
-62. **Augustine** - "Confessions" 📚 *Spiritual autobiography*
+57. **Parmenides** - "The Way of Truth" ✅ *Loeb Classical Library - Extracted June 2025*
+58. **Heraclitus** - "Fragments" ✅ *Loeb Classical Library - Extracted June 2025*
+59. **Pythagoras** - "The Golden Verses" + biography ✅ *Loeb Classical Library - Extracted June 2025*
+60. **Vitruvius** - "The Ten Books on Architecture" ✅ *Loeb Classical Library - Extracted June 2025*
+61. **Plotinus** - "The Enneads" (selections) ✅ *Loeb Classical Library - Extracted June 2025*
+62. **Augustine** - "Confessions" ✅ *Loeb Classical Library - Extracted June 2025*
 63. **Aquinas** - "Summa Theologica" (selections) 📚 *Scholastic synthesis*
 64. **Maimonides** - "Guide for the Perplexed" 📚 *Jewish medieval philosophy*
 
@@ -157,7 +203,7 @@
 ### 🎼 Music & Performance Philosophy (10 texts)
 **Impact: Complete artistic process understanding**
 
-80. **John Cage** - "Silence" 📚 *Experimental music philosophy*
+80. **John Cage** - "Silence" ✅ *Complete text - Extracted June 2025*
 81. **Pauline Oliveros** - "Deep Listening" 📚 *Sound consciousness*
 82. **Glenn Gould** - "The Glenn Gould Reader" 📚 *Performance philosophy*
 83. **Pierre Boulez** - "Orientations" 📚 *Contemporary composition*
@@ -245,7 +291,7 @@
 - **Jane Jacobs** - "Death and Life of Great American Cities"
 - **Ursula K. Le Guin** - "The Dispossessed"
 - **Martha Nussbaum** - "The Fragility of Goodness"
-- **John Cage** - "Silence"
+- **John Cage** - "Silence" ✅
 - **Octavia Butler** - "Parable of the Sower"
 
 ### 🏛️ Foundational Classics (Longer-term acquisition)

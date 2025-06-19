@@ -6,8 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **For complete context, see the documentation system in `/docs/`:**
 
-- **[Collaboration Protocol](docs/internal/CLAUDE-COLLABORATION-PROTOCOL.md)** — Working relationship and communication patterns
-- **[Project Memory](docs/internal/PROJECT-MEMORY.md)** — Development history and decision rationale  
+- **[Collaboration Protocol](docs/internal/collaboration-protocol.md)** — Working relationship and communication patterns
+- **[Project Memory](docs/internal/project-memory.md)** — Development history and decision rationale  
 - **[Style Guide](docs/style-guide.md)** — Complete semantic types and editorial guidelines
 - **[Typography Guide](docs/typography-guide.md)** — Internal typography documentation
 - **[Design Dialogues](docs/DESIGN-DIALOGUES.md)** — Preserved advisor conversations
@@ -50,4 +50,4 @@ The site is deployed via GitHub Pages on the `master` branch. Any commits to mas
 
 ---
 
-*For detailed guidance on our collaboration, see [docs/internal/CLAUDE-COLLABORATION-PROTOCOL.md](docs/internal/CLAUDE-COLLABORATION-PROTOCOL.md)*
+*For detailed guidance on our collaboration, see [docs/internal/collaboration-protocol.md](docs/internal/collaboration-protocol.md)*

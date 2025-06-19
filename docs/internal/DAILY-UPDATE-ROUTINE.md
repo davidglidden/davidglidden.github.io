@@ -13,8 +13,8 @@ To prevent context loss and maintain collaborative effectiveness, certain docume
 
 ## Documents to Update Daily
 
-### 1. **PROJECT-MEMORY.md** *(Critical)*
-**Location**: `docs/internal/PROJECT-MEMORY.md`  
+### 1. **project-memory.md** *(Critical)*
+**Location**: `docs/internal/project-memory.md`  
 **Update after**: Any significant implementation, design decision, or new functionality
 
 **What to add**:
@@ -26,8 +26,8 @@ To prevent context loss and maintain collaborative effectiveness, certain docume
 
 **Format**: Chronological entries with clear section headers
 
-### 2. **CLAUDE-COLLABORATION-PROTOCOL.md** *(High Priority)*
-**Location**: `docs/internal/CLAUDE-COLLABORATION-PROTOCOL.md`  
+### 2. **collaboration-protocol.md** *(High Priority)*
+**Location**: `docs/internal/collaboration-protocol.md`  
 **Update after**: Changes in working patterns, communication style, or collaborative approach
 
 **What to update**:

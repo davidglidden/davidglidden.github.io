@@ -8,8 +8,8 @@ This folder houses the complete documentation ecosystem for the Animal Rationis 
 ## Structure
 
 ### `/internal/` — Development Partnership
-- **`CLAUDE-COLLABORATION-PROTOCOL.md`** — Core working relationship and communication patterns
-- **`PROJECT-MEMORY.md`** — Chronological development history and decision rationale
+- **`collaboration-protocol.md`** — Core working relationship and communication patterns
+- **`project-memory.md`** — Chronological development history and decision rationale
 - **`TECHNICAL-REFERENCE.md`** — Detailed system architecture and implementation notes *(future)*
 - **`DESIGN-PRINCIPLES.md`** — Deep design philosophy and advisor consultations *(future)*
 

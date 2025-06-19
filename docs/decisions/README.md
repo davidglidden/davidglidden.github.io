@@ -89,7 +89,7 @@ When creating new ADRs, use this structure:
 
 ## Integration with Project Memory
 
-ADRs complement but differ from [Project Memory](../internal/PROJECT-MEMORY.md):
+ADRs complement but differ from [Project Memory](../internal/project-memory.md):
 
 **ADRs**: Formal decision documentation with alternatives and consequences  
 **Project Memory**: Chronological development history with insights and patterns

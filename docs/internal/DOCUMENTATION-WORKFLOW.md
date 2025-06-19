@@ -22,8 +22,8 @@ Claude does NOT automatically read the full documentation system. For best resul
 Or more specifically:
 ```
 "Please review:
-- docs/internal/CLAUDE-COLLABORATION-PROTOCOL.md
-- docs/internal/PROJECT-MEMORY.md
+- docs/internal/collaboration-protocol.md
+- docs/internal/project-memory.md
 - Any other relevant docs for what we're working on today"
 ```
 
