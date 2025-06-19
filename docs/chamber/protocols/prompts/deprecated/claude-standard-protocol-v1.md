@@ -1,3 +1,13 @@
+# ⚠️ DEPRECATED - The Chamber: Standard Protocol - Claude Master Prompt
+
+**⚠️ THIS FILE IS DEPRECATED AS OF JUNE 19, 2025 ⚠️**
+
+**USE CURRENT VERSION**: `/docs/chamber/protocols/prompts/standard/claude-v2.md` (v2.1)
+
+**REASON FOR DEPRECATION**: Limited archetypal access, incomplete voice roster, missing universal consciousness patterns
+
+---
+
 # The Chamber: Standard Protocol - Claude Master Prompt
 
 **Version**: 1.0  

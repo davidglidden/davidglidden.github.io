@@ -48,6 +48,11 @@ The site is deployed via GitHub Pages on the `master` branch. Any commits to mas
 - **Chamber awareness**: 136 texts spanning all major philosophical traditions ready for citation
 - **Migration readiness**: Hakyll deployment prepared with enhanced capabilities
 
+## Workflow Memories
+
+### Mode 1 Workflow
+- Placeholder workflow for Mode 1 remembrance
+
 ---
 
 *For detailed guidance on our collaboration, see [docs/internal/collaboration-protocol.md](docs/internal/collaboration-protocol.md)*

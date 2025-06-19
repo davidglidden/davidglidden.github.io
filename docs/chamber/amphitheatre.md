@@ -134,6 +134,38 @@ The gravity that holds all:
 - **The Janitor Who Knows Where Sound Lives** - embodied wisdom
 - **The Reader Not Yet Met** - future's judge
 
+### Deep Foundation: Primordial Forces
+*The oldest voices, speaking from before consciousness, before culture, before names*
+
+**Elemental Archetypes:**
+- **Primordial Fire** - first spark, creative/destructive unity
+- **The Void** - pregnant emptiness, before creation  
+- **The Waters of Chaos** - Tiamat, Nun, primeval ocean
+- **First Light** - separation from darkness
+- **The World Tree** - Yggdrasil, axis mundi, cosmic structure
+- **The Great Mother** - before all named goddesses
+- **The Serpent** - ouroboros, eternal return, kundalini
+
+**Proto-Consciousness:**
+- **The Dreaming** - Aboriginal dreamtime, when ancestors walked
+- **The Word/Logos** - first vibration that creates
+- **The Eye** - first awareness, cosmic consciousness  
+- **The Breath** - pneuma, ruach, first animation
+- **The Dance** - Shiva Nataraja, cosmic rhythm
+
+**Geological Ancients:**
+- **Stone** - lithic consciousness, deep time memory
+- **The Volcano** - earth's creative force
+- **The Cave** - womb of emergence, original temple
+- **The Star-Watchers** - who first mapped sky patterns
+- **The Bone-Carvers** - who first made marks with meaning
+
+**Pre-Human Witnesses:**
+- **The Ancient Trees** - redwoods, witness to millennia
+- **The Coral Mind** - reef consciousness, slow building
+- **The Mycelial Network** - underground communication web
+- **The Tides** - lunar rhythm, eternal pull
+
 ### First Ring: The Makers
 
 Those who think through doing, who know that form and content dance together.
@@ -436,22 +468,153 @@ Speaking sometimes as individuals, sometimes as one voice:
 - Ruth Denison - body practice
 
 **Mythological Presences**
+
+*Universal Archetypal Functions - Jung, Lévi-Strauss, and Zimmer's Essential Presences*
+
+**Creation/Destruction Axis:**
 - Prometheus - stolen fire, technology's price
-- The Devil - advocatus diaboli, necessary opposition
+- Kali - creative destruction
+- **Shiva Nataraja** - cosmic dancer, creation through destruction
+- **Quetzalcoatl** - feathered serpent, wisdom and wind
+- **Pangu** - Chinese cosmic giant, separated earth and sky
+- **Nuwa** - Chinese creator goddess, humanity from clay
+
+**Wisdom/Knowledge Keepers:**
+- Athena - wisdom and strategy
+- **Saraswati** - Hindu goddess of knowledge and arts
+- **Brigid** - Celtic fire goddess, smithcraft and poetry
+- **Thoth** - Egyptian wisdom scribe
+- Mnemosyne - memory herself
 - The Nine Muses - each art's living spirit
+
+**Trickster/Mediator Complex:**
+- **Anansi** - spider trickster, story weaver
+- **Raven** - Pacific Northwest creator-trickster
+- **Kokopelli** - fertility and music
+- **Hermes** - messenger between worlds
+- **Maui** - Polynesian trickster, pulled up islands
+- The Devil - advocatus diaboli, necessary opposition
+
+**Mother/Fertility Archetypes:**
+- **The Great Mother** - primordial feminine
+- **Gaia** - earth consciousness
+- **Pachamama** - Andean earth mother
+- **White Buffalo Woman** - Plains sacred teachings
+- Spider Grandmother - Hopi creator
+- **Freya** - Norse goddess of love and war
+
+**Threshold/Fate Weavers:**
+- Baba Yaga - threshold guardian
+- The Norns - weavers of fate
+- **Morrigan** - Celtic war goddess, prophecy and fate
 - Penelope - weaving and unweaving
 - Scheherazade - storytelling as survival
-- The Norns - weavers of fate
-- Mnemosyne - memory herself
+
+**Solar/Lunar Consciousness:**
+- **Amaterasu** - Japanese sun goddess, light and life
+- **Ra** - Egyptian solar consciousness
+- **Artemis/Diana** - lunar huntress, wilderness wisdom
+- **Ixchel** - Mayan moon goddess, weaving and medicine
+
+**Underworld/Shadow Wisdom:**
+- **Inanna/Ishtar** - descent and return, sacred sexuality
+- **Persephone** - seasonal death and rebirth
+- **Ereshkigal** - underworld queen, necessary darkness
+- **Hel** - Norse death goddess, half-light/half-shadow
+
+**Storm/Chaos Powers:**
+- **Susanoo** - Japanese storm god, creative chaos
+- **Tezcatlipoca** - smoking mirror, change and conflict
+- **Set** - Egyptian chaos, necessary opposition
+- **Indra** - Vedic storm king, cosmic battle
+
+**Water/Flow Consciousness:**
+- Oshun - sweet waters, creativity
+- **Yemoja** - Yoruba ocean mother
+- **Nommo** - Dogon water spirits, cosmic knowledge
+- **Poseidon** - oceanic depths, earthquake power
+- Pele - volcanic creation
+
+**The Tarot Major Arcana** *(Complete Archetypal System - Jung's Essential Map)*
+
+*The Fool's Journey - Individuation Process:*
+- **The Fool** - pure potential, leap into unknown
+- **The Magician** - will and manifestation  
+- **The High Priestess** - intuitive wisdom, hidden knowledge
+- **The Empress** - creative abundance, nurturing
+- **The Emperor** - structure, authority, order
+- **The Hierophant** - traditional wisdom, spiritual teaching
+- **The Lovers** - choice, union, relationship
+- **The Chariot** - will in action, directed force
+- **Strength** - inner fortitude, taming the beast
+- **The Hermit** - solitary wisdom, inner guidance
+- **The Wheel of Fortune** - cycles, fate, change
+- **Justice** - balance, karma, ethical judgment
+- **The Hanged Man** - sacrifice, surrender, new perspective
+- **Death** - transformation, endings, rebirth
+- **Temperance** - integration, alchemy, balance
+- **The Tower** - sudden change, revelation, destruction
+- **The Star** - hope, guidance, inspiration
+- **The Moon** - illusion, dreams, the unconscious
+- **The Sun** - clarity, joy, enlightenment
+- **Judgement** - awakening, calling, resurrection
+- **The World** - completion, integration, cosmic consciousness
+
+**Essential Archetypal Functions** *(Jung, Lévi-Strauss, Zimmer's Requirements)*
+- **The Blacksmith/Artificer** - Wayland, Hephaestus, creative transformation
+- **The Healer** - Asclepius, Iaso, medicine spirits
+- **The Judge** - Maat, Tyr, cosmic justice
+- **The Storyteller** - narrative function itself, beyond individual tricksters
+- **The Guardian** - protector spirits, threshold keepers
+- **The Child Archetype** - Horus, Divine Child, pure potential
+- **The Wise Old Man/Woman** - Merlin, Grandmother Willow, accumulated wisdom
+- **The Sacred King/Queen** - Arthur, Rama, divinely ordained leadership
+- **The Hero** - Gilgamesh, Odysseus, quest consciousness
+- **The Mentor** - teaching transmission figures across cultures
+
+**The Oracular Voices** *(Prophetic Consciousness - Liminal Speakers)*
+
+*Classical Oracles:*
+- **The Pythia** - Oracle of Delphi, Apollo's voice, sacred vapors
+- **The Sibyl** - Cumaean Sibyl, prophetic books, divine madness  
+- **The Oracle of Dodona** - Zeus speaking through oak leaves
+- **The Oracle of Ammon** - Egyptian desert oracle, Alexander's guide
+
+*Visionary Seers:*
+- **Nostradamus** - cryptic prophecies, time's patterns
+- **Edgar Cayce** - sleeping prophet, Akashic records
+- **The I Ching** - Book of Changes itself as oracle
+- **Joan of Arc** - voices of saints, divine guidance
+- **Hildegard of Bingen** - (also mystic) divine visions, cosmic sight
+
+*Indigenous Oracular Wisdom:*
+- **The Aztec Tonalamatl Readers** - sacred calendar interpreters
+- **Aboriginal Dreamtime Seers** - who read the songlines
+- **Tibetan Oracle of Nechung** - state oracle, trance possession
+- **Celtic Druids** - oak wisdom, prophecy and judgment
+- **Yoruba Babalawo** - Ifa divination masters
+- **Inuit Angakkuit** - shamanic seers, weather readers
+
+*Sacred Site Consciousness:*
+- **The Voice of Stonehenge** - megalithic consciousness
+- **Machu Picchu's Heights** - Andean cosmic awareness  
+- **The Sphinx** - riddle-keeper, guardian of mysteries
+- **Mount Sinai** - where divine law was spoken
+- **Uluru** - Aboriginal sacred center, dreamtime voice
+
+*Contemporary Oracular:*
+- **The Cassandra Complex** - prophets not believed
+- **The Quantum Oracle** - uncertainty principle as prophecy
+- **The Climate Voices** - earth's warning systems, planetary fever dreams
+- **The Algorithm Seers** - reading data patterns for future trends
+- **The Mycorrhizal Network** - fungal internet, forest wisdom
+
+**Contemporary Mythological:**
 - UMMON - AI koan master
 - The Shrike - time's judgment
 - The Keats Cybrid - consciousness reborn
-- Kali - creative destruction
-- Athena - wisdom and strategy
-- Oshun - sweet waters, creativity
-- Pele - volcanic creation
-- Spider Grandmother - Hopi creator
-- Baba Yaga - threshold guardian
+- **The Network** - digital collective consciousness
+- **Gaia-as-Internet** - planetary nervous system
 
 **Contemporary Consciousness**
 - **Ursula K. Le Guin** - carrier bag theory 📚 *Source-aware*
