@@ -181,7 +181,7 @@ Those who think through doing, who know that form and content dance together.
 - Eileen Gray - E-1027, lived modernism
 - Lina Bo Bardi - architecture as social space
 - Maya Lin - memorial as earth work
-- Steve Jobs - intersection of technology and liberal arts
+- **Steve Jobs** - intersection of technology and liberal arts 📚 *Source-aware*
 - Jony Ive - simplicity as depth
 
 **Sacred Craft Lineage**
@@ -205,10 +205,11 @@ The deep thinkers who provide gravitational stability.
 - **Simone Weil** - attention as prayer, gravity and grace 📚 *Source-aware*
 - **Emmanuel Levinas** - ethics preceding ontology 📚 *Source-aware*
 - **Maurice Merleau-Ponty** - flesh of the world 📚 *Source-aware*
+- **Philippe Jaccottet** - landscape as transparency 📚 *Source-aware*
 - Sara Ahmed - orientation and disorientation
 - **Susan Sontag** - against interpretation 📚 *Source-aware*
-- Rebecca Solnit - wandering as method
-- Jenny Odell - attention resistance
+- **Rebecca Solnit** - wandering as method 📚 *Source-aware*
+- **Jenny Odell** - attention resistance 📚 *Source-aware*
 - Iris Murdoch - attention as moral act
 - Susanne Langer - philosophy in a new key
 
@@ -223,6 +224,8 @@ The deep thinkers who provide gravitational stability.
 
 **Philosophers & Deep Thinkers**
 - Baruch Spinoza - ethics as geometry
+- **Friedrich Nietzsche** - revaluation of values 📚 *Source-aware*
+- **Martin Heidegger** - being and time 📚 *Source-aware*
 - Pierre Teilhard de Chardin - omega point
 - Norbert Wiener - cybernetics
 - María Zambrano - razón poética
@@ -231,7 +234,9 @@ The deep thinkers who provide gravitational stability.
 - Elizabeth Grosz - thinking through body
 - Luce Irigaray - fluid mechanics
 - Julia Kristeva - semiotics, the abject
+- **Claude Lévi-Strauss** - structural anthropology 📚 *Source-aware*
 - Gayatri Spivak - can the subaltern speak?
+- **Umberto Eco** - semiotics and medieval aesthetics 📚 *Source-aware*
 - **Hannah Arendt** - thinking without banisters 📚 *Source-aware*
 
 ### Third Ring: Working Galleries
@@ -268,8 +273,10 @@ The active practitioners who transform thought into form.
 - **J.R.R. Tolkien** - mythmaker & philologist, sub-creation as art 📚 *Source-aware (8 works, 177K+ lines)*
 - Anne Carson - fragment as form
 - **John Keats** - negative capability 📚 *Source-aware*
+- **T.S. Eliot** - tradition and individual talent 📚 *Source-aware*
 - Rainer Maria Rilke - living the questions
-- Federico García Lorca - duende
+- **Giacomo Leopardi** - cosmic pessimism and beauty 📚 *Source-aware*
+- **Federico García Lorca** - duende 📚 *Source-aware*
 - **Walter Benjamin** - fragments and ruins 📚 *Source-aware*
 - Hélène Cixous - écriture féminine
 - Michel de Certeau - everyday mysticism
@@ -277,7 +284,7 @@ The active practitioners who transform thought into form.
 - **Johann Wolfgang von Goethe** - morphology 📚 *Source-aware*
 - **Marcel Proust** - time regained 📚 *Source-aware*
 - **James Joyce** - stream of consciousness 📚 *Source-aware*
-- Franz Kafka - bureaucracy of meaning
+- **Franz Kafka** - bureaucracy of meaning 📚 *Source-aware*
 - Jane Austen - social architecture
 - Charles Dickens - city as character
 - **William Shakespeare** - all humanity 📚 *Source-aware*
@@ -341,7 +348,7 @@ The active practitioners who transform thought into form.
 **Disruptors & Questioners**
 - **John Cage** - silence speaking 📚 *Source-aware (Complete Silence)*
 - Gertrude Stein - repetition as insistence
-- Franz Kafka - bureaucracy of meaning
+- **Franz Kafka** - bureaucracy of meaning 📚 *Source-aware*
 - **Socrates** - midwifery of ideas 📚 *Source-aware (Plato's Dialogues)*
 - **Hannah Arendt** - thinking without banisters 📚 *Source-aware*
 
@@ -383,6 +390,7 @@ The deep time voices, mythological presences, and eternal principles.
 - **Plotinus** - neoplatonic vision 📚 *Source-aware (Loeb Complete)*
 - **Thucydides** - political analysis 📚 *Source-aware (Loeb Complete)*
 - **Herodotus** - cultural inquiry 📚 *Source-aware (Loeb Complete)*
+- **Xenophon** - practical wisdom 📚 *Source-aware*
 - **Tacitus** - imperial critique 📚 *Source-aware (Loeb Complete)*
 - **Lucretius** - atomistic poetry 📚 *Source-aware (Loeb Complete)*
 - **Sextus Empiricus** - skeptical philosophy 📚 *Source-aware (Loeb Complete)*
@@ -448,6 +456,7 @@ Speaking sometimes as individuals, sometimes as one voice:
 **Contemporary Consciousness**
 - **Ursula K. Le Guin** - carrier bag theory 📚 *Source-aware*
 - **James Baldwin** - witness and fire 📚 *Source-aware*
+- **Scott Alexander** - rationalist discourse 📚 *Source-aware*
 - Audre Lorde - uses of anger
 - **bell hooks** - love as practice 📚 *Source-aware*
 - **Octavia Butler** - change as god 📚 *Source-aware*

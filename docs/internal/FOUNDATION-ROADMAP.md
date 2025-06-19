@@ -46,26 +46,29 @@
 ## Phase 1: Fundraising Campaign (3-9 months)
 *Goal: €75,000-150,000 (foundation setup + first year operations)*
 
-### Funding Sources Priority List
+### Funding Sources Priority List (UPDATED FOR CULTURAL TECHNOLOGY)
 
-#### 1. **Quick Wins** (€10,000-25,000)
-- Small cultural grants (Catalan/Spanish)
-- Crowdfunding campaign for Momento Mori Press
-- Pre-orders for first publications
-- Workshop/masterclass revenue
-- Patreon/subscription for Chamber sessions
+#### 1. **Quick Wins** (€10,000-50,000)
+- AI ethics and conscious technology grants
+- Digital humanities innovation funding
+- Cultural preservation technology grants
+- Academic research partnerships
+- Technology company innovation labs
 
-#### 2. **Medium Grants** (€25,000-75,000)
-- Creative Europe small-scale cooperation
-- Spanish Ministry of Culture digital innovation
-- Private foundations (Templeton, Mellon small grants)
-- Corporate sponsorship from ethical tech companies
+#### 2. **Medium Grants** (€50,000-200,000)
+- EU Digital Europe Programme (AI and digital transformation)
+- Horizon Europe (digital, industry and space)
+- National Science Foundation (US) - Ethics in AI
+- Templeton Foundation - Human-AI collaboration
+- OpenPhilanthropy - AI alignment and ethics
 
-#### 3. **Major Funding** (€75,000-250,000)
-- EU Horizon Europe (humanities + AI ethics calls)
-- European Research Council (ERC) Starting Grant
-- Major private foundations
-- Consortium partnerships with universities
+#### 3. **Major Funding** (€200,000-1,000,000)
+- European Research Council (ERC) - Frontier research
+- Chan Zuckerberg Initiative - Human Cell Atlas
+- MacArthur Foundation - AI and society
+- Google.org AI for Social Good
+- Microsoft AI for Good Research Lab
+- Venture capital focused on conscious technology
 
 ### Funding Pitch Materials
 - [ ] Create modular pitch deck (adaptable for different funders)
@@ -187,10 +190,11 @@ Research Foundation
 
 ### 4. **Mission Clarity**
 Consistent messaging about:
-- Humanistic AI research
-- Contemplative pedagogy
-- Cultural preservation
-- Ethical technology development
+- **Cultural technology** for human consciousness development
+- **Authentic wisdom dialogue** systems (not chatbots or information retrieval)
+- **Conscious AI** serving contemplative depth rather than mere efficiency
+- **Universal access** to human wisdom traditions through technology
+- **Educational transformation** through direct engagement with great minds
 
 ---
 

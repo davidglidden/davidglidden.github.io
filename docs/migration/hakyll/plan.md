@@ -72,19 +72,29 @@ site/
 - Basic site structure creation
 - Development/deployment pipeline setup
 
-### Phase 2: Content Migration (Week 1-2)
+### Phase 2: Content Migration + Chamber Mode 1 (Week 1-2)
 **Complete preservation of:**
 - ✅ All URLs (SEO/bookmarks maintained)
 - ✅ All content (posts, pages, Chamber entries)
 - ✅ All styling (typography system, ornaments)
 - ✅ All functionality (navigation, semantic types)
 - ✅ All collections (chamber_canon, deliberations, etc.)
+- ✅ **Chamber Mode 1 fully operational** (current workflow preserved)
 
 **Technical tasks:**
 - YAML frontmatter → Haskell data types
 - Liquid templates → Hakyll templates
 - Jekyll collections → Hakyll content organization
 - CSS/SCSS preservation
+- **Chamber protocols migration** (Standard, First Light, Shadow)
+- **Session archiving system** functional in Hakyll
+- **Manual paste-text workflow** preserved exactly
+
+**Critical Chamber Requirements:**
+- All current master prompts accessible in Hakyll documentation
+- Session templates working for raw file processing
+- Protocol documentation navigable and functional
+- Proof-of-concept capability maintained without interruption
 
 ### Phase 3: Authentication System (Week 2)
 ```haskell
@@ -104,11 +114,15 @@ data UserRole = Public | ChamberAccess | Admin
 - Protected Chamber session archives
 - Role-based content access
 
-### Phase 4: Advanced Features (Week 3-4)
-- Chamber semi-automation pipeline
+### Phase 4: Source-Aware Development Preparation (Week 3-4)
+- **Subdomain setup** for `chamber-dev` environment
+- **Source-aware architecture foundation** (voices.yaml, context system)
+- **Parallel development pipeline** for Chamber Mode 2
 - Custom pandoc filters for Chamber notation
 - Enhanced cross-reference generation
 - Typography optimization via Haskell
+
+**Note**: Mode 2 (source-aware) development occurs parallel to operational Mode 1, following specifications in `docs/chamber/SOURCE_AWARE_VISION.md` and `docs/chamber/CHAMBER_OPERATIONAL_MODES.md`
 
 ## Current Site Analysis
 

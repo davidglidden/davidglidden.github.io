@@ -61,6 +61,8 @@ All institutional knowledge documented in:
 - `CLAUDE-COLLABORATION-PROTOCOL.md` - Working relationship and patterns
 - `HAKYLL-MIGRATION-PLAN.md` - Detailed migration roadmap
 - `JEKYLL-FINAL-STATE.md` - This moment captured
+- `chamber/SOURCE_AWARE_VISION.md` - Complete Chamber evolution roadmap
+- `chamber/CHAMBER_OPERATIONAL_MODES.md` - Critical dual-mode operation instructions
 - Style guides, ADRs, design dialogues - All reasoning preserved
 
 ### Working Patterns Established
