@@ -5,7 +5,6 @@ work_type: "media-theory"
 notation: "~"
 status: "chamber-generated"
 created_in_session: "2025-06-19-Savall-Prometheus-21"
-protocol: "standard"
 voice_origin: "Walter Benjamin"
 category: "media-theory"
 tags: 
