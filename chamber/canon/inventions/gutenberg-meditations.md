@@ -2,7 +2,7 @@
 author: Anonymous
 category: general
 created_in_session: '2025-06-14'
-date: c. 1465
+date_range: "c. 1465"
 excerpts:
 - Each letter pressed is a prayer made material
 - The forme is the form of thought itself

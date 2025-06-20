@@ -8,7 +8,7 @@ chambers_cited_in:
   voice: The Amazon Algorithm
 created_by: Claude Shadow Protocol
 created_in_session: '2024-12-28'
-date: 2019-present
+date_range: "2019-present"
 excerpts:
 - 'Pattern recognition: exhaustion, poverty, despair predict information avoidance'
 - 'Optimization target: profit from knowing exactly why people won''t look'

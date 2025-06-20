@@ -23,7 +23,7 @@ class: offering
 <div class="canon-entry">
   <h3><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.notation }}</a></h3>
   <p class="canon-meta">
-    <span class="small-caps">{{ work.author }}</span>, {{ work.date | date: "%Y" }}
+    <span class="small-caps">{{ work.author }}</span>, {% if work.date %}{{ work.date | date: "%Y" }}{% elsif work.date_range %}{{ work.date_range }}{% endif %}
     {% if work.emerged_from %}
     <br><em>Born from <a href="{{ work.emerged_from }}">Chamber examination</a></em>
     {% endif %}

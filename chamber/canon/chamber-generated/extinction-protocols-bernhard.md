@@ -8,7 +8,7 @@ chambers_cited_in:
   voice: Thomas Bernhard
 created_by: Chamber Shadow Protocol
 created_in_session: '2024-12-28'
-date: Undated manuscript
+date_range: "Undated manuscript"
 excerpts:
 - 'Style as violence. Your style. This style. Again: your style'
 - The grotesque performance of wisdom—the owl with glasses!

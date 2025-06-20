@@ -7,7 +7,7 @@ chambers_cited_in:
   session: 2025-06-16-seeds-activation
   voice: Agnes Martin
 created_in_session: '2025-06-16'
-date: 1960s-1970s
+date_range: "1960s-1970s"
 emerged_through: First Light examination
 excerpts:
 - I painted grids for decades before understanding I was mapping patience itself

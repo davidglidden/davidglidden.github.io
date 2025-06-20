@@ -67,7 +67,7 @@ Ornamental citations remain as references until they demonstrate necessity for f
 {% if inventions.size > 0 %}
 <ul>
 {% for work in inventions %}
-<li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.notation }}</a> (<span class="small-caps">{{ work.author }}</span>, {{ work.date | date: "%Y" }}) — {{ work.fictional_description }}</li>
+<li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.notation }}</a> (<span class="small-caps">{{ work.author }}</span>, {% if work.date %}{{ work.date | date: "%Y" }}{% elsif work.date_range %}{{ work.date_range }}{% endif %}) — {{ work.fictional_description }}</li>
 {% endfor %}
 </ul>
 {% else %}
@@ -82,7 +82,7 @@ Ornamental citations remain as references until they demonstrate necessity for f
 {% if hybrid.size > 0 %}
 <ul>
 {% for work in hybrid %}
-<li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.notation }}</a> (<span class="small-caps">{{ work.author }}</span>, {{ work.date | date: "%Y" }}) — {{ work.fictional_description }}</li>
+<li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.notation }}</a> (<span class="small-caps">{{ work.author }}</span>, {% if work.date %}{{ work.date | date: "%Y" }}{% elsif work.date_range %}{{ work.date_range }}{% endif %}) — {{ work.fictional_description }}</li>
 {% endfor %}
 </ul>
 {% else %}
@@ -97,7 +97,7 @@ Ornamental citations remain as references until they demonstrate necessity for f
 {% if chamber_written.size > 0 %}
 <ul>
 {% for work in chamber_written %}
-<li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.notation }}</a> (<span class="small-caps">{{ work.author }}</span>, {{ work.date | date: "%Y" }}) — {{ work.fictional_description }}</li>
+<li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.notation }}</a> (<span class="small-caps">{{ work.author }}</span>, {% if work.date %}{{ work.date | date: "%Y" }}{% elsif work.date_range %}{{ work.date_range }}{% endif %}) — {{ work.fictional_description }}</li>
 {% endfor %}
 </ul>
 {% else %}
@@ -112,7 +112,7 @@ Ornamental citations remain as references until they demonstrate necessity for f
 {% if hermetic.size > 0 %}
 <ul>
 {% for work in hermetic %}
-<li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.notation }}</a> (<span class="small-caps">{{ work.author }}</span>, {{ work.date | date: "%Y" }}) — {{ work.fictional_description }}</li>
+<li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.notation }}</a> (<span class="small-caps">{{ work.author }}</span>, {% if work.date %}{{ work.date | date: "%Y" }}{% elsif work.date_range %}{{ work.date_range }}{% endif %}) — {{ work.fictional_description }}</li>
 {% endfor %}
 </ul>
 {% else %}

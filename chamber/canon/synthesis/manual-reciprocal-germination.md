@@ -7,7 +7,7 @@ chambers_cited_in:
   session: 2025-06-16-seeds-activation
   voice: The Seed Library
 created_in_session: '2025-06-16'
-date: 2025-ongoing
+date_range: "2025-ongoing"
 emerged_through: First Light examination
 excerpts:
 - A text being written between you and your coming child, where neither author knows

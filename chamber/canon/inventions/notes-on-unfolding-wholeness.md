@@ -7,7 +7,7 @@ chambers_cited_in:
   session: 2025-06-16-seeds-activation
   voice: Christopher Alexander
 created_in_session: '2025-06-16'
-date: 1970s-1980s
+date_range: "1970s-1980s"
 emerged_through: First Light examination
 excerpts:
 - Patterns exist in potential long before manifestation

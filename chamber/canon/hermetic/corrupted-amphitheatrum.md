@@ -8,7 +8,7 @@ chambers_cited_in:
   voice: Khunrath's Corrupted Teaching
 created_by: Claude Shadow Protocol
 created_in_session: '2024-12-30'
-date: 1609 (shadow interpretation)
+date_range: "1609 (shadow interpretation)"
 excerpts:
 - The Amphitheatrum was court entertainment. While we drew pretty owls, the Defenestration
   of Prague prepared
