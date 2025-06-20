@@ -59,6 +59,12 @@ status: "chamber-generated"  # matches directory structure
 created_in_session: "YYYY-MM-DD-session-name"
 voice_origin: "Primary Voice Name"  # main voice who generated this
 category: "subject-area"  # philosophy, music-theory, etc.
+
+# DATE FIELDS - CRITICAL: Choose ONE format only
+date: 2025-01-15  # For actual dates - MUST be YYYY-MM-DD format, unquoted
+# OR
+date_range: "1970s-1980s"  # For ranges, periods, or special dates - ALWAYS quoted
+
 tags: 
   - tag1
   - tag2
@@ -70,6 +76,53 @@ chamber_appearances:  # all sessions where cited
   - "YYYY-MM-DD-session-name"
 ---
 ```
+
+---
+
+## Critical Date Field Rules (Jekyll Requirement)
+
+**Jekyll strictly enforces date format validation. Breaking these rules causes build failures.**
+
+### ✅ CORRECT Date Usage
+
+```yaml
+# Actual dates - unquoted, YYYY-MM-DD format only
+date: 2025-06-14
+date: 1942-01-01
+date: 1823-03-15
+
+# Ranges, periods, approximations - quoted string in date_range field
+date_range: "1970s-1980s"
+date_range: "c. 1465"
+date_range: "2019-present"
+date_range: "1910-1970"
+date_range: "Undated manuscript"
+date_range: "1609 (shadow interpretation)"
+```
+
+### ❌ INCORRECT - These Will Break Jekyll Build
+
+```yaml
+# These cause "Invalid Date" errors:
+date: 1970s-1980s        # Range without quotes
+date: "1910-1970"       # Range in date field (even quoted)
+date: c. 1465           # Approximation without quotes
+date: 2019-present      # Range without quotes
+date: Undated manuscript # Text without quotes
+```
+
+### Template Display Logic
+
+The Chamber layout (`_layouts/chamber.html`) handles both:
+- `date` fields: Formatted as year only (`{{ work.date | date: "%Y" }}`)
+- `date_range` fields: Displayed as-is (`{{ work.date_range }}`)
+
+### Hakyll Migration Note
+
+**Hakyll will likely handle this more gracefully** - Haskell's type system can distinguish between dates and strings naturally. Consider unifying to single `date` field post-migration using:
+- `Date` type for actual dates
+- `String` type for ranges/approximations
+- Union type `Date | String` for flexible handling
 
 ---
 

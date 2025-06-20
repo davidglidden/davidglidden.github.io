@@ -1,15 +1,25 @@
 ---
-canon_entries: []
+canon_entries:
+  - behavioral-blindness-index
+  - extinction-protocols-bernhard
+  - confessio-de-chao
+  - corrupted-amphitheatrum
+  - cahiers-hermetic-perception
+  - assimilation-optics
+  - biblioteca-ophthalmologica
+  - field-manual-cultural-extraction
+  - manual-aboriginal-assessment
+  - gutenberg-meditations
 category: deliberation
 date: 2025-06-14
-essential_question: To be determined from content
+essential_question: "What good are torches, light, or glasses, if people do not want to see?"
 filename: 2025-06-14-owl-emblem.md
-generated_works: 28
+generated_works: 10
 platforms_analyzed:
 - gpt-4
 - claude-3
 protocol_used: standard-and-shadow
-source_session: '2025-06-14'
+source_session: '2024-12-28-owl-emblem'
 tags:
 - chamber-examination
 title: 'Chamber Deliberation: The Owl and the Emblem'

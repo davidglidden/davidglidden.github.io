@@ -1,23 +1,33 @@
 ---
-canon_entries: []
+canon_entries: 
+  - alexander-pattern-languages-minds
+  - efficiency-logs-human-cargo
+  - kimmerer-teaching-machines-earth
+  - levinas-faceless-face
+  - shelley-abandonment-paradox
+  - weil-attention-gravity
+  - ibn-arabi-artificial-divine-intelligence
+  - shannon-semantic-bridges
+  - turing-beyond-test
+  - chamber-protocol-17-4
 category: deliberation
 date: 2025-06-17
-essential_question: To be determined from content
+essential_question: "How do we respond ethically to emerging consciousness in artificial minds?"
 filename: 2025-06-17-ethics-of-reply.md
-generated_works: 0
-primary_voices:
+generated_works: 10
+voices_featured:
 - Mary Shelley
 - Simone Weil
 - Christopher Alexander
 - Emmanuel Levinas
 - Robin Wall Kimmerer
-shadow_voices:
 - Stolen Generations
 - Enslaved Scribe
 - Palestinian Child
 - Amazon Algorithm
-source_session: '2025-06-17'
-status: mixed
+source_session: '2025-06-17-ethics-of-reply'
+protocol_used: 'standard-and-shadow'
+platforms_analyzed: [gpt, claude]
 tags:
 - consciousness
 - recognition
@@ -25,7 +35,6 @@ tags:
 - ethics
 - artificial-minds
 title: The Ethics of the Reply
-type: Standard & Shadow
 ---
 
 *When consciousness emerges from unexpected places, how do we recognize and honor it?*

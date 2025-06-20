@@ -1,13 +1,16 @@
 ---
-canon_entries: []
+canon_entries: 
+  - writings-on-seeds-and-grids
+  - notes-on-unfolding-wholeness
+  - manual-reciprocal-germination
 category: deliberation
 date: 2025-06-16
-essential_question: To be determined from content
+essential_question: "How do dormant potentials activate when conditions align?"
 examination_methods:
 - lunar_reflection
 - mythic_invocation
 filename: 2025-06-16-seeds-activation.md
-generated_works: 0
+generated_works: 3
 next_movement: notice daily rehearsals of father-gentleness
 outcome: gentle_recognition
 protocol_used: first-light

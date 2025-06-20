@@ -104,11 +104,23 @@ status: "chamber-generated"
 created_in_session: "YYYY-MM-DD-session-name"
 voice_origin: "Primary Voice"
 category: "subject-area"
+
+# DATE FIELD - CRITICAL: Choose ONE format only
+date: 2025-01-15  # For actual dates - MUST be YYYY-MM-DD format, unquoted
+# OR
+date_range: "1970s-1980s"  # For ranges/periods/special dates - ALWAYS quoted
+
 tags: [tag1, tag2, tag3]
 related_works: [work1, work2]
 chamber_appearances: ["YYYY-MM-DD-session-name"]
 ---
 ```
+
+**⚠️ CRITICAL DATE RULES:**
+- **Actual dates**: `date: 2025-06-14` (unquoted, YYYY-MM-DD only)
+- **Ranges/periods**: `date_range: "1970s-1980s"` (quoted string)
+- **Never mix**: `date: "1910-1970"` will break Jekyll build
+- **See**: `docs/chamber/workflow/yaml-templates.md` for complete rules
 
 ### Content Structure:
 - Opening description with Chamber context
