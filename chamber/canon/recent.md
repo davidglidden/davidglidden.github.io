@@ -18,7 +18,7 @@ class: offering
     {% assign canon_list = canon_list | push: page %}
   {% endunless %}
 {% endfor %}
-{% assign recent_canon = canon_list | sort: "date" | reverse | limit: 20 %}
+{% assign recent_canon = canon_list | reverse | limit: 20 %}
 
 {% for work in recent_canon %}
 <div class="canon-entry recent">

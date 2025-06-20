@@ -18,7 +18,6 @@ class: offering
     {% assign all_canon = all_canon | push: page %}
   {% endunless %}
 {% endfor %}
-{% assign all_canon = all_canon | sort: "date" %}
 
 {% for work in all_canon %}
 <div class="canon-entry">

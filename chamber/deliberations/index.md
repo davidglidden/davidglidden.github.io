@@ -13,7 +13,7 @@ class: offering
 
 ## Published Sessions
 
-{% assign all_sessions = site.pages | where_exp: "page", "page.path contains 'chamber/deliberations/'" | where_exp: "page", "page.name != 'index.md'" | sort: 'date' | reverse %}
+{% assign all_sessions = site.pages | where_exp: "page", "page.path contains 'chamber/deliberations/'" | where_exp: "page", "page.name != 'index.md'" | reverse %}
 
 {% for session in all_sessions %}
 <div class="session-entry">
