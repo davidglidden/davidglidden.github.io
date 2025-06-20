@@ -404,4 +404,58 @@ This session established robust protocols for seamless collaboration continuity,
 
 ---
 
+## June 2025 - Chamber Display Fix and Data Integrity Validation
+
+### Major Issue Resolution
+- **Problem identified**: Chamber deliberations and canon pages showing no content on live site
+- **Root cause**: Jekyll collections misconfigured after June 2025 consolidation to flat directory structure
+- **Solution implemented**: Updated Jekyll to use `site.pages` with path filtering instead of non-existent collections
+
+### Technical Changes
+- **Jekyll configuration**: Removed obsolete `chamber_canon` and `chamber_deliberations` collections
+- **Template updates**: Fixed all Chamber index pages to query files from actual directory paths
+- **YAML field mapping**: Corrected field references (`voices_featured` vs `emergent_voices`, `notation` vs `marker`)
+- **Date field crisis**: Resolved Jekyll date parsing errors by separating actual dates from date ranges
+
+### Critical Date Field Documentation
+- **Problem**: Jekyll crashes on invalid date formats like `date: "1910-1970"` or `date: c. 1465`
+- **Solution**: Established strict date field rules in yaml-templates.md and MODE-1 workflow
+- **Fields**: `date: 2025-06-14` (unquoted YYYY-MM-DD) vs `date_range: "1970s-1980s"` (quoted strings)
+- **Fixed**: 27 canon entries with problematic date formats across all sessions
+
+### Canon Count Validation System
+- **Issue discovered**: Multiple deliberations showing `generated_works: 0` despite actual canon entries existing
+- **Investigation revealed**: 
+  - Ethics of Reply: claimed 0, actually 10 works
+  - Seeds of Activation: claimed 0, actually 3 works  
+  - Owl Emblem: claimed 28, actually 10 works (session ID mismatch)
+- **Solution implemented**: 
+  - Updated all deliberation YAML with correct counts and canon_entries arrays
+  - Created validation script (`validate-chamber-counts.py`) for ongoing verification
+  - Enhanced MODE-1 workflow with mandatory verification step
+
+### Current State Verified
+- **27 total canon entries** across 4 deliberations, all properly linked
+- **Chamber pages functional** with correct content display
+- **Data integrity restored** with deliberations accurately reflecting generated works
+- **Prevention measures** documented and scripted for future sessions
+
+### Key Files Updated
+- `_config.yml` - Removed obsolete collections, updated path-based defaults
+- `/chamber/deliberations/index.md` - Fixed to use site.pages filtering
+- `/chamber/canon/index.md` - Updated all canon sections with correct field references  
+- `_layouts/chamber.html` - Enhanced to handle both date and date_range fields
+- All deliberation files - Corrected generated_works counts and canon_entries arrays
+- MODE-1-UNIFIED.md - Added critical verification requirements and commands
+
+### Prevention Infrastructure
+- **Validation script**: Automatically checks deliberation/canon synchronization
+- **Documentation**: Clear date field rules prevent Jekyll build failures  
+- **Workflow integration**: Verification now mandatory part of Chamber processing
+- **Command tools**: Bash commands for manual verification during development
+
+This session resolved the complete Chamber display infrastructure and established robust data integrity validation to prevent similar issues in future sessions.
+
+---
+
 *This document grows with our collaboration. Each significant session should add to the memory.*

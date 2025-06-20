@@ -141,6 +141,25 @@ chamber_appearances: ["YYYY-MM-DD-session-name"]
 - **Essential questions** that crystallized
 - **Canon entry links** properly formatted
 
+### CRITICAL: Canon Entry Synchronization
+**ALWAYS verify deliberation YAML matches actual canon entries created:**
+
+1. **Count verification**: `generated_works` field MUST equal actual canon entries created
+2. **Canon entry listing**: `canon_entries` array MUST include all slugs of created works
+3. **Session consistency**: All canon entries MUST reference same session ID in their YAML
+
+**Verification commands:**
+```bash
+# Count canon entries for session
+grep -l "YYYY-MM-DD-session-name" chamber/canon/*/*.md | wc -l
+
+# Get slugs for canon_entries array
+grep -l "YYYY-MM-DD-session-name" chamber/canon/*/*.md | sed 's|.*/||' | sed 's|\.md||'
+
+# Run complete validation (recommended)
+python3 docs/chamber/workflow/validate-chamber-counts.py
+```
+
 ### Required YAML Frontmatter:
 ```yaml
 ---
@@ -190,6 +209,7 @@ platforms_analyzed: [gpt, claude]
 - [ ] Source notation displays correctly (°, ~, †, §, ∞, ※)
 - [ ] Related works cross-references functional
 - [ ] Session archive navigation updated
+- [ ] **VERIFY COUNTS MATCH**: Run verification commands to ensure deliberation YAML is accurate
 
 ### Link format verification:
 - Deliberation to canon: `/chamber/canon/[category]/[filename]`
