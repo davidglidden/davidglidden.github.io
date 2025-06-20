@@ -1,25 +1,25 @@
 ---
-title: "Breath and Ledger: Ritual vs. Policy in Cultural Memory"
-author: "Thoth & the Auditor of Intangible Accounts"
-work_type: "mystical-accounting"
-notation: "†"
-status: "chamber-generated"
-created_in_session: "2025-06-19-Savall-Prometheus-21"
-voice_origin: "Thoth"
-co_author: "Auditor of Intangible Accounts"
-category: "mystical-works"
-tags: 
-  - accounting
-  - ritual
-  - cultural-memory
-  - preservation
-  - mystical-economics
-related_works:
-  - "the-pragmatics-of-sacred-sound"
-  - "emerald-tablet"
-  - "book-of-thoth"
+author: Thoth & the Auditor of Intangible Accounts
+category: mystical-works
 chamber_appearances:
-  - "2025-06-19-Savall-Prometheus-21"
+- 2025-06-19-Savall-Prometheus-21
+co_author: Auditor of Intangible Accounts
+created_in_session: 2025-06-19-Savall-Prometheus-21
+notation: †
+related_works:
+- the-pragmatics-of-sacred-sound
+- emerald-tablet
+- book-of-thoth
+status: chamber-generated
+tags:
+- accounting
+- ritual
+- cultural-memory
+- preservation
+- mystical-economics
+title: 'Breath and Ledger: Ritual vs. Policy in Cultural Memory'
+voice_origin: Thoth
+work_type: mystical-accounting
 ---
 
 # Breath and Ledger: Ritual vs. Policy in Cultural Memory

@@ -1,24 +1,28 @@
 ---
-title: "Confessio de Chao Physico-Chemicorum Catholico"
-source_type: "invention"
-marker: "°"
-attributed_to: "Heinrich Khunrath"
-date_claimed: "1597"
-first_cited: "2024-12-28"
-created_by: "Claude Standard Protocol"
-fictional_description: "Lost hermetic treatise on the alchemical necessity of darkness"
+author: Heinrich Khunrath
+category: general
 chambers_cited_in:
-  - session: "2024-12-28-owl-emblem"
-    protocol: "claude-standard"
-    voice: "Heinrich Khunrath"
-    context: "Explaining the owl's natural sight in darkness"
+- context: Explaining the owl's natural sight in darkness
+  protocol: claude-standard
+  session: 2024-12-28-owl-emblem
+  voice: Heinrich Khunrath
+created_by: Claude Standard Protocol
+created_in_session: '2024-12-28'
+date: '1597'
 excerpts:
-  - "The owl sees in darkness not because of her eyes alone, but because darkness is her element"
+- The owl sees in darkness not because of her eyes alone, but because darkness is
+  her element
+fictional_description: Lost hermetic treatise on the alchemical necessity of darkness
+notation: °
 related_real_sources:
-  - "Amphitheatrum Sapientiae Aeternae (1595)"
-  - "Corpus Hermeticum"
-layout: page
-class: reference
+- Amphitheatrum Sapientiae Aeternae (1595)
+- Corpus Hermeticum
+status: hermetic
+tags:
+- chamber-work
+title: Confessio de Chao Physico-Chemicorum Catholico
+voice_origin: Heinrich Khunrath
+work_type: invention
 ---
 
 A hermetic confession discovered among Khunrath's papers, expanding his amphitheater philosophy into the realm of chaos and chemical transformation. Written two years after the *Amphitheatrum*, this work explores the necessity of darkness and refusal in the alchemical process.

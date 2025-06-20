@@ -1,22 +1,22 @@
 ---
-title: "The Pragmatics of Sacred Sound"
-author: "Jordi Savall"
-work_type: "theoretical"
-notation: "°"
-status: "chamber-generated"
-created_in_session: "2025-06-19-Savall-Prometheus-21"
-voice_origin: "Jordi Savall"
-category: "music-theory"
-tags: 
-  - preservation
-  - sacred-music
-  - cultural-policy
-  - institutional-critique
-related_works:
-  - "prometheus-21-manifesto"
-  - "chamber-proceedings-preservation-paradox"
+author: Jordi Savall
+category: music-theory
 chamber_appearances:
-  - "2025-06-19-Savall-Prometheus-21"
+- 2025-06-19-Savall-Prometheus-21
+created_in_session: 2025-06-19-Savall-Prometheus-21
+notation: °
+related_works:
+- prometheus-21-manifesto
+- chamber-proceedings-preservation-paradox
+status: chamber-generated
+tags:
+- preservation
+- sacred-music
+- cultural-policy
+- institutional-critique
+title: The Pragmatics of Sacred Sound
+voice_origin: Jordi Savall
+work_type: theoretical
 ---
 
 # The Pragmatics of Sacred Sound

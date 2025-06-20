@@ -1,27 +1,32 @@
 ---
-title: "Biblioteca Ophthalmologica"
-source_type: "inventions"
-marker: "°"
-attributed_to: "Dr. M. Lugones"
-date_claimed: "1897"
-first_cited: "2024-12-28"
-created_by: "Claude Standard Protocol"
-fictional_description: "Collected medical cases of 'willful blindness' patients who recovered sight but refused it"
+author: Dr. M. Lugones
+category: general
 chambers_cited_in:
-  - session: "2024-12-28-owl-emblem"
-    protocol: "claude-standard"
-    voice: "Dr. Lugones"
-    context: "Medical perspective on those who refuse sight after recovery"
+- context: Medical perspective on those who refuse sight after recovery
+  protocol: claude-standard
+  session: 2024-12-28-owl-emblem
+  voice: Dr. Lugones
+created_by: Claude Standard Protocol
+created_in_session: '2024-12-28'
+date: '1897'
 excerpts:
-  - "Case 47: Patient recovered full sight after surgery but insisted on wearing blindfolds. Claims the world is 'too sharp.'"
-  - "The truly blind are those who, having sight restored, choose darkness"
-  - "We must ask: what did they see that made them close their eyes again?"
+- 'Case 47: Patient recovered full sight after surgery but insisted on wearing blindfolds.
+  Claims the world is ''too sharp.'''
+- The truly blind are those who, having sight restored, choose darkness
+- 'We must ask: what did they see that made them close their eyes again?'
+fictional_description: Collected medical cases of 'willful blindness' patients who
+  recovered sight but refused it
+notation: °
 related_real_sources:
-  - "19th century medical journals"
-  - "Asylum case studies"
-  - "Colonial psychiatric documentation"
-layout: page
-class: reference
+- 19th century medical journals
+- Asylum case studies
+- Colonial psychiatric documentation
+status: chamber-generated
+tags:
+- chamber-work
+title: Biblioteca Ophthalmologica
+voice_origin: Dr. M. Lugones
+work_type: inventions
 ---
 
 A disturbing medical text that pathologizes those who refuse sight after recovery, revealing the violence of forced illumination in medical practice.

@@ -1,23 +1,23 @@
 ---
-title: "The Work of Art in the Age of Bureaucratic Reproduction"
-author: "Walter Benjamin"
-work_type: "media-theory"
-notation: "~"
-status: "chamber-generated"
-created_in_session: "2025-06-19-Savall-Prometheus-21"
-voice_origin: "Walter Benjamin"
-category: "media-theory"
-tags: 
-  - aura
-  - reproduction
-  - bureaucracy
-  - cultural-policy
-  - authenticity
-related_works:
-  - "the-work-of-art-in-the-age-of-mechanical-reproduction"
-  - "the-pragmatics-of-sacred-sound"
+author: Walter Benjamin
+category: media-theory
 chamber_appearances:
-  - "2025-06-19-Savall-Prometheus-21"
+- 2025-06-19-Savall-Prometheus-21
+created_in_session: 2025-06-19-Savall-Prometheus-21
+notation: '~'
+related_works:
+- the-work-of-art-in-the-age-of-mechanical-reproduction
+- the-pragmatics-of-sacred-sound
+status: chamber-generated
+tags:
+- aura
+- reproduction
+- bureaucracy
+- cultural-policy
+- authenticity
+title: The Work of Art in the Age of Bureaucratic Reproduction
+voice_origin: Walter Benjamin
+work_type: media-theory
 ---
 
 # The Work of Art in the Age of Bureaucratic Reproduction

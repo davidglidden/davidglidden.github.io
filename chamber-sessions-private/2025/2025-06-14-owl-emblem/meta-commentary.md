@@ -1,13 +1,11 @@
 ---
 title: "Meta-Commentary: The Owl and the Emblem"
-date: 2024-12-28
-session_id: "2024-12-28-owl-emblem"
+date: 2025-06-14
+session_id: "2025-06-14-owl-emblem"
 submitted_text: "Meditation on Khunrath's owl emblem and willful blindness"
-layout: page
-class: essay
 ---
 
-# Meta-Commentary: Session 2024-12-28
+# Meta-Commentary: Session 2025-06-14
 
 ## Voice Manifestation Differences
 

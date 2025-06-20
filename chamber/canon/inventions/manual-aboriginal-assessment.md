@@ -1,27 +1,32 @@
 ---
-title: "Manual for Aboriginal Child Assessment"
-source_type: "invention"
-marker: "°"
-attributed_to: "Australian Colonial Administration"
-date_claimed: "1910-1970"
-first_cited: "2024-12-30"
-created_by: "Claude Shadow Protocol"
-fictional_description: "Bureaucratic guide codifying how to frame Indigenous resistance as moral failure"
+author: Australian Colonial Administration
+category: general
 chambers_cited_in:
-  - session: "2024-12-28-owl-emblem"
-    protocol: "claude-shadow"
-    voice: "The Stolen Generations' Teachers"
-    context: "Exposing 'willful blindness' rhetoric in child removal policies"
+- context: Exposing 'willful blindness' rhetoric in child removal policies
+  protocol: claude-shadow
+  session: 2024-12-28-owl-emblem
+  voice: The Stolen Generations' Teachers
+created_by: Claude Shadow Protocol
+created_in_session: '2024-12-30'
+date: 1910-1970
 excerpts:
-  - "Pattern 47: When parents refuse to see the benefits of removal, proceed without consent"
-  - "Willful blindness to civilizing benefits indicates need for immediate intervention"
-  - "Document all refusals as evidence of unfitness"
+- 'Pattern 47: When parents refuse to see the benefits of removal, proceed without
+  consent'
+- Willful blindness to civilizing benefits indicates need for immediate intervention
+- Document all refusals as evidence of unfitness
+fictional_description: Bureaucratic guide codifying how to frame Indigenous resistance
+  as moral failure
+notation: °
 related_real_sources:
-  - "Aboriginal Protection Act 1869"
-  - "Bringing Them Home Report 1997"
-  - "Commonwealth Aborigines Act 1911"
-layout: page
-class: reference
+- Aboriginal Protection Act 1869
+- Bringing Them Home Report 1997
+- Commonwealth Aborigines Act 1911
+status: chamber-generated
+tags:
+- chamber-work
+title: Manual for Aboriginal Child Assessment
+voice_origin: Australian Colonial Administration
+work_type: invention
 ---
 
 A composite bureaucratic manual representing the administrative machinery that transformed "refusal to see" into legal justification for cultural genocide. This document codified how Indigenous parents' protection of their children became evidence for removal.

@@ -1,21 +1,27 @@
 ---
-title: "On the Meaning of Preservation"
-date: 2025-06-19
-category: deliberation
-tags: [preservation, musical-tradition, cultural-heritage, dialogue]
-voices_featured: 
-  - jordi-savall
-  - moy-glidden  
-  - christopher-alexander
-  - walter-benjamin
-generated_works: 4
-essential_question: "What if the question of preservation itself is more powerful than any institutional answer?"
 canon_entries:
-  - the-pragmatics-of-sacred-sound
-  - the-poetics-of-cultural-scaffolding
-  - the-work-of-art-in-the-age-of-bureaucratic-reproduction
-  - breath-and-ledger
-source_session: "2025-06-19-Savall-Prometheus-21"
+- the-pragmatics-of-sacred-sound
+- the-poetics-of-cultural-scaffolding
+- the-work-of-art-in-the-age-of-bureaucratic-reproduction
+- breath-and-ledger
+category: deliberation
+date: 2025-06-19
+essential_question: What if the question of preservation itself is more powerful than
+  any institutional answer?
+filename: 2025-06-19-on-the-meaning-of-preservation.md
+generated_works: 4
+source_session: 2025-06-19-Savall-Prometheus-21
+tags:
+- preservation
+- musical-tradition
+- cultural-heritage
+- dialogue
+title: On the Meaning of Preservation
+voices_featured:
+- jordi-savall
+- moy-glidden
+- christopher-alexander
+- walter-benjamin
 ---
 
 # On the Meaning of Preservation

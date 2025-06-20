@@ -1,23 +1,23 @@
 ---
-title: "The Poetics of Cultural Scaffolding"
-author: "Christopher Alexander"
-work_type: "architectural-philosophy"
-notation: "°"
-status: "chamber-generated"
-created_in_session: "2025-06-19-Savall-Prometheus-21"
-voice_origin: "Christopher Alexander"
-category: "philosophy"
-tags: 
-  - architecture
-  - cultural-preservation
-  - living-systems
-  - pattern-language
-related_works:
-  - "pattern-language"
-  - "timeless-way-of-building"
-  - "strategic-preservation-warriors-guide"
+author: Christopher Alexander
+category: philosophy
 chamber_appearances:
-  - "2025-06-19-Savall-Prometheus-21"
+- 2025-06-19-Savall-Prometheus-21
+created_in_session: 2025-06-19-Savall-Prometheus-21
+notation: °
+related_works:
+- pattern-language
+- timeless-way-of-building
+- strategic-preservation-warriors-guide
+status: chamber-generated
+tags:
+- architecture
+- cultural-preservation
+- living-systems
+- pattern-language
+title: The Poetics of Cultural Scaffolding
+voice_origin: Christopher Alexander
+work_type: architectural-philosophy
 ---
 
 # The Poetics of Cultural Scaffolding

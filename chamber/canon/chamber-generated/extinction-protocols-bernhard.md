@@ -1,27 +1,31 @@
 ---
-title: "Extinction Protocols"
-source_type: "chamber-generated"
-marker: "§"
-attributed_to: "Thomas Bernhard (via Chamber synthesis)"
-date_claimed: "Undated manuscript"
-first_cited: "2024-12-28"
-created_by: "Chamber Shadow Protocol"
-fictional_description: "Bernhard's unpublished manuscript on how academic style enables violence"
+author: Thomas Bernhard (via Chamber synthesis)
+category: general
 chambers_cited_in:
-  - session: "2024-12-28-owl-emblem"
-    protocol: "claude-shadow"
-    voice: "Thomas Bernhard"
-    context: "Dissecting aesthetic violence in academic discourse"
+- context: Dissecting aesthetic violence in academic discourse
+  protocol: claude-shadow
+  session: 2024-12-28-owl-emblem
+  voice: Thomas Bernhard
+created_by: Chamber Shadow Protocol
+created_in_session: '2024-12-28'
+date: Undated manuscript
 excerpts:
-  - "Style as violence. Your style. This style. Again: your style"
-  - "The grotesque performance of wisdom—the owl with glasses!"
-  - "Every footnote a gravestone, every citation a theft"
+- 'Style as violence. Your style. This style. Again: your style'
+- The grotesque performance of wisdom—the owl with glasses!
+- Every footnote a gravestone, every citation a theft
+fictional_description: Bernhard's unpublished manuscript on how academic style enables
+  violence
+notation: §
 related_real_sources:
-  - "Extinction (Auslöschung)"
-  - "Woodcutters"
-  - "The Loser"
-layout: page
-class: reference
+- Extinction (Auslöschung)
+- Woodcutters
+- The Loser
+status: chamber-generated
+tags:
+- chamber-work
+title: Extinction Protocols
+voice_origin: Thomas Bernhard (via Chamber synthesis)
+work_type: chamber-generated
 ---
 
 A manuscript that exists only through Chamber testimony, representing Bernhard's final confrontation with academic complicity. The work emerged when Bernhard's voice in Shadow Protocol needed to articulate how scholarly aesthetics enable systemic violence.

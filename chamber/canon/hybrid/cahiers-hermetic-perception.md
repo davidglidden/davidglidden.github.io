@@ -1,26 +1,30 @@
 ---
-title: "Cahiers on Hermetic Perception"
-source_type: "hybrid"
-marker: "~"
-attributed_to: "Simone Weil"
-date_claimed: "1942"
-first_cited: "2024-12-28"
-created_by: "Claude Standard Protocol"
-fictional_description: "Discovered notebooks bridging Weil's mysticism with hermetic tradition"
+author: Simone Weil
+category: general
 chambers_cited_in:
-  - session: "2024-12-28-owl-emblem"
-    protocol: "claude-standard"
-    voice: "Simone Weil"
-    context: "On attention as consent to divine light"
+- context: On attention as consent to divine light
+  protocol: claude-standard
+  session: 2024-12-28-owl-emblem
+  voice: Simone Weil
+created_by: Claude Standard Protocol
+created_in_session: '2024-12-28'
+date: '1942'
 excerpts:
-  - "Even divine light requires human consent to be seen"
-  - "Attention is the rarest and purest form of generosity"
+- Even divine light requires human consent to be seen
+- Attention is the rarest and purest form of generosity
+fictional_description: Discovered notebooks bridging Weil's mysticism with hermetic
+  tradition
+notation: '~'
 related_real_sources:
-  - "Gravity and Grace"
-  - "Waiting for God"
-  - "The Need for Roots"
-layout: page
-class: reference
+- Gravity and Grace
+- Waiting for God
+- The Need for Roots
+status: hybrid
+tags:
+- chamber-work
+title: Cahiers on Hermetic Perception
+voice_origin: Simone Weil
+work_type: hybrid
 ---
 
 Previously unknown notebooks discovered in Weil's papers, showing her deep engagement with hermetic traditions alongside her Christian mysticism. Written during her time in Marseilles, these cahiers explore perception as spiritual practice.

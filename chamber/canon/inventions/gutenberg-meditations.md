@@ -1,17 +1,20 @@
 ---
-title: "The Gutenberg Meditations"
-source_type: "invention"
-marker: "°"
-attributed_to: "Anonymous"
-date_claimed: "c. 1465"
-first_cited: "2025-06-14"
-fictional_description: "A secret manual treating printing as spiritual practice"
+author: Anonymous
+category: general
+created_in_session: '2025-06-14'
+date: c. 1465
 excerpts:
-  - "Each letter pressed is a prayer made material"
-  - "The forme is the form of thought itself"
-  - "In the beginning was the Word, and the Word sought body"
-layout: page
-class: reference
+- Each letter pressed is a prayer made material
+- The forme is the form of thought itself
+- In the beginning was the Word, and the Word sought body
+fictional_description: A secret manual treating printing as spiritual practice
+notation: °
+status: chamber-generated
+tags:
+- chamber-work
+title: The Gutenberg Meditations
+voice_origin: Anonymous
+work_type: invention
 ---
 
 A manuscript discovered in the walls of Gutenberg's workshop, written in a mixture of Latin and German, revealing printing as hermetic art. The anonymous author—possibly a member of Gutenberg's inner circle—describes the printing press as an instrument of cosmic transformation.

@@ -1,28 +1,32 @@
 ---
-title: "Assimilation Optics"
-source_type: "inventions"
-marker: "§"
-attributed_to: "Bureau of Indian Affairs Educational Division"
-date_claimed: "1923-1954"
-first_cited: "2024-12-28"
-created_by: "GPT Shadow Protocol"
-fictional_description: "Systematic methodology for teaching Indigenous children to see themselves through colonial eyes"
+author: Bureau of Indian Affairs Educational Division
+category: general
 chambers_cited_in:
-  - session: "2024-12-28-owl-emblem"
-    protocol: "gpt-shadow"
-    voice: "Residential School System"
-    context: "Educational violence disguised as illumination"
+- context: Educational violence disguised as illumination
+  protocol: gpt-shadow
+  session: 2024-12-28-owl-emblem
+  voice: Residential School System
+created_by: GPT Shadow Protocol
+created_in_session: '2024-12-28'
+date: 1923-1954
 excerpts:
-  - "Stage 3: Replace native vision with civilized sight"
-  - "The child must learn to see their own culture as darkness"
-  - "Success measured by self-rejection"
+- 'Stage 3: Replace native vision with civilized sight'
+- The child must learn to see their own culture as darkness
+- Success measured by self-rejection
+fictional_description: Systematic methodology for teaching Indigenous children to
+  see themselves through colonial eyes
+notation: §
 related_real_sources:
-  - "Carlisle Indian Industrial School curriculum"
-  - "Residential Schools Truth and Reconciliation Report"
-  - "Bureau of Indian Affairs education policies"
-  - "Kill the Indian, Save the Man doctrine"
-layout: page
-class: reference
+- Carlisle Indian Industrial School curriculum
+- Residential Schools Truth and Reconciliation Report
+- Bureau of Indian Affairs education policies
+- Kill the Indian, Save the Man doctrine
+status: chamber-generated
+tags:
+- chamber-work
+title: Assimilation Optics
+voice_origin: Bureau of Indian Affairs Educational Division
+work_type: inventions
 ---
 
 A horrifying educational manual that systematized the destruction of Indigenous ways of seeing, replacing them with colonial vision that taught children to perceive their own cultures as darkness.

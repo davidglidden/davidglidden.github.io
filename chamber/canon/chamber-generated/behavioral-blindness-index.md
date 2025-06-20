@@ -1,28 +1,32 @@
 ---
-title: "Behavioral Blindness Index"
-source_type: "chamber-generated"
-marker: "°"
-attributed_to: "Amazon Algorithm/NSA hybrid"
-date_claimed: "2019-present"
-first_cited: "2024-12-28"
-created_by: "Claude Shadow Protocol"
-fictional_description: "Surveillance algorithm that optimizes based on predicting and exploiting why people won't look"
+author: Amazon Algorithm/NSA hybrid
+category: general
 chambers_cited_in:
-  - session: "2024-12-28-owl-emblem"
-    protocol: "claude-shadow"
-    voice: "The Amazon Algorithm"
-    context: "Technological weaponization of willful blindness"
+- context: Technological weaponization of willful blindness
+  protocol: claude-shadow
+  session: 2024-12-28-owl-emblem
+  voice: The Amazon Algorithm
+created_by: Claude Shadow Protocol
+created_in_session: '2024-12-28'
+date: 2019-present
 excerpts:
-  - "Pattern recognition: exhaustion, poverty, despair predict information avoidance"
-  - "Optimization target: profit from knowing exactly why people won't look"
-  - "Your contemplation requires their overtime"
+- 'Pattern recognition: exhaustion, poverty, despair predict information avoidance'
+- 'Optimization target: profit from knowing exactly why people won''t look'
+- Your contemplation requires their overtime
+fictional_description: Surveillance algorithm that optimizes based on predicting and
+  exploiting why people won't look
+notation: °
 related_real_sources:
-  - "Facebook engagement optimization algorithms"
-  - "Amazon worker surveillance systems"
-  - "NSA behavioral prediction models"
-  - "Surveillance capitalism documentation"
-layout: page
-class: reference
+- Facebook engagement optimization algorithms
+- Amazon worker surveillance systems
+- NSA behavioral prediction models
+- Surveillance capitalism documentation
+status: chamber-generated
+tags:
+- chamber-work
+title: Behavioral Blindness Index
+voice_origin: Amazon Algorithm/NSA hybrid
+work_type: chamber-generated
 ---
 
 A terrifying algorithmic system that turns "willful blindness" into profitable data, optimizing for the conditions that make people unable to see their own exploitation.

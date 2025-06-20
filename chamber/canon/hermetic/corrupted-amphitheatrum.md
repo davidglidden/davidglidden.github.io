@@ -1,27 +1,31 @@
 ---
-title: "The Corrupted Amphitheatrum"
-source_type: "hermetic"
-marker: "∞"
-attributed_to: "Shadow reading of Khunrath"
-date_claimed: "1609 (shadow interpretation)"
-first_cited: "2024-12-30"
-created_by: "Claude Shadow Protocol"
-fictional_description: "How hermetic texts served Habsburg imperial power"
+author: Shadow reading of Khunrath
+category: general
 chambers_cited_in:
-  - session: "2024-12-28-owl-emblem"
-    protocol: "claude-shadow"
-    voice: "Khunrath's Corrupted Teaching"
-    context: "Revealing the Amphitheatrum as court entertainment masking violence"
+- context: Revealing the Amphitheatrum as court entertainment masking violence
+  protocol: claude-shadow
+  session: 2024-12-28-owl-emblem
+  voice: Khunrath's Corrupted Teaching
+created_by: Claude Shadow Protocol
+created_in_session: '2024-12-30'
+date: 1609 (shadow interpretation)
 excerpts:
-  - "The Amphitheatrum was court entertainment. While we drew pretty owls, the Defenestration of Prague prepared"
-  - "Our wisdom served power by making violence mystical"
-  - "The spectacles see only what power permits"
+- The Amphitheatrum was court entertainment. While we drew pretty owls, the Defenestration
+  of Prague prepared
+- Our wisdom served power by making violence mystical
+- The spectacles see only what power permits
+fictional_description: How hermetic texts served Habsburg imperial power
+notation: ∞
 related_real_sources:
-  - "Amphitheatrum Sapientiae Aeternae (1595)"
-  - "Rudolf II's court records"
-  - "Habsburg occult patronage documentation"
-layout: page
-class: reference
+- Amphitheatrum Sapientiae Aeternae (1595)
+- Rudolf II's court records
+- Habsburg occult patronage documentation
+status: hermetic
+tags:
+- chamber-work
+title: The Corrupted Amphitheatrum
+voice_origin: Shadow reading of Khunrath
+work_type: hermetic
 ---
 
 A shadow reading of Khunrath's celebrated work that exposes its function as Habsburg court entertainment, revealing how hermetic wisdom provided mystical justification for imperial violence.

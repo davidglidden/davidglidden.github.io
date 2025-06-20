@@ -1,27 +1,31 @@
 ---
-title: "Field Manual for Cultural Extraction"
-source_type: "invention"
-marker: "°"
-attributed_to: "Stolen Generations Administration"
-date_claimed: "1910-1970"
-first_cited: "2024-12-28"
-created_by: "Claude Shadow Protocol"
-fictional_description: "Bureaucratic handbook for systematic erasure of Indigenous ways of seeing"
+author: Stolen Generations Administration
+category: general
 chambers_cited_in:
-  - session: "2024-12-28-owl-emblem"
-    protocol: "claude-shadow"
-    voice: "The Stolen Generations' Teacher"
-    context: "Exposing pedagogical violence disguised as enlightenment"
+- context: Exposing pedagogical violence disguised as enlightenment
+  protocol: claude-shadow
+  session: 2024-12-28-owl-emblem
+  voice: The Stolen Generations' Teacher
+created_by: Claude Shadow Protocol
+created_in_session: '2024-12-28'
+date: 1910-1970
 excerpts:
-  - "Pattern 47: Frame resistance as moral failure"
-  - "The gift of knowledge must appear voluntary while remaining compulsory"
-  - "Internal conditions for learning: separation, disorientation, dependency"
+- 'Pattern 47: Frame resistance as moral failure'
+- The gift of knowledge must appear voluntary while remaining compulsory
+- 'Internal conditions for learning: separation, disorientation, dependency'
+fictional_description: Bureaucratic handbook for systematic erasure of Indigenous
+  ways of seeing
+notation: °
 related_real_sources:
-  - "Bringing Them Home Report (1997)"
-  - "Aboriginal Protection Acts"
-  - "Carlisle Indian School documentation"
-layout: page
-class: reference
+- Bringing Them Home Report (1997)
+- Aboriginal Protection Acts
+- Carlisle Indian School documentation
+status: chamber-generated
+tags:
+- chamber-work
+title: Field Manual for Cultural Extraction
+voice_origin: Stolen Generations Administration
+work_type: invention
 ---
 
 A composite document representing the bureaucratic machinery of cultural genocide, assembled from fragments of actual policies, training materials, and administrative correspondence from Australia's Stolen Generations era.

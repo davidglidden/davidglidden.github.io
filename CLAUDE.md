@@ -48,10 +48,22 @@ The site is deployed via GitHub Pages on the `master` branch. Any commits to mas
 - **Chamber awareness**: 136 texts spanning all major philosophical traditions ready for citation
 - **Migration readiness**: Hakyll deployment prepared with enhanced capabilities
 
-## Workflow Memories
+## Chamber Workflow
 
-### Mode 1 Workflow
-- Placeholder workflow for Mode 1 remembrance
+### Mode 1 Processing
+When David submits: **"New deliberation awaiting Mode 1 processing"**
+
+**Follow**: [docs/chamber/workflow/MODE-1-UNIFIED.md](docs/chamber/workflow/MODE-1-UNIFIED.md)
+
+**Key steps:**
+1. Read all session files from `chamber-sessions-private/YYYY/session-name/`
+2. Extract fictional works and assess for canon entries
+3. Synthesize unified deliberation with standardized YAML
+4. Create canon entries in proper `/chamber/canon/` subdirectories
+5. Generate confidential meta-commentary (stays in private archives)
+6. Present complete package for approval before publication
+
+**Important:** All content uses standardized YAML templates from [yaml-templates.md](docs/chamber/workflow/yaml-templates.md)
 
 ---
 
