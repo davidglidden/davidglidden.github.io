@@ -8,7 +8,7 @@ chambers_cited_in:
   voice: Residential School System
 created_by: GPT Shadow Protocol
 created_in_session: '2024-12-28'
-date: 1923-1954
+date_range: "1923-1954"
 excerpts:
 - 'Stage 3: Replace native vision with civilized sight'
 - The child must learn to see their own culture as darkness
