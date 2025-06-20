@@ -14,7 +14,7 @@ class: offering
 ## Emergent Voices
 
 {% assign all_voices = "" | split: "" %}
-{% assign all_deliberations = site.pages | where_exp: "page", "page.path contains 'chamber/deliberations/' and page.path != 'chamber/deliberations/index.md'" %}
+{% assign all_deliberations = site.pages | where_exp: "page", "page.path contains 'chamber/deliberations/'" | where_exp: "page", "page.name != 'index.md'" %}
 {% for session in all_deliberations %}
   {% if session.voices_featured %}
     {% assign all_voices = all_voices | concat: session.voices_featured %}

@@ -11,7 +11,14 @@ class: offering
 
 <div class="ornament philosophical"></div>
 
-{% assign all_canon = site.pages | where_exp: "page", "page.path contains 'chamber/canon/' and page.path != 'chamber/canon/index.md' and page.path != 'chamber/canon/all.md' and page.path != 'chamber/canon/recent.md'" | sort: "date" %}
+{% assign canon_pages = site.pages | where_exp: "page", "page.path contains 'chamber/canon/'" %}
+{% assign all_canon = "" | split: "" %}
+{% for page in canon_pages %}
+  {% unless page.path contains 'index.md' or page.path contains 'all.md' or page.path contains 'recent.md' %}
+    {% assign all_canon = all_canon | push: page %}
+  {% endunless %}
+{% endfor %}
+{% assign all_canon = all_canon | sort: "date" %}
 
 {% for work in all_canon %}
 <div class="canon-entry">

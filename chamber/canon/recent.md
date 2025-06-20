@@ -11,7 +11,14 @@ class: offering
 
 <div class="ornament philosophical"></div>
 
-{% assign recent_canon = site.pages | where_exp: "page", "page.path contains 'chamber/canon/' and page.path != 'chamber/canon/index.md' and page.path != 'chamber/canon/all.md' and page.path != 'chamber/canon/recent.md'" | sort: "date" | reverse | limit: 20 %}
+{% assign canon_pages = site.pages | where_exp: "page", "page.path contains 'chamber/canon/'" %}
+{% assign canon_list = "" | split: "" %}
+{% for page in canon_pages %}
+  {% unless page.path contains 'index.md' or page.path contains 'all.md' or page.path contains 'recent.md' %}
+    {% assign canon_list = canon_list | push: page %}
+  {% endunless %}
+{% endfor %}
+{% assign recent_canon = canon_list | sort: "date" | reverse | limit: 20 %}
 
 {% for work in recent_canon %}
 <div class="canon-entry recent">
@@ -35,7 +42,7 @@ class: offering
 
 <div class="ornament personal"></div>
 
-{% assign all_canon_count = site.pages | where_exp: "page", "page.path contains 'chamber/canon/' and page.path != 'chamber/canon/index.md' and page.path != 'chamber/canon/all.md' and page.path != 'chamber/canon/recent.md'" | size %}
+{% assign all_canon_count = canon_list | size %}
 <p><a href="/chamber/canon/all/">Browse all {{ all_canon_count }} canon entries</a></p>
 
 <nav class="chamber-enfilade">

@@ -63,7 +63,7 @@ Ornamental citations remain as references until they demonstrate necessity for f
 <div class="chamber-canon-section">
 <h3 id="inventions">Chamber Summons° — Works Within Chamber Reality</h3>
 
-{% assign inventions = site.pages | where_exp: "page", "page.path contains 'chamber/canon/inventions/'" | sort: "created_in_session" %}
+{% assign inventions = site.pages | where_exp: "page", "page.path contains 'chamber/canon/inventions/'" %}
 {% if inventions.size > 0 %}
 <ul>
 {% for work in inventions %}
@@ -78,7 +78,7 @@ Ornamental citations remain as references until they demonstrate necessity for f
 <div class="chamber-canon-section">
 <h3 id="hybrid">Hybrid Texts~ — Known Authors, Extended Thinking</h3>
 
-{% assign hybrid = site.pages | where_exp: "page", "page.path contains 'chamber/canon/hybrid/'" | sort: "created_in_session" %}
+{% assign hybrid = site.pages | where_exp: "page", "page.path contains 'chamber/canon/hybrid/'" %}
 {% if hybrid.size > 0 %}
 <ul>
 {% for work in hybrid %}
@@ -93,7 +93,7 @@ Ornamental citations remain as references until they demonstrate necessity for f
 <div class="chamber-canon-section">
 <h3 id="chamber-written">Chamber Written§ — Knowledge Through Dialogue</h3>
 
-{% assign chamber_written = site.pages | where_exp: "page", "page.path contains 'chamber/canon/chamber-generated/'" | sort: "created_in_session" %}
+{% assign chamber_written = site.pages | where_exp: "page", "page.path contains 'chamber/canon/chamber-generated/'" %}
 {% if chamber_written.size > 0 %}
 <ul>
 {% for work in chamber_written %}
@@ -108,7 +108,7 @@ Ornamental citations remain as references until they demonstrate necessity for f
 <div class="chamber-canon-section">
 <h3 id="hermetic">Hermetic Sources∞ — Ancient Wisdom Traditions</h3>
 
-{% assign hermetic = site.pages | where_exp: "page", "page.path contains 'chamber/canon/hermetic/'" | sort: "created_in_session" %}
+{% assign hermetic = site.pages | where_exp: "page", "page.path contains 'chamber/canon/hermetic/'" %}
 {% if hermetic.size > 0 %}
 <ul>
 {% for work in hermetic %}
