@@ -10,10 +10,15 @@ layout: default
     
     {% if page.date %}
     <p class="post-meta">
+      {% assign date_string = page.date | date: "%Y" %}
+      {% if date_string and date_string != "" %}
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.klise.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
       </time>
+      {% else %}
+      <span class="date-range">{{ page.date }}</span>
+      {% endif %}
       {% if page.protocol %}
         <span class="protocol-meta">{{ page.protocol | capitalize }} Protocol</span>
       {% endif %}
