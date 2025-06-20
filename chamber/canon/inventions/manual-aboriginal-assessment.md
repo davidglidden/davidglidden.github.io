@@ -8,7 +8,7 @@ chambers_cited_in:
   voice: The Stolen Generations' Teachers
 created_by: Claude Shadow Protocol
 created_in_session: '2024-12-30'
-date: 1910-1970
+date_range: "1910-1970"
 excerpts:
 - 'Pattern 47: When parents refuse to see the benefits of removal, proceed without
   consent'

@@ -8,7 +8,7 @@ chambers_cited_in:
   voice: The Stolen Generations' Teacher
 created_by: Claude Shadow Protocol
 created_in_session: '2024-12-28'
-date: 1910-1970
+date_range: "1910-1970"
 excerpts:
 - 'Pattern 47: Frame resistance as moral failure'
 - The gift of knowledge must appear voluntary while remaining compulsory
