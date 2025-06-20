@@ -14,15 +14,10 @@ class: offering
 ## Emergent Voices
 
 {% assign all_voices = "" | split: "" %}
-{% for session in site.chamber_deliberations %}
-  {% if session.emergent_voices %}
-    {% assign all_voices = all_voices | concat: session.emergent_voices %}
-  {% endif %}
-  {% if session.primary_voices %}
-    {% assign all_voices = all_voices | concat: session.primary_voices %}
-  {% endif %}
-  {% if session.shadow_voices %}
-    {% assign all_voices = all_voices | concat: session.shadow_voices %}
+{% assign all_deliberations = site.pages | where_exp: "page", "page.path contains 'chamber/deliberations/' and page.path != 'chamber/deliberations/index.md'" %}
+{% for session in all_deliberations %}
+  {% if session.voices_featured %}
+    {% assign all_voices = all_voices | concat: session.voices_featured %}
   {% endif %}
 {% endfor %}
 

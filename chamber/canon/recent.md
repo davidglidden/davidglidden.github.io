@@ -11,11 +11,11 @@ class: offering
 
 <div class="ornament philosophical"></div>
 
-{% assign recent_canon = site.chamber_canon | sort: "date" | reverse | limit: 20 %}
+{% assign recent_canon = site.pages | where_exp: "page", "page.path contains 'chamber/canon/' and page.path != 'chamber/canon/index.md' and page.path != 'chamber/canon/all.md' and page.path != 'chamber/canon/recent.md'" | sort: "date" | reverse | limit: 20 %}
 
 {% for work in recent_canon %}
 <div class="canon-entry recent">
-  <h3><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.marker }}</a></h3>
+  <h3><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.notation }}</a></h3>
   <p class="canon-meta">
     <span class="small-caps">{{ work.author }}</span>, {{ work.date | date: "%Y" }}
     {% if work.emerged_from %}
@@ -35,7 +35,8 @@ class: offering
 
 <div class="ornament personal"></div>
 
-<p><a href="/chamber/canon/all/">Browse all {{ site.chamber_canon.size }} canon entries</a></p>
+{% assign all_canon_count = site.pages | where_exp: "page", "page.path contains 'chamber/canon/' and page.path != 'chamber/canon/index.md' and page.path != 'chamber/canon/all.md' and page.path != 'chamber/canon/recent.md'" | size %}
+<p><a href="/chamber/canon/all/">Browse all {{ all_canon_count }} canon entries</a></p>
 
 <nav class="chamber-enfilade">
   <a href="/chamber/">Chamber</a>

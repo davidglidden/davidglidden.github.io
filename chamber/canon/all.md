@@ -11,11 +11,11 @@ class: offering
 
 <div class="ornament philosophical"></div>
 
-{% assign all_canon = site.chamber_canon | sort: "date" %}
+{% assign all_canon = site.pages | where_exp: "page", "page.path contains 'chamber/canon/' and page.path != 'chamber/canon/index.md' and page.path != 'chamber/canon/all.md' and page.path != 'chamber/canon/recent.md'" | sort: "date" %}
 
 {% for work in all_canon %}
 <div class="canon-entry">
-  <h3><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.marker }}</a></h3>
+  <h3><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.notation }}</a></h3>
   <p class="canon-meta">
     <span class="small-caps">{{ work.author }}</span>, {{ work.date | date: "%Y" }}
     {% if work.emerged_from %}
