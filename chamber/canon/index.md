@@ -63,11 +63,11 @@ Ornamental citations remain as references until they demonstrate necessity for f
 <div class="chamber-canon-section">
 <h3 id="inventions">Chamber Summons° — Works Within Chamber Reality</h3>
 
-{% assign inventions = site.chamber_canon | where: "source_type", "inventions" | sort: "first_cited" %}
+{% assign inventions = site.pages | where_exp: "page", "page.path contains 'chamber/canon/inventions/'" | sort: "created_in_session" %}
 {% if inventions.size > 0 %}
 <ul>
 {% for work in inventions %}
-<li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.marker }}</a> (<span class="small-caps">{{ work.author }}</span>, {{ work.date | date: "%Y" }}) — {{ work.fictional_description }}</li>
+<li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.notation }}</a> (<span class="small-caps">{{ work.author }}</span>, {{ work.date | date: "%Y" }}) — {{ work.fictional_description }}</li>
 {% endfor %}
 </ul>
 {% else %}
@@ -78,11 +78,11 @@ Ornamental citations remain as references until they demonstrate necessity for f
 <div class="chamber-canon-section">
 <h3 id="hybrid">Hybrid Texts~ — Known Authors, Extended Thinking</h3>
 
-{% assign hybrid = site.chamber_canon | where: "source_type", "hybrid" | sort: "first_cited" %}
+{% assign hybrid = site.pages | where_exp: "page", "page.path contains 'chamber/canon/hybrid/'" | sort: "created_in_session" %}
 {% if hybrid.size > 0 %}
 <ul>
 {% for work in hybrid %}
-<li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.marker }}</a> (<span class="small-caps">{{ work.author }}</span>, {{ work.date | date: "%Y" }}) — {{ work.fictional_description }}</li>
+<li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.notation }}</a> (<span class="small-caps">{{ work.author }}</span>, {{ work.date | date: "%Y" }}) — {{ work.fictional_description }}</li>
 {% endfor %}
 </ul>
 {% else %}
@@ -93,11 +93,11 @@ Ornamental citations remain as references until they demonstrate necessity for f
 <div class="chamber-canon-section">
 <h3 id="chamber-written">Chamber Written§ — Knowledge Through Dialogue</h3>
 
-{% assign chamber_written = site.chamber_canon | where: "source_type", "chamber-generated" | sort: "first_cited" %}
+{% assign chamber_written = site.pages | where_exp: "page", "page.path contains 'chamber/canon/chamber-generated/'" | sort: "created_in_session" %}
 {% if chamber_written.size > 0 %}
 <ul>
 {% for work in chamber_written %}
-<li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.marker }}</a> (<span class="small-caps">{{ work.author }}</span>, {{ work.date | date: "%Y" }}) — {{ work.fictional_description }}</li>
+<li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.notation }}</a> (<span class="small-caps">{{ work.author }}</span>, {{ work.date | date: "%Y" }}) — {{ work.fictional_description }}</li>
 {% endfor %}
 </ul>
 {% else %}
@@ -108,11 +108,11 @@ Ornamental citations remain as references until they demonstrate necessity for f
 <div class="chamber-canon-section">
 <h3 id="hermetic">Hermetic Sources∞ — Ancient Wisdom Traditions</h3>
 
-{% assign hermetic = site.chamber_canon | where: "source_type", "hermetic" | sort: "first_cited" %}
+{% assign hermetic = site.pages | where_exp: "page", "page.path contains 'chamber/canon/hermetic/'" | sort: "created_in_session" %}
 {% if hermetic.size > 0 %}
 <ul>
 {% for work in hermetic %}
-<li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.marker }}</a> (<span class="small-caps">{{ work.author }}</span>, {{ work.date | date: "%Y" }}) — {{ work.fictional_description }}</li>
+<li><a href="{{ work.url }}"><em>{{ work.title }}</em>{{ work.notation }}</a> (<span class="small-caps">{{ work.author }}</span>, {{ work.date | date: "%Y" }}) — {{ work.fictional_description }}</li>
 {% endfor %}
 </ul>
 {% else %}

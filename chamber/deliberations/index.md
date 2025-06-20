@@ -13,7 +13,7 @@ class: offering
 
 ## Published Sessions
 
-{% assign all_sessions = site.chamber_deliberations | sort: 'date' | reverse %}
+{% assign all_sessions = site.pages | where_exp: "page", "page.path contains 'chamber/deliberations/' and page.path != 'chamber/deliberations/index.md'" | sort: 'date' | reverse %}
 
 {% for session in all_sessions %}
 <div class="session-entry">
@@ -33,14 +33,8 @@ class: offering
     {% endif %}
     
     {% comment %} Show voices with small caps {% endcomment %}
-    {% if session.emergent_voices %}
-    <br><span class="voices">Voices: {% for voice in session.emergent_voices %}<span class="small-caps">{{ voice }}</span>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
-    {% elsif session.primary_voices or session.shadow_voices %}
-    <br><span class="voices">Voices: 
-    {% if session.primary_voices %}{% for voice in session.primary_voices %}<span class="small-caps">{{ voice }}</span>{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
-    {% if session.primary_voices and session.shadow_voices %} | {% endif %}
-    {% if session.shadow_voices %}{% for voice in session.shadow_voices %}<span class="small-caps">{{ voice }}</span>{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
-    </span>
+    {% if session.voices_featured %}
+    <br><span class="voices">Voices: {% for voice in session.voices_featured %}<span class="small-caps">{{ voice }}</span>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
     {% endif %}
     
     {% comment %} Show lead voice if present {% endcomment %}
@@ -49,16 +43,14 @@ class: offering
     {% endif %}
   </p>
   
-  {% comment %} Show seed or excerpt {% endcomment %}
-  {% if session.submitted_seed %}
-  <blockquote class="seed-preview">{{ session.submitted_seed }}</blockquote>
+  {% comment %} Show essential question {% endcomment %}
+  {% if session.essential_question %}
+  <p class="essential-question"><strong>Essential Question:</strong> {{ session.essential_question }}</p>
   {% endif %}
   
-  {% comment %} Show outcome or status {% endcomment %}
-  {% if session.outcome %}
-  <p class="outcome"><strong>Outcome:</strong> {{ session.outcome | replace: "_", " " | capitalize }}</p>
-  {% elsif session.status %}
-  <p class="outcome"><strong>Status:</strong> {{ session.status | replace: "_", " " | capitalize }}</p>
+  {% comment %} Show generated works count {% endcomment %}
+  {% if session.generated_works %}
+  <p class="generated-works"><strong>Generated Works:</strong> {{ session.generated_works }}</p>
   {% endif %}
 </div>
 {% endfor %}

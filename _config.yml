@@ -41,19 +41,10 @@ kramdown:
 paginate: 7
 paginate_path: "/archive/page:num/"
 
-# Collections
+# Collections - Updated for new Chamber structure (June 2025)
 collections:
   posts:
     output: true
-  chamber_canon:
-    output: true
-    permalink: /chamber/canon/:categories/:name/
-  chamber_deliberations:
-    output: true
-    permalink: /chamber/deliberations/:categories/:name/
-  chamber_meta:
-    output: true
-    permalink: /chamber/meta-commentaries/:name/
 
 # Default front matter
 defaults:
@@ -71,27 +62,18 @@ defaults:
       layout: "page"
       image: /assets/img/social-default.jpg
   - scope:
-      path: ""
-      type: "chamber_canon"
+      path: "chamber/canon"
     values:
       layout: "chamber"
       class: "reference"
       chamber: true
   - scope:
-      path: ""
-      type: "chamber_deliberations"
+      path: "chamber/deliberations"
     values:
       layout: "chamber"
       class: "essay meditation encounter"
       chamber: true
       encounter: true
-  - scope:
-      path: ""
-      type: "chamber_meta"
-    values:
-      layout: "chamber"
-      class: "essay"
-      chamber: true
 
 # Plugins - ONLY GitHub Pages supported gems
 plugins:
