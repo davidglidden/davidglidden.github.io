@@ -19,6 +19,9 @@
   {% endif %}
   
   <div class="wrapper">
+    {% unless page.url contains '/chamber/' %}
+      {% include author.html %}
+    {% endunless %}
     <header class="header">
       <h1 class="header-title center" itemprop="headline">{{ page.title | escape }}</h1>
       {% if page.tags and page.tags != empty %}

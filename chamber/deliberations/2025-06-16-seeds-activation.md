@@ -35,8 +35,6 @@ voices_featured:
 - The Seed Library
 ---
 
-# First Light: Seeds of Activation
-
 *June 16, 2025*
 
 ## The Seed Presented
@@ -69,11 +67,11 @@ What season does this threshold belong to—not calendar season, but soul season
 
 **<span class="small-caps">Christopher Alexander</span>** steps forward from the grove's edge, speaking with characteristic gentleness:
 
-"In my *Notes on Unfolding Wholeness*°, I wrote about how patterns exist in potential long before manifestation. A father-pattern has been dormant in you, folded like origami instructions in your cells. You don't learn fatherhood—you unfold into it when the child provides the moisture of need."
+"In my [*Notes on Unfolding Wholeness*°](/chamber/canon/inventions/notes-on-unfolding-wholeness/), I wrote about how patterns exist in potential long before manifestation. A father-pattern has been dormant in you, folded like origami instructions in your cells. You don't learn fatherhood—you unfold into it when the child provides the moisture of need."
 
 **<span class="small-caps">Agnes Martin</span>** offers barely above whisper:
 
-"I painted grids for decades before understanding I was mapping patience itself. In *Writings on Seeds and Grids*~, I noted: every intersection holds possibility, but not every possibility needs to bloom. Some instructions we carry are for our children to activate."
+"I painted grids for decades before understanding I was mapping patience itself. In [*Writings on Seeds and Grids*~](/chamber/canon/hybrid/writings-on-seeds-and-grids/), I noted: every intersection holds possibility, but not every possibility needs to bloom. Some instructions we carry are for our children to activate."
 
 **The Unborn Child** finally speaks, voice like distant bells:
 
@@ -105,7 +103,7 @@ This pattern shows **reciprocal germination**—dormant instructions that only e
 
 **Small step**: Notice this week which daily gestures are rehearsals. How do you already hold objects with father-gentleness? What lullabies is your code secretly practicing?
 
-**For the Chamber's collection**: *The Manual of Reciprocal Germination*§—a text being written between you and your coming child, where neither author knows the ending.
+**For the Chamber's collection**: [*The Manual of Reciprocal Germination*§](/chamber/canon/synthesis/manual-reciprocal-germination/)—a text being written between you and your coming child, where neither author knows the ending.
 
 ## The Recognition Complete
 
